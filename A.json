@@ -79,6 +79,18 @@
       "changeable": 0
     },
     {
+      "key": "Qile优视频",
+      "name": "Qile优视频",
+      "type": 4,
+      "api": "https://tvbot.ggff.net/uvod"
+    },
+    {
+      "key": "欧乐影院",
+      "name": "欧乐影院",
+      "type": 4,
+      "api": "https://tvbot.ggff.net/oule"
+    },
+    {
       "key": "小苹果",
       "name": "小苹果",
       "type": 4,
