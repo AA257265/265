@@ -90,7 +90,12 @@
       "api": "https://tvbox.catvod.com/js/drpy2.min.js",
       "ext": "https://tvbox.catvod.com/js/tx.js"
     },
-
+    {
+      "key": "霜辉月明瓜子",
+      "name": "霜辉月明瓜子",
+      "type": 4,
+      "api": "https://tvbot.ggff.net/guazi"
+    },
     {
       "key": "瓜子影视",
       "name": "🏆｜瓜子｜特清◎秒播(無廣告)",
