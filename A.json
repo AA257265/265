@@ -23,6 +23,13 @@
       "api": "https://tvbot.ggff.net/duboku"
     },
     {
+      "key": "独播库",
+      "name": "🏆｜獨播｜藍光◎秒播(無廣告)",
+      "type": 4,
+      "jar": "./jar/獨播庫.jar",
+      "api": "https://tvbot.ggff.net/duboku"
+    },
+    {
       "key": "腾讯",
       "name": "腾讯",
       "type": 3,
@@ -995,25 +1002,11 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "iptv543",
-      "url": "http://99.iptv543.com/4gtv.m3u",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "SMT",
-      "url": "http://tv543.cc/smart.m3u",
-      "type": 3,
-      "ua": "Goiptv/8.8.8"
-    },
-    {
       "name": "TV543.CC",
       "url": "http://tv543.cc/4gtv1.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-
-
     {
       "name": "543.CC 台灣酒店",
       "url": "http://tv543.cc/酒店.txt",
@@ -1021,17 +1014,23 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "543.CC aktv",
-      "url": "https://aktv.space/live.m3u",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
       "name": "SMT",
       "url": "http://tv543.cc/smart.m3u",
       "type": 3,
       "ua": "Goiptv/8.8.8"
 
+    },
+    {
+      "name": "備用線路一",
+      "url": "https://live.catvod.com/tv.m3u",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "備用線路二",
+      "url": "http://tv543.cc/kb.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "SMT1",
