@@ -1110,6 +1110,21 @@
       "pass": true
     },
     {
+      "name": "星河",
+      "type": 2,
+      "url": "http://星河.xyz/云霄仙子.txt",
+      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.eu.org/logo/{name}.png",
+      "UA": "changshou/521",
+      "pass": true
+    },
+    {
+      "name": "路邊撿的",
+      "url": "https://php.946985.xyz/stv.m3u",
+      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
       "name": "秘密花园",
       "type": 0,
       "url": "http://pan.losfer.cn/down.php/9cf9c24dffed2b0131dd2f573ba74c13.jpg",
@@ -1366,6 +1381,14 @@
       "url": "./live/11.txt",
       "ua": "okhttp/4.12",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"
+    },
+    {
+      "name": "📺 18+",
+      "type": 0,
+      "url": "http://tv543.cc/jacky/18.txt",
+
+      "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": ""
     },
     {
       "name": "私密線路(18+)",
