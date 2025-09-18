@@ -197,22 +197,6 @@
       "changeable": 0
     },
     {
-      "key": "星河",
-      "name": "📱｜星河｜高清◎秒播(無廣告+APP)",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "csp_AppSy",
-      "jar": "./jar/xiaosa-0819.jar;md5;4d0b9799b44bf036c9b86a8a00aa031d",
-      "ext": {
-        "url": "http://192.140.161.171:2563",
-        "key1": "aassddwwxxllsx1x",
-        "key2": "aassddwwxxllsx1x",
-        "key3": "aassddwwxxllsx1x"
-      }
-    },
-    {
       "key": "爱影视",
       "name": "🏆｜爱盈┃測試+4K",
       "quickSearch": 0,
@@ -276,22 +260,6 @@
       "filterable": 1,
       "ext": {
         "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"
-      }
-    },
-    {
-      "key": "云云",
-      "name": "📱｜雲雲｜藍光◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet2",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
-      "ext": {
-        "url": "",
-        "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/1.txt",
-        "dataKey": "staraugust123456",
-        "dataIv": "staraugust123456",
-        "deviceId": "",
-        "version": "120"
       }
     },
     {
@@ -1389,6 +1357,14 @@
 
       "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": ""
+    },
+    {
+      "name": "秘密花园",
+      "type": 0,
+      "url": "https://mmhy.zzong6599.workers.dev/",
+      "playerType": 1,
+      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://diyp5.112114.xyz/{name}.png"
     },
     {
       "name": "私密線路(18+)",
