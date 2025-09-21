@@ -322,7 +322,72 @@
         "海外动漫"
       ]
     },
-
+    {
+      "key": "电影天堂",
+      "name": "电影天堂",
+      "type": 4,
+      "api": "https://tvbot.ggff.net/dytt"
+    },
+    {
+      "key": "月佬瓜子影视",
+      "name": "月佬瓜子影视",
+      "type": 4,
+      "api": "https://tvbot.ggff.net/guazi"
+    },
+    {
+      "key": "嗷呜爱瓜TV",
+      "name": "嗷呜爱瓜TV",
+      "type": 4,
+      "api": "https://tvbot.ggff.net/aigua"
+    },
+    {
+      "key": "嗷呜小苹果",
+      "name": "嗷呜小苹果",
+      "type": 4,
+      "api": "https://tvbot.ggff.net/pingguo"
+    },
+    {
+      "key": "嗷呜金牌影院",
+      "name": "嗷呜金牌影院",
+      "type": 3,
+      "api": "./py/py_jinpai.py"
+    },
+    {
+      "key": "Qile优视频",
+      "name": "Qile优视频",
+      "type": 4,
+      "api": "https://tvbot.ggff.net/uvod"
+    },
+    {
+      "key": "欧乐影院",
+      "name": "欧乐影院",
+      "type": 4,
+      "api": "https://tvbot.ggff.net/oule"
+    },
+    {
+      "key": "独播库",
+      "name": "独播库",
+      "type": 4,
+      "api": "https://tvbot.ggff.net/duboku"
+    },
+    {
+      "key": "荐片",
+      "name": "荐片",
+      "type": 4,
+      "api": "https://tvbot.ggff.net/jianpian"
+    },
+    {
+      "key": "嗷呜剧爸爸",
+      "name": "嗷呜剧爸爸",
+      "type": 4,
+      "api": "https://tvbot.ggff.net/jubaba"
+    },
+    {
+      "key": "恰逢永乐",
+      "name": "恰逢永乐",
+      "type": 4,
+      "api": "https://tvbot.ggff.net/yongle"
+    },
 
     {
       "key": "沐辰欧乐影院",
@@ -333,51 +398,6 @@
       "quickSearch": 0,
       "filterable": 0,
       "changeable": 0
-    },
-    {
-      "key": "沐辰爱瓜TV",
-      "name": "沐辰爱瓜TV",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py/py_aigua.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "嗷呜小苹果",
-      "name": "嗷呜小苹果",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py/py_pingguo.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "嗷呜金牌影院",
-      "name": "嗷呜金牌影院",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py/py_jinpai.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "嗷呜剧爸爸",
-      "name": "嗷呜剧爸爸",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py/py_jubaba.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "荐片",
-      "name": "荐片",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py/py_jianpian.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
     },
     {
       "key": "csp_看片狂人",
@@ -762,51 +782,6 @@
       "quickSearch": 0,
       "filterable": 0,
       "changeable": 0
-    },
-    {
-      "key": "沐辰爱瓜TV",
-      "name": "沐辰爱瓜TV",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py/py_aigua.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "嗷呜小苹果",
-      "name": "嗷呜小苹果",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py/py_pingguo.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "嗷呜金牌影院",
-      "name": "嗷呜金牌影院",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py/py_jinpai.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "嗷呜剧爸爸",
-      "name": "嗷呜剧爸爸",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py/py_jubaba.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "荐片",
-      "name": "荐片",
-      "type": 3,
-      "api": "https://raw.githubusercontent.com/4TVBox/TVBox/refs/heads/main/py/py_jianpian.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
     },
     {
       "key": "csp_看片狂人",
