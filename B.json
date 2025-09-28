@@ -1,0 +1,482 @@
+{
+  "spider": "http://tv543.cc/catvod.jar;md5;392df5f6a1c925c9f765c7e4b6f3eda4",
+  "wallpaper": "https://imgs.catvod.com",
+  "logo": "http://tv543.cc/logo2.gif",
+  "sites": [
+    {
+      "key": "麻花影视",
+      "name": "麻花影院(支持快手.百度云.夸克.腾讯.优酷.爱奇艺.磁力.)",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "海默影院",
+      "name": "海默影院",
+      "type": 1,
+      "api": "https://heimer.gfff.net/api.php/tvbox",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "header": {
+        "User-Agent": "Lavf/58.12.100"
+      }
+    },
+    {
+      "key": "斗鱼直播",
+      "name": "斗鱼直播",
+      "type": 4,
+      "api": "https://zhangqun66.com/pingguo.php",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "虎牙直播",
+      "name": "虎牙直播",
+      "type": 1,
+      "api": "https://zhangqun66.com/ww.php",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "360影院",
+      "name": "360影院",
+      "type": 3,
+      "api": "csp_SP360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "爱奇艺",
+      "name": "爱奇艺",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "./aqy2.js"
+    },
+    {
+      "key": "优酷",
+      "name": "优酷",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "./yk2.js"
+    },
+    {
+      "key": "腾讯",
+      "name": "腾讯",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "./tx.js"
+    },
+    {
+      "key": "搜狐",
+      "name": "搜狐",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "https://tvbox.catvod.com/js/sg.js"
+    },
+    {
+      "key": "MGTV",
+      "name": "MGTV",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "./mg2.js"
+    },
+    {
+      "key": "bili",
+      "name": "bili",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "https://tvbox.catvod.com/js/bili.js"
+    },
+    {
+      "key": "ikanbot",
+      "name": "ikanbot",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "https://tvbox.catvod.com/js/ik.js"
+    },
+    {
+      "key": "新浪微博",
+      "name": "新浪微博",
+      "type": 3,
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "order_num": 142,
+      "ext": "https://tvbox.catvod.com/js/新浪微博.js?type=url&params=https://tvbox.catvod.com/js/新浪微博.json$1$1"
+    },
+    {
+      "key": "豆瓣电影",
+      "name": "豆瓣电影",
+      "type": 3,
+      "api": "csp_Living",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "快看",
+      "name": "快看",
+      "type": 3,
+      "api": "csp_Kuaikan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "新版6v",
+      "name": "新版6v",
+      "type": 3,
+      "api": "csp_Xb6v",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "抖音港",
+      "name": "抖音港",
+      "type": 3,
+      "api": "csp_DyGang",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "Xunlei8",
+      "name": "Xunlei8",
+      "type": 3,
+      "api": "csp_Xunlei8",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "小白影院",
+      "name": "小白影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/xiaohys.json"
+    },
+    {
+      "key": "天龍",
+      "name": "天龍",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/tianlong.json"
+    },
+    {
+      "key": "天天",
+      "name": "天天",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/tiantian.json"
+    },
+    {
+      "key": "丸丸",
+      "name": "丸丸",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/wangwang.json"
+    },
+    {
+      "key": "4k",
+      "name": "4k",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/4k.json"
+    },
+    {
+      "key": "青天",
+      "name": "青天",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/qingtian.json"
+    },
+    {
+      "key": "海鷗",
+      "name": "海鷗",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/haihu.json"
+    },
+    {
+      "key": "5555kan",
+      "name": "55影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/5555kan.json"
+    },
+    {
+      "key": "觀影",
+      "name": "觀影",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/guanying.json"
+    },
+    {
+      "key": "奇優",
+      "name": "奇優",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/qiyou.json"
+    },
+    {
+      "key": "77ys",
+      "name": "77影院",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/77ys.json"
+    },
+    {
+      "key": "pianba",
+      "name": "騙霸",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/pianba.json"
+    },
+    {
+      "key": "Movies",
+      "name": "Movies",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/Movies.json"
+    },
+    {
+      "key": "sdssry",
+      "name": "影院專屬",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/sdsrty.json"
+    },
+    {
+      "key": "市場",
+      "name": "市場",
+      "type": 3,
+      "api": "csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./shop.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      }
+    },
+    {
+      "key": "db",
+      "name": "豆瓣",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/db.json"
+    },
+    {
+      "key": "首愛",
+      "name": "首愛",
+      "type": 3,
+      "api": "csp_FirstAid",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "聚合",
+      "name": "聚合",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://127.0.0.1:9978/file/tv/token.txt"
+    },
+    {
+      "key": "本地",
+      "name": "本地",
+      "type": 3,
+      "api": "csp_Local",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "VIP1",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "VIP2",
+      "type": 0,
+      "url": "https://t1.qlplayer.cyou/player/?url="
+    },
+    {
+      "name": "VIP3",
+      "type": 0,
+      "url": "https://jx.m3u8.tv/jx/jx.php?url="
+    },
+    {
+      "name": "VIP4",
+      "type": 0,
+      "url": "https://yparse.ik9.cc/index.php?url="
+    },
+    {
+      "name": "VIP5",
+      "type": 0,
+      "url": "https://player.mrgaocloud.com/player/?url="
+    },
+    {
+      "name": "VIP6",
+      "type": 0,
+      "url": "https://jx.yangtu.top/?url="
+    },
+    {
+      "name": "VIP7",
+      "type": 0,
+      "url": "https://www.8090g.cn/jiexi/?url="
+    },
+    {
+      "name": "VIP8",
+      "type": 0,
+      "url": "https://jx.2s0.cn/player/?url="
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu",
+    "migu",
+    "migo",
+    "alivc",
+    "1905",
+    "douyin",
+    "xigua",
+    "leshi",
+    "bilibili",
+    "renrenmi"
+  ],
+  "hosts": [
+    "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+    "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+    "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+    "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+    "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
+  ],
+  "lives": [
+    {
+      "name": "543",
+      "url": "http://tv543.cc/4gtv1.m3u",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+
+    {
+      "name": "卫视高清",
+      "url": "https://iptv.mydiver.eu.org/get.php?username=tg_dl9jgpcw&password=w4wec6bc1hua&type=m3u_plus",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "猫窝TV",
+      "url": "https://live.catvod.com/tv.m3u",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "猫窝港台",
+      "url": "http://tv543.cc/kb.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "SMT",
+      "url": "http://tv543.cc/smt.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "142",
+      "url": "http://tv543.cc/142.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "MQ",
+      "api": "csp_MQiTV",
+      "jar": "./fm.jar",
+      "ext": [
+        {
+          "name": "MQiTV",
+          "url": "https://59.125.210.231:4433"
+        }
+      ]
+    }
+  ]
+}
