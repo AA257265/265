@@ -50,18 +50,6 @@
       "ext": "./lib/tokenm.json$$$./lib/douban.json"
     },
     {
-      "key": "黑木影视",
-      "name": "黑木影视",
-      "type": 1,
-      "api": "https://heimuer.ggff.net/api.php/tvbox",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "header": {
-        "User-Agent": "Lavf/58.12.100"
-      }
-    },
-    {
       "key": "独播库",
       "name": "独播库",
       "type": 4,
@@ -115,15 +103,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "天堂影视",
-      "name": "天堂影视",
-      "type": 1,
-      "api": "https://heimuer.ggff.net/api.php/tvbox",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
     },
     {
       "key": "py_OleVod",
@@ -884,6 +863,23 @@
       "filterable": 1,
       "changeable": 1
     },
+    {
+      "key": "仓鼠",
+      "name": "🏆｜倉鼠｜藍光◎秒播(無廣告+APP)",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "jar": "./jar/xiaosa-0930.jar;md5;a6bcea0abd1579151d3a4232800c5e26",
+      "ext": {
+        "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
+        "url": "https://hk421appcms.cs4k.top/",
+        "dataKey": "da61247f5b662597",
+        "dataIv": "da61247f5b662597",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+
     {
       "key": "虎牙",
       "name": "🧲｜虎牙",
