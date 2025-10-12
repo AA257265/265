@@ -1,6 +1,7 @@
 {
   //"spider": "./jar/custom_spider.jar",
-  "spider": "http://tv543.cc/catvod.jar;md5;392df5f6a1c925c9f765c7e4b6f3eda4",
+  //"spider": "http://tv543.cc/catvod.jar;md5;392df5f6a1c925c9f765c7e4b6f3eda4",
+  "spider": "https://tang.hz.cz/api/custom_spider.jar;md5;6f47e1a75235aae27953562a9507509a",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
 
@@ -54,13 +55,6 @@
       "name": "独播库",
       "type": 4,
       "api": "https://newtv.ggff.net/duboku"
-    },
-    {
-      "key": "独播库1",
-      "name": "🏆｜獨播｜藍光◎秒播(無廣告)",
-      "type": 4,
-      "jar": "./jar/獨播庫.jar",
-      "api": "https://tvbot.ggff.net/duboku"
     },
     {
       "key": "腾讯",
@@ -305,7 +299,6 @@
       "key": "T4-Infinity",
       "name": "Infinity(T4)",
       "type": 4,
-      "spider": "https://tang.hz.cz/api/custom_spider.jar;md5;6f47e1a75235aae27953562a9507509a",
       "api": "https://tang.hz.cz/power/hme?tokenu003d89d4cd38",
       "searchable": 1,
       "quickSearch": 1,
