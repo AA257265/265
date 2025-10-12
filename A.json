@@ -299,7 +299,7 @@
       "key": "T4-Infinity",
       "name": "Infinity(T4)",
       "type": 4,
-      "api": "https://tang.hz.cz/power/hme?tokenu89d4cd38",
+      "api": "https://tang.hz.cz/power/hme?token89d4cd38",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
