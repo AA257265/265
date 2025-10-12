@@ -53,7 +53,7 @@
       "key": "独播库",
       "name": "独播库",
       "type": 4,
-      "api": "https://tvbot.ggff.net/duboku"
+      "api": "https://newtv.ggff.net/duboku"
     },
     {
       "key": "独播库1",
@@ -82,7 +82,7 @@
       "key": "霜辉月明瓜子",
       "name": "霜辉月明瓜子",
       "type": 4,
-      "api": "https://tvbot.ggff.net/guazi"
+      "api": "https://newtv.ggff.net/aigua"
     },
     {
       "key": "瓜子影视",
@@ -118,13 +118,13 @@
       "key": "Qile优视频",
       "name": "Qile优视频",
       "type": 4,
-      "api": "https://tvbot.ggff.net/uvod"
+      "api": "https://newtv.ggff.net/uvod"
     },
     {
       "key": "欧乐影院",
       "name": "欧乐影院",
       "type": 4,
-      "api": "https://tvbot.ggff.net/oule"
+      "api": "https://newtv.ggff.net/oule"
     },
     {
       "key": "小苹果",
@@ -311,19 +311,19 @@
       "key": "月佬瓜子影视",
       "name": "月佬瓜子影视",
       "type": 4,
-      "api": "https://tvbot.ggff.net/guazi"
+      "api": "https://newtv.ggff.net/guazi"
     },
     {
       "key": "嗷呜爱瓜TV",
       "name": "嗷呜爱瓜TV",
       "type": 4,
-      "api": "https://tvbot.ggff.net/aigua"
+      "api": "https://newtv.ggff.net/aigua"
     },
     {
       "key": "嗷呜小苹果",
       "name": "嗷呜小苹果",
       "type": 4,
-      "api": "https://tvbot.ggff.net/pingguo"
+      "api": "https://newtv.ggff.net/pingguo"
     },
     {
       "key": "嗷呜金牌影院",
@@ -335,37 +335,37 @@
       "key": "Qile优视频",
       "name": "Qile优视频",
       "type": 4,
-      "api": "https://tvbot.ggff.net/uvod"
+      "api": "https://newtv.ggff.net/uvod"
     },
     {
       "key": "欧乐影院",
       "name": "欧乐影院",
       "type": 4,
-      "api": "https://tvbot.ggff.net/oule"
+      "api": "https://newtv.ggff.net/oule"
     },
     {
       "key": "独播库",
       "name": "独播库",
       "type": 4,
-      "api": "https://tvbot.ggff.net/duboku"
+      "api": "https://newtv.ggff.net/duboku"
     },
     {
       "key": "荐片",
       "name": "荐片",
       "type": 4,
-      "api": "https://tvbot.ggff.net/jianpian"
+      "api": "https://newtv.ggff.net/jianpian"
     },
     {
       "key": "嗷呜剧爸爸",
       "name": "嗷呜剧爸爸",
       "type": 4,
-      "api": "https://tvbot.ggff.net/jubaba"
+      "api": "https://newtv.ggff.net/jubaba"
     },
     {
       "key": "恰逢永乐",
       "name": "恰逢永乐",
       "type": 4,
-      "api": "https://tvbot.ggff.net/yongle"
+      "api": "https://newtv.ggff.net/yongle"
     },
 
     {
