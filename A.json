@@ -1,7 +1,7 @@
 {
   //"spider": "./jar/custom_spider.jar",
-  //"spider": "http://tv543.cc/catvod.jar;md5;392df5f6a1c925c9f765c7e4b6f3eda4",
-  "spider": "https://tang.hz.cz/api/custom_spider.jar;md5;6f47e1a75235aae27953562a9507509a",
+  "spider": "http://tv543.cc/catvod.jar;md5;392df5f6a1c925c9f765c7e4b6f3eda4",
+  //"spider": "https://tang.hz.cz/api/custom_spider.jar;md5;6f47e1a75235aae27953562a9507509a",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
 
@@ -299,7 +299,7 @@
       "key": "T4-Infinity",
       "name": "Infinity(T4)",
       "type": 4,
-      "api": "https://tang.hz.cz/power/hme?tokenu=003d89d4cd38",
+      "api": "https://tang.hz.cz/power/hme?tokenu89d4cd38",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
