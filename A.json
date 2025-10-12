@@ -305,6 +305,7 @@
       "key": "T4-Infinity",
       "name": "Infinity(T4)",
       "type": 4,
+      "jar":"https://tang.hz.cz/api/custom_spider.jar;md5;6f47e1a75235aae27953562a9507509a",
       "api": "https://tang.hz.cz/power/hme?tokenu003d89d4cd38",
       "searchable": 1,
       "quickSearch": 1,
