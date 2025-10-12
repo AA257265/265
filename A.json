@@ -57,6 +57,47 @@
       "api": "https://newtv.ggff.net/duboku"
     },
     {
+      "key": "T4-Infinity",
+      "name": "Infinity(T4)",
+      "type": 4,
+      "api": "https://tang.hz.cz/power/hme?token=89d4cd38",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": false
+    },
+    {
+      "key": "T4-dbku",
+      "name": "独播库(T4)",
+      "type": 4,
+      "api": "https://tang.hz.cz/power/duboku?token=89d4cd38",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "T4-欧乐",
+      "name": "欧乐(T4)",
+      "type": 4,
+      "api": "https://tang.hz.cz/power/olelive?token=89d4cd38",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "T4-安博",
+      "name": "安博(T4)",
+      "type": 4,
+      "api": "https://tang.hz.cz/power/ub18?token=89d4cd38",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0
+    },
+    {
       "key": "腾讯",
       "name": "腾讯",
       "type": 3,
@@ -295,17 +336,7 @@
         "海外动漫"
       ]
     },
-    {
-      "key": "T4-Infinity",
-      "name": "Infinity(T4)",
-      "type": 4,
-      "api": "https://tang.hz.cz/power/hme?token=89d4cd38",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": false
-    },
+
     {
       "key": "月佬瓜子影视",
       "name": "月佬瓜子影视",
