@@ -54,7 +54,7 @@
       "key": "独播库",
       "name": "独播库",
       "type": 4,
-      "api": "https://newtv.ggff.net/duboku"
+      "api": "https://newtv.ggff.net/duboku?token=NtKuzkIw"
     },
     {
       "key": "T4-Infinity",
@@ -117,7 +117,7 @@
       "key": "霜辉月明瓜子",
       "name": "霜辉月明瓜子",
       "type": 4,
-      "api": "https://newtv.ggff.net/aigua"
+      "api": "https://newtv.ggff.net/aigua?token=NtKuzkIw"
     },
     {
       "key": "瓜子影视",
@@ -153,13 +153,13 @@
       "key": "Qile优视频",
       "name": "Qile优视频",
       "type": 4,
-      "api": "https://newtv.ggff.net/uvod"
+      "api": "https://newtv.ggff.net/uvod?token=NtKuzkIw"
     },
     {
       "key": "欧乐影院",
       "name": "欧乐影院",
       "type": 4,
-      "api": "https://newtv.ggff.net/oule"
+      "api": "https://newtv.ggff.net/oule?token=NtKuzkIw"
     },
     {
       "key": "小苹果",
@@ -341,19 +341,19 @@
       "key": "月佬瓜子影视",
       "name": "月佬瓜子影视",
       "type": 4,
-      "api": "https://newtv.ggff.net/guazi"
+      "api": "https://newtv.ggff.net/guazi?token=NtKuzkIw"
     },
     {
       "key": "嗷呜爱瓜TV",
       "name": "嗷呜爱瓜TV",
       "type": 4,
-      "api": "https://newtv.ggff.net/aigua"
+      "api": "https://newtv.ggff.net/aigua?token=NtKuzkIw"
     },
     {
       "key": "嗷呜小苹果",
       "name": "嗷呜小苹果",
       "type": 4,
-      "api": "https://newtv.ggff.net/pingguo"
+      "api": "https://newtv.ggff.net/pingguo?token=NtKuzkIw"
     },
     {
       "key": "嗷呜金牌影院",
@@ -365,37 +365,37 @@
       "key": "Qile优视频",
       "name": "Qile优视频",
       "type": 4,
-      "api": "https://newtv.ggff.net/uvod"
+      "api": "https://newtv.ggff.net/uvod?token=NtKuzkIw"
     },
     {
       "key": "欧乐影院",
       "name": "欧乐影院",
       "type": 4,
-      "api": "https://newtv.ggff.net/oule"
+      "api": "https://newtv.ggff.net/oule?token=NtKuzkIw"
     },
     {
       "key": "独播库",
       "name": "独播库",
       "type": 4,
-      "api": "https://newtv.ggff.net/duboku"
+      "api": "https://newtv.ggff.net/duboku?token=NtKuzkIw"
     },
     {
       "key": "荐片",
       "name": "荐片",
       "type": 4,
-      "api": "https://newtv.ggff.net/jianpian"
+      "api": "https://newtv.ggff.net/jianpian?token=NtKuzkIw"
     },
     {
       "key": "嗷呜剧爸爸",
       "name": "嗷呜剧爸爸",
       "type": 4,
-      "api": "https://newtv.ggff.net/jubaba"
+      "api": "https://newtv.ggff.net/jubaba?token=NtKuzkIw"
     },
     {
       "key": "恰逢永乐",
       "name": "恰逢永乐",
       "type": 4,
-      "api": "https://newtv.ggff.net/yongle"
+      "api": "https://newtv.ggff.net/yongle?token=NtKuzkIw"
     },
 
     {
