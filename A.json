@@ -1129,15 +1129,6 @@
 
   "lives": [
     {
-      "name": "543",
-      "url": "http://tv543.cc/4gtv.m3u",
-      "pass": false,
-      "boot": false,
-      "playerType": 2,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
       "name": "TV543.CC",
       "url": "http://tv543.cc/4gtv1.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -1150,11 +1141,10 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "SMT",
-      "url": "http://tv543.cc/smart.m3u",
-      "type": 3,
-      "ua": "Goiptv/8.8.8"
-
+      "name": "海外專線",
+      "url": "https://iptv.mydiver.eu.org/get.php?username=tg_dl9jgpcw&password=w4wec6bc1hua&type=m3u_plus",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "備用線路一",
@@ -1185,51 +1175,8 @@
       "pass": true
     },
     {
-      "name": "貓抓",
-      "url": "https://live.catvod.com/tv.m3u",
-      "ua": "catvod.com"
-    },
-    {
-      "name": "立方直播",
-      "url": "http://breezy-audrie-zspace-7524863c.koyeb.app/sub?type=m3u&token=leifeng",
-      "timeout": 5,
-      "pass": true
-    },
-    {
-      "name": "星河",
-      "type": 2,
-      "url": "http://星河.xyz/云霄仙子.txt",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "UA": "changshou/521",
-      "pass": true
-    },
-    {
-      "name": "路邊撿的",
-      "url": "https://php.946985.xyz/stv.m3u",
-      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "秘密花园",
-      "type": 0,
-      "url": "http://pan.losfer.cn/down.php/9cf9c24dffed2b0131dd2f573ba74c13.jpg",
-      "playerType": 1,
-      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "全球直播",
-      "type": 0,
-      "url": "http://pan.losfer.cn/down.php/7eecfe18cd82ce1f5ae915069f5c59bc.jpg",
-      "playerType": 1,
-      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-
-    },
-    {
       "name": "台灣酒店",
-      "url": "http://99.iptv543.com/酒店.txt",
+      "url": "https://tv543.cc/酒店.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -1239,15 +1186,6 @@
       "api": "./py/live_litv.py",
       "ext": {},
       "pass": true
-    },
-    {
-      "name": "4gtv-judy",
-      "url": "./live/4gtv-judy.txt",
-      "pass": false,
-      "boot": false,
-      "playerType": 2,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "四季線上4gtv🇹🇼(本地)",
@@ -1263,25 +1201,6 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "台灣酒店1",
-      "url": "http://99.iptv543.com/酒店.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-
-    {
-      "name": "台灣酒店2",
-      "url": "http://99.iptv543.com/酒店2.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "145",
-      "url": "./live/145.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
       "name": "live2",
       "url": "./live/live2.txt",
       "pass": false,
@@ -1289,12 +1208,6 @@
       "playerType": 2,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "MQiTV",
-      "jar": "./jar/mqitv.jar",
-      "api": "csp_MQiTV",
-      "ext": "https://59.125.210.231:4433"
     },
     {
       "name": "93酒店源",
@@ -1319,22 +1232,6 @@
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png",
       "pass": true
-    },
-    {
-      "jar": "./jar/mqitv.jar",
-      "name": "59酒店源",
-      "api": "csp_MQiTV",
-      "ext": "https://59.125.210.231:4433",
-      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "jar": "./jar/mqitv.jar",
-      "name": "60酒店源",
-      "api": "csp_MQiTV",
-      "ext": "https://60.248.127.232:4433",
-      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "220酒店源",
@@ -1363,29 +1260,6 @@
       "playerplayerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
-    },
-    {
-      "name": "香蕉-MYTV",
-      "playerType": 2,
-      "url": "https://tv.iill.top/m3u/MyTV",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
-      "pass": true
-    },
-    {
-      "name": "歐華(ouhua TV)",
-      "type": 0,
-      "url": "./live/ohhua.txt",
-      "ua": "okhttp/3.15",
-      "epg": "http://iptv.52sw.top:668/?ch={name}&date={date}",
-      "pass": true
-    },
-    {
-      "name": "歐飛(ofiii TV)",
-      "type": 0,
-      "url": "./live/ofiii.m3u",
-      "ua": "okhttp/3.15",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "pass": true
     },
@@ -1433,42 +1307,6 @@
       "pass": true
     },
     {
-      "name": "日本直播台",
-      "type": 0,
-      "playerType": 2,
-      "ua": "AptvPlayer/1.3.3",
-      "url": "https://raw.githubusercontent.com/luongz/iptv-jp/refs/heads/main/jp.m3u",
-      "timeout": 5,
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "jar": "https://fm.t4tv.hz.cz/jar/custom_spider.jar",
-      "pass": true
-    },
-    {
-      "name": "猫TV线路",
-      "type": 0,
-      "url": "http://rihou.cc:567/gggg.nzk",
-      "playerType": 2,
-      "ua": "okhttp/3",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "pass": true
-    },
-    {
-      "name": "台灣景點直播",
-      "playerType": 2,
-      "url": "./live/10.txt",
-      "ua": "okhttp/4.12",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"
-    },
-    {
-      "name": "大陸景點直播",
-      "playerType": 2,
-      "url": "./live/11.txt",
-      "ua": "okhttp/4.12",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei"
-    },
-    {
       "name": "📺 18+",
       "type": 0,
       "url": "http://tv543.cc/jacky/18.txt",
@@ -1479,23 +1317,21 @@
     {
       "name": "秘密花园",
       "type": 0,
+      "url": "http://pan.losfer.cn/down.php/9cf9c24dffed2b0131dd2f573ba74c13.jpg",
+      "playerType": 1,
+      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "秘密花园1",
+      "type": 0,
       "url": "https://mmhy.zzong6599.workers.dev/",
       "playerType": 1,
       "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
       "logo": "http://diyp5.112114.xyz/{name}.png"
     },
     {
-      "name": "私密線路(18+)",
-      "playerType": 1,
-      "url": "https://gitee.com/sji820/des/raw/master/0.jpg",
-      "epg": "https://epg.pw/xmltv/epg.xml",
-      "ua": "Lavf/58.12.100",
-      "header": {
-        "X-Api-key": "eef635a7806e57ab688fa46eaddb6926a728de071bc267cb5f336d7be068d880..0..1735089945..75b109b1-81c5-4caf-aea1-776e6a81"
-      }
-    },
-    {
-      "name": "私密花園(18+)",
+      "name": "私密花園1(18+)",
       "playerType": 1,
       "url": "./live/178.txt",
       "epg": "https://epg.pw/xmltv/epg.xml",
@@ -1503,18 +1339,6 @@
       "header": {
         "X-Api-key": "eef635a7806e57ab688fa46eaddb6926a728de071bc267cb5f336d7be068d880..0..1735089945..75b109b1-81c5-4caf-aea1-776e6a81"
       }
-    },
-    {
-      "name": "臨時(18+)",
-      "playerType": 1,
-      "url": "./live/change-av.txt",
-      "epg": "https://epg.pw/xmltv/epg.xml"
-    },
-    {
-      "name": "黑軟(18+)",
-      "playerType": 1,
-      "url": "./live/999.txt",
-      "epg": "https://epg.pw/xmltv/epg.xml"
     }
 
 
