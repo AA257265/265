@@ -469,6 +469,159 @@
       "changeable": 1
     },
     {
+      "key": "mqtv",
+      "name": "🏆｜一號｜高清◎秒播(無廣告)",
+      "type": 3,
+      "timeout": 120,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.71
+      },
+      "api": "csp_GM",
+      "jar": "./jar/GM.jar;md5;7dd67a73e49dbf1cd32f56e329fce7b3",
+      "ext": {
+        "userScript": "./js/mqtv.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [ "https://hm.baidu.com/*", "https://*.n3f2.cn/*" ]
+        },
+        "playUrlMatch": [
+          "https://*/obj/tos-*",
+          "*://*/*.mp4*",
+          "*://*/*.m3u8*"
+        ],
+        "spider": {
+          "homeContent": { "loadUrl": "https://www.mqtv.cc/" },
+          "categoryContent": { "loadUrl": "https://www.mqtv.cc/type/${tid}" },
+          "detailContent": { "loadUrl": "https://www.mqtv.cc${id}" },
+          "playerContent": { "loadUrl": "https://www.mqtv.cc${url}#${anchor}" },
+          "searchContent": { "loadUrl": "https://www.mqtv.cc/search/${key}" }
+        }
+      }
+    },
+    {
+      "key": "huochetaidu",
+      "name": "🏆｜二號｜高清◎秒播(無廣告)",
+      "type": 3,
+      "timeout": 120,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.71
+      },
+      "api": "csp_GM",
+      "jar": "./jar/GM.jar;md5;7dd67a73e49dbf1cd32f56e329fce7b3",
+      "ext": {
+        "userScript": "./js/huochetaidu.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [ "https://hm.baidu.com/*" ]
+        },
+        "playUrlMatch": [ "*://*/*.m3u8*" ],
+        "spider": {
+          "homeContent": { "loadUrl": "https://www.tdgo.shop/" },
+          "categoryContent": {
+            "loadUrl": "https://www.tdgo.shop/vodshow/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-}-${index5:-}-${index6:-}-${pg:-1}-${index8:-}-${index9:-}-${index10:-}.html"
+          },
+          "detailContent": { "loadUrl": "https://www.tdgo.shop${id}" },
+          "playerContent": { "loadUrl": "https://www.tdgo.shop${playUrl}" },
+          "searchContent": {
+            "loadUrl": "https://www.tdgo.shop/vodsearch/${key}----------${pg:-1}---.html"
+          }
+        }
+      }
+    },
+    {
+      "key": "yirenmeng",
+      "name": "🏆｜三號｜高清◎秒播(無廣告)",
+      "type": 3,
+      "timeout": 120,
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 0.71
+      },
+      "api": "csp_GM",
+      "jar": "./jar/GM.jar;md5;7dd67a73e49dbf1cd32f56e329fce7b3",
+      "ext": {
+        "userScript": "./js/yirenmeng.user.js",
+        "debug": false,
+        "webViewSettings": {
+          "blockNetworkImage": true,
+          "blockList": [ "https://hm.baidu.com/*" ]
+        },
+        "playUrlMatch": [ "*://*/*.m3u8*" ],
+        "spider": {
+          "homeContent": { "loadUrl": "https://www.yirenmeng.com/" },
+          "categoryContent": {
+            "loadUrl": "https://www.yirenmeng.com/vodshow/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-}-${index5:-}-${index6:-}-${pg:-1}-${index8:-}-${index9:-}-${index10:-}.html"
+          },
+          "detailContent": { "loadUrl": "https://www.yirenmeng.com${id}" },
+          "playerContent": { "loadUrl": "https://www.yirenmeng.com${playUrl}" },
+          "searchContent": {
+            "loadUrl": "https://www.yirenmeng.com/vodsearch/${key}----------${pg:-1}---.html"
+          }
+        }
+      }
+    },
+    {
+      "key": "py_文才",
+      "name": "🏆｜金牌系列-文才",
+      "type": 3,
+      "api": "./py/又是一個金牌.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/"
+      }
+    },
+    {
+      "key": "py_zjuys.py",
+      "name": "🏆｜金牌系列-zjuys",
+      "type": 3,
+      "api": "./py/金牌.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://zjuys.com/"
+      }
+    },
+    {
+      "key": "py_又是一個金牌",
+      "name": "🏆｜金牌系列-jpyy",
+      "type": 3,
+      "api": "./py/又是一個金牌.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://jpyy.com,https://www.jiabaide.cn,https://cqzuoer.com,https://www.jpyy2.com"
+      }
+    },
+    {
+      "key": "py_金牌.py",
+      "name": "🏆｜金牌｜高清◎秒播(無廣告)",
+      "type": 3,
+      "api": "./py/金牌.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://www.vv3nwjk.com,https://www.jpyy2.com,https://www.cfkj86.com"
+      }
+    },
+    {
       "key": "小苹果",
       "name": "小苹果",
       "type": 4,
