@@ -856,22 +856,6 @@
       }
     },
     {
-      "key": "云云",
-      "name": "📱｜雲雲｜藍光◎秒播(無廣告+APP)",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet2",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
-      "ext": {
-        "url": "",
-        "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/1.txt",
-        "dataKey": "staraugust123456",
-        "dataIv": "staraugust123456",
-        "deviceId": "",
-        "version": "120"
-      }
-    },
-    {
       "key": "光影",
       "name": "📱｜光影｜APP",
       "type": 3,
@@ -1050,15 +1034,6 @@
         "deviceId": "",
         "version": "120"
       }
-    },
-
-    {
-      "key": "虎牙",
-      "name": "🧲｜虎牙",
-      "type": 1,
-      "api": "https://www.huyaapi.com/api.php/provide/vod/at/",
-      "searchable": 1,
-      "changeable": 1
     },
     {
       "key": "🇹🇼BBTV",
