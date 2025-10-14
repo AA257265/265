@@ -1323,14 +1323,6 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "秘密花园1",
-      "type": 0,
-      "url": "https://mmhy.zzong6599.workers.dev/",
-      "playerType": 1,
-      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "http://diyp5.112114.xyz/{name}.png"
-    },
-    {
       "name": "私密花園1(18+)",
       "playerType": 1,
       "url": "./live/178.txt",
