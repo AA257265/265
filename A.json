@@ -428,17 +428,6 @@
       }
     },
     {
-      "key": "金牌影视",
-      "name": "🥇｜金牌影院｜4倍順+畫質優",
-      "type": 3,
-      "api": "csp_Jpys",
-      "jar": "./jar/fan.txt;md5;8851819289f80deae32319080028db3b",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "饺子",
       "name": "🥇｜銅牌影院",
       "type": 3,
