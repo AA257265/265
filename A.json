@@ -88,17 +88,6 @@
       "changeable": 0
     },
     {
-      "key": "T4-安博",
-      "name": "安博(T4)",
-      "type": 4,
-      "api": "https://tang.hz.cz/power/ub18?token=89d4cd38",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": true,
-      "changeable": 0
-    },
-    {
       "key": "腾讯",
       "name": "腾讯",
       "type": 3,
@@ -1114,7 +1103,17 @@
         "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
       }
     },
-
+    {
+      "key": "T4-安博",
+      "name": "安博(T4)",
+      "type": 4,
+      "api": "https://tang.hz.cz/power/ub18?token=89d4cd38",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": true,
+      "changeable": 0
+    },
     {
       "key": "csp_PTT",
       "name": "🥉｜PTT｜",
