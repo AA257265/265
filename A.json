@@ -65,7 +65,8 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 0,
-      "ext": false
+      "ext": true
+
     },
     {
       "key": "T4-dbku",
@@ -75,6 +76,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "ext": true,
       "changeable": 0
     },
     {
@@ -85,6 +87,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
+      "ext": true,
       "changeable": 0
     },
     {
