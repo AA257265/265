@@ -897,7 +897,17 @@
         "海外动漫"
       ]
     },
-
+    {
+      "key": "动态py",
+      "name": "永樂視頻动态（py）",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net:5052/?sp=永乐视频",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
 
     {
       "key": "沐辰欧乐影院",
@@ -1165,7 +1175,13 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-
+    {
+      "name": "jacktv",
+      "url": "https://php.946985.filegear-sg.me/jackTV.m3u",
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+      }
+    },
     {
       "name": "曉峰直播",
       "url": "./live/fong.txt",
