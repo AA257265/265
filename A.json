@@ -164,6 +164,18 @@
       "changeable": 1
     },
     {
+      "key": "drpyS_荐片",
+      "name": "荐片(DS)",
+      "type": 4,
+      "api": "http://49.213.157.177:5757/api/荐片?pwd=dzyyds",
+      "searchable": 2,
+      "filterable": 1,
+      "quickSearch": 0,
+      "title": "荐片",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
       "key": "厂长",
       "name": "厂长",
       "type": 3,
@@ -1139,6 +1151,12 @@
   ],
 
   "lives": [
+    {
+      "name": "543",
+      "url": "http://tv543.cc/list.php",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "name": "TV543.CC",
       "url": "http://tv543.cc/4gtv1.m3u",
