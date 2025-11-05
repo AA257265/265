@@ -51,6 +51,29 @@
       "ext": "./lib/tokenm.json$$$./lib/douban.json"
     },
     {
+      "key": "小苹果",
+      "name": "小苹果",
+      "type": 4,
+      "api": "https://zhangqun66.com/pingguo.php",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "drpyS_荐片",
+      "name": "荐片(DS)",
+      "type": 4,
+      "api": "http://49.213.157.177:5757/api/荐片?pwd=dzyyds",
+      "searchable": 2,
+      "filterable": 1,
+      "quickSearch": 0,
+      "title": "荐片",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
       "key": "独播库",
       "name": "独播库",
       "type": 4,
@@ -152,29 +175,7 @@
       "type": 4,
       "api": "https://newtv.ggff.net/oule?token=NtKuzkIw"
     },
-    {
-      "key": "小苹果",
-      "name": "小苹果",
-      "type": 4,
-      "api": "https://zhangqun66.com/pingguo.php",
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "changeable": 1
-    },
-    {
-      "key": "drpyS_荐片",
-      "name": "荐片(DS)",
-      "type": 4,
-      "api": "http://49.213.157.177:5757/api/荐片?pwd=dzyyds",
-      "searchable": 2,
-      "filterable": 1,
-      "quickSearch": 0,
-      "title": "荐片",
-      "lang": "ds",
-      "ext": ""
-    },
+
     {
       "key": "厂长",
       "name": "厂长",
@@ -618,6 +619,28 @@
       "name": "小苹果",
       "type": 4,
       "api": "https://zhangqun66.com/pingguo.php",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "泥视频",
+      "name": "泥视频",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net:5052/?sp=泥视频",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
+      "key": "甜圈短剧",
+      "name": "甜圈短剧",
+      "type": 4,
+      "api": "http://zhangqun1818.serv00.net:5052/?sp=甜圈短剧",
       "style": {
         "type": "rect",
         "ratio": 1.33
@@ -1162,6 +1185,7 @@
       "url": "http://tv543.cc/4gtv1.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
+
     },
     {
       "name": "543.CC 台灣酒店",
@@ -1179,7 +1203,8 @@
       "name": "備用線路一",
       "url": "https://live.catvod.com/tv.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "ua": "Goiptv/8.8.8"
     },
     {
       "name": "備用線路二",
