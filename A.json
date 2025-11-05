@@ -1204,7 +1204,7 @@
       "url": "https://live.catvod.com/tv.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "ua": "Goiptv/8.8.8"
+      "ua": "catvod.com"
     },
     {
       "name": "備用線路二",
