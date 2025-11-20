@@ -1403,8 +1403,8 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "海外專線",
-      "url": "https://iptv.mydiver.eu.org/get.php?username=tg_dl9jgpcw&password=w4wec6bc1hua&type=m3u_plus",
+      "name": "ofIii直播源",
+      "url": "https://qu.ax/WOYDF.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
