@@ -120,6 +120,17 @@
       "ext": "./json/伊優.json"
     },
     {
+      "key": "Qile优视频2",
+      "name": "🏆｜Uvod｜藍光◎秒播(無廣告)",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_Uvod",
+      "jar": "./jar/custom_spider.jar;md5;5e53c8f9ddd4ede5359c16bee091db93",
+      "playerType": 2,
+      "filterable": 1
+    },
+    {
       "key": "爱影视",
       "name": "🏆｜爱盈┃測試+4K",
       "quickSearch": 0,
