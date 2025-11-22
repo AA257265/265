@@ -94,6 +94,18 @@
       "filterable": 1
     },
     {
+      "key": "羊羊",
+      "name": "📱｜羊羊｜APP",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "csp_AppMuou",
+      "ext": {
+        "url": "https://ht.zhenxun.love",
+        "name": "羊羊学院"
+      }
+    },
+    {
       "key": "爱影视",
       "name": "🏆｜爱盈┃測試+4K",
       "quickSearch": 0,
