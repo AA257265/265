@@ -100,6 +100,7 @@
       "searchable": 1,
       "changeable": 1,
       "api": "csp_AppMuou",
+      "jar": "./jar/xiaosa-1121.jar;md5;39ed9cc98365cb11e602669899b0b8d3",
       "ext": {
         "url": "https://ht.zhenxun.love",
         "name": "羊羊学院"
