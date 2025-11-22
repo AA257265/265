@@ -107,6 +107,19 @@
       }
     },
     {
+      "key": "csp_Euvod",
+      "name": "🥇｜伊優｜高清◎秒播(無廣告)",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 60,
+      "ext": "./json/伊優.json"
+    },
+    {
       "key": "爱影视",
       "name": "🏆｜爱盈┃測試+4K",
       "quickSearch": 0,
