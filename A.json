@@ -74,34 +74,6 @@
       "ext": ""
     },
     {
-      "key": "独播库",
-      "name": "独播库",
-      "type": 4,
-      "api": "https://newtv.ggff.net/duboku?token=NtKuzkIw"
-    },
-    {
-      "key": "腾讯",
-      "name": "腾讯",
-      "type": 3,
-      "playerType": "2",
-      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
-      "ext": "./drpy_js/tx.js"
-    },
-    {
-      "key": "腾讯1",
-      "name": "腾讯1",
-      "type": 3,
-      "playerType": "2",
-      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
-      "ext": "https://tvbox.catvod.com/js/tx.js"
-    },
-    {
-      "key": "霜辉月明瓜子",
-      "name": "霜辉月明瓜子",
-      "type": 4,
-      "api": "https://newtv.ggff.net/aigua?token=NtKuzkIw"
-    },
-    {
       "key": "瓜子影视",
       "name": "🏆｜瓜子｜特清◎秒播(無廣告)",
       "type": 3,
@@ -120,67 +92,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "py_OleVod",
-      "name": "欧乐影院(T4)",
-      "type": 4,
-      "api": "https://py.doube.eu.org/spider?site=OleVod",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
-      "key": "Qile优视频",
-      "name": "Qile优视频",
-      "type": 4,
-      "api": "https://newtv.ggff.net/uvod?token=NtKuzkIw"
-    },
-    {
-      "key": "欧乐影院",
-      "name": "欧乐影院",
-      "type": 4,
-      "api": "https://newtv.ggff.net/oule?token=NtKuzkIw"
-    },
-
-    {
-      "key": "厂长",
-      "name": "厂长",
-      "type": 3,
-      "api": "./py/py_cz.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "剧迷TV",
-      "name": "影視| 剧迷TV",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/XBPQ.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "影片年代": "<div class=\"module-info-tag\">&&</div>",
-        "影片状态": "备注：&&</div>",
-        "影片类型": "module-info-tag\">&&立即播放",
-        "线路数组": "data-dropdown-value=&&</div>",
-        "线路标题": "<span>&&</small>[替换:</span><small>>>共]+集",
-        "分类url": "https://www.jagcys.com/vodshow/dianying/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类": "电影$dianying#电视剧$dsj#动漫$dongman#综艺$zongyi#体育赛事$tiyusaishi"
-      }
-    },
-    {
-      "key": "py_厂长资源",
-      "name": "🏆｜大廠｜高清◎秒播(無廣告+PY)",
-      "type": 3,
-      "api": "./py/厂长资源.py",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
     },
     {
       "key": "爱影视",
@@ -249,30 +160,6 @@
       }
     },
     {
-      "key": "py_aidianying",
-      "name": "🏆｜愛電影｜藍光◎秒播(無廣告)",
-      "type": 3,
-      "api": "./py/aidianying.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
-      "key": "光影",
-      "name": "📱｜光影｜APP",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "jar": "./jar/xiaosa-0805.jar;md5;a78c35fce4c992d719e1bebd4a9df40b",
-      "ext": {
-        "url": "https://www.guangyingmi.com",
-        "dataKey": "230fnsodfsdhfon2",
-        "dataIv": "230fnsodfsdhfon2",
-        "deviceId": "",
-        "version": ""
-      }
-    },
-    {
       "key": "电影天堂",
       "name": "天堂云",
       "type": 1,
@@ -308,68 +195,6 @@
         "海外动漫"
       ]
     },
-
-    {
-      "key": "月佬瓜子影视",
-      "name": "月佬瓜子影视",
-      "type": 4,
-      "api": "https://newtv.ggff.net/guazi?token=NtKuzkIw"
-    },
-    {
-      "key": "嗷呜爱瓜TV",
-      "name": "嗷呜爱瓜TV",
-      "type": 4,
-      "api": "https://newtv.ggff.net/aigua?token=NtKuzkIw"
-    },
-    {
-      "key": "嗷呜小苹果",
-      "name": "嗷呜小苹果",
-      "type": 4,
-      "api": "https://newtv.ggff.net/pingguo?token=NtKuzkIw"
-    },
-    {
-      "key": "嗷呜金牌影院",
-      "name": "嗷呜金牌影院",
-      "type": 3,
-      "api": "./py/py_jinpai.py"
-    },
-    {
-      "key": "Qile优视频",
-      "name": "Qile优视频",
-      "type": 4,
-      "api": "https://newtv.ggff.net/uvod?token=NtKuzkIw"
-    },
-    {
-      "key": "欧乐影院",
-      "name": "欧乐影院",
-      "type": 4,
-      "api": "https://newtv.ggff.net/oule?token=NtKuzkIw"
-    },
-    {
-      "key": "独播库",
-      "name": "独播库",
-      "type": 4,
-      "api": "https://newtv.ggff.net/duboku?token=NtKuzkIw"
-    },
-    {
-      "key": "荐片",
-      "name": "荐片",
-      "type": 4,
-      "api": "https://newtv.ggff.net/jianpian?token=NtKuzkIw"
-    },
-    {
-      "key": "嗷呜剧爸爸",
-      "name": "嗷呜剧爸爸",
-      "type": 4,
-      "api": "https://newtv.ggff.net/jubaba?token=NtKuzkIw"
-    },
-    {
-      "key": "恰逢永乐",
-      "name": "恰逢永乐",
-      "type": 4,
-      "api": "https://newtv.ggff.net/yongle?token=NtKuzkIw"
-    },
-
     {
       "key": "沐辰欧乐影院",
       "name": "沐辰欧乐影院",
@@ -398,26 +223,6 @@
         "分类": "电影$1#连续剧$2#综艺$3#动漫$4",
         "地区": "中国大陆&香港&台湾&日本&韩国&泰国&美国&英国&德国&法国||中国大陆&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他||香港&台湾&韩国&中国大陆&英国&美国&日本&加拿大&泰国&其它||日本&大陆&中国大陆&中国&美国&台湾&韩国&法国&英国&加拿大"
       }
-    },
-    {
-      "key": "饺子",
-      "name": "🥇｜銅牌影院",
-      "type": 3,
-      "api": "csp_Jiaozi",
-      "jar": "./jar/spider.jar;md5;eb7676582d076a5505be5f23530e4f4d",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "csp_开心影院",
-      "name": "🥇｜鐵牌影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/開心影院.json"
     },
     {
       "key": "py_OleVod",
@@ -643,39 +448,6 @@
       "api": "https://tvbox.catvod.com/js/drpy2.min.js",
       "ext": "https://tvbox.catvod.com/js/yk.js"
     },
-
-    {
-      "key": "搜狗",
-      "name": "搜狗",
-      "type": 3,
-      "playerType": "2",
-      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
-      "ext": "https://tvbox.catvod.com/js/sg.js"
-    },
-    {
-      "key": "MGTV",
-      "name": "MGTV",
-      "type": 3,
-      "playerType": "2",
-      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
-      "ext": "https://tvbox.catvod.com/js/mgtv.js"
-    },
-    {
-      "key": "bili",
-      "name": "bili",
-      "type": 3,
-      "playerType": "2",
-      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
-      "ext": "https://tvbox.catvod.com/js/bili.js"
-    },
-    {
-      "key": "ikanbot",
-      "name": "ikanbot",
-      "type": 3,
-      "playerType": "2",
-      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
-      "ext": "https://tvbox.catvod.com/js/ik.js"
-    },
     {
       "key": "采集之王",
       "name": "采集之王",
@@ -687,56 +459,6 @@
       "ext": "https://tvbox.catvod.com/js/采集之王.js?type=url&params=https://tvbox.catvod.com/js/采集静态.json$1$1"
     },
 
-    {
-      "key": "小红影视",
-      "name": "小红影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://tvbox.catvod.com/js/xiaohys.json"
-    },
-    {
-      "key": "天龙",
-      "name": "天龙",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://tvbox.catvod.com/js/tianlong.json"
-    },
-    {
-      "key": "天天",
-      "name": "天天",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://tvbox.catvod.com/js/tiantian.json"
-    },
-    {
-      "key": "旺旺",
-      "name": "旺旺",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://tvbox.catvod.com/js/wangwang.json"
-    },
-    {
-      "key": "4k",
-      "name": "4k",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://tvbox.catvod.com/js/4k.json"
-    },
     {
       "key": "晴天",
       "name": "晴天",
@@ -756,26 +478,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://tvbox.catvod.com/js/heihu.json"
-    },
-    {
-      "key": "5555kan",
-      "name": "55影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://tvbox.catvod.com/js/5555kan.json"
-    },
-    {
-      "key": "guangun",
-      "name": "光棍",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://tvbox.catvod.com/js/guangun.json"
     },
     {
       "key": "qiyou",
@@ -806,36 +508,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://tvbox.catvod.com/js/pianba.json"
-    },
-    {
-      "key": "Movies",
-      "name": "Movies",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://tvbox.catvod.com/js/Movies.json"
-    },
-    {
-      "key": "sdsrty",
-      "name": "影视大全",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://tvbox.catvod.com/js/sdsrty.json"
-    },
-    {
-      "key": "db",
-      "name": "电波",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://tvbox.catvod.com/js/db.json"
     },
     {
       "key": "py_文才",
@@ -1151,17 +823,6 @@
       }
     },
     {
-      "key": "金牌影视",
-      "name": "🥇｜金牌影院｜4倍順+畫質優",
-      "type": 3,
-      "api": "csp_Jpys",
-      "jar": "./jar/fan.txt;md5;8851819289f80deae32319080028db3b",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "csp_开心影院",
       "name": "🥇｜鐵牌影院",
       "type": 3,
@@ -1208,28 +869,6 @@
       "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "csp_CZSPP",
-      "name": "🏆｜場長｜高清◎秒播(無廣告)",
-      "type": 3,
-      "api": "csp_Czsapp",
-      "jar": "./jar/巧技-0711.jar;md5;54418536dc2a40da4e94437397895d01",
-      "searchable": 1,
-      "playerType": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": "7lj763gg402i7942463j9j9jh346968hg5ll845ki38473"
-    },
-    {
-      "key": "py_4KAV",
-      "name": "🏆｜4KAV｜藍光◎秒播(無廣告)",
-      "type": 3,
-      "api": "./py/4KAV.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
       "changeable": 1
     },
     {
@@ -1335,49 +974,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "T4-安博",
-      "name": "安博(T4)",
-      "type": 4,
-      "api": "https://tang.hz.cz/power/ub18?token=89d4cd38",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": true,
-      "changeable": 0
-    },
-    {
-      "key": "T4-Infinity",
-      "name": "Infinity(T4)",
-      "type": 4,
-      "api": "https://tang.hz.cz/power/hme?token=89d4cd38",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": false
-
-    },
-    {
-      "key": "T4-dbku",
-      "name": "独播库(T4)",
-      "type": 4,
-      "api": "https://tang.hz.cz/power/duboku?token=89d4cd38",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "T4-欧乐",
-      "name": "欧乐(T4)",
-      "type": 4,
-      "api": "https://tang.hz.cz/power/olelive?token=89d4cd38",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0
     }
 
   ],
