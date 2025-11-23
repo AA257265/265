@@ -108,6 +108,41 @@
       "filterable": 1
     },
     {
+      "key": "独播",
+      "name": "🏆｜獨播｜藍光◎秒播(無廣告)",
+      "type": 3,
+      "jar": "./jar/7哥.jar",
+      "api": "csp_DubkAmns",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "./json/獨播庫.json"
+    },
+    {
+      "key": "Apple",
+      "name": "🏆｜蘋果｜藍光◎秒播(無廣告)",
+      "type": 3,
+      "jar": "./jar/7哥.jar",
+      "api": "csp_XpgAmns",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "优视频",
+      "name": "🏆｜優視頻｜藍光◎秒播(無廣告)",
+      "type": 3,
+      "jar": "./jar/7哥.jar",
+      "api": "csp_YouSPAmns",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "1"
+    },
+    {
       "key": "t1_dian_ying_tian_tang_02",
       "name": "🫐电影天堂(无广)",
       "type": 1,
