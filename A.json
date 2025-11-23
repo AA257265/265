@@ -29,6 +29,17 @@
       }
     },
     {
+      "key": "Uvod.py",
+      "name": "UB影視|py",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "https://qu.ax/FBJpP.py",
+      "order_num": 5,
+      "ext": "1"
+    },
+    {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
       "type": 3,
