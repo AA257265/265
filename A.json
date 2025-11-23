@@ -88,14 +88,6 @@
       "ext": ""
     },
     {
-      "key": "独播库",
-      "name": "🏆｜獨播｜藍光◎秒播(無廣告)",
-      "type": 4,
-      "jar": "./jar/獨播庫.jar",
-      "api": "https://tvbot.ggff.net/duboku"
-      //"api": "https://newtv.ggff.net/duboku?token=NtKuzkIw"
-    },
-    {
       "key": "瓜子影视",
       "name": "🏆｜瓜子｜特清◎秒播(無廣告)",
       "type": 3,
