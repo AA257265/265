@@ -29,17 +29,6 @@
       }
     },
     {
-      "key": "Uvod.py",
-      "name": "UB影視|py",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "https://qu.ax/FBJpP.py",
-      "order_num": 5,
-      "ext": "1"
-    },
-    {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
       "type": 3,
@@ -1064,6 +1053,17 @@
         "分类url": "https://www.815k.com/list/{cateId}.html",
         "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
       }
+    },
+    {
+      "key": "Uvod.py",
+      "name": "UB影視|py",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "https://qu.ax/FBJpP.py",
+      "order_num": 5,
+      "ext": "1"
     },
     {
       "key": "csp_PTT",
