@@ -29,19 +29,19 @@
         "ratio": 1.77
       }
     },
-    {
-      "name": "📹UB影視",
-      "key": "📹YOU视",
-      "type": 3,
-      //"jar": "https://9763.kstore.space/wnqiwnquidwiunddneudne/custom_spider.jar",
-      "jar": "./jar/custom_spider1.jar",
-      "api": "csp_YouSPAmns",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "1"
-    },
+    //{
+    //  "name": "📹UB影視",
+    //  "key": "📹YOU视",
+    //  "type": 3,
+    //  //"jar": "https://9763.kstore.space/wnqiwnquidwiunddneudne/custom_spider.jar",
+    //  "jar": "./jar/custom_spider1.jar",
+    //  "api": "csp_YouSPAmns",
+    //  "searchable": 1,
+    //  "filterable": 1,
+    //  "quickSearch": 1,
+    //  "changeable": 1,
+    //  "ext": "1"
+    //},
     {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
@@ -107,18 +107,18 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    //{
-    //  "key": "独播",
-    //  "name": "🏆｜獨播｜藍光◎秒播(無廣告)",
-    //  "type": 3,
-    //  "jar": "./jar/7哥.jar",
-    //  "api": "csp_DubkAmns",
-    //  "searchable": 1,
-    //  "filterable": 1,
-    //  "quickSearch": 1,
-    //  "changeable": 1,
-    //  "ext": "./json/獨播庫.json"
-    //},
+    {
+      "key": "独播",
+      "name": "🏆｜獨播｜藍光◎秒播(無廣告)",
+      "type": 3,
+      "jar": "./jar/7哥.jar",
+      "api": "csp_DubkAmns",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "./json/獨播庫.json"
+    },
     {
       "key": "Apple",
       "name": "🏆｜蘋果｜藍光◎秒播(無廣告)",
