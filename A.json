@@ -29,19 +29,6 @@
         "ratio": 1.77
       }
     },
-    //{
-    //  "name": "📹UB影視",
-    //  "key": "📹YOU视",
-    //  "type": 3,
-    //  //"jar": "https://9763.kstore.space/wnqiwnquidwiunddneudne/custom_spider.jar",
-    //  "jar": "./jar/custom_spider1.jar",
-    //  "api": "csp_YouSPAmns",
-    //  "searchable": 1,
-    //  "filterable": 1,
-    //  "quickSearch": 1,
-    //  "changeable": 1,
-    //  "ext": "1"
-    //},
     {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換",
@@ -1102,6 +1089,19 @@
         "分类url": "https://www.815k.com/list/{cateId}.html",
         "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
       }
+    },
+    {
+      "name": "📹UB影視",
+      "key": "📹YOU视",
+      "type": 3,
+      //"jar": "https://9763.kstore.space/wnqiwnquidwiunddneudne/custom_spider.jar",
+      "jar": "./jar/custom_spider1.jar",
+      "api": "csp_YouSPAmns",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "1"
     },
     {
       "key": "Uvod.py",
