@@ -52,17 +52,6 @@
       "ext": "./lib/tokenm.json$$$./lib/douban.json"
     },
     {
-      "key": "小苹果",
-      "name": "小苹果",
-      "type": 4,
-      "api": "https://zhangqun66.com/pingguo.php",
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "changeable": 1
-    },
-    {
       "key": "drpyS_荐片",
       "name": "荐片(DS)",
       "type": 4,
@@ -93,6 +82,14 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "腾讯",
+      "name": "腾讯",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "https://tvbox.catvod.com/js/tx.js"
     },
     {
       "key": "独播",
@@ -513,17 +510,6 @@
       }
     },
     {
-      "key": "小苹果",
-      "name": "小苹果",
-      "type": 4,
-      "api": "https://zhangqun66.com/pingguo.php",
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "changeable": 1
-    },
-    {
       "key": "泥视频",
       "name": "泥视频",
       "type": 4,
@@ -605,6 +591,16 @@
       "ext": "https://tvbox.catvod.com/js/heihu.json"
     },
     {
+      "key": "5555kan",
+      "name": "55影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://tvbox.catvod.com/js/5555kan.json"
+    },
+    {
       "key": "qiyou",
       "name": "奇优",
       "type": 3,
@@ -662,213 +658,36 @@
       }
     },
     {
-      "key": "瓜子",
-      "name": "🍉瓜子┃弹幕",
+      "key": "搜狗",
+      "name": "搜狗",
       "type": 3,
-      "api": "csp_GuaziGuard",
-      "ext": "{\"danmu\":true}",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "https://tvbox.catvod.com/js/sg.js"
     },
     {
-      "key": "文才",
-      "name": "🌺文才┃弹幕",
+      "key": "MGTV",
+      "name": "MGTV",
       "type": 3,
-      "api": "csp_JpysGuard",
-      "ext": "{\"danmu\":true}",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "糯米",
-      "name": "🍓糯米┃弹幕",
-      "type": 3,
-      "api": "csp_NmysGuard",
-      "ext": "{\"danmu\":true}",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "浪酷弹幕版",
-      "name": "👓浪酷┃弹幕",
-      "type": 3,
-      "api": "csp_TianTianGuard",
-      "ext": "{\"danmu\":true,\"site\":2}",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "小苹果弹幕版",
-      "name": "🍎苹果┃弹幕",
-      "type": 3,
-      "api": "csp_XpgGuard",
-      "ext": "{\"danmu\":true}",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "云云弹幕版",
-      "name": "☁️云云┃弹幕",
-      "type": 3,
-      "api": "csp_YunYunGuard",
-      "ext": "{\"danmu\":true}",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "雄鹰弹幕版",
-      "name": "🦅雄鹰┃弹幕",
-      "type": 3,
-      "api": "csp_XiongYingGuard",
-      "ext": "{\"danmu\":true}",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "咖啡弹幕版",
-      "name": "🍫咖啡┃弹幕",
-      "type": 3,
-      "api": "csp_KaFeiGuard",
-      "ext": "{\"danmu\":true}",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "一起弹幕版",
-      "name": "📺一起┃弹幕",
-      "type": 3,
-      "api": "csp_YqsGuard",
-      "ext": "{\"danmu\":true}",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "仓鼠弹幕版",
-      "name": "🐹仓鼠┃弹幕",
-      "type": 3,
-      "api": "csp_CangShuGuard",
-      "ext": "{\"danmu\":true}",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_Btt",
-      "name": "🌞比特┃弹幕",
-      "type": 3,
-      "api": "csp_BttGuard",
-      "ext": "{\"danmu\":true}",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "韩圈",
-      "name": "🦄韩圈┃弹幕",
-      "type": 3,
-      "api": "csp_HanXiaoQuanGuard",
-      "ext": "{\"danmu\":true}",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "锦鲤短剧",
-      "name": "🐟锦鲤┃短剧",
-      "type": 3,
-      "api": "csp_JinliGuard",
-      "ext": "",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "星芽短剧",
-      "name": "💖星芽┃短剧",
-      "type": 3,
-      "api": "csp_AppXYGuard",
-      "ext": "",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "甜圈短剧",
-      "name": "🌸甜圈┃短剧",
-      "type": 3,
-      "api": "csp_TianQuanGuard",
-      "ext": "",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "动漫巴士",
-      "name": "🚌巴士┃动漫",
-      "type": 3,
-      "api": "csp_Dm84Guard",
-      "ext": "",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "世界听书",
-      "name": "🎸世界┃听书",
-      "type": 3,
-      "api": "csp_BookTingGuard",
-      "ext": "",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
-    },
-    {
-      "key": "bilimd",
-      "name": "🅱哔哩┃影视",
-      "type": 3,
-      "api": "csp_BilimdGuard",
-      "ext": "",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "https://tvbox.catvod.com/js/mgtv.js"
     },
     {
       "key": "bili",
-      "name": "🅱哔哩┃合集",
+      "name": "bili",
       "type": 3,
-      "api": "csp_BiliGuard",
-      "ext": "{\"json\":\"https://fs-im-kefu.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/YJhVp-4r.bmp\"}",
-      "jar": "http://2.iptv543.com/oo.png",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 1
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "https://tvbox.catvod.com/js/bili.js"
+    },
+    {
+      "key": "ikanbot",
+      "name": "ikanbot",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "https://tvbox.catvod.com/js/ik.js"
     },
     {
       "key": "电影天堂",
