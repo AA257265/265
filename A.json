@@ -930,7 +930,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "api": ".py/UB.py",
+      "api": "./py/UB.py",
       "order_num": 5,
       "ext": "1"
     },
