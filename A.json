@@ -55,7 +55,7 @@
       "key": "drpyS_荐片",
       "name": "荐片(DS)",
       "type": 4,
-      "api": "http://106.107.242.191:5757/api/荐片?pwd=dzyyds",
+      "api": "http://49.213.188.67:5757/api/荐片?pwd=dzyyds",
       "searchable": 2,
       "filterable": 1,
       "quickSearch": 0,
