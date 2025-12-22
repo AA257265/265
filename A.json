@@ -84,6 +84,19 @@
       "filterable": 1
     },
     {
+      "key": "🎬瓜子",
+      "name": "🏆｜瓜子｜特清◎秒播(備用1)",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "jar": "./jar/aowu.jar;md5;acaa62334a0032c09ffc66c0aac9530e",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "./json/guazi.json"
+    },
+
+    {
       "key": "腾讯",
       "name": "腾讯",
       "type": 3,
