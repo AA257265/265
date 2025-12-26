@@ -150,7 +150,98 @@
       "quickSearch": 1,
       "changeable": 1
     },
-
+    {
+      "key": "🎬瓜子",
+      "name": "🏆｜瓜子｜特清◎秒播(備用1)",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "./json/guazi.json"
+    },
+    {
+      "key": "瓜子影视",
+      "name": "🏆｜瓜子｜高清◎秒播(備用2)",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "小紅",
+      "name": "🏆｜小紅｜高清◎秒播(無廣告)",
+      "type": 3,
+      "api": "./py/小红影视.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+    {
+      "key": "py_愛瓜app.py",
+      "name": "🏆｜愛瓜｜高清◎秒播(無廣告+嗷嗚版)",
+      "type": 3,
+      "api": "./py/爱瓜TVAPP.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+    {
+      "key": "py_aiguatv",
+      "name": "🏆｜愛瓜｜高清◎秒播(無廣告+沐辰版)",
+      "type": 3,
+      "api": "./py/py_aigua.py",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 1
+    },
+    {
+      "key": "🍈爱瓜",
+      "name": "🏆｜愛瓜｜高清◎秒播(無廣告+嗷烏版)",
+      "type": 3,
+      "api": "csp_AiGuaAmns",
+      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "爱影视",
+      "name": "🏆｜爱盈｜藍光◎順播(無廣告)",
+      "quickSearch": 0,
+      "searchable": 1,
+      "type": 3,
+      "api": "./py/getapp3.4.2.py",
+      "jar": "./jar/mi-0815.png;md5;66623623fe5ae34dad253ae2e0802416",
+      "ext": {
+        "host": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",
+        "url": "http://app.mgtv.co",
+        "datakey": "dksvndkaAjekakcE",
+        "api": 2
+      }
+    },
+    {
+      "key": "py_aidianying",
+      "name": "🏆｜愛電影｜藍光◎秒播(無廣告)",
+      "type": 3,
+      "api": "./py/aidianying.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "木瓜",
+      "name": "🏆｜木瓜｜高清◎秒播",
+      "type": 3,
+      "api": "csp_AppFox",
+      "ext": { "host": "http://www.yezitv.top" }
+    },
     {
       "key": "t1_dian_ying_tian_tang_02",
       "name": "🫐电影天堂(无广)",
@@ -758,18 +849,6 @@
       "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
       "searchable": 1,
       "filterable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "厂长",
-      "name": "🏆｜廠長｜高清◎秒播(無廣告)",
-      "type": 3,
-      "api": "csp_NewCzGuard",
-      "jar": "./jar/f0717.jpg;md5;e875d5382573fcd72aea4c5da44637fe",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
     },
