@@ -992,7 +992,51 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+    {
+      "key": "T4-安博",
+      "name": "安博(T4)",
+      "type": 4,
+      "api": "https://tang.hz.cz/api/ub18?token=89d4cd38",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": true,
+      "changeable": 0
+    },
+    {
+      "key": "T4-Infinity",
+      "name": "Infinity(T4)",
+      "type": 4,
+      "api": "https://tang.hz.cz/api/hme?token=89d4cd38",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": false
+
+    },
+    {
+      "key": "T4-dbku",
+      "name": "独播库(T4)",
+      "type": 4,
+      "api": "https://tang.hz.cz/api/duboku?token=89d4cd38",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "T4-欧乐",
+      "name": "欧乐(T4)",
+      "type": 4,
+      "api": "https://tang.hz.cz/api/olelive?token=89d4cd38",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0
     }
+
 
   ],
 
