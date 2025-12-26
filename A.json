@@ -117,18 +117,6 @@
       "ext": "./json/獨播庫.json"
     },
     {
-      "key": "优视频",
-      "name": "🏆｜優視頻｜藍光◎秒播(無廣告)",
-      "type": 3,
-      "jar": "./jar/7哥.jar",
-      "api": "csp_YouSPAmns",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "1"
-    },
-    {
       "key": "t1_dian_ying_tian_tang_02",
       "name": "🫐电影天堂(无广)",
       "type": 1,
@@ -141,40 +129,10 @@
       "categories": [ "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧", "记录片", "台湾剧", "日本剧", "海外剧", "泰国剧", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺", "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "伦理片", "短剧", "动画片" ]
     },
     {
-      "key": "py_64832281816dd9a7b7c506233d457a5d",
-      "name": "🍎官方采集(T4)",
-      "type": 4,
-      "api": "https://py.doube.eu.org/v2/spider?site=64832281816dd9a7b7c506233d457a5d",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
       "key": "py_9037cfae7c64405111e0e364401adb60",
       "name": "🍎小苹果(T4)",
       "type": 4,
       "api": "https://py.doube.eu.org/v2/spider?site=9037cfae7c64405111e0e364401adb60",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
-      "key": "py_OleVod",
-      "name": "🍉欧乐影院(T4)",
-      "type": 4,
-      "api": "https://py.doube.eu.org/spider?site=OleVod",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
-      "key": "py_Dm84",
-      "name": "🍋动漫巴士(T4)",
-      "type": 4,
-      "api": "https://py.doube.eu.org/spider?site=Dm84",
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0,
@@ -247,19 +205,6 @@
         "api": 2
       }
     },
-
-    {
-      "key": "py_又是一個金牌",
-      "name": "🏆｜王牌｜藍光◎秒播(無廣告)",
-      "type": 3,
-      "api": "./py/又是一個金牌.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "site": "https://jpyy.com,https://www.jiabaide.cn,https://cqzuoer.com,https://www.tjrongze.com,https://www.jpyy2.com,https://www.cfkj86.com"
-      }
-    },
     {
       "key": "csp_LiteApple",
       "name": "🏆｜銀牌｜高清◎秒播(無廣告)",
@@ -320,16 +265,6 @@
       ]
     },
     {
-      "key": "沐辰欧乐影院",
-      "name": "沐辰欧乐影院",
-      "type": 4,
-      "api": "https://py.doube.eu.org/spider?site=OleVod",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
       "key": "csp_看片狂人",
       "name": "🥇｜看片狂人｜超多線路+5倍順暢+極高畫質",
       "type": 3,
@@ -349,13 +284,14 @@
       }
     },
     {
-      "key": "py_OleVod",
-      "name": "🥇｜歐樂(沐辰)｜無廣+畫質優+流暢",
-      "type": 4,
-      "api": "https://py.doube.eu.org/spider?site=OleVod",
+      "key": "🏭廠長",
+      "name": "🏆｜銅牌｜高清◎秒播(無廣告)",
+      "type": 3,
+      "api": "csp_CzzyAmns",
+      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
       "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
+      "filterable": 1,
+      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -895,6 +831,18 @@
         "分类url": "https://www.815k.com/list/{cateId}.html",
         "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
       }
+    },
+    {
+      "key": "优视频",
+      "name": "🏆｜優視頻｜藍光◎秒播(無廣告)",
+      "type": 3,
+      "jar": "./jar/7哥.jar",
+      "api": "csp_YouSPAmns",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "1"
     },
     {
       "name": "📹UB影視",
