@@ -1039,7 +1039,7 @@
     {
       "key": "T4-dbku",
       "name": "独播库(藍光資源)",
-      "type": 4,
+      "type": 3,
       "api": "https://tvbot.ggff.net/duboku",
       "searchable": 1,
       "quickSearch": 1,
