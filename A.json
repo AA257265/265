@@ -117,17 +117,6 @@
       "ext": "./json/獨播庫.json"
     },
     {
-      "key": "Apple",
-      "name": "🏆｜蘋果｜藍光◎秒播(無廣告)",
-      "type": 3,
-      "jar": "./jar/7哥.jar",
-      "api": "csp_XpgAmns",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "优视频",
       "name": "🏆｜優視頻｜藍光◎秒播(無廣告)",
       "type": 3,
@@ -791,30 +780,15 @@
       "ext": "./json/開心影院.json"
     },
     {
-      "key": "py_OleVod",
-      "name": "🥇｜歐樂(沐辰)｜無廣+畫質優+流暢",
-      "type": 4,
-      "api": "https://py.doube.eu.org/spider?site=OleVod",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "csp_If101",
-      "name": "️🥇｜歐樂(TV)｜",
+      "key": "🍕欧乐",
+      "name": "🏆｜歐樂｜藍光◎秒播(無廣告+嗷嗚)",
       "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "api": "csp_OlyyAmns",
+      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
       "searchable": 1,
-      "quickSearch": 1,
       "filterable": 1,
-      "ext": {
-        "简介": "content_desc context clearfix\">&&</span>",
-        "分类url": "https://www.olehdtv.com/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类": "電影$1#電視劇$2#綜藝$3#動漫$4",
-        "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
-      }
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
       "key": "厂长",
