@@ -997,7 +997,7 @@
       "key": "T4-安博",
       "name": "安博(T4)",
       "type": 4,
-      "api": "https://tang.hz.cz/power/ub18?token=89d4cd38",
+      "api": "https://tang.hz.cz/power/ub?token=89d4cd38",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
