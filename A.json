@@ -52,6 +52,27 @@
       "ext": "./lib/tokenm.json$$$./lib/douban.json"
     },
     {
+      "key": "🥇金牌",
+      "name": "🏆｜金牌｜藍光◎秒播(無廣告)",
+      "type": 3,
+      "api": "csp_JinPaiAmns",
+      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "瓜子影视",
+      "name": "🏆｜銀牌｜藍光◎秒播(無廣告)",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+
+    {
       "key": "drpyS_荐片",
       "name": "荐片(DS)",
       "type": 4,
