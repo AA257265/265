@@ -992,6 +992,16 @@
       }
     },
     {
+      "key": "csp_PTT",
+      "name": "🏆｜PTT｜高清◎秒播",
+      "type": 3,
+      "api": "csp_PTT",
+      "jar": "./jar/lem0106.jar;md5;8A3F412E42E8B36750E238B066AC4D7A",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "优视频",
       "name": "🏆｜優視頻｜藍光◎秒播(無廣告)",
       "type": 3,
@@ -1034,16 +1044,6 @@
       "type": 3,
       "api": "csp_PTT",
       "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/lem0118.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "csp_PTT",
-      "name": "🏆｜PTT｜高清◎秒播",
-      "type": 3,
-      "api": "csp_PTT",
-      "jar": "./jar/lem0106.jar;md5;8A3F412E42E8B36750E238B066AC4D7A",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
