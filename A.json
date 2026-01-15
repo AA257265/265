@@ -84,6 +84,33 @@
       "ext": ""
     },
     {
+      "key": "drpyS_小苹果[优]",
+      "name": "小苹果[优](DS)",
+      "type": 4,
+      "api": "http://142.171.248.206:5757/api/小苹果[优]?pwd=dzyyds",
+      "searchable": 2,
+      "filterable": 1,
+      "quickSearch": 0,
+      "title": "小苹果[优]",
+      "author": "EylinSir",
+      "类型": "影视",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "drpyS_荐片[优]",
+      "name": "荐片[优](DS)",
+      "type": 4,
+      "api": "http://142.171.248.206:5757/api/荐片[优]?pwd=dzyyds",
+      "searchable": 2,
+      "filterable": 1,
+      "quickSearch": 0,
+      "title": "荐片[优]",
+      "类型": "影视",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
       "key": "瓜子影视",
       "name": "🏆｜瓜子｜特清◎秒播(無廣告)",
       "type": 3,
