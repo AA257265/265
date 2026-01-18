@@ -1558,16 +1558,12 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "SMT港台",
-      "url": "http://66.103.204.107/smt001.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "name": "斯馬特1",
+      "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/%E6%96%AF%E7%8E%9B%E7%89%B9%E7%9B%B4%E6%92%AD%E6%BA%90666"
     },
     {
-      "name": "盒子版專用",
-      "url": "http://66.103.204.107/142.m3u",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "name": "斯馬特2",
+      "url": "http://52xinghe.top/smmmt.php"
     },
     {
       "name": "備用線路一",
@@ -1579,12 +1575,6 @@
     {
       "name": "備用線路二",
       "url": "http://tv543.cc/kb.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "SMT1",
-      "url": "http://tv543.cc/smt.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -1614,30 +1604,8 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "日本頻道",
-      "url": "https://epg.freejptv.com/jp.m3u"
-    },
-    {
-      "name": "港台大陆频道",
-      "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/%E6%B8%AF%E5%8F%B0%E5%A4%A7%E9%99%86%E9%A2%91%E9%81%93%E6%97%A018%E5%86%85%E5%AE%B9"
-    },
-    {
-      "name": "海豚(直播)(py)",
-      "type": 3,
-      "url": "",
-      "api": "./py/海豚.py",
-      "ext": {}
-    },
-    {
       "name": "大街直播",
       "url": "./live/綜合大街.txt"
-    },
-    {
-      "name": "Dream",
-      "url": "./dream.txt",
-      "playerType": 2,
-      "epg": "https://gitee.com/taksssss/tv/raw/main/epg/112114.xml.gz,https://gitee.com/taksssss/tv/raw/main/epg/epgpw_tw.xml.gz，http://epg.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
     },
     {
       "name": "纯血4g",
@@ -1647,45 +1615,16 @@
       "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
     },
     {
-      "name": "(流量已空)混血4g",
-      "url": "http://yhywaptw.webn.cc:2082/?type=m3u&proxy=true",
-      "playerType": 2,
-      "epg": "https://gitee.com/taksssss/tv/raw/main/epg/112114.xml.gz,https://gitee.com/taksssss/tv/raw/main/epg/epgpw_tw.xml.gz，http://epg.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
-    },
-    {
-      "name": "曉峰直播",
-      "url": "./live/fong.txt",
-      "ua": "okhttp/3.15",
-      "timeout": 5,
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/taipei",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
-    },
-    {
       "name": "台灣酒店",
       "url": "https://tv543.cc/酒店.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "沐辰直播(Litv)",
-      "type": 3,
-      "api": "./py/live_litv.py",
-      "ext": {},
-      "pass": true
-    },
-    {
       "name": "四季線上4gtv🇹🇼(本地)",
       "url": "./live/4gtv直播源.txt",
       "ua": "okhttp/3.15",
       "epg": "https://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "142",
-      "url": "http://tv543.cc/142.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
@@ -1714,14 +1653,6 @@
       "pass": true
     },
     {
-      "name": "211酒店源",
-      "type": 0,
-      "url": "./live/211.txt",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "pass": true
-    },
-    {
       "name": "220酒店源",
       "type": 0,
       "url": "./live/220.txt",
@@ -1730,17 +1661,6 @@
       "playerType": 2,
       "pass": true
     },
-    {
-      "name": "歐華167(P3P)",
-      "playerType": 2,
-      "url": "./live/167.txt",
-      "ua": "okhttp/3.15",
-      "timeout": 5,
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/taipei",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
-    },
-
     {
       "name": "香蕉-Gather",
       "playerType": 2,
@@ -1785,40 +1705,12 @@
       "pass": true
     },
     {
-      "name": "雷蒙直播",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/n3rddd/CTVLive/main/live.txt",
-      "playerType": 2,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
-    },
-    {
       "name": "📺 18+",
       "type": 0,
       "url": "http://tv543.cc/jacky/18.txt",
 
       "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": ""
-    },
-    {
-      "name": "秘密花园",
-      "type": 0,
-      "url": "http://pan.losfer.cn/down.php/9cf9c24dffed2b0131dd2f573ba74c13.jpg",
-      "playerType": 1,
-      "epg": "http://diyp5.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "私密花園1(18+)",
-      "playerType": 1,
-      "url": "./live/178.txt",
-      "epg": "https://epg.pw/xmltv/epg.xml",
-      "ua": "Lavf/58.12.100",
-      "header": {
-        "X-Api-key": "eef635a7806e57ab688fa46eaddb6926a728de071bc267cb5f336d7be068d880..0..1735089945..75b109b1-81c5-4caf-aea1-776e6a81"
-      }
     }
 
 
