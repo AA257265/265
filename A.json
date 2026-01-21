@@ -1413,6 +1413,30 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
+      "name": "🐬台湾TV(梯子)",
+      "type": 0,
+      "ua": "okhttp/5.3.2",
+      "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾TV"
+    },
+    {
+      "name": "🐬anboxtv(免翻)",
+      "type": 0,
+      "ua": "okhttp/5.3.2",
+      "url": "https://tv.anboxtv.online/tv"
+    },
+    {
+      "name": "🐬jackTV(梯子)",
+      "type": 0,
+      "ua": "okhttp/5.3.2",
+      "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+    },
+    {
+      "name": "Dream",
+      "url": "http://hufa.zabc.net:8080/dream.txt",
+      "ua": "okhttp/5.1.0"
+    },
+
+    {
       "name": "斯馬特1",
       "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/%E6%96%AF%E7%8E%9B%E7%89%B9%E7%9B%B4%E6%92%AD%E6%BA%90666"
     },
