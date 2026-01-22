@@ -1399,14 +1399,14 @@
     //  "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
     //  "logo": "https://epg.112114.xyz/logo/{name}.png"
     //},
+    //{
+    //  "name": "543.CC 台灣酒店",
+    //  "url": "http://tv543.cc/酒店.txt",
+    //  "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+    //  "logo": "https://epg.112114.xyz/logo/{name}.png"
+    //},
     {
-      "name": "543.CC 台灣酒店",
-      "url": "http://tv543.cc/酒店.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "543_1",
+      "name": "543",
       "url": "http://66.103.204.107/list.php",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
