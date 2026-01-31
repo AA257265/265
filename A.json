@@ -1503,12 +1503,6 @@
       "ua": "catvod.com"
     },
     {
-      "name": "備用線路二",
-      "url": "http://tv543.cc/kb.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
       "name": "jacktv",
       "url": "https://php.946985.filegear-sg.me/jackTV.m3u",
       "header": {
@@ -1524,12 +1518,6 @@
     {
       "name": "備用線路一",
       "url": "https://live.catvod.com/tv.m3u",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "備用線路二",
-      "url": "http://tv543.cc/kb.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -1551,43 +1539,9 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "四季線上4gtv🇹🇼(本地)",
-      "url": "./live/4gtv直播源.txt",
-      "ua": "okhttp/3.15",
-      "epg": "https://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "Free TV",
-      "url": "https://media0501.github.io/Freemedia/520freerecha@tv.txt",
-      "type": 0,
-      "timeout": 10,
-      "playerType": 2,
-      "ua": "okhttp/3.8.1 okhttp/3.15 okhttp/4.12.0 Herissmon/2016 judy/5.2.1 RobYang/5.2.1 Lavf/58.12.100 catvod.com Goiptv/8.8.8 Goiptv/0.0.1 xieanqishiwoerzi/0.0.1 okHttp/Mod-1.0.0",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-    },
-    {
-      "name": "live2",
-      "url": "./live/live2.txt",
-      "pass": false,
-      "boot": false,
-      "playerType": 2,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
       "name": "93酒店源",
       "type": 0,
       "url": "./live/93.txt",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "pass": true
-    },
-    {
-      "name": "147酒店源",
-      "type": 0,
-      "url": "./live/147.txt",
       "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.eu.org/logo/{name}.png",
       "pass": true
