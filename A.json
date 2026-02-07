@@ -130,6 +130,20 @@
       "type": 4
     },
     {
+
+      "key": "月佬瓜子影视1",
+      "name": "🏆｜瓜子｜特清◎秒播(月佬版)",
+      "type": 4,
+      "api": "https://newtv.ggff.net/guazi?token=fhJadO1R"
+    },
+    {
+      "key": "T4-guazi",
+      "name": "🏆｜瓜子｜特清◎秒播(T4版)",
+      "type": 4,
+      "api": "https://catbox.n13.club/ai/%E7%93%9C%E5%AD%90%E5%BD%B1%E8%A7%86.php"
+    },
+
+    {
       "api": "https://newtv.ggff.net/uvod?token=P69Phb_y",
       "key": "Qile优视频",
       "name": "Qile优视频",
