@@ -28,6 +28,44 @@
       "ext": "./lib/tokenm.json$$$./lib/douban.json"
     },
     {
+      "key": "GoConfig",
+      "name": "💬嗷嗚推薦｜首頁",
+      "type": 3,
+      "api": "csp_GoConfigAmns",
+      "jar": "./jar/aowu.jar;md5;713ec2a0f8fa320490270913c5c5ef34",
+      "indexs": 1,
+      "searchable": 0,
+      "filterable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "DjHggg",
+      "name": "😈嗷嗚短劇｜點進去才有東西",
+      "type": 3,
+      "api": "csp_HgggAmns",
+      "jar": "./jar/aowu.jar;md5;713ec2a0f8fa320490270913c5c5ef34",
+      "indexs": 1,
+      "searchable": 0,
+      "filterable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "short_play"
+    },
+    {
+      "key": "MjHggg",
+      "name": "🐲嗷嗚動漫｜點進去才有東西",
+      "type": 3,
+      "api": "csp_HgggAmns",
+      "jar": "./jar/aowu.jar;md5;713ec2a0f8fa320490270913c5c5ef34",
+      "indexs": 1,
+      "searchable": 0,
+      "filterable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "comic_series"
+    },
+    {
       "key": "Youtube",
       "name": "🇹🇼｜Youtube",
       "type": 3,
@@ -1658,47 +1696,29 @@
   ],
 
   "lives": [
-    //{
-    //  "name": "543",
-    //  "url": "http://tv543.cc/list.php",
-    //  "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-    //  "logo": "https://epg.112114.xyz/logo/{name}.png"
-    //},
-    //{
-    //  "name": "TV543.CC",
-    //  "url": "http://tv543.cc/4gtv1.m3u",
-    //  "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-    //  "logo": "https://epg.112114.xyz/logo/{name}.png"
-    //},
-    //{
-    //  "name": "543.CC 台灣酒店",
-    //  "url": "http://tv543.cc/酒店.txt",
-    //  "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-    //  "logo": "https://epg.112114.xyz/logo/{name}.png"
-    //},
+    {
+      "name": "543",
+      "url": "http://tv543.cc/list.php",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "TV543.CC",
+      "url": "http://tv543.cc/4gtv1.m3u",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "543.CC 台灣酒店",
+      "url": "http://tv543.cc/酒店.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "name": "543",
       "url": "http://66.103.204.107/list.php",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "🐬台湾TV(梯子)",
-      "type": 0,
-      "ua": "okhttp/5.3.2",
-      "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾TV"
-    },
-    {
-      "name": "🐬anboxtv(免翻)",
-      "type": 0,
-      "ua": "okhttp/5.3.2",
-      "url": "https://tv.anboxtv.online/tv"
-    },
-    {
-      "name": "🐬jackTV(梯子)",
-      "type": 0,
-      "ua": "okhttp/5.3.2",
-      "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
     },
     {
       "name": "Dream",
@@ -1707,19 +1727,12 @@
     },
 
     {
-      "name": "斯馬特1",
-      "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/%E6%96%AF%E7%8E%9B%E7%89%B9%E7%9B%B4%E6%92%AD%E6%BA%90666"
+      "name": "安博",
+      "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/%E5%AE%89%E5%8D%9A"
     },
     {
       "name": "斯馬特2",
       "url": "http://52xinghe.top/smmmt.php"
-    },
-    {
-      "name": "備用線路一",
-      "url": "https://live.catvod.com/tv.m3u",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "ua": "catvod.com"
     },
     {
       "name": "jacktv",
@@ -1735,12 +1748,6 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "備用線路一",
-      "url": "https://live.catvod.com/tv.m3u",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
       "name": "大街直播",
       "url": "./live/綜合大街.txt"
     },
@@ -1750,12 +1757,6 @@
       "playerType": 2,
       "epg": "https://gitee.com/taksssss/tv/raw/main/epg/112114.xml.gz,https://gitee.com/taksssss/tv/raw/main/epg/epgpw_tw.xml.gz，http://epg.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
-    },
-    {
-      "name": "台灣酒店",
-      "url": "https://tv543.cc/酒店.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "93酒店源",
