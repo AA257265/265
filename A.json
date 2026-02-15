@@ -1684,6 +1684,19 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
+      "name": "♍️MQiTV🇹🇼",
+      "type": 3,
+      "jar": "https://5413.kstore.space/DM/jar/fm.jar",
+      "api": "csp_MQiTV",
+      "epg": "https://gitee.com/taksssss/tv/raw/main/epg/epgpw_tw.xml.gz",
+      "ext": [
+        {
+          "name": "60",
+          "url": "http://220.134.196.147:1888"
+        }
+      ]
+    },
+    {
       "name": "Dream",
       "url": "http://hufa.zabc.net:8080/dream.txt",
       "ua": "okhttp/5.1.0"
