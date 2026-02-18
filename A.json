@@ -17,6 +17,72 @@
       "changeable": 1
     },
     {
+      "key": "GoConfig",
+      "name": "🇹🇼｜熱播排行榜｜自動切換1",
+      "type": 3,
+      "api": "csp_GoConfigAmns",
+      "jar": "./jar/aowu.jar;md5;713ec2a0f8fa320490270913c5c5ef34",
+      "indexs": 1,
+      "searchable": 0,
+      "filterable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "豆瓣",
+      "name": "🇹🇼｜熱播排行榜｜自動切換2",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 1
+    },
+
+    {
+      "key": "豆瓣2",
+      "name": "🇹🇼｜點播搜索｜可選站2",
+      "type": 3,
+      "api": "csp_Douban",
+      "spider": "./jar/pg.jar;md5;e56f6e07a8bd2bcfb1a14c6e3c99aa26",
+      "jar": "./jar/pg.jar;md5;e56f6e07a8bd2bcfb1a14c6e3c99aa26",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 1,
+      "ext": "./lib/tokenm.json$$$./lib/douban.json"
+    },
+    {
+      "key": "预告",
+      "name": "🇹🇼｜新片預告",
+      "type": 3,
+      "api": "csp_YGP",
+      "searchable": 0
+    },
+    {
+      "key": "🍉找短劇",
+      "name": "📺｜短片搜索1｜點進去才有東西",
+      "type": 3,
+      "api": "csp_HgggAmns",
+      "jar": "./jar/aowu.jar;md5;713ec2a0f8fa320490270913c5c5ef34",
+      "indexs": 1,
+      "searchable": 0,
+      "filterable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "key": "DjHggg",
+      "name": "📺｜短片搜索2｜點進去才有東西",
+      "type": 3,
+      "api": "csp_HgggAmns",
+      "jar": "./jar/aowu.jar;md5;713ec2a0f8fa320490270913c5c5ef34",
+      "indexs": 1,
+      "searchable": 0,
+      "filterable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "short_play"
+    },
+    {
       "key": "豆瓣2",
       "name": "🇹🇼｜點播搜索｜可選站",
       "type": 3,
@@ -76,6 +142,18 @@
       "quickSearch": 1,
       "changeable": 1
     },
+    {
+      "key": "麻雀",
+      "name": "🏆｜麻雀｜藍光◎秒播",
+      "type": 4,
+      "api": "http://115.191.55.109:8080/video/qqqys?token=47f318660fa5ca46",
+      "jar": "./jar/mi-0213.jar;md5;c4def4496c2e1a0959c8fedfaff41488",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1
+    },
+
     //{
     //  "key": "瓜子影视11",
     //  "name": "🏆｜銀牌｜藍光◎秒播(無廣告)",
