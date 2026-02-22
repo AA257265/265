@@ -1750,10 +1750,16 @@
 
     },
     {
-      "name": "543_1",
-      "url": "http://66.103.204.107/list.php",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "name": "🦄4GTV(梯子台湾节点)",
+      "type": 0,
+      "ua": "okhttp",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv"
+    },
+    {
+      "name": "🦄台湾立视(梯子台湾节点)",
+      "type": 0,
+      "ua": "okhttp",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾立视"
     },
     {
       "name": "備用線路一",
@@ -1796,12 +1802,6 @@
       }
     },
     {
-      "name": "543",
-      "url": "http://2.iptv543.com/list.php",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
       "name": "大街直播",
       "url": "./live/綜合大街.txt"
     },
@@ -1840,17 +1840,6 @@
       "pass": true
     },
     {
-      "name": "RobYang| http://RobYang.ggff.net",
-      "type": 0,
-      "playerType": 2,
-      "url": "http://www1.RobYang.ggff.net/VodLive/lb8ffa",
-      "ua": "okhttp/4.12.0",
-      "timeout": 5,
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
-    },
-    {
       "name": "RobYang備1| http://RobYang.dpdns.org",
       "type": 0,
       "playerType": 2,
@@ -1873,12 +1862,10 @@
       "pass": true
     },
     {
-      "name": "📺 18+",
+      "name": "🐙亚麻蝶",
       "type": 0,
-      "url": "http://tv543.cc/jacky/18.txt",
-
-      "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": ""
+      "ua": "okhttp",
+      "url": "https://xoxo.cn.mt/Lonely.m3u"
     }
 
 
