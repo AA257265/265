@@ -2,7 +2,7 @@
   //"spider": "./jar/custom_spider.jar",
   //"spider": "https://raw.githubusercontent.com/AA257265/265/refs/heads/main/catvod.jar;md5;392df5f6a1c925c9f765c7e4b6f3eda4",
   //"spider": "https://tang.hz.cz/api/custom_spider.jar;md5;6f47e1a75235aae27953562a9507509a",
-  "spider": "./jar/xiaosa-0129.jar;md5;1436485f44519aab2e55abdbc0d96bf0",
+  "spider": "./jar/xiaosa-0226.jar;md5;b0d474e0fccf3b40c5394d72dbbdf7d4",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -1762,7 +1762,19 @@
       "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾立视"
     },
     {
+      "name": "備用線路",
+      "url": "https://hls.iill.top/list.php",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
       "name": "備用線路一",
+      "url": "http://66.103.204.107:5050/smart.m3u?token=885252",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "備用線路二",
       "url": "https://iptv543.com/smt1.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
