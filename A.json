@@ -1451,8 +1451,15 @@
     //  "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
     //  "logo": "https://epg.112114.xyz/logo/{name}.png"
     //},
-    {
+    	{
       "name": "543",
+      "url": "http://66.103.204.107/list.php",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+
+    },
+    {
+      "name": "543-1",
       "url": "http://iptv543.com/543.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -2844,4 +2851,5 @@
     "vip.ffzyad.com",
     "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd"
   ]
+
 }
