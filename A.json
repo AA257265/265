@@ -1453,6 +1453,13 @@
     //},
     {
       "name": "543",
+      "url": "http://66.103.204.107/list.php",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+
+    },
+    {
+      "name": "543_1",
       "url": "http://iptv543.com/543.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -1470,9 +1477,15 @@
       "ua": "okhttp",
       "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾立视"
     },
+    //{
+    //  "name": "備用線路",
+    //  "url": "https://hls.iill.top/list.php",
+    //  "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+    //  "logo": "https://epg.112114.xyz/logo/{name}.png"
+    //},
     {
       "name": "備用線路",
-      "url": "https://hls.iill.top/list.php",
+      "url": "https://tv.iill.top/FainTV/list",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
@@ -1488,6 +1501,7 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
+
     {
       "name": "60酒店源",
       "type": 3,
@@ -1505,11 +1519,6 @@
       "name": "Dream",
       "url": "http://hufa.zabc.net:8080/dream.txt",
       "ua": "okhttp/5.1.0"
-    },
-
-    {
-      "name": "安博",
-      "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/%E5%AE%89%E5%8D%9A"
     },
     {
       "name": "斯馬特2",
