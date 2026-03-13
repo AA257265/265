@@ -1496,6 +1496,13 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
+      "name": "臨時2線",
+      "url": "http://tv543.cc/8.txt",
+      "User-Agent": "PharosTVPlayer",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
       "name": "🦄海豚iptvpro🔞",
       "type": 0,
       "ua": "okhttp",
