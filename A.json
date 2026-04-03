@@ -1481,6 +1481,12 @@
       "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾立视"
     },
     {
+      "name": "臨時1線_543",
+      "url": "http://smt.iptv543.com",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
       "name": "臨時1線",
       "url": "https://live.catvod.com/live.php?token=39664e86c43ba8c1bd95680a1c427c02c732bd1c2df2a6b70eb8b64fb282df3b",
       "User-Agent": "PharosTVPlayer",
