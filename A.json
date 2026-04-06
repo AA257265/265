@@ -1472,13 +1472,13 @@
       "name": "🦄4GTV(梯子台湾节点)",
       "type": 0,
       "ua": "okhttp",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv"
+      "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv"
     },
     {
-      "name": "🦄台湾立视(梯子台湾节点)",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/台湾立视"
+      "name": "備用線路",
+      "url": "https://111.iptv543.com",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "臨時1線_543",
