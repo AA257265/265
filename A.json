@@ -1454,19 +1454,46 @@
     //  "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
     //  "logo": "https://epg.112114.xyz/logo/{name}.png"
     //},
+    //{
+    //  "name": "543",
+    //  "url": "http://66.103.204.107/list.php",
+    //  "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+    //  "logo": "https://epg.112114.xyz/logo/{name}.png"
+
+    //},
+    //{
+    //  "name": "543_1",
+    //  "url": "http://iptv543.com/543.m3u",
+    //  "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+    //  "logo": "https://epg.112114.xyz/logo/{name}.png"
+
+    //},
     {
-      "name": "543",
-      "url": "http://66.103.204.107/list.php",
+      "name": "四季影視",
+      "url": "https://bt.iptv543.com/list.php",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
 
     },
     {
-      "name": "543_1",
-      "url": "http://iptv543.com/543.m3u",
+      "name": "司馬特",
+      "url": "http://66.103.204.107:19890/trams.m3u?token=abc123",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
 
+    {
+      "name": "推薦july",
+      "url": "https://gptapi.passwdword.xyz/get.php?username=tg_0ypy6s61&password=trwm33jyjsnc&type=m3u_plus",
+      "User-Agent": "PharosTVPlayer",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "四季影視網頁版",
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "🦄4GTV(梯子台湾节点)",
@@ -1475,49 +1502,10 @@
       "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv"
     },
     {
-      "name": "備用線路",
-      "url": "https://111.iptv543.com",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "臨時1線_543",
-      "url": "http://smt.iptv543.com",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "臨時1線",
-      "url": "https://live.catvod.com/live.php?token=39664e86c43ba8c1bd95680a1c427c02c732bd1c2df2a6b70eb8b64fb282df3b",
-      "User-Agent": "PharosTVPlayer",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "臨時2線",
-      "url": "http://tv543.cc/8.txt",
-      "User-Agent": "PharosTVPlayer",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "臨時3線",
-      "url": "https://gptapi.passwdword.xyz/get.php?username=tg_0ypy6s61&password=trwm33jyjsnc&type=m3u_plus",
-      "User-Agent": "PharosTVPlayer",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
       "name": "4GTV",
       "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "🦄海豚iptvpro🔞",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "http://hufa.zabc.net:8080/iptvpro.txt"
     },
 
     {
