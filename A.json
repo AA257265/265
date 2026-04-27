@@ -1490,22 +1490,8 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "美國服務器備用",
-      "url": "https://111.iptv543.com",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-
-    },
-    {
-      "name": "CATVOD",
-      "url": "https://live.catvod.com/?tk=7e3a8131298b02ccd7a764653600401f",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-
-    },
-    {
-      "name": "CATVOD1",
-      "url": "https://live.catvod.com/?tk=ac68ec5b7bdeefdee0f91e18876938a6",
+      "name": "備用",
+      "url": "http://66.103.204.107:19890/trams.m3u?token=Jacky123",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
 
