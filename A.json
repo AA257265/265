@@ -1606,6 +1606,13 @@
 
     },
     {
+      "name": "備用1",
+      "url": "http://104.253.175.55:19890/trams.m3u?token=ab888",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+
+    },
+    {
       "name": "四季影視網頁版",
       "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
