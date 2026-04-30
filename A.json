@@ -1600,13 +1600,6 @@
     },
     {
       "name": "備用",
-      "url": "http://66.103.204.107:19890/trams.m3u?token=Jacky123",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-
-    },
-    {
-      "name": "備用1",
       "url": "http://104.253.175.55:19890/trams.m3u?token=ab888",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
