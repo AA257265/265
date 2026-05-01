@@ -603,40 +603,40 @@
       "quickSearch": 1,
       "changeable": 1
     },
-    {
-      "key": "🎬瓜子",
-      "name": "🏆｜瓜子｜特清◎秒播(備用1)",
-      "type": 3,
-      "api": "csp_GuaziAmns",
-      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "./json/guazi.json"
-    },
-    {
-      "key": "瓜子影视_備用2",
-      "name": "🏆｜瓜子｜高清◎秒播(備用2)",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "drpyS_樱花动漫[优]",
-      "name": "樱花动漫[优](DS)",
-      "type": 4,
-      "api": "http://142.171.248.206:5757/api/樱花动漫[优]?pwd=dzyyds",
-      "searchable": 2,
-      "filterable": 0,
-      "quickSearch": 0,
-      "title": "樱花动漫[优]",
-      "类型": "影视",
-      "lang": "ds",
-      "ext": ""
-    },
+    //{
+    //  "key": "🎬瓜子",
+    //  "name": "🏆｜瓜子｜特清◎秒播(備用1)",
+    //  "type": 3,
+    //  "api": "csp_GuaziAmns",
+    //  "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
+    //  "searchable": 1,
+    //  "filterable": 1,
+    //  "quickSearch": 1,
+    //  "changeable": 1,
+    //  "ext": "./json/guazi.json"
+    //},
+    //{
+    //  "key": "瓜子影视_備用2",
+    //  "name": "🏆｜瓜子｜高清◎秒播(備用2)",
+    //  "type": 3,
+    //  "api": "csp_Gz360",
+    //  "searchable": 1,
+    //  "quickSearch": 1,
+    //  "filterable": 1
+    //},
+    //{
+    //  "key": "drpyS_樱花动漫[优]",
+    //  "name": "樱花动漫[优](DS)",
+    //  "type": 4,
+    //  "api": "http://142.171.248.206:5757/api/樱花动漫[优]?pwd=dzyyds",
+    //  "searchable": 2,
+    //  "filterable": 0,
+    //  "quickSearch": 0,
+    //  "title": "樱花动漫[优]",
+    //  "类型": "影视",
+    //  "lang": "ds",
+    //  "ext": ""
+    //},
     {
       "key": "hipy_py_爱瓜APP",
       "name": "爱瓜APP(hipy)",
@@ -748,16 +748,6 @@
       "type": 3,
       "api": "./py/aidianying.py",
       "searchable": 1,
-      "filterable": 0,
-      "changeable": 0
-    },
-    {
-      "key": "py_9037cfae7c64405111e0e364401adb60",
-      "name": "🍎小苹果(T4)",
-      "type": 4,
-      "api": "https://py.doube.eu.org/v2/spider?site=9037cfae7c64405111e0e364401adb60",
-      "searchable": 1,
-      "quickSearch": 0,
       "filterable": 0,
       "changeable": 0
     },
@@ -1220,17 +1210,6 @@
         "海外动漫"
       ]
     },
-
-    {
-      "key": "沐辰欧乐影院",
-      "name": "沐辰欧乐影院",
-      "type": 4,
-      "api": "https://py.doube.eu.org/spider?site=OleVod",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "changeable": 0
-    },
     {
       "key": "csp_看片狂人",
       "name": "🥇｜看片狂人｜超多線路+5倍順暢+極高畫質",
@@ -1271,30 +1250,6 @@
       "filterable": 1,
       "quickSearch": 1,
       "changeable": 1
-    },
-    {
-      "key": "麒麟",
-      "name": "📱｜麒麟｜APP",
-      "type": 3,
-      "changeable": 0,
-      "api": "csp_AppFox",
-      "ext": {
-        "host": "https://qh.70qh.top",
-        "ver": 2
-      }
-    },
-    {
-      "key": "魔方",
-      "name": "📱｜魔方｜APP",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "site": "https://snysw.xyz/mf4kzs327.txt",
-        "dataKey": "1234567887654321",
-        "dataIv": "1234567887654321"
-      }
     },
     {
       "key": "甜圈短剧",
