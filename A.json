@@ -153,16 +153,6 @@
       "changeable": 1,
       "filterable": 1
     },
-
-    //{
-    //  "key": "瓜子影视11",
-    //  "name": "🏆｜銀牌｜藍光◎秒播(無廣告)",
-    //  "type": 3,
-    //  "api": "csp_Gz360",
-    //  "searchable": 1,
-    //  "quickSearch": 1,
-    //  "filterable": 1
-    //},
     {
       "key": "drpyS_永乐视频[优]",
       "name": "永乐视频[优](DS)",
@@ -626,38 +616,38 @@
       "quickSearch": 1,
       "changeable": 1
     },
-    //{
-    //  "key": "瓜子影视",
-    //  "name": "🏆｜瓜子｜特清◎秒播(無廣告)",
-    //  "type": 3,
-    //  "jar": "https://mpimg.cn/down.php/2fb2ccf2b4e59d8714abbbf151f8ce46.jar",
-    //  "api": "csp_Gz360",
-    //  "searchable": 1,
-    //  "quickSearch": 1,
-    //  "filterable": 1
-    //},
-    //{
-    //  "key": "瓜子影视1",
-    //  "name": "📱｜瓜子｜高清◎秒播(無廣告+APP)",
-    //  "type": 3,
-    //  "api": "csp_Gz360",
-    //  "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
-    //  "searchable": 1,
-    //  "quickSearch": 1,
-    //  "filterable": 1
-    //},
-    //{
-    //  "key": "🎬瓜子",
-    //  "name": "🏆｜瓜子｜特清◎秒播(備用1)",
-    //  "type": 3,
-    //  "api": "csp_GuaziAmns",
-    //  "jar": "./jar/aowu.jar;md5;acaa62334a0032c09ffc66c0aac9530e",
-    //  "searchable": 1,
-    //  "filterable": 1,
-    //  "quickSearch": 1,
-    //  "changeable": 1,
-    //  "ext": "./json/guazi.json"
-    //},
+    {
+      "key": "瓜子影视",
+      "name": "🏆｜瓜子｜特清◎秒播(無廣告)",
+      "type": 3,
+      "jar": "https://mpimg.cn/down.php/2fb2ccf2b4e59d8714abbbf151f8ce46.jar",
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "瓜子影视1",
+      "name": "📱｜瓜子｜高清◎秒播(無廣告+APP)",
+      "type": 3,
+      "api": "csp_Gz360",
+      "jar": "./jar/xiaosa-0810.jar;md5;44855977bd721a095571affb4426eef0",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "🎬瓜子",
+      "name": "🏆｜瓜子｜特清◎秒播(備用1)",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "jar": "./jar/aowu.jar;md5;acaa62334a0032c09ffc66c0aac9530e",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "./json/guazi.json"
+    },
 
     {
       "key": "腾讯",
