@@ -1635,7 +1635,11 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-
+    {
+      "name": "Geektv",
+      "url": "https://raw.githubusercontent.com/AA257265/265/refs/heads/main/Geektv-20260504.txt",
+      "ua": "okhttp/5.1.0"
+    },
     {
       "name": "60酒店源",
       "type": 3,
