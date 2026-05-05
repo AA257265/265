@@ -1636,10 +1636,24 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "Geektv",
-      "url": "https://raw.githubusercontent.com/AA257265/265/refs/heads/main/Geektv-20260504.txt",
-      "ua": "okhttp/5.1.0"
+      "name": "tv123",
+      "type": 0,
+      "ua": "okhttp",
+      "url": "http://tv123.vvvv.ee/tv.m3u"
     },
+    {
+      "name": "風雲源",
+      "type": 0,
+      "ua": "okhttp",
+      "url": "http://iptv.4666888.xyz/FYTV.txt"
+    },
+    {
+      "name": "小螞蟻直播",
+      "type": 0,
+      "ua": "okhttp",
+      "url": "http://ge.html-5.me//ii/%E5%B0%8F%F0%9F%90%9C%E8%9A%82%E8%9A%81%E7%9B%B4%E6%92%AD%EF%BC%88%E5%BF%85%E9%A1%BB%E7%94%A8%E7%A7%91%E5%AD%A6%E5%B7%A5%E5%85%B7%E5%8F%B0%E6%B9%BE%E8%8A%82%E7%82%B9%E7%BE%8E%E5%9B%BD%E8%8A%82%E7%82%B9%EF%BC%89.txt"
+    },
+
     {
       "name": "60酒店源",
       "type": 3,
@@ -1654,15 +1668,6 @@
       ]
     },
     {
-      "name": "Dream",
-      "url": "http://hufa.zabc.net:8080/dream.txt",
-      "ua": "okhttp/5.1.0"
-    },
-    {
-      "name": "斯馬特2",
-      "url": "http://52xinghe.top/smmmt.php"
-    },
-    {
       "name": "jacktv",
       "url": "https://php.946985.filegear-sg.me/jackTV.m3u",
       "header": {
@@ -1672,40 +1677,6 @@
     {
       "name": "大街直播",
       "url": "./live/綜合大街.txt"
-    },
-    {
-      "name": "纯血4g",
-      "url": "http://dreamtv.sylu.net:2082/m3u8view?token=lxbjj8O2w50t7jTlHHZVNvjQR_SxVy86CKier7PVtDGLWgE1ojaO69xOwH_FyNfw",
-      "playerType": 2,
-      "epg": "https://gitee.com/taksssss/tv/raw/main/epg/112114.xml.gz,https://gitee.com/taksssss/tv/raw/main/epg/epgpw_tw.xml.gz，http://epg.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
-    },
-    {
-      "name": "93酒店源",
-      "type": 0,
-      "url": "./live/93.txt",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "pass": true
-    },
-    {
-      "name": "220酒店源",
-      "type": 0,
-      "url": "./live/220.txt",
-      "epg": "https://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.eu.org/logo/{name}.png",
-      "playerType": 2,
-      "pass": true
-    },
-    {
-      "name": "香蕉-Gather",
-      "playerType": 2,
-      "url": "https://tv.iill.top/m3u/Gather",
-      "playerplayerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
     },
     {
       "name": "RobYang備1| http://RobYang.dpdns.org",
@@ -1728,12 +1699,6 @@
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "pass": true
-    },
-    {
-      "name": "🐙亚麻蝶",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "https://xoxo.cn.mt/Lonely.m3u"
     }
 
 
