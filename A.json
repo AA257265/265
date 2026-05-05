@@ -1699,6 +1699,10 @@
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "pass": true
+    },
+    {
+      "name": "18++",
+      "url": "http://tv543.cc/18+.m3u"
     }
 
 
