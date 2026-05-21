@@ -1494,6 +1494,7 @@
         "记录片",
         "大陆综艺",
         "港台综艺",
+        "PizazzGY",
         "日韩综艺",
         "欧美综艺",
         "港台动漫",
@@ -1847,8 +1848,8 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "備用",
-      "url": "http://104.253.175.55:19890/trams.m3u?token=ab888",
+      "name": "catvod",
+      "url": "https://live.catvod.com/?tk=a68ef8ba7bfa0c4b8d7f7ad79942e892",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
 
