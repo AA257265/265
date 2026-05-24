@@ -1620,9 +1620,6 @@
 
 
   ],
-  "ads": [
-    "static-mozai.4gtv.tv"
-  ],
 
   "lives": [
     {
@@ -1659,13 +1656,6 @@
       "url": "http://104.253.175.55:19950/4gtv.m3u?token=885252",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "catvod",
-      "url": "https://live.catvod.com/?tk=a68ef8ba7bfa0c4b8d7f7ad79942e892",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-
     },
     {
       "name": "四季影視網頁版",
