@@ -18,18 +18,6 @@
       "changeable": 1
     },
     {
-      "key": "GoConfig",
-      "name": "🇹🇼｜熱播排行榜｜自動切換1",
-      "type": 3,
-      "api": "csp_GoConfigAmns",
-      "jar": "./jar/aowu.jar;md5;713ec2a0f8fa320490270913c5c5ef34",
-      "indexs": 1,
-      "searchable": 0,
-      "filterable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
       "key": "豆瓣",
       "name": "🇹🇼｜熱播排行榜｜自動切換2",
       "type": 3,
@@ -146,18 +134,34 @@
       "searchable": 1,
       "quickSearch": 1
     },
-
     {
-      "key": "🥇金牌",
-      "name": "🏆｜金牌｜藍光◎秒播(無廣告)",
+      "key": "py_jieyingshi",
+      "name": "🏆｜金牌｜無廣",
       "type": 3,
-      "api": "csp_JinPaiAmns",
-      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
+      "api": "./lib/jys.py",
       "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 1,
-      "changeable": 1
+      "quickSearch": 0,
+      "filterable": 0,
+      "changeable": 0
     },
+    {
+      "key": "金牌",
+      "name": "🏆｜銀牌｜高清(無廣告)",
+      "type": 3,
+      "api": "csp_AppQi",
+      "jar": "./jar/river-0523.jar;md5;73333d98966e06771984235c416d92dc",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://qj4.catbb.xyz",
+        "dataKey": "eecbio48dsq13kkk",
+        "dataIv": "eecbio48dsq13kkk",
+        "search": "searchList4",
+        "init": "initV122",
+        "ua": "okhttp/3.10.0"
+      }
+    },
+
     {
       "key": "drpyS_永乐视频[优]",
       "name": "永乐视频[优](DS)",
