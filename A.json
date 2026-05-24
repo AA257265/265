@@ -163,10 +163,23 @@
     },
 
     {
+      "key": "drpyS_55影视",
+      "name": "55影视(DS)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/55影视?pwd=dzyyds",
+      "searchable": 2,
+      "filterable": 0,
+      "quickSearch": 1,
+      "title": "55影视",
+      "类型": "影视",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
       "key": "drpyS_永乐视频[优]",
       "name": "永乐视频[优](DS)",
       "type": 4,
-      "api": "http://142.171.248.206:5757/api/永乐视频[优]?pwd=dzyyds",
+      "api": "http://192.129.140.23:5757/api/永乐视频[优]?pwd=dzyyds",
       "searchable": 1,
       "filterable": 1,
       "quickSearch": 1,
@@ -179,8 +192,8 @@
       "key": "drpyS_荐片[优]",
       "name": "荐片[优](DS)",
       "type": 4,
-      "api": "http://142.171.248.206:5757/api/荐片[优]?pwd=dzyyds",
-      "searchable": 2,
+      "api": "http://192.129.140.23:5757/api/荐片[优]?pwd=dzyyds",
+      "searchable": 1,
       "filterable": 1,
       "quickSearch": 0,
       "title": "荐片[优]",
@@ -571,23 +584,10 @@
     //  "type": 4
     //},
     {
-      "key": "drpyS_55影视",
-      "name": "55影视(DS)",
-      "type": 4,
-      "api": "http://142.171.248.206:5757/api/55影视?pwd=dzyyds",
-      "searchable": 2,
-      "filterable": 0,
-      "quickSearch": 1,
-      "title": "55影视",
-      "类型": "影视",
-      "lang": "ds",
-      "ext": ""
-    },
-    {
       "key": "drpyS_可视影院",
       "name": "可视影院(DS)",
       "type": 4,
-      "api": "http://142.171.248.206:5757/api/可视影院?pwd=dzyyds",
+      "api": "http://192.129.140.23:5757/api/可视影院?pwd=dzyyds",
       "searchable": 2,
       "filterable": 1,
       "quickSearch": 1,
@@ -600,7 +600,7 @@
       "key": "drpyS_枫林影视",
       "name": "枫林影视(DS)",
       "type": 4,
-      "api": "http://142.171.248.206:5757/api/枫林影视?pwd=dzyyds",
+      "api": "http://192.129.140.23:5757/api/枫林影视?pwd=dzyyds",
       "searchable": 2,
       "filterable": 0,
       "quickSearch": 0,
@@ -613,7 +613,7 @@
       "key": "drpyS_泥视频",
       "name": "泥视频(DS)",
       "type": 4,
-      "api": "http://142.171.248.206:5757/api/泥视频?pwd=dzyyds",
+      "api": "http://192.129.140.23:5757/api/泥视频?pwd=dzyyds",
       "searchable": 1,
       "filterable": 1,
       "quickSearch": 1,
@@ -627,7 +627,7 @@
       "key": "drpyS_非凡采集[采]",
       "name": "非凡采集[采](DS)",
       "type": 4,
-      "api": "http://142.171.248.206:5757/api/非凡采集[采]?pwd=dzyyds",
+      "api": "http://192.129.140.23:5757/api/非凡采集[采]?pwd=dzyyds",
       "searchable": 2,
       "filterable": 0,
       "quickSearch": 1,
@@ -640,7 +640,7 @@
       "key": "catvod_月光影视",
       "name": "月光影视(cat)",
       "type": 3,
-      "api": "http://142.171.248.206:5757/cat/月光影视.js?pwd=dzyyds",
+      "api": "http://192.129.140.23:5757/cat/月光影视.js?pwd=dzyyds",
       "searchable": 1,
       "filterable": 1,
       "quickSearch": 1,
@@ -652,7 +652,7 @@
       "key": "catvod_荐片",
       "name": "荐片(cat)",
       "type": 3,
-      "api": "http://142.171.248.206:5757/cat/荐片.js?pwd=dzyyds",
+      "api": "http://192.129.140.23:5757/cat/荐片.js?pwd=dzyyds",
       "searchable": 1,
       "filterable": 1,
       "quickSearch": 1,
@@ -664,7 +664,7 @@
       "key": "hipy_py_一起看[Ayq]",
       "name": "一起看[Ayq](hipy)",
       "type": 4,
-      "api": "http://142.171.248.206:5757/api/AppYqk?do=py&pwd=dzyyds",
+      "api": "http://192.129.140.23:5757/api/AppYqk?do=py&pwd=dzyyds",
       "searchable": 1,
       "filterable": 1,
       "quickSearch": 1,
@@ -685,7 +685,7 @@
       "key": "hipy_py_橘子TV[Ayq]",
       "name": "橘子TV[Ayq](hipy)",
       "type": 4,
-      "api": "http://142.171.248.206:5757/api/AppYqk?do=py&pwd=dzyyds",
+      "api": "http://192.129.140.23:5757/api/AppYqk?do=py&pwd=dzyyds",
       "searchable": 1,
       "filterable": 1,
       "quickSearch": 1,
@@ -706,7 +706,7 @@
       "key": "hipy_py_新浪资源",
       "name": "新浪资源(hipy)",
       "type": 4,
-      "api": "http://142.171.248.206:5757/api/新浪资源?do=py&pwd=dzyyds",
+      "api": "http://192.129.140.23:5757/api/新浪资源?do=py&pwd=dzyyds",
       "searchable": 1,
       "filterable": 1,
       "quickSearch": 1,
@@ -718,7 +718,7 @@
       "key": "hipy_py_新韩剧网",
       "name": "新韩剧网(hipy)",
       "type": 4,
-      "api": "http://142.171.248.206:5757/api/新韩剧网?do=py&pwd=dzyyds",
+      "api": "http://192.129.140.23:5757/api/新韩剧网?do=py&pwd=dzyyds",
       "searchable": 1,
       "filterable": 1,
       "quickSearch": 1,
@@ -730,7 +730,7 @@
       "key": "hipy_py_爱瓜APP",
       "name": "爱瓜APP(hipy)",
       "type": 4,
-      "api": "http://142.171.248.206:5757/api/爱瓜APP?do=py&pwd=dzyyds",
+      "api": "http://192.129.140.23:5757/api/爱瓜APP?do=py&pwd=dzyyds",
       "searchable": 1,
       "filterable": 1,
       "quickSearch": 1,
@@ -742,7 +742,7 @@
       "key": "hipy_py_独播库",
       "name": "独播库(hipy)",
       "type": 4,
-      "api": "http://142.171.248.206:5757/api/独播库?do=py&pwd=dzyyds",
+      "api": "http://192.129.140.23:5757/api/独播库?do=py&pwd=dzyyds",
       "searchable": 1,
       "filterable": 1,
       "quickSearch": 1,
@@ -751,15 +751,68 @@
       "ext": ""
     },
     {
+      "key": "hipy_py_猎手APP",
+      "name": "猎手APP(hipy)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/猎手APP?do=py&pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "猎手APP",
+      "lang": "hipy",
+      "ext": ""
+    },
+    {
       "key": "hipy_py_瓜子",
       "name": "瓜子(hipy)",
       "type": 4,
-      "api": "http://142.171.248.206:5757/api/瓜子?do=py&pwd=dzyyds",
+      "api": "http://192.129.140.23:5757/api/瓜子?do=py&pwd=dzyyds",
       "searchable": 1,
       "filterable": 1,
       "quickSearch": 1,
       "title": "瓜子",
       "lang": "hipy",
+      "ext": ""
+    },
+
+
+
+    {
+      "key": "hipy_py_爱瓜APP",
+      "name": "爱瓜APP(hipy)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/爱瓜APP?do=py&pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "爱瓜APP",
+      "lang": "hipy",
+      "ext": ""
+    },
+
+    {
+      "key": "drpyS_星芽短剧",
+      "name": "星芽短剧(DS)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/星芽短剧?pwd=dzyyds",
+      "searchable": 2,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "星芽短剧",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "drpyS_七猫短剧",
+      "name": "七猫短剧(DS)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/七猫短剧?pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 0,
+      "title": "七猫短剧",
+      "类型": "影视",
+      "lang": "ds",
       "ext": ""
     },
     {
@@ -851,44 +904,6 @@
     //  "lang": "ds",
     //  "ext": ""
     //},
-    {
-      "key": "hipy_py_爱瓜APP",
-      "name": "爱瓜APP(hipy)",
-      "type": 4,
-      "api": "http://142.171.248.206:5757/api/爱瓜APP?do=py&pwd=dzyyds",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 1,
-      "title": "爱瓜APP",
-      "lang": "hipy",
-      "ext": ""
-    },
-
-    {
-      "key": "drpyS_星芽短剧",
-      "name": "星芽短剧(DS)",
-      "type": 4,
-      "api": "http://142.171.248.206:5757/api/星芽短剧?pwd=dzyyds",
-      "searchable": 2,
-      "filterable": 1,
-      "quickSearch": 1,
-      "title": "星芽短剧",
-      "lang": "ds",
-      "ext": ""
-    },
-    {
-      "key": "drpyS_七猫短剧",
-      "name": "七猫短剧(DS)",
-      "type": 4,
-      "api": "http://142.171.248.206:5757/api/七猫短剧?pwd=dzyyds",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 0,
-      "title": "七猫短剧",
-      "类型": "影视",
-      "lang": "ds",
-      "ext": ""
-    },
     {
       "key": "Qile优视频2",
       "name": "🏆｜Uvod｜藍光◎秒播(無廣告)",
@@ -1617,9 +1632,31 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
+      "name": "四季影視1",
+      "epg": "https://epg.yang-1989.eu.org/epg.xml.gz",
+      "url": "https://iptv543.com/bbb.php",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+
+    {
       "name": "推薦july",
       "url": "https://iptv.8plus.eu.org/get.php?username=tg_0ypy6s61&password=trwm33jyjsnc&type=m3u_plus",
       "User-Agent": "PharosTVPlayer",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+
+    {
+      "name": "cloudtv盒子版",
+      "url": "http://tv543.cc/cloudtv.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+
+    },
+
+    {
+      "name": "四季影視海外版",
+      "url": "http://104.253.175.55:19950/4gtv.m3u?token=885252",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
