@@ -3,7 +3,7 @@
   //"spider": "https://raw.githubusercontent.com/AA257265/265/refs/heads/main/catvod.jar;md5;392df5f6a1c925c9f765c7e4b6f3eda4",
   //"spider": "https://tang.hz.cz/api/custom_spider.jar;md5;6f47e1a75235aae27953562a9507509a",
   //"spider": "./jar/river-0506.jar;md5;49bf68569c72be249d87ebc287e690d3",
-  "spider": "./jar/fan-0507.jar",
+  "spider": "./jar/fan-0523.jar;md5;e25131330e48e729864434147c857f41",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -131,6 +131,16 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "comic_series"
+    },
+    {
+      "key": "光影",
+      "name": "🌞光影┃不卡",
+      "type": 3,
+      "api": "csp_T4Guard",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw=="
     },
 
     {
