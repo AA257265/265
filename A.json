@@ -36,28 +36,6 @@
       "quickSearch": 1,
       "changeable": 0
     },
-    {
-      "key": "聚合短剧",
-      "name": "📺｜聚合短劇",
-      "type": 3,
-      "api": "./drpy_js/聚合短剧.js",
-      "jar": "./jar/river-0524.jar;md5;c18934f252d3681ff234e32e8a99c708",
-      "changeable": 1
-    },
-    {
-      "key": "网盘配置",
-      "name": "🇹🇼｜Youtube、网盘、弹幕配置",
-      "type": 3,
-      "jar": "./jar/pg.jar;md5;e56f6e07a8bd2bcfb1a14c6e3c99aa26",
-      "api": "csp_Config",
-      "searchable": 1,
-      "changeable": 0,
-      "ext": "./json/tokenm.json",
-      "style": {
-        "type": "rect",
-        "ratio": 1.5
-      }
-    },
 
 
     {
