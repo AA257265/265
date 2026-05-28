@@ -116,6 +116,7 @@
       "name": "🌞光影┃不卡",
       "type": 3,
       "api": "csp_T4Guard",
+      "jar": "./jar/fan-0523.jar;md5;e25131330e48e729864434147c857f41",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
