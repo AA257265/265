@@ -9,25 +9,14 @@
       "name": "🇹🇼｜熱播排行榜｜自動切換",
       "type": 3,
       "api": "csp_Douban",
-      "jar": "./jar/pg.jar;md5;7840d0b61f9641a47728e3a92020f35a",
-      "ext": "./json/douban.json",
+      "jar": "./jar/river-0524.jar;md5;c18934f252d3681ff234e32e8a99c708",
       "searchable": 0,
-      "quickSearch": 0,
+      "quickSearch": 1,
       "changeable": 1
     },
-    {
-      "key": "豆瓣",
-      "name": "🇹🇼｜熱播排行榜｜自動切換2",
-      "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 1
-    },
-
     {
       "key": "豆瓣2",
-      "name": "🇹🇼｜點播搜索｜可選站2",
+      "name": "🇹🇼｜熱播排行榜｜可選站",
       "type": 3,
       "api": "csp_Douban",
       "spider": "./jar/pg.jar;md5;e56f6e07a8bd2bcfb1a14c6e3c99aa26",
@@ -38,90 +27,38 @@
       "ext": "./lib/tokenm.json$$$./lib/douban.json"
     },
     {
-      "key": "🍉找短劇",
-      "name": "📺｜短片搜索1｜點進去才有東西",
+      "key": "YGP",
+      "name": "🇹🇼｜預告片",
       "type": 3,
-      "api": "csp_HgggAmns",
-      "jar": "./jar/aowu.jar;md5;713ec2a0f8fa320490270913c5c5ef34",
-      "indexs": 1,
-      "searchable": 0,
-      "filterable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "DjHggg",
-      "name": "📺｜短片搜索2｜點進去才有東西",
-      "type": 3,
-      "api": "csp_HgggAmns",
-      "jar": "./jar/aowu.jar;md5;713ec2a0f8fa320490270913c5c5ef34",
-      "indexs": 1,
-      "searchable": 0,
-      "filterable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "short_play"
-    },
-    {
-      "key": "豆瓣2",
-      "name": "🇹🇼｜點播搜索｜可選站",
-      "type": 3,
-      "api": "csp_Douban",
-      "jar": "./jar/pg.jar;md5;7840d0b61f9641a47728e3a92020f35a",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 1,
-      "ext": "./lib/tokenm.json$$$./lib/douban.json"
-    },
-    {
-      "key": "GoConfig",
-      "name": "💬嗷嗚推薦｜首頁",
-      "type": 3,
-      "api": "csp_GoConfigAmns",
-      "jar": "./jar/aowu.jar;md5;713ec2a0f8fa320490270913c5c5ef34",
-      "indexs": 1,
-      "searchable": 0,
-      "filterable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "DjHggg",
-      "name": "😈嗷嗚短劇｜點進去才有東西",
-      "type": 3,
-      "api": "csp_HgggAmns",
-      "jar": "./jar/aowu.jar;md5;713ec2a0f8fa320490270913c5c5ef34",
-      "indexs": 1,
-      "searchable": 0,
-      "filterable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "short_play"
-    },
-    {
-      "key": "MjHggg",
-      "name": "🐲嗷嗚動漫｜點進去才有東西",
-      "type": 3,
-      "api": "csp_HgggAmns",
-      "jar": "./jar/aowu.jar;md5;713ec2a0f8fa320490270913c5c5ef34",
-      "indexs": 1,
-      "searchable": 0,
-      "filterable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "comic_series"
-    },
-    {
-      "key": "光影",
-      "name": "🌞光影┃不卡",
-      "type": 3,
-      "api": "csp_T4Guard",
+      "api": "csp_YGPGuard",
       "jar": "./jar/fan-0523.jar;md5;e25131330e48e729864434147c857f41",
-      "searchable": 1,
+      "searchable": 0,
       "quickSearch": 1,
-      "changeable": 0,
-      "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw=="
+      "changeable": 0
     },
+    {
+      "key": "聚合短剧",
+      "name": "📺｜聚合短劇",
+      "type": 3,
+      "api": "./drpy_js/聚合短剧.js",
+      "jar": "./jar/river-0524.jar;md5;c18934f252d3681ff234e32e8a99c708",
+      "changeable": 1
+    },
+    {
+      "key": "网盘配置",
+      "name": "🇹🇼｜Youtube、网盘、弹幕配置",
+      "type": 3,
+      "jar": "./jar/pg.jar;md5;e56f6e07a8bd2bcfb1a14c6e3c99aa26",
+      "api": "csp_Config",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "./json/tokenm.json",
+      "style": {
+        "type": "rect",
+        "ratio": 1.5
+      }
+    },
+
 
     {
       "key": "vod_蜜雪",
@@ -264,6 +201,18 @@
       "filterable": 1
     },
     {
+      "key": "光影",
+      "name": "🥇｜光影｜高清◎秒播",
+      "type": 3,
+      "api": "csp_T4Guard",
+      "jar": "./jar/fan-0523.jar;md5;e25131330e48e729864434147c857f41",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw=="
+    },
+
+    {
       "key": "师兄",
       "name": "🏆｜師兄｜無廣",
       "type": 3,
@@ -333,6 +282,18 @@
       "quickSearch": 1,
       "filterable": 1
     },
+    {
+      "key": "光影",
+      "name": "🥇｜光影｜高清◎秒播",
+      "type": 3,
+      "api": "csp_T4Guard",
+      "jar": "./jar/fan-0523.jar;md5;e25131330e48e729864434147c857f41",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "rfOIzPkSUkANv6AT2prC8en3+Trbx4j10CIoZMv3Ag4bdEYQqTMqu/Z3YPtC2NJv6n6YeZdgyWlo4WJjBL5gUt6B7LvCEDT4CLrWka31GRq7jwVkfQRB/Jy9HkG7E8xUBIJi5DdVFk3qAuGnwUWqQNRblRxzHW+tdSm6zoFcG/QkZ97bzWOXn0fzbgwjBDkBHgcPIYjlULlctCNKgJ9DzGNSl+zMZDZgmxczsZeeahRS38Cst3qvaHn1T2lmLBGVGXPaRovi77LPRRDOJSNRrdpvCHdRikYwgar0MU56hXMGeGBiKp/OmGTIYR8dFRGvZ/m8xGOqs8U13h6wvADOGlYoP9VaQBqTcDnz9Q0Urhw3oFXWyvIlUrDhX9la5L2NYzagbyk3afqhxeSXXp07nAFsNy2CojHRTbmz4eohLoIJTSi2DzPpheVx1DAapfgRdTc7Ax5ddYpN338GiDAa0GnEgLe04a1pZ5jF+/Q7HJswqlSO+DXCQ3FjRbb/ZPQcozcCWwzhUHE1QUAt799V9DPMuiHGyudIcZarGQmezB+Lb45RdHIRy0PXD+NRVPJlfDFD5FMGSqsiVklibvuwlVHT8J5vHgh/1nEZoI1RlYYLrkjTts2EeQmrpB/sgLyo1vnjFw=="
+    },
+
     {
       "key": "爱营",
       "name": "🏆｜愛影｜1080P",
