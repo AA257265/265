@@ -1,9 +1,7 @@
 {
   //"spider": "./jar/custom_spider.jar",
-  //"spider": "https://raw.githubusercontent.com/AA257265/265/refs/heads/main/catvod.jar;md5;392df5f6a1c925c9f765c7e4b6f3eda4",
-  //"spider": "https://tang.hz.cz/api/custom_spider.jar;md5;6f47e1a75235aae27953562a9507509a",
-  //"spider": "./jar/river-0506.jar;md5;49bf68569c72be249d87ebc287e690d3",
-  "spider": "./jar/fan-0523.jar;md5;e25131330e48e729864434147c857f41",
+  //"spider": "./jar/fan-0523.jar;md5;e25131330e48e729864434147c857f41",
+  "./jar/aowu-0527.jar;md5;f6cc0883f796684dc6faa9fa1b355716",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
