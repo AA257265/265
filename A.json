@@ -809,40 +809,6 @@
       "quickSearch": 1,
       "changeable": 1
     },
-    //{
-    //  "key": "🎬瓜子",
-    //  "name": "🏆｜瓜子｜特清◎秒播(備用1)",
-    //  "type": 3,
-    //  "api": "csp_GuaziAmns",
-    //  "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
-    //  "searchable": 1,
-    //  "filterable": 1,
-    //  "quickSearch": 1,
-    //  "changeable": 1,
-    //  "ext": "./json/guazi.json"
-    //},
-    //{
-    //  "key": "瓜子影视_備用2",
-    //  "name": "🏆｜瓜子｜高清◎秒播(備用2)",
-    //  "type": 3,
-    //  "api": "csp_Gz360",
-    //  "searchable": 1,
-    //  "quickSearch": 1,
-    //  "filterable": 1
-    //},
-    //{
-    //  "key": "drpyS_樱花动漫[优]",
-    //  "name": "樱花动漫[优](DS)",
-    //  "type": 4,
-    //  "api": "http://142.171.248.206:5757/api/樱花动漫[优]?pwd=dzyyds",
-    //  "searchable": 2,
-    //  "filterable": 0,
-    //  "quickSearch": 0,
-    //  "title": "樱花动漫[优]",
-    //  "类型": "影视",
-    //  "lang": "ds",
-    //  "ext": ""
-    //},
     {
       "key": "听心99",
       "name": "庭馨4K｜⭐星河⭐",
@@ -1160,6 +1126,140 @@
         "ua": "Lavf/58.12.10"
       }
     },
+    {
+      "key": "橘汁",
+      "name": "🥇｜橘汁｜高清◎秒播",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "橘汁",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "DGVQRUX5R1LWWDLHTGJSUKG1DJRVPQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.lxf.snzlcgtzxyx",
+        "host": "",
+        "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
+        "version": "3.0.2.1",
+        "decrypt": "1"
+      }
+    },
+    {
+      "key": "薯条",
+      "name": "🥇｜薯條｜高清◎秒播",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "薯条影视",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+        "dataKey": "A1VACZJWDKRZY1P3MFV0DDRAZ3F3PT0=",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.st.standroid",
+        "host": "",
+        "site": "https://dyttandroid-1372779881.cos.ap-guangzhou.myqcloud.com/app_dyttandroid.txt",
+        "version": "5.0.0.1",
+        "decrypt": "0"
+      }
+    },
+    {
+      "key": "奴娜",
+      "name": "🥇｜奴娜丨高清◎秒播",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.nntv.in/api.php/v1.vod"
+    },
+    {
+      "key": "闪影",
+      "name": "🥇｜閃影｜高清◎秒播",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
+    },
+    {
+      "key": "云播",
+      "name": "🥇｜云播｜高清◎秒播",
+      "type": 3,
+      "api": "csp_AppFox",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": { "host": "http://app.hktvyb.cc" }
+    },
+    {
+      "key": "蓝鹰",
+      "name": "🥇｜藍鷹｜高清◎秒播",
+      "type": 3,
+      "api": "csp_AppQi",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://xinlanyinghb.oss-cn-wuhan-lr.aliyuncs.com/xly.txt",
+        "dataKey": "ca94b06ca359d80e",
+        "dataIv": "ca94b06ca359d80e",
+        "init": "initV120",
+        "ua": "okhttp/3.10.0"
+      }
+    },
+    {
+      "key": "猎豹",
+      "name": "🥇｜獵豹｜高清◎秒播",
+      "type": 3,
+      "api": "csp_AppGet",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "https://444421.xyz",
+        "dataKey": "#getapp@TMD@2025",
+        "dataIv": "#getapp@TMD@2025"
+      }
+    },
+    {
+      "key": "秒看",
+      "name": "🥇｜秒看｜高清◎秒播",
+      "type": 3,
+      "api": "csp_AppGet",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://mk1080.top/get.txt",
+        "dataKey": "c60d88b2eep53za8",
+        "dataIv": "c60d88b2eep53za8",
+        "token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"
+      }
+    },
+    {
+      "key": "茉莉",
+      "name": "🥇｜茉莉｜高清◎秒播",
+      "type": 3,
+      "api": "csp_AppGet",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
+        "dataKey": "88689667dce61725",
+        "dataIv": "88689667dce61725"
+      }
+    },
+
     {
       "key": "Qile优视频2",
       "name": "🏆｜Uvod｜藍光◎秒播(無廣告)",
