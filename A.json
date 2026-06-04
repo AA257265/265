@@ -9,7 +9,7 @@
       "name": "🇹🇼｜熱播排行榜｜自動切換",
       "type": 3,
       "api": "csp_Douban",
-      "jar": "./jar/river-0524.jar;md5;c18934f252d3681ff234e32e8a99c708",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
       "searchable": 0,
       "quickSearch": 1,
       "changeable": 1
@@ -36,7 +36,14 @@
       "quickSearch": 1,
       "changeable": 0
     },
-
+    {
+      "key": "聚合短剧",
+      "name": "📺｜聚合短劇",
+      "type": 3,
+      "api": "./drpy_js/聚合短剧.js",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "changeable": 1
+    },
 
     {
       "key": "vod_蜜雪",
@@ -64,6 +71,14 @@
       "type": 3,
       "api": "csp_Jpys",
       "jar": "./jar/river-0524.jar;md5;c18934f252d3681ff234e32e8a99c708",
+      "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
+    },
+    {
+      "key": "金牌影视",
+      "name": "🏆｜金牌1｜高清(無廣告)",
+      "type": 3,
+      "api": "csp_Jpys",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
       "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
     },
     {
@@ -115,6 +130,250 @@
       "类型": "影视",
       "lang": "ds",
       "ext": ""
+    },
+    {
+      "key": "听心99",
+      "name": "听心｜APP",
+      "type": 3,
+      "api": "csp_App99",
+      "jar": "./jar/xiaosa-0604.jar;md5;2b962da64b0264b72347f29ef611e72d",
+      "ext": {
+        "host": "https://api.12321app.com/api",
+        "LoginPath": "/app/log",
+        "appkey": "a0a18659a9977a47e53442cd084b536c",
+        "versionName": "2.8.1",
+        "name": "听心视频",
+        "package": "com.iksp.adsys.jjsp",
+        "buildNumber": "2001",
+        "buildSignature": "03DD38CE4C3D62D0F0DEFACC06768D14EB382C7BD77A05B2EBF4D66E154A0D47"
+      }
+    },
+    {
+      "key": "苹果",
+      "name": "苹果｜APP",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "jar": "./jar/xiaosa-0604.jar;md5;2b962da64b0264b72347f29ef611e72d",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "小苹果",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+        "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.juechufsh.android.xpg1",
+        "host": "",
+        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
+        "version": "1.0.0.3",
+        "decrypt": "0"
+      }
+    },
+    {
+      "key": "py_jieyingshi",
+      "name": "🏆｜異界｜高清(無廣告)",
+      "type": 3,
+      "api": "csp_Jys",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "ext": "https://www.ndhfiohk.com/"
+    },
+    {
+      "key": "爱影1",
+      "name": "🏆｜鬼鬼｜4K◎隱藏",
+      "type": 3,
+      "api": "csp_AppQi",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "changeable": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/600.txt",
+        "dataKey": "FTgP4Gq8zPiqbt7M",
+        "dataIv": "FTgP4Gq8zPiqbt7M",
+        "init": "initV122",
+        "ua": "okhttp/3.10.0"
+      }
+    },
+    {
+      "key": "飞飞",
+      "name": "🏆｜飛飛丨高清◎秒播",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://qpcj.69mini.com/api.php/app/",
+      "type": 3,
+      "api": "csp_OlyyAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
+      "key": "py_jieyingshi",
+      "name": "🏆｜異界｜高清(無廣告)",
+      "type": 3,
+      "api": "csp_Jys",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "ext": "https://www.ndhfiohk.com/"
+    },
+    {
+      "key": "Dubk",
+      "name": "🏆｜獨播庫｜",
+      "type": 3,
+      "api": "csp_DubkAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-dETsDhhkydVym6T7qzn7WB.gz"
+    },
+    {
+      "key": "爱影1",
+      "name": "🏆｜鬼鬼｜4K◎隱藏",
+      "type": 3,
+      "api": "csp_AppQi",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "changeable": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/600.txt",
+        "dataKey": "FTgP4Gq8zPiqbt7M",
+        "dataIv": "FTgP4Gq8zPiqbt7M",
+        "init": "initV122",
+        "ua": "okhttp/3.10.0"
+      }
+    },
+    {
+      "key": "听心99",
+      "name": "🏆｜欣欣｜2K◎秒播",
+      "type": 3,
+      "api": "csp_App99",
+      "jar": "./jar/mi-0508.jar",
+      "ext": {
+        "host": "https://api.12321app.com",
+        "LoginPath": "/app/log",
+        "version": "0b4328287a5d953e",
+        "appkey": "a0a18659a9977a47e53442cd084b536c",
+        "versionName": "2.8.1",
+        "name": "听心视频",
+        "package": "com.iksp.adsys.jjsp",
+        "buildNumber": "2001",
+        "buildSignature": "03DD38CE4C3D62D0F0DEFACC06768D14EB382C7BD77A05B2EBF4D66E154A0D47"
+      }
+    },
+    {
+      "key": "飞飞",
+      "name": "🏆｜飛飛丨高清◎秒播",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://qpcj.69mini.com/api.php/app/"
+    },
+    {
+      "key": "天堂",
+      "name": "🏆｜天堂｜高清◎秒播",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "电影天堂",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+        "dataKey": "D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.dytiantang.one",
+        "host": "",
+        "site": "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
+        "version": "3.0.0.7",
+        "decrypt": "0"
+      }
+    },
+    {
+      "key": "追番99",
+      "name": "🏆｜追番99｜高清◎秒播",
+      "type": 3,
+      "api": "csp_App99",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "ext": {
+        "host": "https://api.hboqy.cn.hboqy.cn/api",
+        "LoginPath": "/app/log",
+        "appkey": "a0a18659a9977a47e53442cd084b536c",
+        "versionName": "6.1.7",
+        "name": "追番达人",
+        "package": "com.android.packageinstaller",
+        "buildNumber": "2002",
+        "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"
+      }
+    },
+    {
+      "key": "听心99",
+      "name": "庭馨4K｜⭐星河⭐",
+      "type": 3,
+      "api": "csp_App99",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "ext": {
+        "host": "https://api.12321app.com/api",
+        "LoginPath": "/app/log",
+        "appkey": "a0a18659a9977a47e53442cd084b536c",
+        "versionName": "2.8.1",
+        "name": "听心视频",
+        "package": "com.iksp.adsys.jjsp",
+        "buildNumber": "2001",
+        "buildSignature": "03DD38CE4C3D62D0F0DEFACC06768D14EB382C7BD77A05B2EBF4D66E154A0D47"
+      }
+    },
+    {
+      "key": "三秋影视",
+      "name": "🥇｜三秋｜普畫◎秒播",
+      "type": 3,
+      "api": "csp_App3Q",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193"
+    },
+    {
+      "key": "听心99",
+      "name": "🥇｜聽心｜高清◎秒播",
+      "type": 3,
+      "api": "csp_App99",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "ext": {
+        "host": "https://api.12321app.com/api"
+      }
+    },
+    {
+      "key": "追番99",
+      "name": "🏆｜追番99｜高清◎秒播",
+      "type": 3,
+      "api": "csp_App99",
+      "jar": "./jar/river-0528.jar;md5;b4c6f82dd9e7c040db52eb9dfc7a5193",
+      "ext": {
+        "host": "https://api.hboqy.cn.hboqy.cn/api",
+        "LoginPath": "/app/log",
+        "appkey": "a0a18659a9977a47e53442cd084b536c",
+        "versionName": "6.1.7",
+        "name": "追番达人",
+        "package": "com.android.packageinstaller",
+        "buildNumber": "2002",
+        "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"
+      }
+    },
+    {
+      "key": "Bidys",
+      "name": "🏆｜哔嘀｜2K",
+      "type": 3,
+      "api": "csp_BidysAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "https://www.xlys02.com,https://xl02.com.de"
     },
     {
       "key": "农民影视",
@@ -2200,7 +2459,12 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
 
     },
-
+    {
+      "name": "綜合",
+      "url": "https://tv123.cc.cd/tv.m3u",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "name": "四季影視海外版",
       "url": "http://104.253.175.55:19950/4gtv.m3u?token=885252",
