@@ -36,7 +36,53 @@
       "quickSearch": 1,
       "changeable": 0
     },
-
+    {
+      "key": "YouTube♓️SO",
+      "name": "YouTube",
+      "type": 3,
+      "api": "csp_Ytdl",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": 2,
+      "timeout": 30,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "jar": "./lib/Youtube.jar",
+      "ext": {
+        "proxy": "",
+        "youtube_txt": "./lib/Youtube.txt"
+      }
+    },
+    {
+      "key": "py_耐看点播",
+      "name": "🏆｜耐看点播｜",
+      "type": 3,
+      "api": "./py/耐看点播.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_永乐视频",
+      "name": "🏆｜永乐视频｜",
+      "type": 3,
+      "api": "./py/永乐视频修复搜索.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "py_西瓜卡通",
+      "name": "🏆｜西瓜卡通｜",
+      "type": 3,
+      "api": "./py/西瓜卡通.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
 
     {
       "key": "vod_蜜雪",
