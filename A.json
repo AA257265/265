@@ -2156,7 +2156,12 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
 
     },
-
+    {
+      "name": "綜合",
+      "url": "https://tv123.cc.cd/tv.m3u",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
     {
       "name": "四季影視海外版",
       "url": "http://104.253.175.55:19950/4gtv.m3u?token=885252",
