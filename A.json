@@ -57,6 +57,24 @@
       }
     },
     {
+      "key": "YouTube 👁️‍🗨️(火星兔)",
+      "name": "YouTube 👁️‍🗨️(火星兔)",
+      "type": 3,
+      "api": "csp_Ytdl",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": 2,
+      "timeout": 30,
+      "filterable": 1,
+      "jar": "https://files.catbox.moe/hmml4f.txt",
+      "ext": {
+        "proxy": "",
+        "youtube_txt": "https://files.catbox.moe/63vr18.txt"
+
+      }
+
+    },
+    {
       "key": "py_耐看点播",
       "name": "🏆｜耐看点播｜",
       "type": 3,
