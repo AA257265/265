@@ -75,6 +75,17 @@
 
     },
     {
+      "key": "红果漫剧_key",
+      "name": "🍅红果漫剧┃ python ┃ ",
+      "type": 3,
+      "api": "./py/红果漫剧.py",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
+    {
       "key": "py_耐看点播",
       "name": "🏆｜耐看点播｜",
       "type": 3,
