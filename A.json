@@ -1,7 +1,8 @@
 {
   //"spider": "./jar/custom_spider.jar",
   //"spider": "./jar/fan-0523.jar;md5;e25131330e48e729864434147c857f41",
-  "spider": "./jar/aowu-0527.jar;md5;f6cc0883f796684dc6faa9fa1b355716",
+  //"spider": "./jar/aowu-0527.jar;md5;f6cc0883f796684dc6faa9fa1b355716",
+  "spider": "./jar/c5a5d9c2-5f0c-419c-b388-ac5b0f1a64a0.png",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
@@ -15,17 +16,29 @@
       "changeable": 1
     },
     {
-      "key": "豆瓣2",
+      "key": "豆瓣-搜索",
       "name": "🇹🇼｜熱播排行榜｜可選站",
       "type": 3,
       "api": "csp_Douban",
-      "spider": "./jar/pg.jar;md5;e56f6e07a8bd2bcfb1a14c6e3c99aa26",
-      "jar": "./jar/pg.jar;md5;e56f6e07a8bd2bcfb1a14c6e3c99aa26",
-      "searchable": 0,
-      "changeable": 0,
+      "jar": "./jar/fish06281030.jar",
       "indexs": 1,
-      "ext": "./lib/tokenm.json$$$./lib/douban.json"
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "https://file.icve.com.cn/file_doc/803/892/C8FDF0894D61FA21A937E21135CB9125.aowu"
     },
+    //{
+    //  "key": "豆瓣2",
+    //  "name": "🇹🇼｜熱播排行榜｜可選站",
+    //  "type": 3,
+    //  "api": "csp_Douban",
+    //  "spider": "./jar/pg.jar;md5;e56f6e07a8bd2bcfb1a14c6e3c99aa26",
+    //  "jar": "./jar/pg.jar;md5;e56f6e07a8bd2bcfb1a14c6e3c99aa26",
+    //  "searchable": 0,
+    //  "changeable": 0,
+    //  "indexs": 1,
+    //  "ext": "./lib/tokenm.json$$$./lib/douban.json"
+    //},
     {
       "key": "YGP",
       "name": "🇹🇼｜預告片",
@@ -75,7 +88,7 @@
 
     },
     {
-      "key": "红果漫剧_key",
+      "key": "甜圈短劇",
       "name": "🍅红果漫剧┃ python ┃ ",
       "type": 3,
       "api": "./py/红果漫剧.py",
