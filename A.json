@@ -124,6 +124,142 @@
       "api": "https://newtv.ggff.net/guazi?token=fhJadO1R"
     },
     {
+      "key": "苹果",
+      "name": "🏆｜苹果｜秒播",
+      "key": "星夜",
+      "name": "🏆｜星夜｜4K",
+      "type": 3,
+      "api": "csp_AppQi",
+      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
+      "changeable": 1,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "url": "https://qj4.catbb.xyz",
+        "dataKey": "eecbio48dsq13kkk",
+        "dataIv": "eecbio48dsq13kkk",
+        "init": "initV122",
+        "ua": "Lavf/58.12.100"
+      }
+    },
+    {
+      "key": "顾我99",
+      "name": "🏆｜顾我｜？",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "api": "csp_App99",
+      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
+      "ext": {
+        "host": "http://117.50.200.113:19987/app/bn",
+        "LoginPath": "/app/log",
+        "appkey": "040f9b1bc5e942569b5c3e63943306ab",
+        "versionName": "4.3.1",
+        "name": "顾我追剧",
+        "package": "com.guwozhuijux.app",
+        "buildNumber": "2001",
+        "buildSignature": "5AD4436C4730FFE26910C86278B80F3E661C317FFC3616F702D20A729262624A"
+      }
+    },
+    {
+      "key": "听心99",
+      "name": "🏆｜庭馨｜？",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "api": "csp_App99",
+      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
+      "ext": {
+        "host": "https://api.12321app.com/api",
+        "LoginPath": "/app/log",
+        "appkey": "a0a18659a9977a47e53442cd084b536c",
+        "versionName": "2.8.1",
+        "name": "听心视频",
+        "package": "com.iksp.adsys.jjsp",
+        "buildNumber": "2001",
+        "buildSignature": "03DD38CE4C3D62D0F0DEFACC06768D14EB382C7BD77A05B2EBF4D66E154A0D47"
+      }
+    },
+    {
+      "name": "🏆｜哔嘀｜2K",
+      "key": "Bidys",
+      "type": 3,
+      "api": "csp_BidysAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "https://v.xl01.eu.cc,https://xl02.com.de,https://v.xl02.eu.cc,https://v.xl01.cc.ua"
+    },
+    {
+      "key": "苹果",
+      "name": "🏆｜苹果｜秒播",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "小苹果",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+        "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.juechufsh.android.xpg1",
+        "host": "",
+        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
+        "version": "1.0.0.3",
+        "decrypt": "0"
+      }
+    },
+    {
+      "key": "知予",
+      "name": "🏆｜知予｜高清◎秒播",
+      "api": "csp_AppNox",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "./jar/fish06281030.jar;md5;5d14ddf4289dcbcc4bd55705d3315369",
+      "type": 3,
+      "ext": "AXa/dhw2PLXN7GTzaamHOCEf9KWdx8b5bp7n8hAmf9Boa6AZrB5/hhb4qGO6kjkz/Oh5Uei9rzPWsZlQhgxQGSu7Zb/ZmT15NpqUP+qEjAXGPyOlfFWZbr4rxW3WZSqH6i+OT49idbNqqJdm1jXPR00G5O44GJb+9H7f1iioaW5GOEXjTbDGfBqd4uVVCz6vPPgb/k1NVY/Ze+bb5AsQMmZyAcHWgow8PEaTln0cVXxkb5VmKMQfj5sEq9ZnWGHbu4/32qI2Jjtkmj6VijcdWZSyxuwW/O1i8QbrqQZMeYyr16m5gwNFIyv3ppAxMfyjSz6P7J9dbMfS5PaT3xL3TKTAnZFjS0KyZIKYrJBLj9lXwgox8aFmPV1fT2CBX5t/dHX6gL8CfkhYGjFj7LnVLZo5se/1WjuMkzPTSZharqLvXySQsKpiGKLhfs8DsgQppW4BP8Lv2wPFDmbwB2op21RJDJNQhJXbOW6Z4rI5uXZJAW6LuvudGVKVD/RF3/yUlM4Boda3iuV/7ER45wPegGXouEiiuS7QHjYCgiMLVmUEiYLVhiTe3qDU6VlHqn5YhP7+1kibrXrRQ7JzyQ0sOxljdVHQw6IIRTQwzSBJLoDiiCddIncVXxYmKuhW6Pxen1bOfQgd723GkDyLB1Y5U9KXbzS9y6+ko37HVfmwUzDEcG+DYyxa2lJTCIXbdPbl8LBGUGMURx1S43wMLh1rurnz41qwPL5/WULQJmx4bt4E30dcTi/KfIBD8EUM8YZk8z7JSG5bi3oyYToXXRJCXK/qNpxaJ5I0s27MfnJRE/xF2k7Pv0YtFPmwdQr6Z3neEzOo/Vt1E5WlC0JiURC2bO+MWqA70m6B5WJkmnd46qPLtaofki6EzbH81AMvgsYAgjf8iAO6nYWFcrVoAsYMMgJkyPExJEUQStc+TB4gvUFUT9VeTHMXNSWiHMrhGkAQIA37PXzfig3c0sAUy+9iNlKXZv/lfbVFRgV9w8k0eDLrcR40Ma1Pmgnwq7v05RqJiSQCngiXOQgzR4wFar5anDJT73LmmP77+zaoJDH0aZeY"
+    },
+    {
+      "key": "长泽",
+      "name": "🏆｜長澤｜高清◎秒播",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "api": "csp_App88",
+      "jar": "./jar/fish06281030.jar;md5;5d14ddf4289dcbcc4bd55705d3315369",
+      "ext": "Aa+WBBIIxghmbVYkWqlC4wrZvlocl4rSZS9+QyJDF6RgWFfYSb+nEM6WkMHPVbQFva551Srt16FqFroyjNssEXemH+xC5pCMj/ewgFuLEIbY2mXCVJ1bJxWRJAggNgH1f3mjwrBxlZA0kGgfAd0os29Mdi3RNJilSo5VMkPpcQPMeF8/PTbZHNymotiTwtICNcA5Q0WXsqe/wJ3HoLU4gBYQs1lBmYdxtAuvsnte3SbumQEFlaQnygFscx6EGrwKMFZLVcmu9egAXxygsf5PmyzN/xvOr+b+HslccoKqDbHNU/C6yWFwaHBawww0ckXRtoJ8fFbV7Xv4NiRcEf6ePm/cd06xYiZmjRts11gE0r8f7D0vx/TgigmU3v8nrgNYDokUGl/jDdza3o7BXyQumCWRD45wYbmKJ1LKb0ybRvNt"
+    },
+    {
+      "key": "悯善",
+      "name": "🏆｜憫鄯｜高清◎秒播",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "api": "csp_App88",
+      "jar": "./jar/fish06281030.jar;md5;5d14ddf4289dcbcc4bd55705d3315369",
+      "ext": "AY/LmvuAAyhXffcGv5StyHm1MkGdY4inQLRC3KICnxUJBpq0d5dLhvE0+MW8XruH+M/Q/Ruqd6NayN9rihHGuotzXSTrDHgoZ2/dm2JlJ7GYOYfBorPhMPjuOhTNMg9w/J6oP4DXluvDpXNj9uOKq7g/Cx7vrKF6utOSaE1gUgDQwT251mOGTzGsd3ZrtEeepgI6hOdB2gJ4hHRumNhlbVtWDdpnVMYvhCIuH2HUqJFZWM5T+gEZTMLfeUEJt7ScfaQp90qNZID1YNo/tQOaFLGN12o4CkPtCNoYs+emjhVVqIjJzgfplCPIEyjRADqhur0c48FwCiJyp/XGZFmsMJaPKqvOkO+0H5YMKsR+EMmXCr6n0n1VnwGGpYl3maiq1SB78yDnh16291IjwXdERP1csTe41Vg3ppIixtk6q1etAikUle+6fjSFGvAvDYNr2Q=="
+    },
+    {
+      "key": "景仪",
+      "name": "🏆｜景仪｜高清◎秒播",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "api": "csp_App88",
+      "jar": "./jar/fish06281030.jar;md5;5d14ddf4289dcbcc4bd55705d3315369",
+      "ext": "AScEBDU8ZGTviWgGR4VE0GGkVwxm9FRojDfGdLd7Uq6yQW7ma68i5+t2StAnXVayevGqI3Kb0rJi2eqa1R3PW9cxHiFDbXAhtGajyY69GUpDZQ615h6l9jBlh/RMkOo3RfAvtXJdZasUTDhxflfJPCn0T5P68L/XHUV9ylgYmABoOSghqLVoMUNWDS5E2PAMVkm39vpIJOyKNEIhVd3EQmPxDSjSoDE56akhNdBPWsT+tZVbLO8rEccdRYGvxYsXmVjhxaXhmzQEoEme5LF/0+x+M2A880NZ5akhrKIl5ZjfREZCgQ6FClx7+L8f8fb2VNiLtFu5538MrSRozjub6WRKe1m5OOdgdOTsAXJXw5QG5IQ/Y/i9VBZTZUjqP+0TpP4h92QjLynjJAFzwSr3bAOOIvEJW2LsK+hocK72wpyVG93vl42XQpU5s95dAVJOOOnbawZUsOq8a0ctuSsSdWQ="
+    },
+
+    {
       "key": "py_耐看点播",
       "name": "🏆｜耐看点播｜",
       "type": 3,
@@ -1366,7 +1502,7 @@
         "海外动漫"
       ]
     },
-    
+
     {
       "key": "🏭廠長",
       "name": "🏆｜銅牌｜高清◎秒播(無廣告)",
@@ -1488,16 +1624,152 @@
       "ext": "https://tvbox.catvod.com/js/bili.js"
     },
     {
-      "key": "剧王短剧",
-      "name": "📱｜劇王｜短劇",
+      "key": "星芽短剧",
+      "name": "📺｜星芽短劇",
       "type": 3,
-      "api": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/py/JWDJ.py",
+      "api": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/py/XYDJ.py",
+      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
-
+    {
+      "key": "HHkk",
+      "name": "📺｜好看短剧",
+      "type": 3,
+      "api": "csp_HHkkAmns",
+      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "Hema",
+      "name": "📺｜盒马短剧",
+      "type": 3,
+      "api": "csp_HemaAmns",
+      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "Bddj",
+      "name": "📺｜拜拜短剧",
+      "type": 3,
+      "api": "csp_BddjAmns",
+      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "Wgdj",
+      "name": "📺｜圍觀短剧",
+      "type": 3,
+      "api": "csp_WgdjAmns",
+      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "Qmdj",
+      "name": "📺｜喵喵短剧",
+      "type": 3,
+      "api": "./py/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://dy.8ttv.cn",
+        "api": "/api.php/getappapi",
+        "datakey": "1111111111111111",
+        "dataiv": "1111111111111111"
+      }
+    },
+    {
+      "key": "星芽短剧",
+      "name": "📺｜星芽短劇",
+      "type": 3,
+      "api": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/py/XYDJ.py",
+      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "HHkk",
+      "name": "📺｜好看短剧",
+      "type": 3,
+      "api": "csp_HHkkAmns",
+      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "Hema",
+      "name": "📺｜盒马短剧",
+      "type": 3,
+      "api": "csp_HemaAmns",
+      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "Bddj",
+      "name": "📺｜拜拜短剧",
+      "type": 3,
+      "api": "csp_BddjAmns",
+      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "Wgdj",
+      "name": "📺｜圍觀短剧",
+      "type": 3,
+      "api": "csp_WgdjAmns",
+      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "Qmdj",
+      "name": "📺｜喵喵短剧",
+      "type": 3,
+      "api": "csp_QmdjAmns",
+      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "Xydj",
+      "name": "📺｜星星短剧",
+      "type": 3,
+      "api": "csp_XydjAmns",
+      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "genre": "shortdrama"
+    },
 
     {
       "key": "🇹🇼BBTV",
