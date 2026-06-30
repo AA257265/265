@@ -122,24 +122,24 @@
       "type": 4,
       "api": "https://newtv.ggff.net/guazi?token=fhJadO1R"
     },
-    //{
-    //  "key": "🎬瓜子",
-    //  "name": "🏆｜瓜子｜特清◎秒播(備用1)",
-    //  "type": 3,
-    //  "api": "csp_GuaziAmns",
-    //  "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
-    //  "searchable": 1,
-    //  "filterable": 1,
-    //  "quickSearch": 1,
-    //  "changeable": 1,
-    //  "ext": "./json/guazi.json"
-    //},
-    //{
-    //  "key": "T4-guazi",
-    //  "name": "🏆｜瓜子｜特清◎秒播(T4版)",
-    //  "type": 4,
-    //  "api": "https://catbox.n13.club/ai/%E7%93%9C%E5%AD%90%E5%BD%B1%E8%A7%86.php"
-    //},
+    {
+      "key": "🎬瓜子",
+      "name": "🏆｜瓜子｜特清◎秒播(備用1)",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "./json/guazi.json"
+    },
+    {
+      "key": "T4-guazi",
+      "name": "🏆｜瓜子｜特清◎秒播(T4版)",
+      "type": 4,
+      "api": "https://catbox.n13.club/ai/%E7%93%9C%E5%AD%90%E5%BD%B1%E8%A7%86.php"
+    },
     {
       "key": "苹果",
       "name": "🏆｜苹果｜秒播",
