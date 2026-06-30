@@ -109,37 +109,6 @@
       "changeable": 1
     },
 
-    //{
-    //  "api": "https://newtv.ggff.net/guazi?token=P69Phb_y",
-    //  "key": "月佬瓜子影视",
-    //  "name": "月佬瓜子影视",
-    //  "type": 4
-    //},
-    //{
-
-    //  "key": "月佬瓜子影视1",
-    //  "name": "🏆｜瓜子｜特清◎秒播(月佬版)",
-    //  "type": 4,
-    //  "api": "https://newtv.ggff.net/guazi?token=fhJadO1R"
-    //},
-    //{
-    //  "key": "🎬瓜子",
-    //  "name": "🏆｜瓜子｜特清◎秒播(備用1)",
-    //  "type": 3,
-    //  "api": "csp_GuaziAmns",
-    //  "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
-    //  "searchable": 1,
-    //  "filterable": 1,
-    //  "quickSearch": 1,
-    //  "changeable": 1,
-    //  "ext": "./json/guazi.json"
-    //},
-    //{
-    //  "key": "T4-guazi",
-    //  "name": "🏆｜瓜子｜特清◎秒播(T4版)",
-    //  "type": 4,
-    //  "api": "https://catbox.n13.club/ai/%E7%93%9C%E5%AD%90%E5%BD%B1%E8%A7%86.php"
-    //},
     {
       "key": "drpyS_枫林影视",
       "name": "🏆｜楓林｜高清",
@@ -219,7 +188,7 @@
     },
     {
       "key": "苹果",
-      "name": "🏆｜苹果｜秒播",
+      "name": "🏆｜苹果｜秒播1",
       "type": 3,
       "api": "csp_AppDrama",
       "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
@@ -2490,6 +2459,38 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
+    },
+
+    {
+      "api": "https://newtv.ggff.net/guazi?token=P69Phb_y",
+      "key": "月佬瓜子影视",
+      "name": "月佬瓜子影视",
+      "type": 4
+    },
+    {
+
+      "key": "月佬瓜子影视1",
+      "name": "🏆｜瓜子｜特清◎秒播(月佬版)",
+      "type": 4,
+      "api": "https://newtv.ggff.net/guazi?token=fhJadO1R"
+    },
+    {
+      "key": "🎬瓜子",
+      "name": "🏆｜瓜子｜特清◎秒播(備用1)",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "./json/guazi.json"
+    },
+    {
+      "key": "T4-guazi",
+      "name": "🏆｜瓜子｜特清◎秒播(T4版)",
+      "type": 4,
+      "api": "https://catbox.n13.club/ai/%E7%93%9C%E5%AD%90%E5%BD%B1%E8%A7%86.php"
     },
     {
       "key": "T4-安博",
