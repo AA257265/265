@@ -87,7 +87,12 @@
       }
 
     },
-
+    {
+      "key": "fY",
+      "name": "🐬枫叶影院(关梯子使用)",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/GHK/refs/heads/main/py/枫叶影院.py"
+    },
     {
       "key": "Dubk",
       "name": "🏆｜獨播庫｜",
@@ -1969,300 +1974,285 @@
         "dataiv": "66dc309cbeeca454"
       }
     },
-    //{
-    //  "key": "py_咕咕_APP",
-    //  "name": "🎡｜咕咕",
-    //  "type": 3,
-    //  "api": "./py/app/getapp.py",
-    //  "searchable": 1,
-    //  "quickSearch": 1,
-    //  "filterable": 1,
-    //  "ext": {
-    //    "host": "https://www.gugu3.com",
-    //    "api": "/api.php/getappapi",
-    //    "datakey": "nKfZ8KX6JTNWRzTD",
-    //    "ext": "a2a157143fce50cabe524135fd3fb26e4af09034942cb186addd2360d64a7fb5c9b7ddaede42dd983c638ddd5064f276cfa6afb8c43429de354b19c59f234352d43c095b60cf88bba8346f1b792fdc917ed229f084939e631faf8eed7cc1d53bdfd143be9e1c38ef8228663806c2e74f046ea6dae90f06581eafc6b6a4ee34ae6ac583ae5beb6bc49e710536a49f66feb74afc1950841752c37975c85f1b60cc0408b4f3b4c80e2b187fe843378e7ebfbfcd128e48a2195bfc5d1104cfc58ed98ccf5c17428aafdce4d3b14ada75f28c5c2f8856"
-    //  }
-    //},
-      {
-        "key": "AowuDmMw",
-        "name": "🎡｜喵物",
-        "type": 3,
-        "api": "csp_AowuDmAmns",
-        "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
-        "searchable": 1,
-        "quickSearch": 1,
-        "changeable": 0,
-        "ext": "db8b57143fce50cabe524135fd3fb26e4af09034942cb186addd2322edf17ab6c9b7862764598039301c43cf706efcd55499494d72c680001c30550747b3dc5994760e3d6e17208e5ed771b2b4162f65e72b3e530fdd9622474e1c5f8aecda41dcd17901c7ddc61193a63fd8aaa1a96dc8673f93a8116755fd04bb1baaa93215334aaa1327972f2dd7292eb3d593e60cad0b9a3dde2a1158640cfc93dac5af45ddd8f971e3be0ccb5c776752b9b92a7f67dc89375d7ad442bddb0c661554a03c420029010a932d2dd8e65d6dc5"
-      },
-      {
-        "key": "py_方舟_APP",
-        "name": "🎡｜方舟",
-        "type": 3,
-        "api": "./py/app/getapp.py",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "host": "https://www.cyfz.vip",
-          "api": "/api.php/getappapi",
-          "datakey": "e72cdfd629e8895d",
-          "dataiv": "e72cdfd629e8895d"
-        }
-      },
-      {
-        "key": "py_元咲_APP",
-        "name": "🎡｜元纓",
-        "type": 3,
-        "api": "./py/app/getapp.py",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "host": "http://cic.aicg.fun",
-          "api": "/api.php/getappapi",
-          "datakey": "2c4h36abd96se10u",
-          "dataiv": "2c4h36abd96se10u"
-        }
-      },
-      {
-        "key": "py_曼波_APP",
-        "name": "🎡｜曼波",
-        "type": 3,
-        "api": "./py/app/getapp.py",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "host": "https://app.omofun1.top",
-          "api": "/api.php/getappapi",
-          "datakey": "66dc309cbeeca454",
-          "dataiv": "66dc309cbeeca454"
-        }
-      },
-      {
-        "key": "py_咕咕_APP",
-        "name": "🎡｜咕咕",
-        "type": 3,
-        "api": "./py/app/getapp.py",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "host": "https://www.gugu3.com",
-          "api": "/api.php/getappapi",
-          "datakey": "nKfZ8KX6JTNWRzTD",
-          "dataiv": "nKfZ8KX6JTNWRzTD"
-        }
-      },
-      {
-        "key": "csp_動漫巴士",
-        "name": "🎡｜動漫巴士",
-        "type": 3,
-        "api": "csp_XYQHiker",
-        "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "./json/動漫巴士.json"
-      },
-      {
-        "key": "巴士动漫",
-        "name": "🎡｜巴士动漫",
-        "type": 3,
-        "api": "csp_XYQHiker",
-        "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "ext": "./json/巴士动漫.json"
-      },
-      {
-        "key": "csp_天天動漫",
-        "name": "🎡｜天天動漫",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "请求头": "User-Agent$MOBILE_UA",
-          "编码": "UTF-8",
-          "线路二次截取": "class=\"module-tab-items-box&&lass=\"swiper[替换:</div>>></a>]",
-          "线路数组": "class=\"module-tab-item tab-item&&</a>",
-          "线路标题": "<span>&&</span>",
-          "跳转播放链接": "var player_*\"url\":\"&&\"",
-          "主页url": "https://www.ttdm.me/vod-type/1/",
-          "分类url": "https://www.ttdm.me/vod-show/{cateId}--{by}-{class}-----{catePg}---/",
-          "分类": " 中国动漫$1#日本动漫$2#欧美动漫$3#其他动漫$4#动画电影$5",
-          "劇情": "玄幻&科幻&武侠&冒险&战斗&搞笑&恋爱&魔幻&竞技&热血&治愈&励志&机战&奇幻&悬疑&日常&校园&真人&推理&历史&经典&美食&偶像"
-        }
-      },
-      {
-        "key": "csp_桵空",
-        "name": "🎡｜桵空动漫",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "分类url": "https://www.maigo.cc/vodshow/{cateId}---{class}-----{catePg}---{year}/",
-          "分类": "电影$84#综艺$91#大陆劇$81#港台劇$82#海外劇$83#纪录片$88#动漫$1#日劇$32#日漫$46#国漫$47#美漫$85"
-        }
-      },
-      {
-        "key": "櫻花動漫2",
-        "name": "🎡｜櫻花动漫",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "分类url": "https://www.857kan.com/show/{cateId}--------{catePg}---{year}.html",
-          "分类": "動漫電影$4#日本動漫$1#大陸動漫$3#歐美動漫$6",
-          "dataiv": "nKfZ8KX6JTNWRzTD"
-        }
-      },
-      {
-        "key": "csp_動漫巴士",
-        "name": "🎡｜動漫巴士",
-        "type": 3,
-        "api": "csp_XYQHiker",
-        "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": "./json/動漫巴士.json"
-      },
-      {
-        "key": "巴士动漫",
-        "name": "🎡｜巴士动漫",
-        "type": 3,
-        "api": "csp_XYQHiker",
-        "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "ext": "./json/巴士动漫.json"
-      },
-      {
-        "key": "csp_天天動漫",
-        "name": "🎡｜天天動漫",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "请求头": "User-Agent$MOBILE_UA",
-          "编码": "UTF-8",
-          "线路二次截取": "class=\"module-tab-items-box&&lass=\"swiper[替换:</div>>></a>]",
-          "线路数组": "class=\"module-tab-item tab-item&&</a>",
-          "线路标题": "<span>&&</span>",
-          "跳转播放链接": "var player_*\"url\":\"&&\"",
-          "主页url": "https://www.ttdm.me/vod-type/1/",
-          "分类url": "https://www.ttdm.me/vod-show/{cateId}--{by}-{class}-----{catePg}---/",
-          "分类": " 中国动漫$1#日本动漫$2#欧美动漫$3#其他动漫$4#动画电影$5",
-          "劇情": "玄幻&科幻&武侠&冒险&战斗&搞笑&恋爱&魔幻&竞技&热血&治愈&励志&机战&奇幻&悬疑&日常&校园&真人&推理&历史&经典&美食&偶像"
-        }
-      },
-      {
-        "key": "csp_桵空",
-        "name": "🎡｜桵空动漫",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "分类url": "https://www.maigo.cc/vodshow/{cateId}---{class}-----{catePg}---{year}/",
-          "分类": "电影$84#综艺$91#大陆劇$81#港台劇$82#海外劇$83#纪录片$88#动漫$1#日劇$32#日漫$46#国漫$47#美漫$85"
-        }
-      },
-      {
-        "key": "櫻花動漫2",
-        "name": "🎡｜櫻花动漫",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "分类url": "https://www.857kan.com/show/{cateId}--------{catePg}---{year}.html",
-          "分类": "動漫電影$4#日本動漫$1#大陸動漫$3#歐美動漫$6"
-        }
-      },
-      {
-        "key": "魔都",
-        "name": "🎡｜魔都动漫",
-        "type": 0,
-        "api": "https://caiji.moduapi.cc/api.php/provide/vod/at/xml/",
-        "searchable": 1,
-        "changeable": 1,
-        "categories": [ "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "动漫电影", "里番动漫" ]
-      },
-      {
-        "key": "魔都资源",
-        "name": "🎡｜魔資动漫",
-        "type": 1,
-        "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-        "jar": "./jar/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710",
-        "searchable": 1,
-        "changeable": 1
-      },
-      {
-        "key": "csp_AG動漫",
-        "name": "🎡｜AG動漫",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-          "分类url": "https://agdm.tv/show/{cateId}/area/{area}/by/{by}/page/{catePg}/year/{year}.html",
-          "分类": "日本动漫$6#国产动漫$7#欧美动漫$8#海外动漫$21#劇场版$9",
-          "地区": "日本&大陆&美国"
-        }
-      },
-      {
-        "key": "drpy_js_去看吧",
-        "name": "🎡｜去看动漫",
-        "type": 3,
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "api": "./drpy_libs/drpy2.min.js",
-        "ext": "./drpy_js/去看吧.js"
-      },
-      {
-        "key": "好看动漫",
-        "name": "🎡｜好看动漫",
-        "type": 3,
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "api": "./drpy_libs/drpy2.min.js",
-        "ext": "./drpy_js/HKDM.js"
-      },
-      {
-        "key": "drpy_js_爱弹幕",
-        "name": "🎡｜爱动漫",
-        "type": 3,
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "api": "./drpy_libs/drpy2.min.js",
-        "ext": "./drpy_js/爱弹幕.js"
-      },
-      {
-        "key": "hipy_js_七色番[漫]",
-        "name": "🎡｜七色番动漫",
-        "type": 3,
-        "searchable": 1
-      },
+    {
+      "key": "AowuDmMw",
+      "name": "🎡｜喵物",
+      "type": 3,
+      "api": "csp_AowuDmAmns",
+      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "db8b57143fce50cabe524135fd3fb26e4af09034942cb186addd2322edf17ab6c9b7862764598039301c43cf706efcd55499494d72c680001c30550747b3dc5994760e3d6e17208e5ed771b2b4162f65e72b3e530fdd9622474e1c5f8aecda41dcd17901c7ddc61193a63fd8aaa1a96dc8673f93a8116755fd04bb1baaa93215334aaa1327972f2dd7292eb3d593e60cad0b9a3dde2a1158640cfc93dac5af45ddd8f971e3be0ccb5c776752b9b92a7f67dc89375d7ad442bddb0c661554a03c420029010a932d2dd8e65d6dc5"
+    },
+    {
+      "key": "py_方舟_APP",
+      "name": "🎡｜方舟",
+      "type": 3,
+      "api": "./py/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://www.cyfz.vip",
+        "api": "/api.php/getappapi",
+        "datakey": "e72cdfd629e8895d",
+        "dataiv": "e72cdfd629e8895d"
+      }
+    },
+    {
+      "key": "py_元咲_APP",
+      "name": "🎡｜元纓",
+      "type": 3,
+      "api": "./py/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://cic.aicg.fun",
+        "api": "/api.php/getappapi",
+        "datakey": "2c4h36abd96se10u",
+        "dataiv": "2c4h36abd96se10u"
+      }
+    },
+    {
+      "key": "py_曼波_APP",
+      "name": "🎡｜曼波",
+      "type": 3,
+      "api": "./py/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://app.omofun1.top",
+        "api": "/api.php/getappapi",
+        "datakey": "66dc309cbeeca454",
+        "dataiv": "66dc309cbeeca454"
+      }
+    },
+    {
+      "key": "py_咕咕_APP",
+      "name": "🎡｜咕咕",
+      "type": 3,
+      "api": "./py/app/getapp.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://www.gugu3.com",
+        "api": "/api.php/getappapi",
+        "datakey": "nKfZ8KX6JTNWRzTD",
+        "dataiv": "nKfZ8KX6JTNWRzTD"
+      }
+    },
+    {
+      "key": "csp_動漫巴士",
+      "name": "🎡｜動漫巴士",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/動漫巴士.json"
+    },
+    {
+      "key": "巴士动漫",
+      "name": "🎡｜巴士动漫",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": "./json/巴士动漫.json"
+    },
+    {
+      "key": "csp_天天動漫",
+      "name": "🎡｜天天動漫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "线路二次截取": "class=\"module-tab-items-box&&lass=\"swiper[替换:</div>>></a>]",
+        "线路数组": "class=\"module-tab-item tab-item&&</a>",
+        "线路标题": "<span>&&</span>",
+        "跳转播放链接": "var player_*\"url\":\"&&\"",
+        "主页url": "https://www.ttdm.me/vod-type/1/",
+        "分类url": "https://www.ttdm.me/vod-show/{cateId}--{by}-{class}-----{catePg}---/",
+        "分类": " 中国动漫$1#日本动漫$2#欧美动漫$3#其他动漫$4#动画电影$5",
+        "劇情": "玄幻&科幻&武侠&冒险&战斗&搞笑&恋爱&魔幻&竞技&热血&治愈&励志&机战&奇幻&悬疑&日常&校园&真人&推理&历史&经典&美食&偶像"
+      }
+    },
+    {
+      "key": "csp_桵空",
+      "name": "🎡｜桵空动漫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "分类url": "https://www.maigo.cc/vodshow/{cateId}---{class}-----{catePg}---{year}/",
+        "分类": "电影$84#综艺$91#大陆劇$81#港台劇$82#海外劇$83#纪录片$88#动漫$1#日劇$32#日漫$46#国漫$47#美漫$85"
+      }
+    },
+    {
+      "key": "櫻花動漫2",
+      "name": "🎡｜櫻花动漫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "分类url": "https://www.857kan.com/show/{cateId}--------{catePg}---{year}.html",
+        "分类": "動漫電影$4#日本動漫$1#大陸動漫$3#歐美動漫$6",
+        "dataiv": "nKfZ8KX6JTNWRzTD"
+      }
+    },
+    {
+      "key": "csp_動漫巴士",
+      "name": "🎡｜動漫巴士",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./json/動漫巴士.json"
+    },
+    {
+      "key": "巴士动漫",
+      "name": "🎡｜巴士动漫",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "ext": "./json/巴士动漫.json"
+    },
+    {
+      "key": "csp_天天動漫",
+      "name": "🎡｜天天動漫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "线路二次截取": "class=\"module-tab-items-box&&lass=\"swiper[替换:</div>>></a>]",
+        "线路数组": "class=\"module-tab-item tab-item&&</a>",
+        "线路标题": "<span>&&</span>",
+        "跳转播放链接": "var player_*\"url\":\"&&\"",
+        "主页url": "https://www.ttdm.me/vod-type/1/",
+        "分类url": "https://www.ttdm.me/vod-show/{cateId}--{by}-{class}-----{catePg}---/",
+        "分类": " 中国动漫$1#日本动漫$2#欧美动漫$3#其他动漫$4#动画电影$5",
+        "劇情": "玄幻&科幻&武侠&冒险&战斗&搞笑&恋爱&魔幻&竞技&热血&治愈&励志&机战&奇幻&悬疑&日常&校园&真人&推理&历史&经典&美食&偶像"
+      }
+    },
+    {
+      "key": "csp_桵空",
+      "name": "🎡｜桵空动漫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "分类url": "https://www.maigo.cc/vodshow/{cateId}---{class}-----{catePg}---{year}/",
+        "分类": "电影$84#综艺$91#大陆劇$81#港台劇$82#海外劇$83#纪录片$88#动漫$1#日劇$32#日漫$46#国漫$47#美漫$85"
+      }
+    },
+    {
+      "key": "櫻花動漫2",
+      "name": "🎡｜櫻花动漫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "分类url": "https://www.857kan.com/show/{cateId}--------{catePg}---{year}.html",
+        "分类": "動漫電影$4#日本動漫$1#大陸動漫$3#歐美動漫$6"
+      }
+    },
+    {
+      "key": "魔都",
+      "name": "🎡｜魔都动漫",
+      "type": 0,
+      "api": "https://caiji.moduapi.cc/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [ "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "动漫电影", "里番动漫" ]
+    },
+    {
+      "key": "魔都资源",
+      "name": "🎡｜魔資动漫",
+      "type": 1,
+      "api": "https://caiji.moduapi.cc/api.php/provide/vod",
+      "jar": "./jar/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "csp_AG動漫",
+      "name": "🎡｜AG動漫",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "分类url": "https://agdm.tv/show/{cateId}/area/{area}/by/{by}/page/{catePg}/year/{year}.html",
+        "分类": "日本动漫$6#国产动漫$7#欧美动漫$8#海外动漫$21#劇场版$9",
+        "地区": "日本&大陆&美国"
+      }
+    },
+    {
+      "key": "drpy_js_去看吧",
+      "name": "🎡｜去看动漫",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "./drpy_libs/drpy2.min.js",
+      "ext": "./drpy_js/去看吧.js"
+    },
+    {
+      "key": "好看动漫",
+      "name": "🎡｜好看动漫",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "./drpy_libs/drpy2.min.js",
+      "ext": "./drpy_js/HKDM.js"
+    },
+    {
+      "key": "drpy_js_爱弹幕",
+      "name": "🎡｜爱动漫",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "./drpy_libs/drpy2.min.js",
+      "ext": "./drpy_js/爱弹幕.js"
+    },
+    {
+      "key": "hipy_js_七色番[漫]",
+      "name": "🎡｜七色番动漫",
+      "type": 3,
+      "searchable": 1
+    },
 
     {
       "key": "魔都",
@@ -2356,185 +2346,185 @@
       "quickSearch": 1,
       "ext": "./drpy_js/异世界.js"
     },
-      {
-        "key": "🇹🇼BBTV",
-        "name": "🇹🇼BBTV",
-        "type": 1,
-        "api": "https://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at",
-        "searchable": 1,
-        "changeable": 1,
-        "categories": [ "国产剧", "香港剧", "欧美剧", "韩国剧", "日本剧", "台湾剧", "海外剧", "泰国剧", "电影片", "连续剧", "综艺片", "动漫片", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "记录片", "大陆综艺", "港台综艺", "日韩综艺", "国产动漫", "日韩动漫", "欧美综艺", "欧美动漫", "港台动漫", "海外动漫" ]
-      },
-      {
-        "key": "茅台资源",
-        "name": "🍺茅台资源",
-        "type": 1,
-        "api": "https://mtzy.me/api.php/provide/vod/at",
-        "searchable": 1,
-        "changeable": 1,
-        "categories": [ "国产剧", "香港剧", "欧美剧", "韩国剧", "日本剧", "台湾剧", "海外剧", "泰国剧", "电影片", "连续剧", "综艺片", "动漫片", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "记录片", "大陆综艺", "港台综艺", "日韩综艺", "国产动漫", "日韩动漫", "欧美综艺", "欧美动漫", "港台动漫", "海外动漫" ]
-      },
-      {
-        "key": "🍊Boba影视🍊",
-        "name": "🍊Boba影视🍊",
-        "type": 0,
-        "api": "http://150.109.94.44:1112/api.php/provide/vod/at/xml/",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "categories": [ "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "战争片", "悬疑片", "剧情片", "4K", "国产剧", "欧美剧", "日韩剧", "港剧", "台剧", "泰国剧", "大陆综艺", "日韩综艺", "港台综艺", "欧美综艺", "大陆动漫", "日韩动漫", "欧美动漫", "动画电影", "布袋戏", "Netflix电影", "Netflix电视剧", "短剧", "纪录片", "体育", "日韩无码", "欧美精品", "国产精品", "中文字幕", "人妻系列", "强奸乱伦", "自拍偷拍", "重口味" ]
-      },
-      {
-        "key": "如意",
-        "name": "֎如意资源",
-        "type": 1,
-        "api": "https://www.ryzyw.com/api.php/provide/vod/at",
-        "categories": [ "国产剧", "港剧", "韩剧", "日剧", "台剧", "欧美剧", "新马剧", "泰剧", "其他剧", "剧情片", "动作片", "冒险片", "同性片", "喜剧片", "奇幻片", "恐怖片", "悬疑片", "惊悚片", "灾难片", "爱情片", "犯罪片", "科幻片", "动画电影", "歌舞片", "战争片", "经典片", "网络电影", "其它片", "国产综艺", "港台综艺", "韩国综艺", "日本综艺", "欧美综艺", "新马泰综艺", "其他综艺", "虐恋短剧", "逆袭短剧", "重生短剧", "穿越短剧", "甜宠短剧", "其它短剧", "欧美动漫", "日本动漫", "韩国动漫", "国产动漫", "港台动漫", "新马泰动漫", "其它动漫" ],
-        "searchable": 1,
-        "changeable": 1
-      },
-      {
-        "key": "iQIYI",
-        "name": "🧨iQIYI",
-        "type": 0,
-        "api": "https://iqiyizyapi.com/api.php/provide/vod/at/xml",
-        "searchable": 1,
-        "quickSearch": 1
-      },
-      {
-        "key": "虎牙",
-        "name": "🐯虎牙",
-        "type": 1,
-        "api": "https://www.huyaapi.com/api.php/provide/vod/at/",
-        "searchable": 1,
-        "changeable": 1,
-        "categories": []
-      },
-      {
-        "key": "csp_TV121影视",
-        "name": "🥎｜TV121影视",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "jar": "https://yiwo.uk/bbtv/jar/yiwo-py.jar",
-        "ext": {
-          "简介": "",
-          "分类url": "https://www.815k.com/list/{cateId}.html",
-          "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
-        }
-      },
-      {
-        "key": "csp_PTT",
-        "name": "🏆｜PTT｜高清◎秒播",
-        "type": 3,
-        "api": "csp_PTT",
-        "jar": "./jar/lem0106.jar;md5;8A3F412E42E8B36750E238B066AC4D7A",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1
-      },
-      {
-        "key": "优视频",
-        "name": "🏆｜優視頻｜藍光◎秒播(無廣告)",
-        "type": 3,
-        "jar": "./jar/7哥.jar",
-        "api": "csp_YouSPAmns",
-        "searchable": 1,
-        "filterable": 1,
-        "quickSearch": 1,
-        "changeable": 1,
-        "ext": "1"
-      },
-      {
-        "name": "📹UB影視",
-        "key": "📹YOU视",
-        "type": 3,
-        //"jar": "https://9763.kstore.space/wnqiwnquidwiunddneudne/custom_spider.jar",
-        "jar": "./jar/custom_spider1.jar",
-        "api": "csp_YouSPAmns",
-        "searchable": 1,
-        "filterable": 1,
-        "quickSearch": 1,
-        "changeable": 1,
-        "ext": "1"
-      },
-      {
-        "key": "Uvod.py",
-        "name": "UB影視|py",
-        "type": 3,
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "changeable": 1,
-        "api": "./py/UB.py",
-        "order_num": 5,
-        "ext": "1"
-      },
-      {
-        "key": "csp_PTT1",
-        "name": "🥉｜PTT_1｜",
-        "type": 3,
-        "api": "csp_PTT",
-        "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/lem0118.jar",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1
-      },
-      {
-        "key": "T4-安博",
-        "name": "安博(T4)",
-        "type": 4,
-        "api": "https://tang.hz.cz/power/ub18?token=89d4cd38",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": true,
-        "changeable": 0
-      },
-      {
-        "key": "T4-Infinity",
-        "name": "Infinity(T4)",
-        "type": 4,
-        "api": "https://tang.hz.cz/power/hme?token=89d4cd38",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "changeable": 0,
-        "ext": false
-
-      },
-      {
-        "key": "T4-dbku",
-        "name": "独播库(T4)",
-        "type": 4,
-        "api": "https://tang.hz.cz/power/duboku?token=89d4cd38",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "changeable": 0
-      },
-      {
-        "key": "T4-欧乐",
-        "name": "欧乐(T4)",
-        "type": 4,
-        "api": "https://tang.hz.cz/power/olelive?token=89d4cd38",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "changeable": 0
-      },
-      {
-        "key": "T4-dbku",
-        "name": "独播库(藍光資源)",
-        "type": 3,
-        "api": "https://tvbot.ggff.net/duboku",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "changeable": 0
+    {
+      "key": "🇹🇼BBTV",
+      "name": "🇹🇼BBTV",
+      "type": 1,
+      "api": "https://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [ "国产剧", "香港剧", "欧美剧", "韩国剧", "日本剧", "台湾剧", "海外剧", "泰国剧", "电影片", "连续剧", "综艺片", "动漫片", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "记录片", "大陆综艺", "港台综艺", "日韩综艺", "国产动漫", "日韩动漫", "欧美综艺", "欧美动漫", "港台动漫", "海外动漫" ]
+    },
+    {
+      "key": "茅台资源",
+      "name": "🍺茅台资源",
+      "type": 1,
+      "api": "https://mtzy.me/api.php/provide/vod/at",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [ "国产剧", "香港剧", "欧美剧", "韩国剧", "日本剧", "台湾剧", "海外剧", "泰国剧", "电影片", "连续剧", "综艺片", "动漫片", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "记录片", "大陆综艺", "港台综艺", "日韩综艺", "国产动漫", "日韩动漫", "欧美综艺", "欧美动漫", "港台动漫", "海外动漫" ]
+    },
+    {
+      "key": "🍊Boba影视🍊",
+      "name": "🍊Boba影视🍊",
+      "type": 0,
+      "api": "http://150.109.94.44:1112/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [ "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "战争片", "悬疑片", "剧情片", "4K", "国产剧", "欧美剧", "日韩剧", "港剧", "台剧", "泰国剧", "大陆综艺", "日韩综艺", "港台综艺", "欧美综艺", "大陆动漫", "日韩动漫", "欧美动漫", "动画电影", "布袋戏", "Netflix电影", "Netflix电视剧", "短剧", "纪录片", "体育", "日韩无码", "欧美精品", "国产精品", "中文字幕", "人妻系列", "强奸乱伦", "自拍偷拍", "重口味" ]
+    },
+    {
+      "key": "如意",
+      "name": "֎如意资源",
+      "type": 1,
+      "api": "https://www.ryzyw.com/api.php/provide/vod/at",
+      "categories": [ "国产剧", "港剧", "韩剧", "日剧", "台剧", "欧美剧", "新马剧", "泰剧", "其他剧", "剧情片", "动作片", "冒险片", "同性片", "喜剧片", "奇幻片", "恐怖片", "悬疑片", "惊悚片", "灾难片", "爱情片", "犯罪片", "科幻片", "动画电影", "歌舞片", "战争片", "经典片", "网络电影", "其它片", "国产综艺", "港台综艺", "韩国综艺", "日本综艺", "欧美综艺", "新马泰综艺", "其他综艺", "虐恋短剧", "逆袭短剧", "重生短剧", "穿越短剧", "甜宠短剧", "其它短剧", "欧美动漫", "日本动漫", "韩国动漫", "国产动漫", "港台动漫", "新马泰动漫", "其它动漫" ],
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "iQIYI",
+      "name": "🧨iQIYI",
+      "type": 0,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "虎牙",
+      "name": "🐯虎牙",
+      "type": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/at/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": []
+    },
+    {
+      "key": "csp_TV121影视",
+      "name": "🥎｜TV121影视",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "https://yiwo.uk/bbtv/jar/yiwo-py.jar",
+      "ext": {
+        "简介": "",
+        "分类url": "https://www.815k.com/list/{cateId}.html",
+        "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
       }
+    },
+    {
+      "key": "csp_PTT",
+      "name": "🏆｜PTT｜高清◎秒播",
+      "type": 3,
+      "api": "csp_PTT",
+      "jar": "./jar/lem0106.jar;md5;8A3F412E42E8B36750E238B066AC4D7A",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "优视频",
+      "name": "🏆｜優視頻｜藍光◎秒播(無廣告)",
+      "type": 3,
+      "jar": "./jar/7哥.jar",
+      "api": "csp_YouSPAmns",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "1"
+    },
+    {
+      "name": "📹UB影視",
+      "key": "📹YOU视",
+      "type": 3,
+      //"jar": "https://9763.kstore.space/wnqiwnquidwiunddneudne/custom_spider.jar",
+      "jar": "./jar/custom_spider1.jar",
+      "api": "csp_YouSPAmns",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "1"
+    },
+    {
+      "key": "Uvod.py",
+      "name": "UB影視|py",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "api": "./py/UB.py",
+      "order_num": 5,
+      "ext": "1"
+    },
+    {
+      "key": "csp_PTT1",
+      "name": "🥉｜PTT_1｜",
+      "type": 3,
+      "api": "csp_PTT",
+      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/lem0118.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "T4-安博",
+      "name": "安博(T4)",
+      "type": 4,
+      "api": "https://tang.hz.cz/power/ub18?token=89d4cd38",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": true,
+      "changeable": 0
+    },
+    {
+      "key": "T4-Infinity",
+      "name": "Infinity(T4)",
+      "type": 4,
+      "api": "https://tang.hz.cz/power/hme?token=89d4cd38",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0,
+      "ext": false
+
+    },
+    {
+      "key": "T4-dbku",
+      "name": "独播库(T4)",
+      "type": 4,
+      "api": "https://tang.hz.cz/power/duboku?token=89d4cd38",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "T4-欧乐",
+      "name": "欧乐(T4)",
+      "type": 4,
+      "api": "https://tang.hz.cz/power/olelive?token=89d4cd38",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "T4-dbku",
+      "name": "独播库(藍光資源)",
+      "type": 3,
+      "api": "https://tvbot.ggff.net/duboku",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 0
+    }
 
 
   ],
