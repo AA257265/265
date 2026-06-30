@@ -120,7 +120,7 @@
     },
     {
       "key": "苹果",
-      "name": "🏆｜苹果｜秒播",
+      "name": "苹果",
       "type": 3,
       "api": "csp_AppQi",
       "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
@@ -188,7 +188,7 @@
     },
     {
       "key": "苹果",
-      "name": "🏆｜苹果｜秒播1",
+      "name": "🏆｜苹果｜秒播22",
       "type": 3,
       "api": "csp_AppDrama",
       "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
