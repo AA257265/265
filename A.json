@@ -2,7 +2,7 @@
   //"spider": "./jar/custom_spider.jar",
   //"spider": "./jar/fan-0523.jar;md5;e25131330e48e729864434147c857f41",
   //"spider": "./jar/aowu-0527.jar;md5;f6cc0883f796684dc6faa9fa1b355716",
-  "spider": "./jar/fm.jar",
+  "spider": "./jar/fm.jar;md5;b0adab2fad1de8871b9533527f407cdf",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
