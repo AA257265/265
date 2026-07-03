@@ -1599,6 +1599,18 @@
       "ext": "https://tvbox.catvod.com/js/bili.js"
     },
     {
+      "key": "dttv",
+      "name": "蛋塔.py",
+      "type": 3,
+      "api": "./py/蛋挞TV.py"
+    },
+    {
+      "key": "hgdj",
+      "name": "红果短劇.py",
+      "type": 3,
+      "api": "./py/红果短剧.py"
+    },
+    {
       "key": "星芽短剧",
       "name": "📺｜星芽短劇",
       "type": 3,
