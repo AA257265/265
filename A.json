@@ -137,48 +137,6 @@
       "changeable": 1,
       "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-dETsDhhkydVym6T7qzn7WB.gz"
     },
-
-    {
-      "key": "drpyS_枫林影视",
-      "name": "🏆｜楓林｜高清",
-      "type": 4,
-      "api": "http://192.129.140.23:5757/api/枫林影视?pwd=dzyyds",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "苹果",
-      "name": "🏆｜苹果｜秒播",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "小苹果",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-        "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.juechufsh.android.xpg1",
-        "host": "",
-        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
-        "version": "1.0.0.3",
-        "decrypt": "0"
-      }
-    },
-    {
-      "key": "小鸭子看看",
-      "name": "🦆小鸭子看看┃ python ┃ ",
-      "type": 3,
-      "api": "./py/小鸭子看看.py",
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "changeable": 1
-    },
     {
       "key": "金牌影视",
       "name": "🏆｜金牌｜高清",
@@ -1381,6 +1339,48 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": { "site": "https://cqzuoer.com" }
+    },
+
+    {
+      "key": "drpyS_枫林影视",
+      "name": "🏆｜楓林｜高清",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/枫林影视?pwd=dzyyds",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "苹果",
+      "name": "🏆｜苹果｜秒播",
+      "type": 3,
+      "api": "csp_AppDrama",
+      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "appName": "小苹果",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+        "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.juechufsh.android.xpg1",
+        "host": "",
+        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
+        "version": "1.0.0.3",
+        "decrypt": "0"
+      }
+    },
+    {
+      "key": "小鸭子看看",
+      "name": "🦆小鸭子看看┃ python ┃ ",
+      "type": 3,
+      "api": "./py/小鸭子看看.py",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
     },
     {
       "key": "py_xiong_di_ying_shi",
