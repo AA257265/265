@@ -3,7 +3,181 @@
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "notice": "",
   "sites": [
+    {
+      "key": "drpyS_可视影院",
+      "name": "可视影院(DS)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/可视影院?pwd=dzyyds",
+      "searchable": 2,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "可视影院",
+      "类型": "影视",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "drpyS_枫林影视",
+      "name": "枫林影视(DS)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/枫林影视?pwd=dzyyds",
+      "searchable": 2,
+      "filterable": 0,
+      "quickSearch": 0,
+      "title": "枫林影视",
+      "类型": "影视",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "drpyS_泥视频",
+      "name": "泥视频(DS)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/泥视频?pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "泥视频",
+      "author": "eylinsir",
+      "类型": "影视",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "drpyS_非凡采集[采]",
+      "name": "非凡采集[采](DS)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/非凡采集[采]?pwd=dzyyds",
+      "searchable": 2,
+      "filterable": 0,
+      "quickSearch": 1,
+      "title": "非凡采集[采]",
+      "类型": "影视",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "catvod_月光影视",
+      "name": "月光影视(cat)",
+      "type": 3,
+      "api": "http://192.129.140.23:5757/cat/月光影视.js?pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "月光影视",
+      "lang": "cat",
+      "ext": ""
+    },
+    {
+      "key": "catvod_荐片",
+      "name": "荐片(cat)",
+      "type": 3,
+      "api": "http://192.129.140.23:5757/cat/荐片.js?pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "荐片",
+      "lang": "cat",
+      "ext": ""
+    },
+    {
+      "key": "hipy_py_新浪资源",
+      "name": "新浪资源(hipy)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/新浪资源?do=py&pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "新浪资源",
+      "lang": "hipy",
+      "ext": ""
+    },
+    {
+      "key": "hipy_py_新韩剧网",
+      "name": "新韩剧网(hipy)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/新韩剧网?do=py&pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "新韩剧网",
+      "lang": "hipy",
+      "ext": ""
+    },
+    {
+      "key": "hipy_py_爱瓜APP",
+      "name": "爱瓜APP(hipy)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/爱瓜APP?do=py&pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "爱瓜APP",
+      "lang": "hipy",
+      "ext": ""
+    },
+    {
+      "key": "hipy_py_独播库",
+      "name": "独播库(hipy)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/独播库?do=py&pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "独播库",
+      "lang": "hipy",
+      "ext": ""
+    },
+    {
+      "key": "hipy_py_猎手APP",
+      "name": "猎手APP(hipy)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/猎手APP?do=py&pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "猎手APP",
+      "lang": "hipy",
+      "ext": ""
+    },
+    {
+      "key": "hipy_py_瓜子",
+      "name": "瓜子(hipy)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/瓜子?do=py&pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "瓜子",
+      "lang": "hipy",
+      "ext": ""
+    },
 
+
+
+    {
+      "key": "hipy_py_爱瓜APP",
+      "name": "爱瓜APP(hipy)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/爱瓜APP?do=py&pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "爱瓜APP",
+      "lang": "hipy",
+      "ext": ""
+    },
+    {
+      "key": "甜圈短劇",
+      "name": "🍅红果漫剧┃ python ┃ ",
+      "type": 3,
+      "api": "./py/红果漫剧.py",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
 
     {
       "key": "豆瓣",
@@ -2082,6 +2256,12 @@
     {
       "name": "18++",
       "url": "http://tv543.cc/18+.m3u"
+    },
+    {
+      "name": "a18",
+      "type": 0,
+      "ua": "okhttp",
+      "url": "https://raw.githubusercontent.com/AA257265/265/refs/heads/main/live/a18.txt"
     },
     {
       "name": "🔞秘密基地",
