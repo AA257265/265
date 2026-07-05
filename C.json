@@ -1,4 +1,4 @@
-{
+        {
   "spider": "./jar/fm.jar;md5;b0adab2fad1de8871b9533527f407cdf",
   "wallpaper": "https://深色壁纸.xxooo.cf/",
   "notice": "",
@@ -137,16 +137,6 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-dETsDhhkydVym6T7qzn7WB.gz"
-    },
-    {
-      "key": "Duboku",
-      "name": "🏆｜獨播庫｜備用",
-      "type": 3,
-      "api": "csp_Duboku",
-      "jar": "./jar/fish06281030.jar;md5;5d14ddf4289dcbcc4bd55705d3315369",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1
     },
 
     {
