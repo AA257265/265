@@ -33,6 +33,65 @@
       "searchable": 0,
       "quickSearch": 1,
       "changeable": 0
+    },
+    {
+      "key": "YouTube♓️SO",
+      "name": "YouTube",
+      "type": 3,
+      "api": "csp_Ytdl",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": 2,
+      "timeout": 30,
+      "filterable": 1,
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "jar": "./lib/Youtube.jar",
+      "ext": {
+        "proxy": "",
+        "youtube_txt": "./lib/Youtube.txt"
+      }
+    },
+    {
+      "key": "YouTube 👁️‍🗨️(火星兔)",
+      "name": "YouTube 👁️‍🗨️(火星兔)",
+      "type": 3,
+      "api": "csp_Ytdl",
+      "searchable": 1,
+      "quickSearch": 1,
+      "playerType": 2,
+      "timeout": 30,
+      "filterable": 1,
+      "jar": "https://files.catbox.moe/hmml4f.txt",
+      "ext": {
+        "proxy": "",
+        "youtube_txt": "https://files.catbox.moe/63vr18.txt"
+
+      }
+
+    },
+    {
+      "key": "Dubk",
+      "name": "🏆｜獨播庫｜",
+      "type": 3,
+      "api": "csp_DubkAmns",
+      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-dETsDhhkydVym6T7qzn7WB.gz"
+    },
+    {
+      "key": "Duboku",
+      "name": "🏆｜獨播庫｜備用",
+      "type": 3,
+      "api": "csp_Duboku",
+      "jar": "./jar/fish06281030.jar;md5;5d14ddf4289dcbcc4bd55705d3315369",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 1
     }
 
   ],
