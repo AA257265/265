@@ -23,16 +23,6 @@
       "quickSearch": 0,
       "changeable": 0,
       "ext": "https://file.icve.com.cn/file_doc/803/892/C8FDF0894D61FA21A937E21135CB9125.aowu"
-    },
-    {
-      "key": "YGP",
-      "name": "🇹🇼｜預告片",
-      "type": 3,
-      "api": "csp_YGPGuard",
-      "jar": "./jar/fan-0523.jar;md5;e25131330e48e729864434147c857f41",
-      "searchable": 0,
-      "quickSearch": 1,
-      "changeable": 0
     }
 
   ],
