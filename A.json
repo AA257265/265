@@ -172,7 +172,7 @@
       "key": "小鸭子看看",
       "name": "🦆小鸭子看看┃ python ┃ ",
       "type": 3,
-      "api": "./小鸭子看看.py",
+      "api": "./py/小鸭子看看.py",
       "style": {
         "type": "rect",
         "ratio": 1.33
