@@ -70,41 +70,7 @@
         "youtube_txt": "https://files.catbox.moe/63vr18.txt"
 
       }
-
-    },
-    {
-      "key": "Dubk",
-      "name": "🏆｜獨播庫｜",
-      "type": 3,
-      "api": "csp_DubkAmns",
-      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-dETsDhhkydVym6T7qzn7WB.gz"
-    },
-    {
-      "key": "Duboku",
-      "name": "🏆｜獨播庫｜備用",
-      "type": 3,
-      "api": "csp_Duboku",
-      "jar": "./jar/fish06281030.jar;md5;5d14ddf4289dcbcc4bd55705d3315369",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-
-    {
-      "key": "drpyS_枫林影视",
-      "name": "🏆｜楓林｜高清",
-      "type": 4,
-      "api": "http://192.129.140.23:5757/api/枫林影视?pwd=dzyyds",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
     }
-
-
 
   ],
 
