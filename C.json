@@ -4,6 +4,61 @@
   "notice": "",
   "sites": [
     {
+      "key": "📹YOU视",
+      "name": "🏆｜優视頻｜藍光◎秒播",
+      "type": 3,
+      "api": "csp_YouSPAmns",
+      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+
+    {
+      "key": "腾讯",
+      "name": "腾讯",
+      "type": 3,
+      "playerType": "2",
+      "api": "https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext": "https://tvbox.catvod.com/js/tx.js"
+    },
+    {
+      "key": "独播",
+      "name": "🏆｜獨播｜藍光◎秒播(無廣告)",
+      "type": 3,
+      "jar": "./jar/7哥.jar",
+      "api": "csp_DubkAmns",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "./json/獨播庫.json"
+    },
+    {
+      "key": "🎭杜北",
+      "name": "🏆｜獨播｜藍光◎秒播(備用)",
+      "type": 3,
+      "api": "csp_DubkAmns",
+      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "./json/獨播庫.json"
+    },
+    {
+      "key": "🍕欧乐",
+      "name": "🏆｜歐樂｜藍光◎秒播(無廣告+嗷嗚)",
+      "type": 3,
+      "api": "csp_OlyyAmns",
+      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "drpyS_可视影院",
       "name": "可视影院(DS)",
       "type": 4,
