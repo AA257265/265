@@ -295,6 +295,13 @@
       "changeable": 1
     },
     {
+      "key": "可可影视",
+      "name": "🌾可可影视",
+      "type": 3,
+      "api": "https://raw.gitcode.com/u013624795/jk/blobs/17e22b83665ef4617b1710e6f0d8f7ae8ae2782a/123.js",
+      "ext": "https://files.catbox.moe/a7r774.js"
+    },
+    {
       "key": "drpyS_可视影院",
       "name": "可视影院(DS)",
       "type": 4,
