@@ -1560,6 +1560,13 @@
       "filterable": 1
     },
     {
+      "key": "dr_星芽短剧[短]",
+      "name": "🌾星芽短剧[短]",
+      "type": 3,
+      "api": "https://raw.gitcode.com/u013624795/jk/blobs/17e22b83665ef4617b1710e6f0d8f7ae8ae2782a/123.js",
+      "ext": "https://files.catbox.moe/wh6azt.js"
+    },
+    {
       "key": "HHkk",
       "name": "📺｜好看短剧",
       "type": 3,
