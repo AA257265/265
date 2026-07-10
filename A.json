@@ -140,19 +140,7 @@
         "filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
       }
     },
-    {
-      "api": "https://newtv.ggff.net/guazi?token=P69Phb_y",
-      "key": "月佬瓜子影视",
-      "name": "月佬瓜子影视",
-      "type": 4
-    },
-    {
 
-      "key": "月佬瓜子影视1",
-      "name": "🏆｜瓜子｜特清◎秒播(月佬版)",
-      "type": 4,
-      "api": "https://newtv.ggff.net/guazi?token=fhJadO1R"
-    },
     {
       "key": "Dubk",
       "name": "🏆｜獨播庫｜",
@@ -2187,6 +2175,19 @@
       "ext": "./json/guazi.json"
     },
     {
+      "api": "https://newtv.ggff.net/guazi?token=P69Phb_y",
+      "key": "月佬瓜子影视",
+      "name": "月佬瓜子影视",
+      "type": 4
+    },
+    {
+
+      "key": "月佬瓜子影视1",
+      "name": "🏆｜瓜子｜特清◎秒播(月佬版)",
+      "type": 4,
+      "api": "https://newtv.ggff.net/guazi?token=fhJadO1R"
+    },
+    {
       "key": "T4-guazi",
       "name": "🏆｜瓜子｜特清◎秒播(T4版)",
       "type": 4,
@@ -2279,6 +2280,12 @@
     {
       "name": "綜合",
       "url": "https://tv123.cc.cd/tv.m3u",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "4GTV秒開",
+      "url": "https://raw.githubusercontent.com/AA257265/265/refs/heads/main/live/4GTV_NEW.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
