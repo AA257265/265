@@ -141,6 +141,19 @@
       }
     },
     {
+      "api": "https://newtv.ggff.net/guazi?token=P69Phb_y",
+      "key": "月佬瓜子影视",
+      "name": "月佬瓜子影视",
+      "type": 4
+    },
+    {
+
+      "key": "月佬瓜子影视1",
+      "name": "🏆｜瓜子｜特清◎秒播(月佬版)",
+      "type": 4,
+      "api": "https://newtv.ggff.net/guazi?token=fhJadO1R"
+    },
+    {
       "key": "Dubk",
       "name": "🏆｜獨播庫｜",
       "type": 3,
@@ -2160,19 +2173,7 @@
       "filterable": 1
     },
 
-    {
-      "api": "https://newtv.ggff.net/guazi?token=P69Phb_y",
-      "key": "月佬瓜子影视",
-      "name": "月佬瓜子影视",
-      "type": 4
-    },
-    {
 
-      "key": "月佬瓜子影视1",
-      "name": "🏆｜瓜子｜特清◎秒播(月佬版)",
-      "type": 4,
-      "api": "https://newtv.ggff.net/guazi?token=fhJadO1R"
-    },
     {
       "key": "🎬瓜子",
       "name": "🏆｜瓜子｜特清◎秒播(備用1)",
