@@ -127,6 +127,20 @@
 
     },
     {
+      "key": "Guazi",
+      "name": "瓜子|秒播",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "sites": "",
+        "filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
+      }
+    },
+    {
       "key": "Dubk",
       "name": "🏆｜獨播庫｜",
       "type": 3,
