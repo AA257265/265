@@ -2263,14 +2263,6 @@
     },
 
     {
-      "name": "推薦july",
-      "url": "https://iptv.8plus.eu.org/get.php?username=tg_0ypy6s61&password=trwm33jyjsnc&type=m3u_plus",
-      "User-Agent": "PharosTVPlayer",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-
-    {
       "name": "cloudtv盒子版",
       "url": "http://tv543.cc/cloudtv.txt",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -2284,44 +2276,26 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "4GTV秒開",
-      "url": "https://raw.githubusercontent.com/AA257265/265/refs/heads/main/live/4GTV_NEW.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "四季影視海外版",
-      "url": "http://104.253.175.55:19950/4gtv.m3u?token=885252",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "四季影視網頁版",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
       "name": "Dream",
-      "url": "http://dbmlosa.sylu.net:8080/dream.txt",
+      "url": "http://dbmlosa.sylu.cc:8080/dream.txt",
       "playerType": 2,
-      "epg": "http://epg.52sw.top:668/?ch={name}&date={date},https://tv.mxdyeah.top/epgphp/t.xml.gz",
-      "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png",
+      "epg": "http://epg.52sw.top:668/?ch={name}&date={date},https://epg.myxcwh.com/t.xml/",
+      "logo": "https://upload.112114.xyz/logo/{name}.png",
       "catchup": {
         "type": "append",
         "source": "&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
       }
     },
     {
-      "name": "欧华(需32位影视)",
-      "url": "http://dbmlosa.sylu.net:8080/ouhua.txt",
+      "name": "欧华(需32位影视仅港有效)",
+      "url": "http://dbmlosa.sylu.cc:8080/ouhua.txt",
       "playerType": 2,
       "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
     },
     {
       "name": "CloudTV(需32位影视)",
-      "url": "http://dbmlosa.sylu.net:8080/CloudTV.txt",
+      "url": "http://dbmlosa.sylu.cc:8080/CloudTV.txt",
       "playerType": 2,
       "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
@@ -2334,23 +2308,19 @@
       "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
     },
     {
-      "name": "四季欧飞二合一",
-      "url": "http://dbmactw.sylu.cc:2082/channel?type=m3u&token=7ZJ42qIlyWRAXT4L6c7AyDIQAfEkh18h2WHWrUBoLMO3eqhZ85rd7PYIHCvHBFac&proxy=true",
+      "name": "日本斯玛特",
+      "url": "http://dbm.de5.net/smt.php",
+      "playerType": 2,
+      "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
+      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/{name}.png",
+      "ua": "dream"
+    },
+    {
+      "name": "美国斯玛特",
+      "url": "http://dbmlasvgas.sylu.cc:2086/trams.m3u?token=NqAERVyoLmQn0tNu9lona-PV7_EltgWnrAr6Rkaf8Ro=",
       "playerType": 2,
       "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/{name}.png"
-    },
-    {
-      "name": "🦄4GTV(梯子台湾节点)",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv"
-    },
-    {
-      "name": "4GTV",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
       "name": "tv123",
@@ -2359,34 +2329,10 @@
       "url": "http://tv123.vvvv.ee/tv.m3u"
     },
     {
-      "name": "風雲源",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "http://iptv.4666888.xyz/FYTV.txt"
-    },
-    {
       "name": "小螞蟻直播",
       "type": 0,
       "ua": "okhttp",
       "url": "http://ge.html-5.me//ii/%E5%B0%8F%F0%9F%90%9C%E8%9A%82%E8%9A%81%E7%9B%B4%E6%92%AD%EF%BC%88%E5%BF%85%E9%A1%BB%E7%94%A8%E7%A7%91%E5%AD%A6%E5%B7%A5%E5%85%B7%E5%8F%B0%E6%B9%BE%E8%8A%82%E7%82%B9%E7%BE%8E%E5%9B%BD%E8%8A%82%E7%82%B9%EF%BC%89.txt"
-    },
-    {
-      "name": "LiveTV",
-      "type": 0,
-      "url": "https://www.mpimg.cn/down.php/d74e5569cc12720ac2cf66a2a4d42d36.txt",
-      "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://gongdian.top/tv/taibiao/{name}.png",
-      "playerType": 2,
-      "timeout": 10
-    },
-    {
-      "name": "机缘宝盒",
-      "type": 0,
-      "url": "http://38.75.136.137:88/api/tvlist.php",
-      "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://gongdian.top/tv/taibiao/{name}.png",
-      "playerType": 2,
-      "timeout": 10
     },
     {
       "name": "风云直播",
@@ -2396,19 +2342,6 @@
       "logo": "https://gongdian.top/tv/taibiao/{name}.png",
       "playerType": 2,
       "timeout": 10
-    },
-    {
-      "name": "60酒店源",
-      "type": 3,
-      "jar": "https://5413.kstore.space/DM/jar/fm.jar",
-      "api": "csp_MQiTV",
-      "epg": "https://gitee.com/taksssss/tv/raw/main/epg/epgpw_tw.xml.gz",
-      "ext": [
-        {
-          "name": "60",
-          "url": "http://220.134.196.147:1888"
-        }
-      ]
     },
     {
       "name": "jacktv",
@@ -2435,7 +2368,7 @@
     },
     {
       "name": "欧华(需32位影视)",
-      "url": "http://dbmlosa.sylu.net:8080/ouhua.txt",
+      "url": "http://dbmlosa.sylu.cc:8080/ouhua.txt",
       "playerType": 2,
       "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
