@@ -2287,13 +2287,6 @@
       }
     },
     {
-      "name": "欧华(需32位影视仅港有效)",
-      "url": "http://dbmlosa.sylu.cc:8080/ouhua.txt",
-      "playerType": 2,
-      "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
-    },
-    {
       "name": "CloudTV(需32位影视)",
       "url": "http://dbmlosa.sylu.cc:8080/CloudTV.txt",
       "playerType": 2,
@@ -2399,6 +2392,13 @@
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "pass": true
+    },
+    {
+      "name": "欧华(需32位影视仅港有效)",
+      "url": "http://dbmlosa.sylu.cc:8080/ouhua.txt",
+      "playerType": 2,
+      "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
+      "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
     },
     {
       "name": "18++",
