@@ -26,24 +26,10 @@
       "changeable": 0
     },
     {
-      "key": "YouTube",
-      "name": "♓️｜YouTube｜SO",
+      "key": "youtube",
+      "name": "🐬youtube",
       "type": 3,
-      "api": "csp_Ytdl",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playerType": 2,
-      "timeout": 30,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "jar": "./lib/Youtube.jar",
-      "ext": {
-        "proxy": "",
-        "youtube_txt": "./lib/Youtube.txt"
-      }
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/油管.py"
     },
     {
       "key": "聚合短剧",
@@ -191,6 +177,16 @@
       "jar": "./jar/custom_spider.jar;md5;5e53c8f9ddd4ede5359c16bee091db93",
       "playerType": 2,
       "filterable": 1
+    },
+    {
+      "key": "Ysp",
+      "name": "🏆｜優影｜高清",
+      "type": 3,
+      "api": "csp_YspAmns",
+      "jar": "./jar/aowu-0714.jar;md5;dd6fbafde59756e7f5043a20c74b1961",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
     },
     {
       "key": "Uvod",
