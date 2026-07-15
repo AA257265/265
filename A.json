@@ -126,7 +126,27 @@
         "filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
       }
     },
+    {
 
+      "name": "瓜子(嗷嗚)",
+      "key": "Guazi",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "jar": "https://files.catbox.moe/n95oun.txt",
+      "header": {
+        "User-Agent": "Lavf/57.83.100",
+        "Referer": "http://WJiZxLXA2.com/"
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "sites": "",
+        "filters": "https://files.catbox.moe/yyxz4t.json"
+
+      }
+
+    },
     {
       "key": "Dubk",
       "name": "🏆｜獨播庫｜",
