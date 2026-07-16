@@ -112,41 +112,7 @@
       }
 
     },
-    {
-      "key": "Guazi",
-      "name": "🏆｜瓜子|秒播",
-      "type": 3,
-      "api": "csp_GuaziAmns",
-      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "sites": "",
-        "filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
-      }
-    },
-    {
 
-      "name": "瓜子(嗷嗚)",
-      "key": "Guazi1",
-      "type": 3,
-      "api": "csp_GuaziAmns",
-      "jar": "https://files.catbox.moe/n95oun.txt",
-      "header": {
-        "User-Agent": "Lavf/57.83.100",
-        "Referer": "http://WJiZxLXA2.com/"
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "sites": "",
-        "filters": "https://files.catbox.moe/yyxz4t.json"
-
-      }
-
-    },
     {
       "key": "Dubk",
       "name": "🏆｜獨播庫｜",
@@ -2163,6 +2129,41 @@
       "name": "🏆｜瓜子｜特清◎秒播(T4版)",
       "type": 4,
       "api": "https://catbox.n13.club/ai/%E7%93%9C%E5%AD%90%E5%BD%B1%E8%A7%86.php"
+    },
+    {
+      "key": "Guazi",
+      "name": "🏆｜瓜子|秒播",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "sites": "",
+        "filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
+      }
+    },
+    {
+
+      "name": "瓜子(嗷嗚)",
+      "key": "Guazi1",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "jar": "https://files.catbox.moe/n95oun.txt",
+      "header": {
+        "User-Agent": "Lavf/57.83.100",
+        "Referer": "http://WJiZxLXA2.com/"
+      },
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "sites": "",
+        "filters": "https://files.catbox.moe/yyxz4t.json"
+
+      }
+
     },
     {
       "key": "T4-安博",
