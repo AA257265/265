@@ -112,7 +112,37 @@
       }
 
     },
-
+    {
+      "name": "👖裤佬丨AI丨短剧",
+      "key": "Ai短剧",
+      "type": 3,
+      "jar": "https://nos.netease.com/ysf/0589efa17c35af5babb01f6fcfc83abc.png;md5;065ee07e71679d9c273e18fab401f0c0",
+      "api": "csp_HgdhAmns",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "https://nos.netease.com/ysf/dac0101040005285380ee886e6e6c660.aowu"
+    },
+    {
+      "key": "裤佬奈飞4K",
+      "name": "👖裤佬丨奈飞丨4K",
+      "type": 1,
+      "api": "https://api.wsyzy.net/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "4K电影",
+        "Netflix电影",
+        "Netflix自制剧"
+      ]
+    },
+    {
+      "key": "裤佬独播JS",
+      "name": "👖裤佬丨独播丨JS",
+      "type": 3,
+      "api": "https://dogpan.com/f/R64pc5/独播库.js"
+    },
     {
       "key": "Dubk",
       "name": "🏆｜獨播庫｜",
@@ -2170,7 +2200,15 @@
       "quickSearch": 1,
       "filterable": 1
     },
-
+    {
+      "key": "裤佬猎手PY",
+      "name": "👖裤佬丨猎手丨PY",
+      "api": "https://mpimg.cn/down.php/60fab5ff33f0b0fd88f099ae3be708bf.py",
+      "filterable": 1,
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
+    },
 
     {
       "key": "🎬瓜子",
