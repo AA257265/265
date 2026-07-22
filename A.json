@@ -2308,13 +2308,6 @@
     },
 
     {
-      "name": "cloudtv盒子版",
-      "url": "http://tv543.cc/cloudtv.txt",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-
-    },
-    {
       "name": "綜合",
       "url": "https://tv123.cc.cd/tv.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -2330,20 +2323,6 @@
         "type": "append",
         "source": "&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
       }
-    },
-    {
-      "name": "CloudTV(需32位影视)",
-      "url": "http://dbmlosa.sylu.cc:8080/CloudTV.txt",
-      "playerType": 2,
-      "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
-    },
-    {
-      "name": "四季线上",
-      "url": "http://dreamtv.sylu.cc:2082/vtg4.m3u?token=dbm",
-      "playerType": 2,
-      "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
     },
     {
       "name": "日本斯玛特",
@@ -2489,7 +2468,7 @@
       "name": "🐬4GTV(梯子台湾节点)",
       "type": 0,
       "ua": "okhttp",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv"
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv.txt"
     },
     {
       "name": "🐬jackTV(梯子)",
@@ -2547,7 +2526,7 @@
       "name": "🔞秘密基地",
       "type": 0,
       "ua": "okhttp",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx视频资源"
+      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx视频资源.txt"
     },
     {
       "name": "🔞祕密花園",
