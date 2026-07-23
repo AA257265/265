@@ -22,9 +22,6 @@ class Spider(Spider):
         
         # 视频格式支持
         self.VIDEO_FORMATS = ['.m3u8', '.mp4', '.flv', '.avi', '.mkv', '.mov']
-        
-        # 分辨率优先级（从高到低）
-        self.RESOLUTION_PRIORITY = ['4K', '2160P', '1080P', '720P', '480P', '360P', 'HD', '超清', '高清', '标清']
 
     def getName(self):
         return self.name
@@ -44,17 +41,6 @@ class Spider(Spider):
 
     def get_current_host(self):
         return self.hosts[self.default_host]
-    
-    def get_resolution_priority(self, resolution_str):
-        """获取分辨率的优先级，数字越小优先级越高"""
-        if not resolution_str:
-            return len(self.RESOLUTION_PRIORITY) + 1
-            
-        resolution_str = resolution_str.upper()
-        for priority, res in enumerate(self.RESOLUTION_PRIORITY):
-            if res.upper() in resolution_str:
-                return priority
-        return len(self.RESOLUTION_PRIORITY) + 1
 
     def homeContent(self, filter):
         result = {}
@@ -337,10 +323,7 @@ class Spider(Spider):
             
             # 查找所有播放线路的容器
             source_blocks = soup.find_all('div', class_='source')
-            
-            # 创建线路列表用于排序
-            line_list = []
-            
+
             for idx, block in enumerate(source_blocks):
                 source_name_tag = block.find('span', class_='name')
                 source_name = source_name_tag.text.strip() if source_name_tag else f"线路{idx+1}"
@@ -350,6 +333,7 @@ class Spider(Spider):
                 
                 # 组合线路名称和分辨率
                 full_source_name = f"{source_name} ({resolution})" if resolution else source_name
+                play_sources.append(full_source_name)
                 
                 episodes = []
                 if pp_data and 'lines' in pp_data and len(pp_data['lines']) > idx:
@@ -369,23 +353,10 @@ class Spider(Spider):
                                     
                                 episodes.append(f"{episode_name}${url}")
                 
-                play_url = "#".join(episodes) if episodes else ""
-                
-                # 添加到线路列表
-                line_list.append({
-                    'source': full_source_name,
-                    'url': play_url,
-                    'resolution': resolution,
-                    'priority': self.get_resolution_priority(resolution)
-                })
-            
-            # 按照分辨率优先级排序（从高到低）
-            line_list.sort(key=lambda x: x['priority'])
-            
-            # 将排序后的结果分别放入播放源和播放URL列表
-            for line in line_list:
-                play_sources.append(line['source'])
-                play_urls.append(line['url'])
+                if episodes:
+                    play_urls.append("#".join(episodes))
+                else:
+                    play_urls.append("")
 
             vod = {
                 "vod_id": vod_id,
@@ -397,7 +368,7 @@ class Spider(Spider):
             }
             
             result["list"].append(vod)
-            self.log(f"详情页解析成功，ID：{vod_id}，已按分辨率排序播放线路", "INFO")
+            self.log(f"详情页解析成功，ID：{vod_id}", "INFO")
             return result
         except Exception as e:
             self.log(f"详情页解析失败，ID：{vod_id}，错误：{str(e)}", "ERROR")
@@ -431,13 +402,14 @@ class Spider(Spider):
             self.log(f"播放地址解析失败：{str(e)}", "ERROR")
             return {"parse": 0, "playUrl": '', "url": id, "header": {"User-Agent": self.ua}}
 
-    def searchContent(self, key, quick, page='1'):
+    def searchContent(self, key, quick):
         result = {"list": []}
         try:
-            # 使用Google搜索获取相关页面
-            google_search_url = f"https://www.google.com/search?q={quote(key)}+site:xiaoyakankan.com"
+            # 构造Google搜索URL（带站点限定）
+            google_search_url = f"https://www.google.com/search?q={quote(key)}&sitesearch=xiaoyakankan.com"
             self.log(f"构造Google搜索URL: {google_search_url}")
             
+            # 伪装更多请求头
             headers = {
                 "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
                 "Referer": "https://www.google.com/",
@@ -448,7 +420,7 @@ class Spider(Spider):
             
             r = self.fetch(google_search_url, headers=headers, timeout=10)
             if r.status_code != 200:
-                self.log(f"Google搜索请求失败，状态码：{r.status_code}", "ERROR")
+                self.log(f"Google搜索请求失败，状态码：{r.status_code}，内容：{r.text[:200]}", "ERROR")
                 return result
             
             # 处理gzip压缩响应
@@ -460,7 +432,7 @@ class Spider(Spider):
                 # 寻找所有包含搜索结果的a标签
                 all_links = soup.find_all('a', href=re.compile(r'/url\?q='))
 
-                for a_tag in all_links[:8]:  # 限制最多8个结果，避免请求过多
+                for a_tag in all_links[:15]:  # 限制最多15个结果
                     link = a_tag['href']
                     
                     # 解析真实URL
@@ -471,7 +443,7 @@ class Spider(Spider):
                         real_link = query_params['q'][0]
                         
                         # 检查链接是否属于目标站点
-                        if 'xiaoyakankan.com' in real_link:
+                        if self.get_current_host() in real_link:
                             # 尝试从链接中提取影片ID
                             vod_id_match = re.search(r'/post/([^/]+)\.html', real_link)
                             if not vod_id_match:
@@ -479,44 +451,28 @@ class Spider(Spider):
                             
                             vod_id = vod_id_match.group(1)
                             
-                            # 获取标题
+                            # 获取标题和图片（这里因为Google搜索结果没有图片，所以图片留空）
                             title_tag = a_tag.find('h3')
                             if not title_tag:
+                                # 有时标题在父级或其他元素中
                                 title_tag = a_tag.find('div', class_='g')
                             
                             title = title_tag.text.strip() if title_tag else "未知标题"
 
-                            # 直接获取视频详情，包括播放链接
-                            try:
-                                detail_result = self.detailContent([vod_id])
-                                if detail_result and detail_result['list']:
-                                    vod_detail = detail_result['list'][0]
-                                    
-                                    # 检查是否有播放链接
-                                    if vod_detail.get('vod_play_url') and vod_detail.get('vod_play_from'):
-                                        vod = {
-                                            "vod_id": vod_id,
-                                            "vod_name": title,
-                                            "vod_pic": vod_detail.get('vod_pic', ''),
-                                            "vod_remarks": "搜索结果",
-                                            "vod_play_from": vod_detail.get('vod_play_from', ''),
-                                            "vod_play_url": vod_detail.get('vod_play_url', '')
-                                        }
-                                        result["list"].append(vod)
-                                        self.log(f"搜索到可播放视频: {title}", "INFO")
-                                    else:
-                                        self.log(f"搜索结果无播放链接: {title}", "WARNING")
-                                else:
-                                    self.log(f"无法获取视频详情: {title}", "WARNING")
-                            except Exception as e:
-                                self.log(f"获取视频详情失败：{str(e)}", "ERROR")
-                                continue
+                            vod = {
+                                "vod_id": vod_id,
+                                "vod_name": title,
+                                "vod_pic": "",
+                                "vod_remarks": "Google搜索结果"
+                            }
+                            
+                            result["list"].append(vod)
                 
             except Exception as e:
                 self.log(f"解析Google搜索结果失败：{str(e)}", "ERROR")
                 return result
             
-            self.log(f"搜索成功解析{len(result['list'])}个可播放项", "INFO")
+            self.log(f"Google搜索成功解析{len(result['list'])}个项", "INFO")
             return result
         except Exception as e:
             self.log(f"搜索内容获取失败：{str(e)}", "ERROR")
