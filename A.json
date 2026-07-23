@@ -2209,7 +2209,17 @@
       "searchable": 1,
       "type": 3
     },
-
+    {
+      "key": "https://www.hdmgdj.com",
+      "name": "📽️黄豆短剧[短劇]┃ python ┃ ",
+      "type": 3,
+      "api": "https://files.catbox.moe/zpq6zn.py",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
     {
       "key": "🎬瓜子",
       "name": "🏆｜瓜子｜特清◎秒播(備用1)",
@@ -2222,6 +2232,7 @@
       "changeable": 1,
       "ext": "./json/guazi.json"
     },
+
     {
       "api": "https://newtv.ggff.net/guazi?token=P69Phb_y",
       "key": "月佬瓜子影视",
