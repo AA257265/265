@@ -228,6 +228,12 @@
       "type": 3
     },
     {
+      "key": "cjjh",
+      "name": "🐬采集聚合.py",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/采集聚合.py"
+    },
+    {
       "key": "比特",
       "name": "🍄比特┃不卡",
       "type": 3,
@@ -400,6 +406,45 @@
       "type": 3,
       "api": "https://raw.gitcode.com/u013624795/jk/blobs/17e22b83665ef4617b1710e6f0d8f7ae8ae2782a/123.js",
       "ext": "https://files.catbox.moe/a7r774.js"
+    },
+    {
+      "key": "drpyS_55影视",
+      "name": "55影视(DS)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/55影视?pwd=dzyyds",
+      "searchable": 2,
+      "filterable": 0,
+      "quickSearch": 1,
+      "title": "55影视",
+      "类型": "影视",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "drpyS_永乐视频[优]",
+      "name": "永乐视频[优](DS)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/永乐视频[优]?pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "永乐视频[优]",
+      "类型": "影视",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "drpyS_荐片[优]",
+      "name": "荐片[优](DS)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/荐片[优]?pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 0,
+      "title": "荐片[优]",
+      "类型": "影视",
+      "lang": "ds",
+      "ext": ""
     },
     {
       "key": "drpyS_可视影院",
@@ -637,6 +682,31 @@
       "playerType": "2",
       "api": "https://tvbox.catvod.com/js/drpy2.min.js",
       "ext": "https://tvbox.catvod.com/js/bili.js"
+    },
+    {
+      "key": "drpyS_星芽短剧",
+      "name": "星芽短剧(DS)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/星芽短剧?pwd=dzyyds",
+      "searchable": 2,
+      "filterable": 1,
+      "quickSearch": 1,
+      "title": "星芽短剧",
+      "lang": "ds",
+      "ext": ""
+    },
+    {
+      "key": "drpyS_七猫短剧",
+      "name": "七猫短剧(DS)",
+      "type": 4,
+      "api": "http://192.129.140.23:5757/api/七猫短剧?pwd=dzyyds",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 0,
+      "title": "七猫短剧",
+      "类型": "影视",
+      "lang": "ds",
+      "ext": ""
     },
     {
       "key": "甜圈短劇",
@@ -2406,20 +2476,10 @@
       }
     },
     {
-      "name": "Free Man TV",
-      "url": "https://media0501.github.io/Freemedia/520freerecha@tv.txt",
-      "type": 0,
-      "timeout": 10,
-      "playerType": 2,
-      "ua": "okhttp/3.8.1 okhttp/3.15 okhttp/4.12.0 Herissmon/2016 judy/5.2.1 RobYang/5.2.1 Lavf/58.12.100 catvod.com Goiptv/8.8.8 Goiptv/0.0.1 xieanqishiwoerzi/0.0.1 okHttp/Mod-1.0.0",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
-    },
-    {
-      "name": "FreeTV.fun",
+      "name": "🐬4GTV(梯子任何节点)1080p",
       "type": 0,
       "ua": "okhttp",
-      "url": "https://t.freetv.fun/m3u/playlist.txt"
+      "url": "https://ha.msbot.dpdns.org/4gtv_api.php"
     },
     {
       "name": "欧华(需32位影视)",
@@ -2432,28 +2492,6 @@
     {
       "name": "大街直播",
       "url": "./live/綜合大街.txt"
-    },
-    {
-      "name": "RobYang備1| http://RobYang.dpdns.org",
-      "type": 0,
-      "playerType": 2,
-      "url": "http://www1.RobYang.dpdns.org/VodLive/lb8ffa",
-      "ua": "okhttp/4.12.0",
-      "timeout": 5,
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
-    },
-    {
-      "name": "RobYang備2| http://RobYang.rr.nu",
-      "type": 0,
-      "playerType": 2,
-      "url": "http://RobYang.runasp.net/VodLive/lb8ffa",
-      "ua": "okhttp/4.12.0",
-      "timeout": 5,
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
     },
     {
       "name": "欧华(需32位影视仅港有效)",
@@ -2560,12 +2598,26 @@
     //  "logo": "https://epg.112114.xyz/logo/{name}.png",
     //  "pass": true
     //},
+
     {
       "name": "🔞秘密基地",
       "type": 0,
       "ua": "okhttp",
       "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx视频资源.txt"
+    },
+    {
+      "name": "🔞午夜剧场",
+      "type": 0,
+      "playerType": 2,
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "url": "https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/午夜剧场.txt",
+      "header": {
+        "X-Api-key": "8692bd33270440d4d2941b814b81a25a1eb84a7205532971714c4299c57449e0..0..1738210005..5cf2c4ad-043b-4234-83a2-e84ae917"
+      }
     }
+
+
 
 
 
