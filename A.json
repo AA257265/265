@@ -2278,127 +2278,127 @@
       "quickSearch": 1,
       "searchable": 1,
       "type": 3
-    },
-    {
-      "key": "🎬瓜子",
-      "name": "🏆｜瓜子｜特清◎秒播(備用1)",
-      "type": 3,
-      "api": "csp_GuaziAmns",
-      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "./json/guazi.json"
-    },
-
-    {
-      "api": "https://newtv.ggff.net/guazi?token=P69Phb_y",
-      "key": "月佬瓜子影视",
-      "name": "月佬瓜子影视",
-      "type": 4
-    },
-    {
-
-      "key": "月佬瓜子影视1",
-      "name": "🏆｜瓜子｜特清◎秒播(月佬版)",
-      "type": 4,
-      "api": "https://newtv.ggff.net/guazi?token=fhJadO1R"
-    },
-    {
-      "key": "T4-guazi",
-      "name": "🏆｜瓜子｜特清◎秒播(T4版)",
-      "type": 4,
-      "api": "https://catbox.n13.club/ai/%E7%93%9C%E5%AD%90%E5%BD%B1%E8%A7%86.php"
-    },
-    {
-      "key": "Guazi",
-      "name": "🏆｜瓜子|秒播",
-      "type": 3,
-      "api": "csp_GuaziAmns",
-      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "sites": "",
-        "filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
-      }
-    },
-    {
-
-      "name": "瓜子(嗷嗚)",
-      "key": "Guazi1",
-      "type": 3,
-      "api": "csp_GuaziAmns",
-      "jar": "https://files.catbox.moe/n95oun.txt",
-      "header": {
-        "User-Agent": "Lavf/57.83.100",
-        "Referer": "http://WJiZxLXA2.com/"
-      },
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "sites": "",
-        "filters": "https://files.catbox.moe/yyxz4t.json"
-
-      }
-
-    },
-    {
-      "key": "T4-安博",
-      "name": "安博(T4)",
-      "type": 4,
-      "api": "https://tang.hz.cz/power/ub18?token=89d4cd38",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": true,
-      "changeable": 0
-    },
-    {
-      "key": "T4-Infinity",
-      "name": "Infinity(T4)",
-      "type": 4,
-      "api": "https://tang.hz.cz/power/hme?token=89d4cd38",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0,
-      "ext": false
-
-    },
-    {
-      "key": "T4-dbku",
-      "name": "独播库(T4)",
-      "type": 4,
-      "api": "https://tang.hz.cz/power/duboku?token=89d4cd38",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "T4-欧乐",
-      "name": "欧乐(T4)",
-      "type": 4,
-      "api": "https://tang.hz.cz/power/olelive?token=89d4cd38",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "T4-dbku",
-      "name": "独播库(藍光資源)",
-      "type": 3,
-      "api": "https://tvbot.ggff.net/duboku",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0
     }
+    //{
+    //  "key": "🎬瓜子",
+    //  "name": "🏆｜瓜子｜特清◎秒播(備用1)",
+    //  "type": 3,
+    //  "api": "csp_GuaziAmns",
+    //  "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
+    //  "searchable": 1,
+    //  "filterable": 1,
+    //  "quickSearch": 1,
+    //  "changeable": 1,
+    //  "ext": "./json/guazi.json"
+    //},
+
+    //{
+    //  "api": "https://newtv.ggff.net/guazi?token=P69Phb_y",
+    //  "key": "月佬瓜子影视",
+    //  "name": "月佬瓜子影视",
+    //  "type": 4
+    //},
+    //{
+
+    //  "key": "月佬瓜子影视1",
+    //  "name": "🏆｜瓜子｜特清◎秒播(月佬版)",
+    //  "type": 4,
+    //  "api": "https://newtv.ggff.net/guazi?token=fhJadO1R"
+    //},
+    //{
+    //  "key": "T4-guazi",
+    //  "name": "🏆｜瓜子｜特清◎秒播(T4版)",
+    //  "type": 4,
+    //  "api": "https://catbox.n13.club/ai/%E7%93%9C%E5%AD%90%E5%BD%B1%E8%A7%86.php"
+    //},
+    //{
+    //  "key": "Guazi",
+    //  "name": "🏆｜瓜子|秒播",
+    //  "type": 3,
+    //  "api": "csp_GuaziAmns",
+    //  "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
+    //  "searchable": 1,
+    //  "quickSearch": 1,
+    //  "changeable": 0,
+    //  "ext": {
+    //    "sites": "",
+    //    "filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
+    //  }
+    //},
+    //{
+
+    //  "name": "瓜子(嗷嗚)",
+    //  "key": "Guazi1",
+    //  "type": 3,
+    //  "api": "csp_GuaziAmns",
+    //  "jar": "https://files.catbox.moe/n95oun.txt",
+    //  "header": {
+    //    "User-Agent": "Lavf/57.83.100",
+    //    "Referer": "http://WJiZxLXA2.com/"
+    //  },
+    //  "searchable": 1,
+    //  "quickSearch": 1,
+    //  "changeable": 0,
+    //  "ext": {
+    //    "sites": "",
+    //    "filters": "https://files.catbox.moe/yyxz4t.json"
+
+    //  }
+
+    //},
+    //{
+    //  "key": "T4-安博",
+    //  "name": "安博(T4)",
+    //  "type": 4,
+    //  "api": "https://tang.hz.cz/power/ub18?token=89d4cd38",
+    //  "searchable": 1,
+    //  "quickSearch": 1,
+    //  "filterable": 1,
+    //  "ext": true,
+    //  "changeable": 0
+    //},
+    //{
+    //  "key": "T4-Infinity",
+    //  "name": "Infinity(T4)",
+    //  "type": 4,
+    //  "api": "https://tang.hz.cz/power/hme?token=89d4cd38",
+    //  "searchable": 1,
+    //  "quickSearch": 1,
+    //  "filterable": 1,
+    //  "changeable": 0,
+    //  "ext": false
+
+    //},
+    //{
+    //  "key": "T4-dbku",
+    //  "name": "独播库(T4)",
+    //  "type": 4,
+    //  "api": "https://tang.hz.cz/power/duboku?token=89d4cd38",
+    //  "searchable": 1,
+    //  "quickSearch": 1,
+    //  "filterable": 1,
+    //  "changeable": 0
+    //},
+    //{
+    //  "key": "T4-欧乐",
+    //  "name": "欧乐(T4)",
+    //  "type": 4,
+    //  "api": "https://tang.hz.cz/power/olelive?token=89d4cd38",
+    //  "searchable": 1,
+    //  "quickSearch": 1,
+    //  "filterable": 1,
+    //  "changeable": 0
+    //},
+    //{
+    //  "key": "T4-dbku",
+    //  "name": "独播库(藍光資源)",
+    //  "type": 3,
+    //  "api": "https://tvbot.ggff.net/duboku",
+    //  "searchable": 1,
+    //  "quickSearch": 1,
+    //  "filterable": 1,
+    //  "changeable": 0
+    //}
 
   ],
   "lives": [
@@ -2438,12 +2438,8 @@
       }
     },
     {
-      "name": "日本斯玛特",
-      "url": "http://dbm.de5.net/smt.php",
-      "playerType": 2,
-      "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/{name}.png",
-      "ua": "dream"
+      "name": "smt",
+      "url": "http://192.129.226.68:19890/trams.m3u?token=885252"
     },
     {
       "name": "美国斯玛特",
