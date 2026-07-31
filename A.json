@@ -2427,10 +2427,6 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "smt",
-      "url": "http://192.129.226.68:19890/trams.m3u?token=885252"
-    }
-    {
       "name": "Dream",
       "url": "http://dbmlosa.sylu.cc:8080/dream.txt",
       "playerType": 2,
