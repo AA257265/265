@@ -2414,13 +2414,22 @@
       "url": "https://iptv543.com/bbb.php",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
-
+    {
+      "name": "🐬4GTV怡淳酒店(梯子台湾节点)720p",
+      "type": 0,
+      "ua": "okhttp",
+      "url": "http://xtvantsc.xyz/4gtv.txt"
+    },
     {
       "name": "綜合",
       "url": "https://tv123.cc.cd/tv.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
+    {
+      "name": "smt",
+      "url": "http://192.129.226.68:19890/trams.m3u?token=885252"
+    }
     {
       "name": "Dream",
       "url": "http://dbmlosa.sylu.cc:8080/dream.txt",
