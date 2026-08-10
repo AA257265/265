@@ -32,6 +32,12 @@
       "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/油管.py"
     },
     {
+      "key": "瓜子影視",
+      "name": "瓜子影視",
+      "type": 3,
+      "api": "./py/瓜子影视.py"
+    },
+    {
       "key": "聚合短剧",
       "name": "📺｜聚合短劇",
       "type": 3,
@@ -381,13 +387,6 @@
       "changeable": 1
     },
     {
-      "key": "可可影视",
-      "name": "🌾可可影视",
-      "type": 3,
-      "api": "https://raw.gitcode.com/u013624795/jk/blobs/17e22b83665ef4617b1710e6f0d8f7ae8ae2782a/123.js",
-      "ext": "https://files.catbox.moe/a7r774.js"
-    },
-    {
       "key": "drpyS_55影视",
       "name": "55影视(DS)",
       "type": 4,
@@ -687,17 +686,6 @@
       "类型": "影视",
       "lang": "ds",
       "ext": ""
-    },
-    {
-      "key": "甜圈短劇",
-      "name": "🍅红果漫剧┃ python ┃ ",
-      "type": 3,
-      "api": "./py/红果漫剧.py",
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "changeable": 1
     },
     {
       "name": "🥇①|菜菜專線",
@@ -2006,13 +1994,6 @@
       "changeable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "dr_星芽短剧[短]",
-      "name": "🌾星芽短剧[短]",
-      "type": 3,
-      "api": "https://raw.gitcode.com/u013624795/jk/blobs/17e22b83665ef4617b1710e6f0d8f7ae8ae2782a/123.js",
-      "ext": "https://files.catbox.moe/wh6azt.js"
     },
     {
       "key": "HHkk",
