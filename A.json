@@ -32,6 +32,26 @@
       "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/油管.py"
     },
     {
+      "key": "YouTube-DASH",
+      "name": "🇹🇼｜YouTube-F",
+      "type": 3,
+      "api": "./py/油管-13.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": { "ratio": 1.7 }
+    },
+    {
+      "key": "YouTube-直連",
+      "name": "🇹🇼｜YouTube-V",
+      "type": 3,
+      "api": "./py/油管-11.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "style": { "ratio": 1.7 }
+    },
+    {
       "key": "瓜子影視",
       "name": "瓜子影視",
       "type": 3,
@@ -79,44 +99,6 @@
         "分类url": "https://www.gpvod.cc/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
         "分类": "电影$dianying#电视劇$juji#综艺$zongyi#动漫$dongman#短劇$shuangju"
       }
-    },
-    {
-      "key": "YouTube♓️SO",
-      "name": "YouTube",
-      "type": 3,
-      "api": "csp_Ytdl",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playerType": 2,
-      "timeout": 30,
-      "filterable": 1,
-      "style": {
-        "type": "rect",
-        "ratio": 1.33
-      },
-      "jar": "./lib/Youtube.jar",
-      "ext": {
-        "proxy": "",
-        "youtube_txt": "./lib/Youtube.txt"
-      }
-    },
-    {
-      "key": "YouTube 👁️‍🗨️(火星兔)",
-      "name": "YouTube 👁️‍🗨️(火星兔)",
-      "type": 3,
-      "api": "csp_Ytdl",
-      "searchable": 1,
-      "quickSearch": 1,
-      "playerType": 2,
-      "timeout": 30,
-      "filterable": 1,
-      "jar": "https://files.catbox.moe/hmml4f.txt",
-      "ext": {
-        "proxy": "",
-        "youtube_txt": "https://files.catbox.moe/63vr18.txt"
-
-      }
-
     },
     {
       "key": "裤佬奈飞4K",
@@ -1984,6 +1966,159 @@
         "dataiv": "1234567890987654"
       }
     },
+    {
+      "key": "河马短剧",
+      "name": "📺｜河馬 • 短剧",
+      "type": 3,
+      "api": "csp_ShortHema",
+      "jar": "./jar/xiaosa-0813.jar;md5;a932698717d44bbf1780212ff05e3d6e",
+      "genre": "shortdrama"
+    },
+    {
+      "key": "围观短剧",
+      "name": "📺｜圍觀 • 短剧",
+      "type": 3,
+      "api": "csp_ShortWeiguan",
+      "jar": "./jar/xiaosa-0813.jar;md5;a932698717d44bbf1780212ff05e3d6e",
+      "genre": "shortdrama"
+    },
+    {
+      "key": "果果短剧",
+      "name": "📺｜紅果短剧｜瀟灑",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jar/xiaosa-0813.jar;md5;a932698717d44bbf1780212ff05e3d6e",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类": "重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8",
+        "分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"
+      }
+    },
+    {
+      "key": "djjh",
+      "name": "📺｜短剧聚合",
+      "type": 3,
+      "api": "./py/短剧聚合.py"
+    },
+    {
+      "key": "星芽短剧",
+      "name": "📺｜星芽短劇",
+      "type": 3,
+      "api": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/py/XYDJ.py",
+      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "星芽短剧",
+      "name": "📺｜星芽短剧｜瀟灑",
+      "type": 3,
+      "api": "./py/星芽短剧.py",
+      "jar": "./jar/xiaosa-0813.jar;md5;a932698717d44bbf1780212ff05e3d6e",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "genre": "shortdrama"
+    },
+    {
+      "name": "📺｜嗷嗚漫劇",
+      "key": "MjHggg",
+      "type": 3,
+      "api": "csp_HgggAmns",
+      "jar": "./jar/aowu-0813.jar;md5;c01dcf611c00ffadf8584263214da7f7",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "comic_series"
+    },
+    {
+      "name": "📺｜嗷嗚短劇",
+      "key": "DjHggg",
+      "type": 3,
+      "api": "csp_HgggAmns",
+      "jar": "./jar/aowu-0813.jar;md5;c01dcf611c00ffadf8584263214da7f7",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "short_play"
+    },
+    {
+      "key": "好看短剧",
+      "name": "📺｜好看短剧｜瀟灑",
+      "type": 3,
+      "api": "csp_HaokanDJ",
+      "jar": "./jar/xiaosa-0813.jar;md5;a932698717d44bbf1780212ff05e3d6e",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "HHkk",
+      "name": "📺｜好看短剧",
+      "type": 3,
+      "api": "csp_HHkkAmns",
+      "jar": "./jar/aowu-0813.jar;md5;c01dcf611c00ffadf8584263214da7f7",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "Bddj",
+      "name": "📺｜拜拜短剧",
+      "type": 3,
+      "api": "csp_BddjAmns",
+      "jar": "./jar/aowu-0813.jar;md5;c01dcf611c00ffadf8584263214da7f7",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "七猫短剧",
+      "name": "📺｜七猫短剧｜瀟灑",
+      "type": 3,
+      "api": "csp_QimaoDJ",
+      "jar": "./jar/xiaosa-0813.jar;md5;a932698717d44bbf1780212ff05e3d6e",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "Qmdj",
+      "name": "📺｜七猫短剧",
+      "type": 3,
+      "api": "csp_QmdjAmns",
+      "jar": "./jar/aowu-0813.jar;md5;c01dcf611c00ffadf8584263214da7f7",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "genre": "shortdrama"
+    },
+    {
+      "key": "Xydj",
+      "name": "📺｜星星短剧",
+      "type": 3,
+      "api": "csp_XydjAmns",
+      "jar": "./jar/aowu-0813.jar;md5;c01dcf611c00ffadf8584263214da7f7",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "genre": "shortdrama"
+    },
+
     {
       "key": "星芽短剧",
       "name": "📺｜星芽短劇",
