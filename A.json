@@ -1652,126 +1652,7 @@
       "quickSearch": 1,
       "filterable": 1
     }
-    //{
-    //  "key": "🎬瓜子",
-    //  "name": "🏆｜瓜子｜特清◎秒播(備用1)",
-    //  "type": 3,
-    //  "api": "csp_GuaziAmns",
-    //  "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
-    //  "searchable": 1,
-    //  "filterable": 1,
-    //  "quickSearch": 1,
-    //  "changeable": 1,
-    //  "ext": "./json/guazi.json"
-    //},
-
-    //{
-    //  "api": "https://newtv.ggff.net/guazi?token=P69Phb_y",
-    //  "key": "月佬瓜子影视",
-    //  "name": "月佬瓜子影视",
-    //  "type": 4
-    //},
-    //{
-
-    //  "key": "月佬瓜子影视1",
-    //  "name": "🏆｜瓜子｜特清◎秒播(月佬版)",
-    //  "type": 4,
-    //  "api": "https://newtv.ggff.net/guazi?token=fhJadO1R"
-    //},
-    //{
-    //  "key": "T4-guazi",
-    //  "name": "🏆｜瓜子｜特清◎秒播(T4版)",
-    //  "type": 4,
-    //  "api": "https://catbox.n13.club/ai/%E7%93%9C%E5%AD%90%E5%BD%B1%E8%A7%86.php"
-    //},
-    //{
-    //  "key": "Guazi",
-    //  "name": "🏆｜瓜子|秒播",
-    //  "type": 3,
-    //  "api": "csp_GuaziAmns",
-    //  "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
-    //  "searchable": 1,
-    //  "quickSearch": 1,
-    //  "changeable": 0,
-    //  "ext": {
-    //    "sites": "",
-    //    "filters": "https://file.icve.com.cn/file_doc/822/528/CD984013F5776F759DFC815995F87BFB.aowu"
-    //  }
-    //},
-    //{
-
-    //  "name": "瓜子(嗷嗚)",
-    //  "key": "Guazi1",
-    //  "type": 3,
-    //  "api": "csp_GuaziAmns",
-    //  "jar": "https://files.catbox.moe/n95oun.txt",
-    //  "header": {
-    //    "User-Agent": "Lavf/57.83.100",
-    //    "Referer": "http://WJiZxLXA2.com/"
-    //  },
-    //  "searchable": 1,
-    //  "quickSearch": 1,
-    //  "changeable": 0,
-    //  "ext": {
-    //    "sites": "",
-    //    "filters": "https://files.catbox.moe/yyxz4t.json"
-
-    //  }
-
-    //},
-    //{
-    //  "key": "T4-安博",
-    //  "name": "安博(T4)",
-    //  "type": 4,
-    //  "api": "https://tang.hz.cz/power/ub18?token=89d4cd38",
-    //  "searchable": 1,
-    //  "quickSearch": 1,
-    //  "filterable": 1,
-    //  "ext": true,
-    //  "changeable": 0
-    //},
-    //{
-    //  "key": "T4-Infinity",
-    //  "name": "Infinity(T4)",
-    //  "type": 4,
-    //  "api": "https://tang.hz.cz/power/hme?token=89d4cd38",
-    //  "searchable": 1,
-    //  "quickSearch": 1,
-    //  "filterable": 1,
-    //  "changeable": 0,
-    //  "ext": false
-
-    //},
-    //{
-    //  "key": "T4-dbku",
-    //  "name": "独播库(T4)",
-    //  "type": 4,
-    //  "api": "https://tang.hz.cz/power/duboku?token=89d4cd38",
-    //  "searchable": 1,
-    //  "quickSearch": 1,
-    //  "filterable": 1,
-    //  "changeable": 0
-    //},
-    //{
-    //  "key": "T4-欧乐",
-    //  "name": "欧乐(T4)",
-    //  "type": 4,
-    //  "api": "https://tang.hz.cz/power/olelive?token=89d4cd38",
-    //  "searchable": 1,
-    //  "quickSearch": 1,
-    //  "filterable": 1,
-    //  "changeable": 0
-    //},
-    //{
-    //  "key": "T4-dbku",
-    //  "name": "独播库(藍光資源)",
-    //  "type": 3,
-    //  "api": "https://tvbot.ggff.net/duboku",
-    //  "searchable": 1,
-    //  "quickSearch": 1,
-    //  "filterable": 1,
-    //  "changeable": 0
-    //}
+   
 
   ],
   "lives": [
@@ -1788,6 +1669,10 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
+      "name": "新線路",
+      "url": "https://iptv.852851.xyz/sub/1ZHX2oLQXJSw/playlist.m3u"
+    },
+    {
       "name": "🐬4GTV怡淳酒店(梯子台湾节点)720p",
       "type": 0,
       "ua": "okhttp",
@@ -1798,28 +1683,6 @@
       "url": "https://tv123.cc.cd/tv.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "Dream",
-      "url": "http://dbmlosa.sylu.cc:8080/dream.txt",
-      "playerType": 2,
-      "epg": "http://epg.52sw.top:668/?ch={name}&date={date},https://epg.myxcwh.com/t.xml/",
-      "logo": "https://upload.112114.xyz/logo/{name}.png",
-      "catchup": {
-        "type": "append",
-        "source": "&playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-      }
-    },
-    {
-      "name": "smt",
-      "url": "http://192.129.226.68:19890/trams.m3u?token=885252"
-    },
-    {
-      "name": "美国斯玛特",
-      "url": "http://dbmlasvgas.sylu.cc:2086/trams.m3u?token=NqAERVyoLmQn0tNu9lona-PV7_EltgWnrAr6Rkaf8Ro=",
-      "playerType": 2,
-      "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/{name}.png"
     },
     {
       "name": "tv123",
@@ -1843,13 +1706,6 @@
       "timeout": 10
     },
     {
-      "name": "jacktv",
-      "url": "https://php.946985.filegear-sg.me/jackTV.m3u",
-      "header": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-      }
-    },
-    {
       "name": "🐬4GTV(梯子任何节点)1080p",
       "type": 0,
       "ua": "okhttp",
@@ -1862,17 +1718,46 @@
       "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
       "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
     },
+    {
+      "name": "易发TV",
+      "type": 0,
+      "url": "https://raw.nuaa.cf/zgyd11/xiangjiao/main/itvlist.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "酒店源自动更新",
+      "type": 0,
+      "url": "https://gitee.com/flying-snow-wu/tv/raw/main/itvlist.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "TVBOX多仓裤",
+      "type": 0,
+      "url": "https://gitee.com/ztxiaoyao/tv/raw/master/修改版.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "范明明ipv6反代",
+      "type": 0,
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
 
     {
       "name": "大街直播",
       "url": "./live/綜合大街.txt"
-    },
-    {
-      "name": "欧华(需32位影视仅港有效)",
-      "url": "http://dbmlosa.sylu.cc:8080/ouhua.txt",
-      "playerType": 2,
-      "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
     },
     {
       "name": "🐬海豚佬xxx视频资源",
@@ -1894,13 +1779,7 @@
     },
     {
       "name": "18++",
-      "url": "http://tv543.cc/18+.m3u"
-    },
-    {
-      "name": "a18",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "https://raw.githubusercontent.com/AA257265/265/refs/heads/main/live/a18.txt"
+      "url": "http://iptv543.com/18+.m3u"
     },
     {
       "name": "🔞秘密基地",
@@ -1938,40 +1817,6 @@
       "ua": "okhttp",
       "url": "http://iptv.4666888.xyz/FYTV.txt"
     },
-    //{
-    //  "name": "香蕉-Gather",
-    //  "url": "https://tv.iill.top/m3u/Gather",
-    //  "ua": "okhttp/3.15",
-    //  "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-    //  "logo": "https://epg.112114.xyz/logo/{name}.png",
-    //  "pass": true
-    //},
-    //{
-    //  "name": "香蕉-MYTV",
-    //  "url": "https://tv.iill.top/m3u/MyTV",
-    //  "epg": "http://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Taipei",
-    //  "pass": true
-    //},
-    //{
-    //  "name": "RobYang| http://RobYang.dpdns.org",
-    //  "type": 0,
-    //  "url": "http://www1.RobYang.dpdns.org/VodLive/lb8ffa",
-    //  "ua": "okhttp/4.12.0",
-    //  "timeout": 5,
-    //  "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-    //  "logo": "https://epg.112114.xyz/logo/{name}.png",
-    //  "pass": true
-    //},
-    //{
-    //  "name": "RobYang備份| http://RobYang.rr.nu",
-    //  "type": 0,
-    //  "url": "http://RobYang.runasp.net/VodLive/lb8ffa",
-    //  "ua": "okhttp/4.12.0",
-    //  "timeout": 5,
-    //  "epg": "https://epg.112114.xyz/?ch={name}&date={date}&serverTimeZone=Asia/Hong_Kong",
-    //  "logo": "https://epg.112114.xyz/logo/{name}.png",
-    //  "pass": true
-    //},
 
     {
       "name": "🔞秘密基地",
