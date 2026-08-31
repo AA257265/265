@@ -1794,35 +1794,10 @@
       "url": "http://tv123.vvvv.ee/tv.m3u"
     },
     {
-      "name": "🐬4GTV(梯子台湾节点)",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/4gtv.txt"
-    },
-    {
-      "name": "🐬jackTV(梯子)",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
-    },
-    {
-      "name": "FreeTV.fun",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "https://t.freetv.fun/m3u/playlist.txt"
-    },
-    {
       "name": "風雲源",
       "type": 0,
       "ua": "okhttp",
       "url": "http://iptv.4666888.xyz/FYTV.txt"
-    },
-
-    {
-      "name": "🔞秘密基地",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/FG/refs/heads/main/xxx视频资源.txt"
     },
     {
       "name": "🔞午夜剧场",
