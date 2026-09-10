@@ -26,10 +26,10 @@
       "changeable": 0
     },
     {
-      "key": "红果漫剧",
-      "name": "红果漫剧",
+      "key": "红果短剧1",
+      "name": "红果短剧1",
       "type": 3,
-      "api": "./py/红果漫剧.py"
+      "api": "./py/红果短剧1.py"
     },
     {
       "key": "youtube",
