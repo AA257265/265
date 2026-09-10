@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # 专属全网聚合 Python版
-# 适配常见 Cat/TVBox Python Spider
-#本地py适配  😂  
+# 适配常见 TVBox ok影视 鱼壳影视 羊壳PeekPro
 
 import json
 import requests
@@ -16,17 +15,17 @@ class Spider(Spider):
         's3': {'name': '🧸量子', 'api': 'https://cj.lziapi.com/api.php/provide/vod'},
         's4': {'name': '📺1080资源', 'api': 'https://api.1080zyku.com/inc/api_mac10.php'},
         's5': {'name': '🔥155资源', 'api': 'https://155api.com/api.php/provide/vod'},
-        's6': {'name': '📺天涯', 'api': 'https://tyyszy.com/api.php/provide/vod'},
-        's7': {'name': '📺暴风', 'api': 'https://bfzyapi.com/api.php/provide/vod'},
-        's8': {'name': '⚡索尼闪电', 'api': 'https://xsd.sdzyapi.com/api.php/provide/vod'},
-        's9': {'name': '📺索尼', 'api': 'https://suoniapi.com/api.php/provide/vod'},
-        's10': {'name': '📺红牛', 'api': 'https://www.hongniuzy2.com/api.php/provide/vod'},
-        's11': {'name': '📺茅台', 'api': 'https://caiji.maotaizy.cc/api.php/provide/vod'},
-        's12': {'name': '🐯虎牙', 'api': 'https://www.huyaapi.com/api.php/provide/vod'},
-        's13': {'name': '📺豆瓣', 'api': 'https://caiji.dbzy.tv/api.php/provide/vod'},
-        's14': {'name': '📺豆瓣2', 'api': 'https://dbzy.tv/api.php/provide/vod'},
-        's15': {'name': '📺豪华', 'api': 'https://hhzyapi.com/api.php/provide/vod'},
-        's16': {'name': '📺CK资源', 'api': 'https://ckzy.me/api.php/provide/vod'},
+        's6': {'name': '📺天涯', 'api': 'https://tyyszy.com/api.php/provide/vod/'},
+        's7': {'name': '📺暴风', 'api': 'https://bfzyapi.com/api.php/provide/vod/'},
+        's8': {'name': '⚡索尼闪电', 'api': 'https://xsd.sdzyapi.com/api.php/provide/vod/'},
+        's9': {'name': '📺索尼', 'api': 'https://suoniapi.com/api.php/provide/vod/'},
+        's10': {'name': '📺红牛', 'api': 'https://www.hongniuzy2.com/api.php/provide/vod/'},
+        's11': {'name': '📺茅台', 'api': 'https://caiji.maotaizy.cc/api.php/provide/vod/'},
+        's12': {'name': '🐯虎牙', 'api': 'https://www.huyaapi.com/api.php/provide/vod/'},
+        's13': {'name': '📺豆瓣', 'api': 'https://caiji.dbzy.tv/api.php/provide/vod/'},
+        's14': {'name': '📺豆瓣2', 'api': 'https://dbzy.tv/api.php/provide/vod/'},
+        's15': {'name': '📺豪华', 'api': 'https://hhzyapi.com/api.php/provide/vod/'},
+        's16': {'name': '📺如意影视', 'api': 'https://cj.rycjapi.com/api.php/provide/vod/'},
         's17': {'name': '📺U酷', 'api': 'https://api.ukuapi.com/api.php/provide/vod'},
         's18': {'name': '📺ikun', 'api': 'https://ikunzyapi.com/api.php/provide/vod'},
         's19': {'name': '📺无尽', 'api': 'https://api.wujinapi.cc/api.php/provide/vod'},
@@ -45,6 +44,10 @@ class Spider(Spider):
         's32': {'name': '🍃飘零', 'api': 'https://p2100.net/api.php/provide/vod'},
         's33': {'name': '🐾魔爪', 'api': 'https://mozhuazy.com/api.php/provide/vod'},
         's34': {'name': '📺魔都', 'api': 'https://www.mdzyapi.com/api.php/provide/vod'},
+        's35': {'name': '📺西瓜资源', 'api': 'https://caiji.xgzyapi.com/api.php/provide/vod/'},
+        's36': {'name': '📺98资源', 'api': 'https://98zy.vip/api.php/provide/vod/'},
+        's37': {'name': '🦊火狐影视', 'api': 'https://hhzyapi.com/api.php/provide/vod/'},
+        's38': {'name': '📺大众资源', 'api': 'https://cdn.dzzyapi.com/api.php/provide/vod/'},
     }
 
     headers = {
