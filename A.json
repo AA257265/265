@@ -1690,14 +1690,8 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "四季影視1",
-      "epg": "https://epg.yang-1989.eu.org/epg.xml.gz",
-      "url": "https://iptv543.com/bbb.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "新線路",
-      "url": "https://live.catvod.com/?tk=c91be57989a603ec38271616efc6377b"
+      "name": "catvod",
+      "url": "https://live.catvod.com/?tk=9bcf55680bcdd814491d117e7a9c9935"
     },
     {
       "name": "🐬4GTV怡淳酒店(梯子台湾节点)720p",
