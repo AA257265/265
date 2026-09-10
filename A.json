@@ -26,6 +26,12 @@
       "changeable": 0
     },
     {
+      "key": "红果漫剧",
+      "name": "红果漫剧",
+      "type": 3,
+      "api": "./py/红果漫剧.py"
+    },
+    {
       "key": "youtube",
       "name": "🐬youtube",
       "type": 3,
@@ -1732,32 +1738,16 @@
       "ua": "okhttp",
       "url": "https://ha.msbot.dpdns.org/4gtv_api.php"
     },
-    {
-      "name": "欧华(需32位影视)",
-      "url": "./live/ouhua.txt",
-      "playerType": 2,
-      "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "易发TV",
-      "type": 0,
-      "url": "https://raw.nuaa.cf/zgyd11/xiangjiao/main/itvlist.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-
+    //{
+    //  "name": "欧华(需32位影视)",
+    //  "url": "./live/ouhua.txt",
+    //  "playerType": 2,
+    //  "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
+    //  "logo": "https://epg.112114.xyz/logo/{name}.png"
+    //},
     {
       "name": "大街直播",
       "url": "./live/綜合大街.txt"
-    },
-    {
-      "name": "🐬海豚佬xxx视频资源",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/xxx视频资源.txt"
     },
     {
       "name": "🐬易发源",
@@ -1774,6 +1764,12 @@
     {
       "name": "18++",
       "url": "http://iptv543.com/18+.m3u"
+    },
+    {
+      "name": "视频资源",
+      "type": 0,
+      "ua": "okhttp",
+      "url": "https://lytvs.top/py/xxxshipinziyuan.txt"
     },
     {
       "name": "🔞秘密基地",
