@@ -32,6 +32,36 @@
       "api": "./py/红果短剧1.py"
     },
     {
+      "key": "热播APP",
+      "name": "热播APP",
+      "type": 3,
+      "api": "./py/热播APP.py"
+    },
+    {
+      "key": "独播库1",
+      "name": "独播库1",
+      "type": 3,
+      "api": "./py/独播库.py"
+    },
+    {
+      "key": "电视直播1",
+      "name": "电视直播1",
+      "type": 3,
+      "api": "./py/电视直播.py"
+    },
+    {
+      "key": "瓜子APP1",
+      "name": "瓜子APP1",
+      "type": 3,
+      "api": "./py/瓜子APP.py"
+    },
+    {
+      "key": "开心影院",
+      "name": "开心影院",
+      "type": 3,
+      "api": "./py/开心影院.py"
+    },
+    {
       "key": "youtube",
       "name": "🐬youtube",
       "type": 3,
