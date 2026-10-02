@@ -50,10 +50,10 @@
       "api": "./py/开心影院.py"
     },
     {
-      "key": "开心影院",
-      "name": "开心影院",
+      "key": "秒看TV",
+      "name": "秒看TV",
       "type": 3,
-      "api": "./py/开心影院.py"
+      "api": "./py/秒看TV.py"
     },
     {
       "key": "youtube",
