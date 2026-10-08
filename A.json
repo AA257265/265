@@ -56,6 +56,12 @@
       "api": "./py/秒看TV.py"
     },
     {
+      "key": "影視短劇合輯",
+      "name": "影視短劇合輯",
+      "type": 3,
+      "api": "./py/影視短劇合輯.py"
+    },
+    {
       "key": "youtube",
       "name": "🐬youtube",
       "type": 3,
@@ -1733,6 +1739,54 @@
       "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/ASMR吧.py"
     },
     {
+      "key": "PTT线上看",
+      "name": "🐬[追剧]PTT线上看",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/PTT线上看.py"
+    },
+    {
+      "key": "洛雪TV",
+      "name": "🐬[追剧]洛雪TV(关梯)",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/洛雪TV.py"
+    },
+    {
+      "key": "人人视频",
+      "name": "🐬[追剧]人人视频(关梯)",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/人人视频.py"
+    },
+    {
+      "key": "绿色影视",
+      "name": "🐬[追剧]绿色影视",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/绿色影视.py"
+    },
+    {
+      "key": "极速追剧",
+      "name": "🐬[追剧]极速追剧",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/极速追剧.py"
+    },
+    {
+      "key": "小宝影院",
+      "name": "🐬[追剧]小宝影院",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/小宝影院.py"
+    },
+    {
+      "key": "达达兔影院",
+      "name": "🐬[追剧]达达兔影院(关梯)",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/达达兔影院(关梯).py"
+    },
+    {
+      "key": "懂片帝AI",
+      "name": "🐬[追剧]懂片帝AI",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/懂片帝AI.py"
+    },
+    {
       "key": "影巢movie",
       "name": "🐬[追剧]影巢movie(关梯)",
       "type": 3,
@@ -2297,13 +2351,6 @@
       "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/茶杯狐.py"
     },
     {
-      "key": "ppx",
-      "name": "🐬[追剧]皮皮虾.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/皮皮虾.py",
-      "ext": "http://43.248.117.123:4680"
-    },
-    {
       "key": "ddvm",
       "name": "🐬[追剧]嘀嗒影视.py(关梯)",
       "type": 3,
@@ -2693,16 +2740,14 @@
       "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/聚合直播.py"
     },
     {
-      "key": "央视网页",
-      "name": "🐬[直播]央视网页直播.js(关梯)",
+      "key": "央视频",
+      "name": "🐬[直播]央视频(关梯)",
       "type": 3,
-      "jar": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/WvSpider.jar",
-      "api": "csp_WvSpider",
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/央视直播.js"
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/央视频.py"
     },
     {
       "key": "youtube2",
-      "name": "🐬[直播]油管直播,py",
+      "name": "🐬[直播]油管直播.py",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/油管直播.py"
     },
@@ -2711,6 +2756,18 @@
       "name": "🐬[动漫]动漫啦.py(羊壳观看)",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/动漫啦.py"
+    },
+    {
+      "key": "animexin",
+      "name": "🐬[动漫]animexin.py",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/animexin.py"
+    },
+    {
+      "key": "路漫漫",
+      "name": "🐬[动漫]路漫漫(关梯).py",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/路漫漫(关梯).py"
     },
     {
       "key": "樱之空动漫",
@@ -2774,6 +2831,12 @@
       ]
     },
     {
+      "key": "七星短剧",
+      "name": "🐬[短剧]七星短剧",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/七星短剧.py"
+    },
+    {
       "key": "红果短剧",
       "name": "🐬[短剧]红果短剧(关梯)",
       "type": 3,
@@ -2828,12 +2891,6 @@
       "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/短剧聚合.py"
     },
     {
-      "key": "糯米短剧",
-      "name": "🐬[短剧]糯米短剧.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/糯米短剧.py"
-    },
-    {
       "key": "毒舌短剧",
       "name": "🐬[短剧]毒舌短剧.py(关梯)",
       "type": 3,
@@ -2870,14 +2927,14 @@
       "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/蚕驰短剧网.py"
     },
     {
-      "key": "听书网456",
-      "name": "🐬[听书]听书网456.py",
+      "key": "起点有声",
+      "name": "🐬[听书]起点有声(关梯)",
       "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/听书网456.py"
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/起点有声.py"
     },
     {
       "key": "ytb",
-      "name": "🐬[听书]悦听吧.py",
+      "name": "🐬[听书]悦听吧",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/悦听吧.py"
     },
@@ -2892,6 +2949,12 @@
       "name": "🐬[听书]易听书网(关梯).py",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/易听书网.py"
+    },
+    {
+      "key": "QQ音乐",
+      "name": "🐬[音乐]QQ音乐.py",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/QQ音乐.py"
     },
     {
       "key": "音乐聚合",
@@ -2910,12 +2973,6 @@
       "name": "🐬[音乐]千千音乐.py",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/千千音乐.py"
-    },
-    {
-      "key": "枫叶音乐",
-      "name": "🐬[音乐]枫叶音乐.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/枫叶音乐.py"
     },
     {
       "key": "kwms",
