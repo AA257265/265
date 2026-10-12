@@ -3008,6 +3008,12 @@
       //"filterable": 1
     },
     {
+      "key": "PTT线上看",
+      "name": "PTT线上看",
+      "type": 3,
+      "api": "./py/PTT线上看.py"
+    },
+    {
       "key": "优视频",
       "name": "🏆｜優視頻｜藍光◎秒播(無廣告)",
       "type": 3,
@@ -3069,11 +3075,7 @@
       "key": "csp_PTT1",
       "name": "🥉｜PTT_1｜",
       "type": 3,
-      "api": "csp_PTT",
-      "jar": "https://raw.githubusercontent.com/fastbuild7099/fastbuild7099/refs/heads/main/jar1/lem0118.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "api": "./py/ptt影院.py"
     }
 
 
