@@ -3110,6 +3110,24 @@
       "url": "http://tv123.vvvv.ee/tv.m3u"
     },
     {
+      "name": "Free Man TV",
+      "url": "https://funnylife.neocities.org/iptv@recha.txt",
+      "type": 0,
+      "timeout": 10,
+      "playerType": 2,
+      "ua": "okhttp/3.8.1 okhttp/3.15 okhttp/4.12.0 Herissmon/2016 judy/5.2.1 RobYang/5.2.1 Lavf/58.12.100 catvod.com Goiptv/8.8.8 Goiptv/0.0.1 xieanqishiwoerzi/0.0.1 okHttp/Mod-1.0.0",
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+    },
+    {
+      "name": "Free TV(備用)",
+      "url": "https://freeman.neocities.org/520free-CC@tv.txt",
+      "type": 0,
+      "timeout": 10,
+      "playerType": 2,
+      "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
+    },
+    {
       "name": "小螞蟻直播",
       "type": 0,
       "ua": "okhttp",
