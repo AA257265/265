@@ -3009,7 +3009,7 @@
     },
     {
       "key": "PTT线上看",
-      "name": "PTT线上看",
+      "name": "🏆PTT线上看🏆",
       "type": 3,
       "api": "./py/PTT线上看.py"
     },
