@@ -222,18 +222,11 @@ def _aes_cbc_decrypt(key: bytes, iv: bytes, data: bytes) -> bytes:
 
 SITE = "https://hongguoduanju.com"
 EPISODE_PREFIX = "hg-episode-v1:"
-# 红果每集视频模型按清晰度返回多条独立线路（360/480/540/720/1080），
-# 每条带 main_url + backup_url 双 CDN 与独立加密材料。这里把清晰度作为
-# TVBox 多线路暴露；内封音/视轨在解密 _rewrite_moov 时天然全部保留。
 _HG_QUALITY_LINES = (
-    ("1080", "红果超清"),
-    ("720",  "红果高清"),
-    ("540",  "红果标准"),
-    ("480",  "红果流畅"),
-    ("360",  "红果极速"),
+    ("1080", base64.b64decode("54G16aOOLee6ouaenA==").decode("utf-8")),
 )
 _QUALITY_LINE_NAME_TO_Q = {
-    "超清": "1080", "高清": "720", "标准": "540",
+    "灵风": "1080", "高清": "720", "标准": "540",
     "流畅": "480", "极速": "360", "1080": "1080", "720": "720",
     "540": "540", "480": "480", "360": "360",
 }
@@ -3623,31 +3616,31 @@ def _data(url):
         return {}
 
 def _item(x):
-    x = x or {}
+    """兼容分类页、榜单页不同版本的字段命名。"""
+    x = x if isinstance(x, dict) else {}
     vd = x.get("video_data") if isinstance(x.get("video_data"), dict) else x
-    sid = str(
-        vd.get("series_id")
-        or x.get("series_id")
-        or x.get("keyword")
-        or vd.get("keyword")
-        or ""
-    )
-    name = str(
-        vd.get("series_title")
-        or vd.get("series_name")
-        or x.get("series_name")
-        or x.get("name")
-        or "未命名"
-    )
-    count = vd.get("episode_cnt") or x.get("episode_cnt") or 0
-    pic = str(vd.get("series_cover") or x.get("series_cover") or "")
-    intro = str(vd.get("series_intro") or x.get("series_intro") or "")
+
+    def pick(*keys):
+        for obj in (vd, x):
+            for key in keys:
+                value = obj.get(key)
+                if value not in (None, "", [], {}):
+                    return value
+        return ""
+
+    sid = pick("series_id", "seriesId", "seriesID", "id", "book_id", "bookId", "keyword")
+    name = pick("series_title", "series_name", "seriesName", "name", "title", "book_name", "bookName")
+    count = pick("episode_cnt", "episodeCount", "accessible_episode_cnt", "episode_count", "total_episodes")
+    pic = pick("series_cover", "cover", "cover_url", "coverUrl", "thumb_url", "thumbUrl", "poster", "pic", "image")
+    intro = pick("series_intro", "intro", "description", "desc", "summary")
+    heat = pick("heat", "hot", "hot_value", "hotValue", "score")
+    remarks = ("全%s集" % count) if count else (str(heat) if heat else "")
     return {
-        "vod_id": sid,
-        "vod_name": name,
-        "vod_pic": pic,
-        "vod_remarks": ("全%s集" % count) if count else "",
-        "vod_content": intro,
+        "vod_id": str(sid or ""),
+        "vod_name": str(name or "未命名"),
+        "vod_pic": str(pic or ""),
+        "vod_remarks": remarks,
+        "vod_content": str(intro or ""),
     }
 
 def _cat_item(x):
@@ -3775,84 +3768,73 @@ class Spider(_BaseSpider):
             pass
 
     def homeContent(self, filter):
+        # 分类 ID 与官网路由保持一致，避免旧的 tab/cate_* 参数导致筛选错位。
         class_list = [
-            {"type_id": "all", "type_name": "短剧"},
-            {"type_id": "ai_comic", "type_name": "AI漫剧"},
-            {"type_id": "latest", "type_name": "最新"},
-            {"type_id": "hot", "type_name": "最热"},
-            {"type_id": "male", "type_name": "男频"},
-            {"type_id": "female", "type_name": "女频"},
+            {"type_id": "rank", "type_name": "🔥热播榜单"},
+            {"type_id": "real-drama", "type_name": "真人短剧"},
+            {"type_id": "comic-drama", "type_name": "热血漫剧"},
+            {"type_id": "ai-drama", "type_name": "AI短剧"},
         ]
-        groups = [
-            {"key": "topic", "name": "主题", "value": [
-                {"n": "全部", "v": ""}, {"n": "现言", "v": "cate_1021"}, {"n": "女性成长", "v": "cate_1048"},
-                {"n": "脑洞", "v": "cate_262"}, {"n": "奇幻", "v": "cate_1020"}, {"n": "玄幻", "v": "cate_1019"},
-                {"n": "古言", "v": "cate_439"}, {"n": "战神", "v": "cate_1038"}, {"n": "宫斗", "v": "cate_246"},
-                {"n": "仙侠", "v": "cate_1013"}, {"n": "权谋", "v": "cate_1047"}, {"n": "种田", "v": "cate_1180"},
-                {"n": "年代爱情", "v": "cate_1022"}, {"n": "悬疑", "v": "cate_165"}, {"n": "喜剧", "v": "cate_303"},
-                {"n": "青春", "v": "cate_297"}, {"n": "志怪", "v": "cate_1027"}, {"n": "民国爱情", "v": "cate_1025"},
-                {"n": "灵异", "v": "cate_751"}, {"n": "家国情怀", "v": "cate_1235"}, {"n": "法律", "v": "cate_1136"},
-                {"n": "刑侦", "v": "cate_1148"}, {"n": "抗战", "v": "cate_504"}, {"n": "武侠", "v": "cate_1172"},
-                {"n": "民国传奇", "v": "cate_1240"}, {"n": "求生", "v": "cate_1168"}, {"n": "动作", "v": "cate_302"},
-                {"n": "科幻", "v": "cate_1092"}, {"n": "恐怖", "v": "cate_1219"}, {"n": "商战", "v": "cate_1225"},
-            ]},
-            {"key": "background", "name": "背景", "value": [
-                {"n": "全部", "v": ""}, {"n": "现代", "v": "cate_757"}, {"n": "都市", "v": "cate_1"},
-                {"n": "古代", "v": "cate_758"}, {"n": "乡村", "v": "cate_11"}, {"n": "年代", "v": "cate_79"},
-                {"n": "架空", "v": "cate_452"}, {"n": "职场", "v": "cate_127"}, {"n": "民国", "v": "cate_390"},
-                {"n": "校园", "v": "cate_4"}, {"n": "宫廷", "v": "cate_1153"}, {"n": "荒岛", "v": "cate_1162"},
-            ]},
-            {"key": "setting", "name": "设定", "value": [
-                {"n": "全部", "v": ""}, {"n": "打脸虐渣", "v": "cate_1051"}, {"n": "大男主", "v": "cate_1207"},
-                {"n": "大女主", "v": "cate_760"}, {"n": "马甲", "v": "cate_266"}, {"n": "重生", "v": "cate_36"},
-                {"n": "穿越", "v": "cate_37"}, {"n": "系统", "v": "cate_19"}, {"n": "先婚后爱", "v": "cate_265"},
-                {"n": "家长里短", "v": "cate_862"}, {"n": "小人物", "v": "cate_1010"}, {"n": "破镜重圆", "v": "cate_475"},
-                {"n": "神豪", "v": "cate_20"}, {"n": "豪门", "v": "cate_936"}, {"n": "强者回归", "v": "cate_1045"},
-                {"n": "异能", "v": "cate_598"}, {"n": "虐恋", "v": "cate_1008"}, {"n": "传承觉醒", "v": "cate_1007"},
-                {"n": "医生", "v": "cate_487"}, {"n": "强强联合", "v": "cate_1049"}, {"n": "赘婿逆袭", "v": "cate_1044"},
-                {"n": "甜宠", "v": "cate_96"}, {"n": "娱乐圈", "v": "cate_43"}, {"n": "神医", "v": "cate_26"},
-                {"n": "青梅竹马", "v": "cate_387"}, {"n": "姐弟恋", "v": "cate_762"}, {"n": "玄学", "v": "cate_929"},
-                {"n": "追妻火葬场", "v": "cate_616"}, {"n": "业界精英", "v": "cate_1293"}, {"n": "一见钟情", "v": "cate_477"},
-                {"n": "福宝", "v": "cate_1291"}, {"n": "捞偏门", "v": "cate_1287"}, {"n": "反派主角", "v": "cate_1042"},
-                {"n": "萌宠", "v": "cate_428"}, {"n": "双向救赎", "v": "cate_1200"}, {"n": "方言", "v": "cate_1255"},
-                {"n": "白月光", "v": "cate_615"}, {"n": "灵魂互换", "v": "cate_831"}, {"n": "病娇", "v": "cate_380"},
-                {"n": "暴富", "v": "cate_1191"}, {"n": "黑道", "v": "cate_826"}, {"n": "丧尸", "v": "cate_582"},
-                {"n": "特种兵", "v": "cate_375"},
-            ]},
-            {"key": "time", "name": "时间", "value": [
-                {"n": "全部", "v": ""}, {"n": "7天内上新", "v": "1"}, {"n": "14天内上新", "v": "2"},
-                {"n": "30天内上新", "v": "3"}, {"n": "90天内上新", "v": "4"},
-            ]},
-        ]
-        filter_dict = {c["type_id"]: groups for c in class_list}
+        filters = {
+            "rank": [_filter_group("rank_type", "榜单类型", [
+                ("短剧热播榜", "hot-drama"),
+                ("漫剧热播榜", "hot-comic-drama"),
+                ("AI剧热播榜", "hot-ai-drama"),
+            ])],
+            "real-drama": [_filter_group("genre", "题材", [
+                ("全部", ""), ("爱情", "romance"), ("年代", "period"),
+                ("传奇", "legend"), ("成长", "growth"), ("家庭", "family"),
+                ("家族", "clan"), ("萌宝", "cute-kids"), ("惊悚", "thriller"),
+                ("恐怖", "horror"), ("志怪", "supernatural"), ("玄幻", "fantasy"),
+                ("奇幻", "wonder"), ("都市", "urban"), ("古装", "costume"),
+                ("逆袭", "counterattack"), ("喜剧", "comedy"), ("科幻", "sci-fi"),
+                ("灾难", "disater"), ("战争", "war"), ("悬疑", "suspense"),
+                ("动作冒险", "action-adventure"), ("剧情", "drama"),("青春", "youth"),
+            ])],
+            "comic-drama": [_filter_group("genre", "题材", [
+                ("全部", ""), ("脑洞", "creative"), ("玄幻", "fantasy"),
+                ("剧情", "drama"), ("末世", "apocalypse"), ("豪门", "wealthy-family"),
+                ("奇幻", "wonder"), ("科幻", "sci-fi"), ("冒险", "adventure"),
+            ])],
+            "ai-drama": [_filter_group("genre", "题材", [
+                ("全部", ""), ("脑洞", "creative"), ("玄幻", "fantasy"),
+                ("剧情", "drama"), ("末世", "apocalypse"), ("豪门", "wealthy-family"),
+                ("奇幻", "wonder"), ("科幻", "sci-fi"), ("冒险", "adventure"),
+            ])],
+        }
         home_list = []
         try:
             data = _data(SITE + "/")
-            page = (data.get("loaderData") or {}).get("page") or {}
+            root = (data.get("loaderData") or {}).get("page") or {}
             seen = set()
-            for sec in (page.get("homeSections") or []):
-                for v in (sec.get("video_list") or []):
-                    it = _item(v)
-                    vid = str(it.get("vod_id") or "")
+            for section in root.get("homeSections") or []:
+                for raw in section.get("video_list") or []:
+                    item = _item(raw)
+                    vid = str(item.get("vod_id") or "")
                     if vid and vid not in seen:
                         seen.add(vid)
-                        home_list.append(it)
+                        home_list.append(item)
         except Exception:
-            home_list = []
-        return {"class": class_list, "filters": filter_dict, "list": home_list[:40]}
+            pass
+        return {"class": class_list, "filters": filters, "list": home_list[:40]}
+
     def homeVideoContent(self):
+        # 首页默认内容直接使用榜单主路由，确保默认展示短剧热播榜。
+        result = self.categoryContent("rank/hot-drama", "1", True, {"rank_type": "hot-drama"})
+        if result.get("list"):
+            return {"list": result["list"][:60]}
+        # 榜单临时不可用时回退到官网首页推荐，避免首页完全空白。
         try:
             data = _data(SITE + "/")
             page = (data.get("loaderData") or {}).get("page") or {}
-            out = []
-            seen = set()
+            out, seen = [], set()
             for sec in (page.get("homeSections") or []):
-                for v in (sec.get("video_list") or []):
-                    it = _item(v)
-                    vid = str(it.get("vod_id") or "")
-                    if vid and vid not in seen:
+                for raw in (sec.get("video_list") or []):
+                    item = _item(raw)
+                    vid = str(item.get("vod_id") or "")
+                    if vid and item.get("vod_name") != "未命名" and vid not in seen:
                         seen.add(vid)
-                        out.append(it)
+                        out.append(item)
             return {"list": out[:60]}
         except Exception:
             return {"list": []}
@@ -3866,57 +3848,130 @@ class Spider(_BaseSpider):
             q = {"tab": "1", "sort_type": "1"}
         return _category_loader(pg, q)
     def categoryContent(self, tid, pg, filter, extend):
+        """按官网 category/<分类>/<题材> 路由筛选，保留现有加密播放引擎。"""
         try:
-            page = max(1, int(pg))
+            page = max(1, int(pg or 1))
         except (TypeError, ValueError):
             page = 1
-        # 漫剧 / AI漫剧：官网搜索不支持真翻页，多关键词轮换
-        if tid in ("comic", "manju", "漫剧"):
-            try:
-                p = _category_loader(page, {"tab": "2", "sort_type": "1"})
-                rows = p.get("recommendList") or []
-                if rows:
-                    page_data = p.get("pagination") or {}
-                    return {
-                        "page": page,
-                        "pagecount": int(page_data.get("totalPages") or 1),
-                        "limit": len(rows),
-                        "total": int(page_data.get("total") or len(rows)),
-                        "list": [_cat_item(x) for x in rows],
-                    }
-            except Exception:
-                pass
-            return _search_by_keywords(_MANJU_KEYWORDS, page)
-        if tid in ("ai_comic", "ai_manju", "AI漫剧", "ai漫剧"):
-            return _search_by_keywords(_AI_MANJU_KEYWORDS, page)
-        q = {"tab": "1", "sort_type": "1"}
-        if tid == "latest":
-            q["sort_type"] = "2"
-        elif tid == "hot":
-            q["sort_type"] = "1"
-        elif tid == "male":
-            q["gender"] = "1"
-        elif tid == "female":
-            q["gender"] = "2"
-        if isinstance(extend, str) and extend:
+        if isinstance(extend, str):
             try:
                 extend = json.loads(extend)
             except Exception:
                 extend = {}
-        if isinstance(extend, dict):
-            for k, v in extend.items():
-                if v and str(v) not in ("", "all", "0"):
-                    q[k] = str(v)
-        p = _category_loader(page, q)
-        rows = p.get("recommendList") or []
-        page_data = p.get("pagination") or {}
+        if not isinstance(extend, dict):
+            extend = {}
+
+        aliases = {
+            "all": "real-drama", "short": "real-drama", "real": "real-drama",
+            "comic": "comic-drama", "manju": "comic-drama",
+            "ai_comic": "ai-drama", "ai_manju": "ai-drama",
+        }
+        raw_tid = str(tid or "real-drama").strip().strip("/")
+        # 同时接受 TVBox 分类 ID 与完整路由：rank、rank/hot-drama、category/real-drama。
+        if raw_tid.startswith("rank/"):
+            route_rank_type = raw_tid.split("/", 1)[1].strip()
+            clean_tid = "rank"
+        else:
+            route_rank_type = ""
+            clean_tid = raw_tid
+            if clean_tid.startswith("category/"):
+                clean_tid = clean_tid[len("category/"):].strip("/")
+            clean_tid = aliases.get(clean_tid, clean_tid)
+
+        if clean_tid == "rank":
+            rank_type = str(route_rank_type or extend.get("rank_type") or "hot-drama").strip()
+            if rank_type not in ("hot-drama", "hot-comic-drama", "hot-ai-drama"):
+                rank_type = "hot-drama"
+            url = SITE + "/rank/" + quote(rank_type, safe="-")
+        else:
+            if clean_tid not in ("real-drama", "comic-drama", "ai-drama"):
+                clean_tid = "real-drama"
+            genre = str(extend.get("genre") or "").strip()
+            if not genre and "/" in str(tid or ""):
+                parts = str(tid).strip("/").split("/")
+                if len(parts) > 2:
+                    genre = parts[-1]
+            url = SITE + "/category/" + quote(clean_tid, safe="-")
+            if genre:
+                url += "/" + quote(genre, safe="-")
+            url += "?page=" + str(page)
+
+        html = ""
+        data = {}
+        try:
+            html = _page(url)
+            m = re.search(r"(?:window\.)?_ROUTER_DATA\s*=\s*", html)
+            if m:
+                try:
+                    data = json.JSONDecoder().raw_decode(html[m.end():])[0]
+                except (ValueError, TypeError):
+                    data = {}
+        except Exception:
+            # _page 包含重试；页面抓取失败时仍返回标准空列表
+            data = {}
+
+        candidate_keys = {
+            "seriesList", "series_list", "rankList", "rank_list", "rankingList",
+            "hotList", "hot_list", "dramaList", "searchList", "recommendList",
+            "video_list", "list", "results", "data", "items", "records",
+        }
+        candidates, seen = [], set()
+
+        def add_item(raw):
+            if not isinstance(raw, dict):
+                return
+            item = _item(raw)
+            vid = str(item.get("vod_id") or "").strip()
+            name = str(item.get("vod_name") or "").strip()
+            if vid and name and name != "未命名" and vid not in seen:
+                seen.add(vid)
+                candidates.append(item)
+
+        def walk(node):
+            if isinstance(node, dict):
+                for key, value in node.items():
+                    if key in candidate_keys and isinstance(value, list):
+                        for raw in value:
+                            add_item(raw)
+                    if isinstance(value, (dict, list)):
+                        walk(value)
+                # 部分榜单直接把单条作品对象放在数组里，不挂标准列表键
+                if any(k in node for k in ("series_id", "seriesId", "series_title", "series_name", "seriesName")):
+                    add_item(node)
+            elif isinstance(node, list):
+                for value in node:
+                    walk(value)
+
+        walk(data)
+
+        # JSON 状态树结构变更时，榜单页再从 HTML 卡片链接中兜底提取。
+        if not candidates and html:
+            pattern = re.compile(
+                r'<a\b[^>]*href=["\'](?:https?://[^/]+)?/(?:detail(?:\?series_id=|/)|player/)([^"\'&#/?]+)[^"\']*["\'][^>]*>(.*?)</a>',
+                re.I | re.S,
+            )
+            for match in pattern.finditer(html):
+                sid = match.group(1).strip()
+                inner = match.group(2)
+                title_match = re.search(r'(?:title|alt)=["\']([^"\']+)["\']', inner, re.I)
+                img_match = re.search(r'<img\b[^>]*(?:src|data-src)=["\']([^"\']+)["\']', inner, re.I)
+                text_title = re.sub(r'<[^>]+>', ' ', inner)
+                text_title = re.sub(r'\s+', ' ', text_title).strip()
+                title = (title_match.group(1).strip() if title_match else text_title)
+                if sid and title:
+                    item = {"vod_id": sid, "vod_name": title, "vod_pic": img_match.group(1) if img_match else "", "vod_remarks": "", "vod_content": ""}
+                    if sid not in seen:
+                        seen.add(sid)
+                        candidates.append(item)
+
         return {
             "page": page,
-            "pagecount": int(page_data.get("totalPages") or 1),
-            "limit": len(rows),
-            "total": int(page_data.get("total") or len(rows)),
-            "list": [_cat_item(x) for x in rows],
+            "pagecount": page + 1 if len(candidates) >= 12 else page,
+            "limit": 20,
+            "total": max(len(candidates), 999 if len(candidates) >= 12 else len(candidates)),
+            "list": candidates,
         }
+
     def searchContent(self, key, quick=False, pg="1"):
         try:
             page = max(1, int(pg))
@@ -3961,7 +4016,7 @@ class Spider(_BaseSpider):
             play_url.append(eps)
         return {"list": [{"vod_id": sid, "vod_name": str(s.get("series_name") or ""), "vod_pic": str(s.get("series_cover") or ""), "vod_year": "", "vod_area": "", "vod_director": "", "vod_actor": ",".join(actors), "vod_content": str(s.get("series_intro") or ""), "vod_remarks": str(s.get("episode_right_text") or ""), "vod_play_from": "$$$".join(play_from), "vod_play_url": "$$$".join(play_url)}]}
     def playerContent(self, flag, id, vipFlags=None):
-        # 从线路名（flag，如“红果超清/红果高清”）与集 token 双路解析清晰度。
+        # 从线路名（flag，如“灵风-红果”）与集 token 双路解析清晰度。
         # token 已是 'hg-episode-v1:<q>:<vid>'，flag 用于旧壳只传线路名时兜底。
         token_q, vid = _split_episode_token(id)
         line_q = "1080"
