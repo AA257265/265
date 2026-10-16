@@ -50,6 +50,24 @@
       "api": "./py/秒看TV.py"
     },
     {
+      "key": "py_Uvod",
+      "name": "[點播]Uvod(1080P)",
+      "type": 3,
+      "api": "https://newrecha.neocities.org/py/Uvod.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+    {
+      "key": "py_UVOD_2",
+      "name": "[點播]UVOD_2(1080P)",
+      "type": 3,
+      "api": "https://newrecha.neocities.org/py/UVOD_2.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+    {
       "key": "youtube",
       "name": "🐬youtube",
       "type": 3,
