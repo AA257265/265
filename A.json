@@ -32,6 +32,24 @@
       "api": "./py/红果短剧1.py"
     },
     {
+      "key": "py_红果修复",
+      "name": "[點播]紅果(修復)",
+      "type": 3,
+      "api": "https://newrecha.neocities.org/py/红果修复.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+    {
+      "key": "py_红果短剧",
+      "name": "[短劇]红果(依我本心版)",
+      "type": 3,
+      "api": "https://newrecha.neocities.org/py/红果短剧-依我版.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+    {
       "key": "独播库1",
       "name": "独播库1",
       "type": 3,
