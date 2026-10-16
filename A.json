@@ -32,12 +32,6 @@
       "api": "./py/红果短剧1.py"
     },
     {
-      "key": "热播APP",
-      "name": "热播APP",
-      "type": 3,
-      "api": "./py/热播APP.py"
-    },
-    {
       "key": "独播库1",
       "name": "独播库1",
       "type": 3,
@@ -54,12 +48,6 @@
       "name": "秒看TV",
       "type": 3,
       "api": "./py/秒看TV.py"
-    },
-    {
-      "key": "影視短劇合輯",
-      "name": "影視短劇合輯",
-      "type": 3,
-      "api": "./py/影視短劇合輯.py"
     },
     {
       "key": "youtube",
