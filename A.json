@@ -1763,8 +1763,38 @@
       "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/ASMR吧.py"
     },
     {
+      "key": "两个BT影视",
+      "name": "🐬[追剧]两个BT影视",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/两个BT影视.py"
+    },
+    {
+      "key": "卧龙影院",
+      "name": "🐬[追剧][伦理]卧龙影院",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/[伦理]卧龙影院.py"
+    },
+    {
+      "key": "龙江影院",
+      "name": "🐬[追剧][伦理]龙江影院(关梯)",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/[伦理]龙江影院.py"
+    },
+    {
+      "key": "吃瓜影院",
+      "name": "🐬[追剧]吃瓜影院",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/吃瓜影院.py"
+    },
+    {
+      "key": "影视森林",
+      "name": "🐬[追剧]影视森林(关梯)",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/影视森林.py"
+    },
+    {
       "key": "PTT线上看",
-      "name": "🐬[追剧]PTT线上看",
+      "name": "🐬[追剧][伦理]PTT线上看",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/PTT线上看.py"
     },
@@ -1875,12 +1905,6 @@
       "name": "🐬[追剧]咕噜咕噜",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/咕噜咕噜.py"
-    },
-    {
-      "key": "ik4k影院",
-      "name": "🐬[追剧]ik4k影院(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/ik4k影院.py"
     },
     {
       "key": "魔法影视",
@@ -2396,50 +2420,43 @@
       "key": "拾光影视",
       "name": "🐬[追剧]拾光影视.js",
       "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/拾光影视.js",
-      "changeable": 0
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/拾光影视.js"
     },
     {
       "key": "开心影院",
       "name": "🐬[追剧]开心影院.py",
       "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/开心影院.py",
-      "changeable": 0
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/开心影院.py"
     },
     {
       "key": "开心影院js",
       "name": "🐬[追剧]开心影院.js",
       "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/开心影院.js",
-      "changeable": 0
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/开心影院.js"
     },
     {
       "key": "西瓜影视",
       "name": "🐬[追剧]西瓜影视.js",
       "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/西瓜影视.js",
-      "changeable": 0
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/西瓜影视.js"
     },
     {
       "key": "片库",
       "name": "🐬[追剧]片库.js(关梯)",
       "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/片库.js",
-      "changeable": 0
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/片库.js"
     },
     {
       "key": "枫叶影院js",
       "name": "🐬[追剧]枫叶影院.js(关梯)",
       "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/枫叶影院.js",
-      "changeable": 0
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/枫叶影院.js"
     },
     {
       "key": "枫叶影院",
       "name": "🐬[追剧]枫叶影院.py(关梯)",
       "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/枫叶影院.py",
-      "changeable": 0
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/枫叶影院.py"
     },
     {
       "key": "808yr",
@@ -2740,6 +2757,12 @@
       ]
     },
     {
+      "key": "广东荔枝电视台",
+      "name": "🐬[直播]广东荔枝电视台.py",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/广东荔枝电视台.py"
+    },
+    {
       "key": "kf",
       "name": "🐬[直播]咖啡体育直播.py",
       "type": 3,
@@ -2855,6 +2878,12 @@
       ]
     },
     {
+      "key": "AnyShort短剧",
+      "name": "🐬[短剧]AnyShort短剧",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/AnyShort短剧.py"
+    },
+    {
       "key": "七星短剧",
       "name": "🐬[短剧]七星短剧",
       "type": 3,
@@ -2951,6 +2980,12 @@
       "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/蚕驰短剧网.py"
     },
     {
+      "key": "听友听书",
+      "name": "🐬[听书]听友听书",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/听友听书.py"
+    },
+    {
       "key": "起点有声",
       "name": "🐬[听书]起点有声(关梯)",
       "type": 3,
@@ -3003,23 +3038,6 @@
       "name": "🐬[音乐]酷我音乐.py",
       "type": 3,
       "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/酷我音乐.py"
-    },
-    {
-      "key": "捡的音乐",
-      "name": "🐬[音乐]爱听音乐",
-      "type": 3,
-      "api": "csp_Music1",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/Music1.json",
-      "jar": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/so.jar",
-      "filterable": 1
-    },
-    {
-      "key": "djyy",
-      "name": "🐬[音乐]DJ呦呦.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/DJ呦呦.py"
     },
     {
       "key": "csp_PTT",
