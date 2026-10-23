@@ -3140,6 +3140,12 @@
       "url": "https://live.catvod.com/?tk=9bcf55680bcdd814491d117e7a9c9935"
     },
     {
+      "name": "4GTV",
+      "type": 0,
+      "ua": "okhttp",
+      "url": "./live/4gtvo.txt"
+    },
+    {
       "name": "🐬4GTV怡淳酒店(梯子台湾节点)720p",
       "type": 0,
       "ua": "okhttp",
