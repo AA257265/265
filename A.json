@@ -259,7 +259,7 @@
       "key": "cjjh",
       "name": "🐬采集聚合.py",
       "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/采集聚合.py"
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/采集聚合.py"
     },
     {
       "key": "比特",
@@ -3136,10 +3136,6 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "catvod",
-      "url": "https://live.catvod.com/?tk=9bcf55680bcdd814491d117e7a9c9935"
-    },
-    {
       "name": "4GTV",
       "type": 0,
       "ua": "okhttp",
@@ -3156,6 +3152,16 @@
       "url": "https://tv123.cc.cd/tv.m3u",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "綜合1",
+      "url": "http://192.129.226.68:19890/trams.m3u?token=885252",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "catvod",
+      "url": "https://iptv.catvod.com"
     },
     {
       "name": "tv123",
