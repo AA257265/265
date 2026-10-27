@@ -2507,10 +2507,6 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "catvod",
-      "url": "https://iptv.catvod.com"
-    },
-    {
       "name": "tv123",
       "type": 0,
       "ua": "okhttp",
