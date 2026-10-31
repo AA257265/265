@@ -50,24 +50,6 @@
       "changeable": 1
     },
     {
-      "key": "独播库1",
-      "name": "独播库1",
-      "type": 3,
-      "api": "./py/独播库.py"
-    },
-    {
-      "key": "开心影院",
-      "name": "开心影院",
-      "type": 3,
-      "api": "./py/开心影院.py"
-    },
-    {
-      "key": "秒看TV",
-      "name": "秒看TV",
-      "type": 3,
-      "api": "./py/秒看TV.py"
-    },
-    {
       "key": "py_[短劇]紅果-1029",
       "name": "[短劇]紅果-1029",
       "type": 3,
@@ -2366,6 +2348,10 @@
       "ua": "okhttp",
       "url": "http://tv123.vvvv.ee/tv.m3u"
     },
+     {
+      "name": "備用線路",
+      "url": "https://caonima.898757.xyz/sub/Zz0uFf9Cz0kp/playlist.m3u"
+    }
     {
       "name": "Free Man TV",
       "url": "https://funnylife.neocities.org/iptv@recha.txt",
