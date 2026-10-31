@@ -1,1908 +1,1077 @@
 {
-  "spider": "./jar/fm.jar;md5;b0adab2fad1de8871b9533527f407cdf",
-  "wallpaper": "https://深色壁纸.xxooo.cf/",
-  "notice": "",
-  "sites": [
-
-    {
-      "key": "豆瓣",
-      "name": "🇹🇼｜熱播排行榜｜自動切換",
-      "type": 3,
-      "api": "csp_Douban",
-      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
-      "searchable": 0,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "豆瓣-搜索",
-      "name": "🇹🇼｜熱播排行榜｜可選站",
-      "type": 3,
-      "api": "csp_Douban",
-      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
-      "indexs": 1,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-    {
-      "key": "红果短剧1",
-      "name": "红果短剧1",
-      "type": 3,
-      "api": "./py/红果短剧1.py"
-    },
-    {
-      "key": "py_红果修复",
-      "name": "[點播]紅果(修復)",
-      "type": 3,
-      "api": "https://newrecha.neocities.org/py/红果修复.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "py_红果短剧",
-      "name": "[短劇]红果(依我本心版)",
-      "type": 3,
-      "api": "https://newrecha.neocities.org/py/红果短剧-依我版.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "py_[短劇]紅果-1029",
-      "name": "[短劇]紅果-1029",
-      "type": 3,
-      "api": "https://newrecha.neocities.org/py/红果短剧-1029.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "Guazi",
-      "name": "[APP]瓜子(1080P)",
-      "type": 3,
-      "api": "csp_GuaziAmns",
-      "jar": "https://gitlab.com/tenrecha/recha/-/raw/main/jar/auwo-1151029.jar;md5;d93049ba6615eab01b69a52ff03c02c9",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "Guazi"
-    },
-    {
-      "key": "NewGrV2",
-      "name": "[APP]秋天(1080P)",
-      "type": 3,
-      "api": "csp_NewGrV2Amns",
-      "jar": "https://gitlab.com/tenrecha/recha/-/raw/main/jar/auwo-1151029.jar;md5;d93049ba6615eab01b69a52ff03c02c9",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "NewGrV2"
-    },
-    {
-      "key": "py_Uvod",
-      "name": "[點播]Uvod(1080P)",
-      "type": 3,
-      "api": "https://newrecha.neocities.org/py/Uvod.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "py_UVOD_2",
-      "name": "[點播]UVOD_2(1080P)",
-      "type": 3,
-      "api": "https://newrecha.neocities.org/py/UVOD_2.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "youtube",
-      "name": "🐬youtube",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/油管.py"
-    },
-    {
-      "key": "YouTube-直連",
-      "name": "🇹🇼｜YouTube-V",
-      "type": 3,
-      "api": "./py/油管-11.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": { "ratio": 1.7 }
-    },
-    {
-      "key": "瓜子影視",
-      "name": "瓜子影視",
-      "type": 3,
-      "api": "./py/瓜子影视.py"
-    },
-    {
-      "key": "聚合短剧",
-      "name": "📺｜聚合短劇",
-      "type": 3,
-      "api": "./drpy_js/聚合短剧.js",
-      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
-      "changeable": 1
-    },
-    {
-      "key": "csp_瓜皮",
-      "name": "🐙｜瓜皮｜只能搜索用",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
-      "timeout": 60,
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": {
-        "主页url": "https://www.gpvod.cc",
-        "副标题": "public-list-prb hide ft2\">&&</span>",
-        "数组": "class=\"public-list-div public-list-bj\">&&</div>",
-        "图片": "data-src=\"&&\"",
-        "标题": "title=\"&&\"",
-        "链接": "href=\"&&\"",
-        "搜索url": "https://www.gpvod.cc/vodsearch.html?wd={wd}",
-        "搜索数组": "class=\"left public-list-bj\">&&</div>",
-        "搜索图片": "data-src=\"&&\"",
-        "搜索标题": "alt=\"&&封面图\"referrerpolicy",
-        "搜索链接": "href=\"&&\"",
-        "搜索副标题": "public-list-prb hide ft2\">&&</span>",
-        "简介": "class=\"text cor3\">&&</div>",
-        "线路数组": "<a class=\"swiper-slide&&</a>",
-        "线路标题": "</i>&&<span",
-        "播放数组": "<ul class=\"anthology-list-play size\">&&</ul>",
-        "播放标题": "\">&&</a>",
-        "分类url": "https://www.gpvod.cc/vodshow/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类": "电影$dianying#电视劇$juji#综艺$zongyi#动漫$dongman#短劇$shuangju"
-      }
-    },
-    {
-      "key": "裤佬奈飞4K",
-      "name": "👖裤佬丨奈飞丨4K",
-      "type": 1,
-      "api": "https://api.wsyzy.net/api.php/provide/vod",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "4K电影",
-        "Netflix电影",
-        "Netflix自制剧"
-      ]
-    },
-    {
-      "key": "裤佬独播JS",
-      "name": "👖裤佬丨独播丨JS",
-      "type": 3,
-      "api": "https://dogpan.com/f/R64pc5/独播库.js"
-    },
-    {
-      "key": "Dubk",
-      "name": "🏆｜獨播庫｜",
-      "type": 3,
-      "api": "csp_DubkAmns",
-      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-dETsDhhkydVym6T7qzn7WB.gz"
-    },
-    {
-      "key": "金牌影视",
-      "name": "🏆｜金牌｜高清",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_Jpys",
-      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
-      "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
-    },
-    {
-      "key": "AiGua",
-      "name": "🏆｜銀牌｜高清",
-      "type": 3,
-      "api": "csp_AiGuaAmns",
-      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "py_aidianying",
-      "name": "🏆｜鐵牌｜藍光",
-      "type": 3,
-      "api": "./py/aidianying.py",
-      "searchable": 1,
-      "filterable": 0,
-      "changeable": 1
-    },
-    {
-      "key": "Qile优视频2",
-      "name": "🏆｜Uvod｜藍光◎秒播",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_Uvod",
-      "jar": "./jar/custom_spider.jar;md5;5e53c8f9ddd4ede5359c16bee091db93",
-      "playerType": 2,
-      "filterable": 1
-    },
-    {
-      "key": "Ysp",
-      "name": "🏆｜優影｜高清",
-      "type": 3,
-      "api": "csp_YspAmns",
-      "jar": "./jar/aowu-0714.jar;md5;dd6fbafde59756e7f5043a20c74b1961",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Uvod",
-      "name": "🏆｜Uvod｜備用",
-      "type": 3,
-      "api": "./py/Uvod.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "style": {
-        "type": "rect"
-      },
-      "ext": ""
-    },
-    {
-      "key": "Gimy剧迷",
-      "name": "💥Gimy剧迷💥",
-      //"api": "https://gh-proxy.org/https://raw.githubusercontent.com/wliqi495-create/jaychouqq/refs/heads/main/yingshi/py9/剧迷.py",
-      "api": "./py/剧迷.py",
-      "filterable": 1,
-      "quickSearch": 1,
-      "searchable": 1,
-      "type": 3
-    },
-    {
-      "key": "cjjh",
-      "name": "🐬采集聚合.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/采集聚合.py"
-    },
-    {
-      "key": "比特",
-      "name": "🍄比特┃不卡",
-      "type": 3,
-      "api": "csp_BttwooGuard",
-      "jar": "./jar/fan-0720.jar;md5;4f014e5152a3481b34b34b52292b94b1",
-      "timeout": 10,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "糯米",
-      "name": "🍓糯米┃秒播",
-      "type": 3,
-      "api": "csp_NmyswvGuard",
-      "jar": "./jar/fan-0720.jar;md5;4f014e5152a3481b34b34b52292b94b1",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "文采",
-      "name": "💮文采┃秒播",
-      "type": 3,
-      "api": "csp_JpysGuard",
-      "jar": "./jar/fan-0720.jar;md5;4f014e5152a3481b34b34b52292b94b1",
-      "timeout": 10,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "奶酪",
-      "name": "🧀奶酪┃秒播",
-      "type": 3,
-      "api": "csp_T4Guard",
-      "jar": "./jar/fan-0720.jar;md5;4f014e5152a3481b34b34b52292b94b1",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "rfOIzPkSUkANv6AT2prC8en3+TzKx9TnlT8vaY37HhtYfAQe6C5xqrVuJPhQwYV6r3eRdMBGm3Qm6Th+BushR86B6KqJGXDsHazHw7alBG/7zUxkN1tK/NypRxnpBNoeUtpw4jcCGhytI75yO4g4zG6SOPA0RSwhksM0IF2friAkrHCWoW3v+0mdw6sjz4t4XB1Df7yL/R5cfaA/5LQYq3I8OkvMrJMU9Q1P7JXwx7NSF2zTyH/ANVmZ4u5m567DW1KVG7OuQjXPjZiOXTYk0+wjpfBRTf19yIq6q/C76k2Fs80joAMPw0ueDR+QHxtuDcTom2rmHkI1Fonkzi6BotbpUcbSi4PiIgmfdbvVwhG6Z+i4nvt+IYa48l5aLA7PLgDiERpuOs31aHaXlgFswT87XyTb8QaF4CuzKWJuXptwNTjvXAS9KHdxH49Ay+hfBAB2bCvUf4CMoldF2wZUv0mI2qY966erFpOFg+FOc7t88EUH8j8ACXQtHJiKC9RQ+SaLIF0="
-    },
-    {
-      "key": "暴風",
-      "name": "暴風 | 采集",
-      "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Ysp",
-      "name": "🏆｜優影｜高清",
-      "type": 3,
-      "api": "csp_YspAmns",
-      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Olyy",
-      "name": "🏆｜歐樂｜高清",
-      "type": 3,
-      "api": "csp_OlyyAmns",
-      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "py_jieyingshi",
-      "name": "🏆｜異界｜高清",
-      "type": 3,
-      "api": "csp_Jys",
-      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
-      "ext": "https://www.ndhfiohk.com/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "Dubk",
-      "name": "🏆｜獨播庫｜",
-      "type": 3,
-      "api": "csp_DubkAmns",
-      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://nos.netease.com/youdata-netease/public-utilUpload-dETsDhhkydVym6T7qzn7WB.gz"
-    },
-    {
-      "key": "📹YOU视",
-      "name": "🏆｜優视頻｜藍光◎秒播",
-      "type": 3,
-      "api": "csp_YouSPAmns",
-      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "🎭杜北",
-      "name": "🏆｜獨播｜藍光◎秒播",
-      "type": 3,
-      "api": "csp_DubkAmns",
-      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "./json/獨播庫.json"
-    },
-    {
-      "key": "🍕欧乐",
-      "name": "🏆｜歐樂｜藍光◎秒播(無廣告+嗷嗚)",
-      "type": 3,
-      "api": "csp_OlyyAmns",
-      "jar": "./jar/aowu.jar;md5;8845da8529a9d2073931d429fcf80b2d",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "php_无水印资源",
-      "name": "🏆｜無水｜(T4)",
-      "type": 4,
-      "api": "https://php.doube.eu.org/php/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": {
-        "module_name": "CmsSuggest",
-        "url": "https://api.wsyzy.net/api.php/provide/vod"
-      }
-    },
-    {
-      "name": "🏆｜金牌｜高清◎秒播",
-      "key": "JinPai",
-      "type": 3,
-      "api": "csp_JinPaiAmns",
-      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "飞飞",
-      "name": "🏆｜飛飛丨高清◎秒播",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://qpcj.69mini.com/api.php/app/"
-    },
-    {
-      "key": "天堂",
-      "name": "🏆｜天堂｜高清◎秒播",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "电影天堂",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-        "dataKey": "D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.dytiantang.one",
-        "host": "",
-        "site": "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
-        "version": "3.0.0.7",
-        "decrypt": "0"
-      }
-    },
-    {
-      "key": "Aiyf",
-      "name": "🏆｜愛壹帆｜",
-      "type": 3,
-      "api": "csp_AiyfAmns",
-      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0
-    },
-    {
-      "key": "苹果",
-      "name": "🏆｜苹果｜秒播",
-      "type": 3,
-      "api": "csp_AppDrama",
-      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "appName": "小苹果",
-        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-        "dataKey": "S0VNDTJHOFHHCNMRAW5IV2TOS2PBPQ==",
-        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-        "pkg": "com.juechufsh.android.xpg1",
-        "host": "",
-        "site": "https://xpgandroid03-1372779881.cos.ap-beijing.myqcloud.com/app_xpg_android.txt",
-        "version": "1.0.0.3",
-        "decrypt": "0"
-      }
-    },
-
-    {
-      "name": "🥇｜夏天｜秒播",
-      "key": "NewGrV2",
-      "type": 3,
-      "api": "csp_NewGrV2Amns",
-      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "e5f15714a2413f05151fea686450950ace809216b88f37b7b1fb4f1ce80eff9fab1b6be3fd1f9df9a5a915365aefecb314d297b5e1747337c20236c3637c2aeaebfce371e9053be3898bb20a9ef20bbf13173fb2ad38b4474346328a3a354451a1b5f96c490cc09840a195bc498f9e11499df11b3946e58e4c705a8457521ed34c879c458a9b27e487496c7a63a7ca8b34133bca4943b0019d982462cc22294e7c4ab447899b0e8bc667c7e635e8291fa544e8e28d8b16b8b702912f2d5ec561e1fb8667cc44bef7cae73f5022c94518cb7f0845d772d44944a88ff71d9a562a6204729a8f1b00c81ba195664482e756859f12048f73e986ad3bb6584935696dff959b0f82055f23d94f6a935103b574a98d54079a0be6647fcaca4db0d177ac3004eb51819a8e539646a141"
-    },
-    {
-      "name": "🥇｜特狗｜秒播",
-      "key": "AppV6Tg",
-      "type": 3,
-      "api": "csp_AppV6Amns",
-      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "be125714a2413f05151fea6864509533510fc41478de761606ce64420a9d786d1766ef0968b7cb1b0b380f8d47aaca283235fd63fd19e6ac57a9a71acecc969aedb960608e1d3e2cbaa9365220d19d30711243c747442f77c21fb19b804bde8323048bc73a0ef5d5231c028e694e97122e1bfe3caf778c49dc767622f6c7cfbb12a8feb3154ad53971859304e2d7a50f24558396a1b0f9879420f15416fcd1a44fea822c8e63ddff22f6775663ea26e49ce810481083bfaebae58790814c6c91aedd7cf8d50237a5a22bed49bff6cbe937fc907cf5ce771643461426b40fc79aed7595a6b33e1942d6e93db30da5a10c6e9593dec0ea5cb378cd8a4d90c296b90aa9679a3a791a281abf5fef54ed0c3ba822bfb84d5a48fb97f9ceb65e5be0bd30a4604169f671c543a0d6a4154aee4de66de0baee995b3d9ebd02260d5c4032b8dc191de5e50dc10a5be44405c848e71ef2f7fac85814542927d39a3c5fea40a14e96688c9f4b6f5a62c949e69c66616e7ac0a24b02a746fe6257de3a5325af8f915dd59d3f75ee830ac427fd5c9c136d371beb2ae7233e21ebef3beb0b67d6ae3b8a4b4878da5bd88913145b4dd79754bb0fe8cb19ef8a547355c4795b0bd372296b3ae08227e3a8c8da641b2aad8a545863cbab2da7edf6c48fee21610ace6e05ca511fead0993d23a3a2e720b32fe86da616b34f94874f67bbd3d94b46b207487101453982db864b8aa24c6ff3326999cfbf6328c5ce176c1a01f16802ea4f615016c4a7c8bd401ee726d81f94ad56b9efe12c00e668dfdfc4f820347f71de5b36546b773f6717766c79a01611fe3c5427c6ac4c68f6d8e32b4a5400c4467ba7990c4738b6b021fcc04446eee3b473baa938bece5e1b3b5379eb7d5d079186cfe16ee6fe51202e5b90c18f59569a75944b2e932d68bb8cf9cab437f6176ab85c8b26eedfe59e5b6130b1aab2e49419d7ec0037fd83a5af3d7483bbe8d4e0e8d3033ec3db68a7c78f9100bffee32cb0247e8b647e94838f767f01cfee1a2b9836ac26a389e7340f584fbb0a8600c2ffea100993ae78fb92593ffc41211e0dda196d9d1450a3f22a56af9f4aab61c33dd3744e395aad6527687d0b0df5db85cadb66bc1bafc6bdbde8b640863433192bf091be8e148d421eca44aa1997ce4396965f3724cea8b45b416394ac32ad68cbcc6ad02cfa44bbabda8bad7c5daabe45eac86d0a8d2b203a1924d82fc3ea360436fda1a650e5a7cce58becff50eb2176a4dd90f58887b6fdb15398eefd8968ed2d859d9fd4c0c078522009ce90b59a84903d75a9fbb391deb0f3cab655b9d79e5f43b26323e7086090877472bdf01f580b4a5ead9c0ca008fdd8cba8d50641a6824daf8d0f4c992ca8c1b99723bd1b7a0c69432aca4e892096f1063a06b068127684b82e5a677f272dd45551c01a4c5f0a6e9b6fd26d871f9fd1045b65565a709cb0545882fcc593b885d29f47df475b8b1cf4f95ff61c31252f503924113c52fa72ea655e9245bce5e73427558c5fbf33a933c549dfdca79259fb8eb77d648c5f4813af11ef876e0fd65b16d3989f6d88da1026b0e53e1116e6243727dbd3a264c77d18ff7f194075f9d59f26e983276317f4dce4d2daa69538ac0c034f27f042a5595809f00945117562f16aec2501010d1b7f5521c264c1bddf8a150f5b8fde0aa5630665dc332ab2f3e490b01c7328693f22d98db1ff9599a44930cf14cec95490229c3cbf8eb9e4d083cb77cd50fe806fe469dcf3201822980b222d596e9ceb43375dd00ebc9721e344baf29f84b56000835a364cac6da64abf75f2f1fb890e24549b7b7d28874668b2463d2e790a6dda9a7d3ba00160296fa6f565436df4164bfa739161c8415a0b88c3da5b80f6439fb67e1d6aba0b8c1db798fe967334c574b9919727fb639d6cecb1f2a2a4d4c52fc3c9514efaae17b1d5c14ba1f52847c50025d1ea38cc2da904fb14f0690491ccaf4838e5a28c92a7536d735fa42a283373de3e7781201f9d7f198642f6356fc1d806f5ffa82dc79c114c70fef7e4cfd422c976f51168dd7633a0dadbac3270b9943c9b5254c1dac5688fe0f7213a3f"
-    },
-
-    {
-      "key": "奴娜",
-      "name": "🥇｜奴娜丨高清◎秒播",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://www.nntv.in/api.php/v1.vod"
-    },
-    {
-      "key": "农民影视",
-      "name": "🥇｜農民｜無廣",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "api": "csp_Wwys",
-      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
-      "ext": "https://vip.wwgz.cn:5200"
-    },
-    {
-      "key": "csp_看片狂人",
-      "name": "🥇｜狂人｜藍光(超多線路)",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "免嗅": "1",
-        "线路数组": "class=\"fed-drop-btns fed-padding&&</li>",
-        "线路标题": "data-linename=\"&&\"[不包含:腾讯视频-VIP解析#芒果-VIP解析#超清FM线#超清STP线#超清VH线#超清RP线#超清SW线#超清UP线#超清ST线]",
-        "搜索url": "https://www.kpkuang.fun/vodsearch/-------------.html?wd={wd}",
-        "分类url": "https://www.kpkuang.fun/vodshow/{cateId}-{area}-time------{catePg}---{year}--.html",
-        "分类": "电影$1#连续劇$2#综艺$3#动漫$4",
-        "地区": "中国大陆&香港&台湾&日本&韩国&泰国&美国&英国&德国&法国｜｜中国大陆&韩国&香港&台湾&日本&美国&泰国&英国&新加坡&其他｜｜香港&台湾&韩国&中国大陆&英国&美国&日本&加拿大&泰国&其它｜｜日本&大陆&中国大陆&中国&美国&台湾&韩国&法国&英国&加拿大"
-      }
-    },
-    {
-      "key": "csp_Wwys",
-      "name": "🥇｜农民｜高清",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_XYQHiker",
-      "jar": "./jar/river-fman.jar;md5;ca48f92eac069c85a17e4ccf381d5f0a",
-      "ext": "./json/农民影视.json"
-    },
-    {
-      "key": "csp_If101",
-      "name": "️🥇｜歐視｜高清",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "简介": "content_desc context clearfix\">&&</span>",
-        "分类url": "https://www.olehdtv.com/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
-        "分类": "電影$1#電視劇$2#綜藝$3#動漫$4",
-        "地区": "大陆&香港&台湾&美国&法国&英国&日本&韩国&德国&泰国&印度&意大利&西班牙&加拿大&其他"
-      }
-    },
-    {
-      "key": "果果短剧",
-      "name": "📺｜紅果短剧｜瀟灑",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xiaosa-0813.jar;md5;a932698717d44bbf1780212ff05e3d6e",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类": "重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8",
-        "分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"
-      }
-    },
-    {
-      "key": "Wgdj",
-      "name": "📺｜圍觀短剧",
-      "type": 3,
-      "api": "csp_WgdjAmns",
-      "jar": "./jar/aowu-0630.jar;md5;8b072350342614f78ff61cba57dc94b4",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "genre": "shortdrama"
-    },
-    {
-      "key": "vod_蜜雪",
-      "name": "🧲｜夢想網頁版",
-      "type": 0,
-      "api": "http://www.mixuetv.top/api.php/provide/vod/at/xml",
-      "categories": [
-        "国产剧",
-        "台灣剧",
-        "日本剧",
-        "美国剧",
-        "短剧",
-        "大陆综艺",
-        "日韩综艺",
-        "港台综艺",
-        "欧美综艺",
-        "国产动漫",
-        "日韓动漫",
-        "欧美动漫",
-        "奈飞电视剧",
-        "奈飞电影",
-        "動作片",
-        "韓國劇",
-        "海外劇",
-        "港劇",
-        "恐怖片",
-        "科幻片",
-        "劇情片",
-        "戰爭片",
-        "愛情片"
-      ],
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "vod_360",
-      "name": "🧲｜360｜高清",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod",
-      "categories": [
-        "国产劇",
-        "短片",
-        "动画片",
-        "香港劇",
-        "韩国劇",
-        "欧美劇",
-        "动作片",
-        "喜劇片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "劇情片",
-        "战争片",
-        "NBA",
-        "惊悚片",
-        "家庭篇",
-        "古装片",
-        "历史片",
-        "悬疑片",
-        "犯罪片",
-        "纪录片",
-        "台湾劇",
-        "大陆综艺",
-        "国产动漫",
-        "日韩动漫",
-        "西部片"
-      ]
-    },
-    {
-      "key": "csp_動漫巴士",
-      "name": "🎡｜動漫巴士",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/動漫巴士.json"
-    },
-    {
-      "key": "巴士动漫",
-      "name": "🎡｜巴士动漫",
-      "type": 3,
-      "api": "csp_XYQHiker",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "ext": "./json/巴士动漫.json"
-    },
-    {
-      "key": "csp_天天動漫",
-      "name": "🎡｜天天動漫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "线路二次截取": "class=\"module-tab-items-box&&lass=\"swiper[替换:</div>>></a>]",
-        "线路数组": "class=\"module-tab-item tab-item&&</a>",
-        "线路标题": "<span>&&</span>",
-        "跳转播放链接": "var player_*\"url\":\"&&\"",
-        "主页url": "https://www.ttdm.me/vod-type/1/",
-        "分类url": "https://www.ttdm.me/vod-show/{cateId}--{by}-{class}-----{catePg}---/",
-        "分类": " 中国动漫$1#日本动漫$2#欧美动漫$3#其他动漫$4#动画电影$5",
-        "劇情": "玄幻&科幻&武侠&冒险&战斗&搞笑&恋爱&魔幻&竞技&热血&治愈&励志&机战&奇幻&悬疑&日常&校园&真人&推理&历史&经典&美食&偶像"
-      }
-    },
-    {
-      "key": "csp_桵空",
-      "name": "🎡｜桵空动漫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "分类url": "https://www.maigo.cc/vodshow/{cateId}---{class}-----{catePg}---{year}/",
-        "分类": "电影$84#综艺$91#大陆劇$81#港台劇$82#海外劇$83#纪录片$88#动漫$1#日劇$32#日漫$46#国漫$47#美漫$85"
-      }
-    },
-    {
-      "key": "櫻花動漫2",
-      "name": "🎡｜櫻花动漫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "分类url": "https://www.857kan.com/show/{cateId}--------{catePg}---{year}.html",
-        "分类": "動漫電影$4#日本動漫$1#大陸動漫$3#歐美動漫$6"
-      }
-    },
-    {
-      "key": "魔都",
-      "name": "🎡｜魔都动漫",
-      "type": 0,
-      "api": "https://caiji.moduapi.cc/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [ "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "动漫电影", "里番动漫" ]
-    },
-    {
-      "key": "魔都资源",
-      "name": "🎡｜魔資动漫",
-      "type": 1,
-      "api": "https://caiji.moduapi.cc/api.php/provide/vod",
-      "jar": "./jar/panda1123.jar;md5;d9004aa2e16f60b04baed361713fb710",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "csp_AG動漫",
-      "name": "🎡｜AG動漫",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jar/xyqxbpq.jar;md5;fd3cefc7302f3a39a442682f802b11e5",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "分类url": "https://agdm.tv/show/{cateId}/area/{area}/by/{by}/page/{catePg}/year/{year}.html",
-        "分类": "日本动漫$6#国产动漫$7#欧美动漫$8#海外动漫$21#劇场版$9",
-        "地区": "日本&大陆&美国"
-      }
-    },
-    {
-      "key": "drpy_js_去看吧",
-      "name": "🎡｜去看动漫",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./drpy_libs/drpy2.min.js",
-      "ext": "./drpy_js/去看吧.js"
-    },
-    {
-      "key": "drpy_js_爱弹幕",
-      "name": "🎡｜爱动漫",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./drpy_libs/drpy2.min.js",
-      "ext": "./drpy_js/爱弹幕.js"
-    },
-    {
-      "key": "hipy_js_七色番[漫]",
-      "name": "🎡｜七色番动漫",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "api": "./drpy_libs/drpy2.min.js",
-      "ext": "./drpy_js/七色番[漫].js"
-    },
-    {
-      "key": "hipy_js_爱弹幕[漫]",
-      "name": "🎡｜爱动漫",
-      "type": 3,
-      "api": "./drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./drpy_js/爱弹幕[漫].js"
-    },
-    {
-      "key": "异世界",
-      "name": "🎡｜异世界动漫",
-      "type": 3,
-      "api": "./drpy_libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "./drpy_js/异世界.js"
-    },
-    {
-      "key": "🇹🇼BBTV",
-      "name": "🇹🇼BBTV",
-      "type": 1,
-      "api": "https://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [ "国产剧", "香港剧", "欧美剧", "韩国剧", "日本剧", "台湾剧", "海外剧", "泰国剧", "电影片", "连续剧", "综艺片", "动漫片", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "记录片", "大陆综艺", "港台综艺", "日韩综艺", "国产动漫", "日韩动漫", "欧美综艺", "欧美动漫", "港台动漫", "海外动漫" ]
-    },
-    {
-      "key": "茅台资源",
-      "name": "🍺茅台资源",
-      "type": 1,
-      "api": "https://mtzy.me/api.php/provide/vod/at",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [ "国产剧", "香港剧", "欧美剧", "韩国剧", "日本剧", "台湾剧", "海外剧", "泰国剧", "电影片", "连续剧", "综艺片", "动漫片", "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "记录片", "大陆综艺", "港台综艺", "日韩综艺", "国产动漫", "日韩动漫", "欧美综艺", "欧美动漫", "港台动漫", "海外动漫" ]
-    },
-    {
-      "key": "🍊Boba影视🍊",
-      "name": "🍊Boba影视🍊",
-      "type": 0,
-      "api": "http://150.109.94.44:1112/api.php/provide/vod/at/xml/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [ "动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "战争片", "悬疑片", "剧情片", "4K", "国产剧", "欧美剧", "日韩剧", "港剧", "台剧", "泰国剧", "大陆综艺", "日韩综艺", "港台综艺", "欧美综艺", "大陆动漫", "日韩动漫", "欧美动漫", "动画电影", "布袋戏", "Netflix电影", "Netflix电视剧", "短剧", "纪录片", "体育", "日韩无码", "欧美精品", "国产精品", "中文字幕", "人妻系列", "强奸乱伦", "自拍偷拍", "重口味" ]
-    },
-    {
-      "key": "如意",
-      "name": "֎如意资源",
-      "type": 1,
-      "api": "https://www.ryzyw.com/api.php/provide/vod/at",
-      "categories": [ "国产剧", "港剧", "韩剧", "日剧", "台剧", "欧美剧", "新马剧", "泰剧", "其他剧", "剧情片", "动作片", "冒险片", "同性片", "喜剧片", "奇幻片", "恐怖片", "悬疑片", "惊悚片", "灾难片", "爱情片", "犯罪片", "科幻片", "动画电影", "歌舞片", "战争片", "经典片", "网络电影", "其它片", "国产综艺", "港台综艺", "韩国综艺", "日本综艺", "欧美综艺", "新马泰综艺", "其他综艺", "虐恋短剧", "逆袭短剧", "重生短剧", "穿越短剧", "甜宠短剧", "其它短剧", "欧美动漫", "日本动漫", "韩国动漫", "国产动漫", "港台动漫", "新马泰动漫", "其它动漫" ],
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "iQIYI",
-      "name": "🧨iQIYI",
-      "type": 0,
-      "api": "https://iqiyizyapi.com/api.php/provide/vod/at/xml",
-      "searchable": 1,
-      "quickSearch": 1
-    },
-    {
-      "key": "虎牙",
-      "name": "🐯虎牙",
-      "type": 1,
-      "api": "https://www.huyaapi.com/api.php/provide/vod/at/",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": []
-    },
-    {
-      "key": "爱奇艺",
-      "name": "🐬[追剧]爱奇艺.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/爱奇艺.py"
-    },
-
-    {
-      "key": "YK",
-      "name": "🐬[追剧]优酷视频.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/优酷视频.py"
-    },
-    {
-      "key": "txvm",
-      "name": "🐬[追剧]腾讯视频",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/腾讯视频.py"
-    },
-    {
-      "key": "MGtv",
-      "name": "🐬[追剧]芒果TV.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/芒果TV.py"
-    },
-    {
-      "key": "腾爱优芒B",
-      "name": "🐬[追剧]腾爱优芒B.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/腾爱优芒B.py"
-    },
-    {
-      "name": "弹幕",
-      "key": "弹幕豆瓣",
-      "type": 3,
-      "api": "csp_SecureDanmu",
-      "searchable": 1,
-      "jar": "https://ghfast.top/https://raw.githubusercontent.com/goodcommunication/mydm/main/danmu-spider-native.jar",
-      "ext": {
-        "apiUrls": [
-          "https://danmu.iyo.us.ci/theft-dastardly-prognosis-hula-agenda2-dropkick|公益源",
-          "https://logo.saodu.work:8888/87654321|公益源1",
-          "https://dm.ljiaovm.com/luosen|公益源2"
-        ],
-        "titleMappingsUrl": "https://ghfast.top/https://raw.githubusercontent.com/goodcommunication/mydm/main/yins.json",
-        "filter": "./lib/douban.json"
-      }
-    },
-    {
-      "key": "youtube",
-      "name": "🐬[其他]油管,py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/油管.py"
-    },
-    {
-      "key": "星梦Asmr",
-      "name": "🐬[其他]星梦Asmr.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/星梦Asmr.py"
-    },
-    {
-      "key": "ASMR吧",
-      "name": "🐬[其他]ASMR吧.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/ASMR吧.py"
-    },
-    {
-      "key": "两个BT影视",
-      "name": "🐬[追剧]两个BT影视",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/两个BT影视.py"
-    },
-    {
-      "key": "卧龙影院",
-      "name": "🐬[追剧][伦理]卧龙影院",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/[伦理]卧龙影院.py"
-    },
-    {
-      "key": "龙江影院",
-      "name": "🐬[追剧][伦理]龙江影院(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/[伦理]龙江影院.py"
-    },
-    {
-      "key": "吃瓜影院",
-      "name": "🐬[追剧]吃瓜影院",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/吃瓜影院.py"
-    },
-    {
-      "key": "影视森林",
-      "name": "🐬[追剧]影视森林(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/影视森林.py"
-    },
-    {
-      "key": "PTT线上看",
-      "name": "🐬[追剧][伦理]PTT线上看",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/PTT线上看.py"
-    },
-    {
-      "key": "洛雪TV",
-      "name": "🐬[追剧]洛雪TV(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/洛雪TV.py"
-    },
-    {
-      "key": "人人视频",
-      "name": "🐬[追剧]人人视频(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/人人视频.py"
-    },
-    {
-      "key": "绿色影视",
-      "name": "🐬[追剧]绿色影视",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/绿色影视.py"
-    },
-    {
-      "key": "极速追剧",
-      "name": "🐬[追剧]极速追剧",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/极速追剧.py"
-    },
-    {
-      "key": "小宝影院",
-      "name": "🐬[追剧]小宝影院",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/小宝影院.py"
-    },
-    {
-      "key": "达达兔影院",
-      "name": "🐬[追剧]达达兔影院(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/达达兔影院(关梯).py"
-    },
-    {
-      "key": "懂片帝AI",
-      "name": "🐬[追剧]懂片帝AI",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/懂片帝AI.py"
-    },
-    {
-      "key": "影巢movie",
-      "name": "🐬[追剧]影巢movie(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/影巢movie.py"
-    },
-    {
-      "key": "小蜜蜂影院",
-      "name": "🐬[追剧]小蜜蜂影院",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/小蜜蜂影院.py"
-    },
-    {
-      "key": "界影视",
-      "name": "🐬[追剧]界影视",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/界影视.py"
-    },
-    {
-      "key": "飞牛影视",
-      "name": "🐬[追剧]飞牛影视(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/飞牛影视.py"
-    },
-    {
-      "key": "追剧达人",
-      "name": "🐬[追剧]追剧达人",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/追剧达人.py"
-    },
-    {
-      "key": "未来影院",
-      "name": "🐬[追剧]未来影院(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/未来影院(关梯).py"
-    },
-    {
-      "key": "大白鲨影院",
-      "name": "🐬[追剧]大白鲨影院",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/大白鲨影院.py"
-    },
-    {
-      "key": "咸鱼影视",
-      "name": "🐬[追剧]咸鱼影视",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/咸鱼影视.py"
-    },
-    {
-      "key": "1234影视",
-      "name": "🐬[追剧]1234影视",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/1234影视.py"
-    },
-    {
-      "key": "LIBVIO",
-      "name": "🐬[追剧]LIBVIO",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/LIBVIO.py"
-    },
-    {
-      "key": "咕噜咕噜",
-      "name": "🐬[追剧]咕噜咕噜",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/咕噜咕噜.py"
-    },
-    {
-      "key": "魔法影视",
-      "name": "🐬[追剧]魔法影视",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/魔法影视.py"
-    },
-    {
-      "key": "云朵视频",
-      "name": "🐬[追剧]云朵视频(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/云朵视频(关梯).py"
-    },
-    {
-      "key": "追影",
-      "name": "🐬[追剧]追影",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/追影.py"
-    },
-    {
-      "key": "独播库",
-      "name": "🐬[追剧]独播库",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/独播库.py"
-    },
-    {
-      "key": "网飞猫影视",
-      "name": "🐬[追剧]网飞猫影视(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/网飞猫影视(关梯).py"
-    },
-    {
-      "key": "ZIP0影视",
-      "name": "🐬[追剧]ZIP0影视",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/ZIP0影视.py"
-    },
-    {
-      "key": "饭搭子影视",
-      "name": "🐬[追剧]饭搭子影视",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/饭搭子影视.py"
-    },
-    {
-      "key": "无极电影网",
-      "name": "🐬[追剧]无极电影网(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/无极电影网(关梯).py"
-    },
-    {
-      "key": "55影院",
-      "name": "🐬[追剧]55影院(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/55影院(关梯).py"
-    },
-    {
-      "key": "开端影视",
-      "name": "🐬[追剧]开端影视",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/开端影视.py"
-    },
-    {
-      "key": "手机影院",
-      "name": "🐬[追剧]手机影院(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/手机影院.py"
-    },
-    {
-      "key": "果果短剧",
-      "name": "🐬[追剧]果果短剧",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/果果短剧.py"
-    },
-    {
-      "key": "GimyTV剧迷",
-      "name": "🐬[追剧]GimyTV剧迷",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/GimyTV剧迷.py"
-    },
-    {
-      "key": "白洋影院",
-      "name": "🐬[追剧]白洋影院(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/白洋影院.py"
-    },
-    {
-      "key": "第七影院",
-      "name": "🐬[追剧]第七影院",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/第七影院.py"
-    },
-    {
-      "key": "橘汁视频",
-      "name": "🐬[追剧]橘汁视频",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/橘汁视频.py"
-    },
-    {
-      "key": "华谊影视",
-      "name": "🐬[追剧]华谊影视",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/华谊影视.py"
-    },
-    {
-      "key": "芭蕉剧场",
-      "name": "🐬[追剧]芭蕉剧场(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/芭蕉剧场.py"
-    },
-    {
-      "key": "6080新视觉",
-      "name": "🐬[追剧]6080新视觉",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/6080新视觉.py"
-    },
-    {
-      "key": "6080影视",
-      "name": "🐬[追剧]6080影视",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/6080影视.py"
-    },
-    {
-      "key": "99短剧网",
-      "name": "🐬[追剧]99短剧网",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/99短剧网.py"
-    },
-    {
-      "key": "第九短剧网",
-      "name": "🐬[追剧]第九短剧网(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/第九短剧网.py"
-    },
-    {
-      "key": "青鸟影视",
-      "name": "🐬[追剧]青鸟影视",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/青鸟影视.py"
-    },
-    {
-      "key": "迷你影视",
-      "name": "🐬[追剧]迷你影视(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/迷你影视.py"
-    },
-    {
-      "key": "八度影院",
-      "name": "🐬[追剧]八度影院(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/八度影院.py"
-    },
-    {
-      "key": "4K影视仓",
-      "name": "🐬[追剧]4K影视仓",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/4K影视仓.py"
-    },
-    {
-      "key": "CNFLIX",
-      "name": "🐬[追剧]CNFLIX",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/CNFLIX.py"
-    },
-    {
-      "key": "风尚影视",
-      "name": "🐬[追剧]风尚影视",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/风尚影视.py"
-    },
-    {
-      "key": "云途影视",
-      "name": "🐬[追剧]云途影视(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/云途影视.py"
-    },
-    {
-      "key": "永乐视频",
-      "name": "🐬[追剧]永乐视频",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/永乐视频.py"
-    },
-    {
-      "key": "夏日影院",
-      "name": "🐬[追剧]夏日影院.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/夏日影院.py"
-    },
-    {
-      "key": "君念影院",
-      "name": "🐬[追剧]君念影院.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/君念影院.py"
-    },
-    {
-      "key": "首映网",
-      "name": "🐬[追剧]首映网.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/首映网.py"
-    },
-    {
-      "key": "剧下饭4K",
-      "name": "🐬[追剧]剧下饭4K.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/剧下饭4K.py"
-    },
-    {
-      "key": "兔岛影院",
-      "name": "🐬[追剧]兔岛影院.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/兔岛影院.py"
-    },
-    {
-      "key": "青牛影视",
-      "name": "🐬[追剧]青牛影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/青牛影视.py"
-    },
-    {
-      "key": "山水影视",
-      "name": "🐬[追剧]山水影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/山水影视.py"
-    },
-    {
-      "key": "搜剧AI",
-      "name": "🐬[追剧]搜剧AI.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/搜剧AI.py"
-    },
-    {
-      "key": "厂长资源",
-      "name": "🐬[追剧]厂长资源.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/厂长资源.py"
-    },
-    {
-      "key": "多多影视",
-      "name": "🐬[追剧]多多影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/多多影视.py"
-    },
-    {
-      "key": "飞流视频",
-      "name": "🐬[追剧]飞流视频.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/飞流视频.py"
-    },
-    {
-      "key": "好好看",
-      "name": "🐬[追剧]好好看.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/好好看.py"
-    },
-    {
-      "key": "VS影院",
-      "name": "🐬[追剧]VS影院.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/VS影院.py"
-    },
-    {
-      "key": "EcoHub影视",
-      "name": "🐬[追剧]EcoHub影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/EcoHub影视.py"
-    },
-    {
-      "key": "电影侠",
-      "name": "🐬[追剧]电影侠.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/电影侠.py"
-    },
-    {
-      "key": "影视大全",
-      "name": "🐬[追剧]影视大全.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/影视大全.py"
-    },
-    {
-      "key": "一起影视",
-      "name": "🐬[追剧]一起影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/一起影视.py"
-    },
-    {
-      "key": "仙腾影院",
-      "name": "🐬[追剧]仙腾影院.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/仙腾影院.py"
-    },
-    {
-      "key": "看戏影视",
-      "name": "🐬[追剧]看戏影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/看戏影视.py"
-    },
-    {
-      "key": "百花影院",
-      "name": "🐬[追剧]百花影院.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/百花影院.py"
-    },
-    {
-      "key": "VIP兔",
-      "name": "🐬[追剧]VIP兔.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/VIP兔.py"
-    },
-    {
-      "key": "刷不停短剧",
-      "name": "🐬[追剧]刷不停短剧.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/刷不停短剧.py"
-    },
-    {
-      "key": "飞快TV",
-      "name": "🐬[追剧]飞快TV.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/飞快TV.py"
-    },
-    {
-      "key": "Auete影视",
-      "name": "🐬[追剧]Auete影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/Auete影视.py"
-    },
-    {
-      "key": "大马猴",
-      "name": "🐬[追剧]大马猴.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/大马猴.py"
-    },
-    {
-      "key": "pomo",
-      "name": "🐬[追剧]pomo.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/pomo.py"
-    },
-    {
-      "key": "FoFo影院",
-      "name": "🐬[追剧]FoFo影院.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/FoFo影院.py"
-    },
-    {
-      "key": "66大片网",
-      "name": "🐬[追剧]66大片网.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/66大片网.py"
-    },
-    {
-      "key": "泡泡影院",
-      "name": "🐬[追剧]泡泡影院.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/泡泡影院.py"
-    },
-    {
-      "key": "楓林網",
-      "name": "🐬[追剧]楓林網.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/楓林網.py"
-    },
-    {
-      "key": "草莓影视",
-      "name": "🐬[追剧]草莓影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/草莓影视.py"
-    },
-    {
-      "key": "八戒影视",
-      "name": "🐬[追剧]八戒影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/八戒影视.py"
-    },
-    {
-      "key": "30剧集网",
-      "name": "🐬[追剧]30剧集网.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/30剧集网.py"
-    },
-    {
-      "key": "宅男影视",
-      "name": "🐬[追剧]宅男影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/宅男影视.py"
-    },
-    {
-      "key": "看剧AI",
-      "name": "🐬[追剧]看剧AI.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/看剧AI.py"
-    },
-    {
-      "key": "高清点播",
-      "name": "🐬[追剧]高清点播.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/高清点播.py"
-    },
-    {
-      "key": "vidhub",
-      "name": "🐬[追剧]vidhub.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/vidhub.py"
-    },
-    {
-      "key": "枫叶4K",
-      "name": "🐬[追剧]枫叶4K.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/枫叶4K.py"
-    },
-    {
-      "key": "追影",
-      "name": "🐬[追剧]追影.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/追影.py"
-    },
-    {
-      "key": "网飞TV",
-      "name": "🐬[追剧]网飞TV.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/网飞TV.py"
-    },
-    {
-      "key": "厂长影视",
-      "name": "🐬[追剧]厂长影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/厂长影视.py"
-    },
-    {
-      "key": "FreeOK",
-      "name": "🐬[追剧]FreeOK.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/FreeOK.py"
-    },
-    {
-      "key": "真狼影视",
-      "name": "🐬[追剧]真狼影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/真狼影视.py"
-    },
-    {
-      "key": "初见影视",
-      "name": "🐬[追剧]初见影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/初见影视.py"
-    },
-    {
-      "key": "好剧屋",
-      "name": "🐬[追剧]好剧屋.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/好剧屋.py"
-    },
-    {
-      "key": "奈非工厂",
-      "name": "🐬[追剧]奈非工厂.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/奈非工厂.py"
-    },
-    {
-      "key": "视觉影院",
-      "name": "🐬[追剧]视觉影院.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/视觉影院.py"
-    },
-    {
-      "key": "袋鼠影视",
-      "name": "🐬[追剧]袋鼠影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/袋鼠影视.py"
-    },
-    {
-      "key": "4K影视",
-      "name": "🐬[追剧]4K影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/4K影视.py"
-    },
-    {
-      "key": "蝶卡影视",
-      "name": "🐬[追剧]蝶卡影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/蝶卡影视.py"
-    },
-    {
-      "key": "ddyy",
-      "name": "🐬[追剧]低端影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/低端影视.py"
-    },
-    {
-      "key": "cbh",
-      "name": "🐬[追剧]茶杯狐.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/茶杯狐.py"
-    },
-    {
-      "key": "ddvm",
-      "name": "🐬[追剧]嘀嗒影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/嘀嗒影视.py"
-    },
-    {
-      "key": "kkvm",
-      "name": "🐬[追剧]可可影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/可可影视.py"
-    },
-    {
-      "key": "豆花影视",
-      "name": "🐬[追剧]豆花影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/豆花影视.py"
-    },
-    {
-      "key": "拾光影视",
-      "name": "🐬[追剧]拾光影视.js",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/拾光影视.js"
-    },
-    {
-      "key": "开心影院",
-      "name": "🐬[追剧]开心影院.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/开心影院.py"
-    },
-    {
-      "key": "开心影院js",
-      "name": "🐬[追剧]开心影院.js",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/开心影院.js"
-    },
-    {
-      "key": "西瓜影视",
-      "name": "🐬[追剧]西瓜影视.js",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/西瓜影视.js"
-    },
-    {
-      "key": "片库",
-      "name": "🐬[追剧]片库.js(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/片库.js"
-    },
-    {
-      "key": "枫叶影院js",
-      "name": "🐬[追剧]枫叶影院.js(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/枫叶影院.js"
-    },
-    {
-      "key": "枫叶影院",
-      "name": "🐬[追剧]枫叶影院.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/枫叶影院.py"
-    },
-    {
-      "key": "808yr",
-      "name": "🐬[追剧]808影院.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/808影院.py"
-    },
-    {
-      "key": "gqc",
-      "name": "🐬[追剧]共青春影院.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/共青春影院.py"
-    },
-    {
-      "key": "qlys",
-      "name": "🐬[追剧]麒麟影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/麒麟影视.py"
-    },
-    {
-      "key": "qdvm",
-      "name": "🐬[追剧]奇点影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/奇点影视.py"
-    },
-    {
-      "key": "zzvm",
-      "name": "🐬[追剧]枝枝影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/枝枝影视.py"
-    },
-    {
-      "key": "knvm",
-      "name": "🐬[追剧]柯南影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/柯南影视.py"
-    },
-    {
-      "key": "teys",
-      "name": "🐬[追剧]太乙影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/太乙影视.py"
-    },
-    {
-      "key": "wkvm",
-      "name": "🐬[追剧]悟空影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/悟空影视.py"
-    },
-    {
-      "key": "xmvm",
-      "name": "🐬[追剧]神马影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/神马影视.py"
-    },
-    {
-      "key": "hxq",
-      "name": "🐬[追剧]韩小圈.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/韩小圈.py"
-    },
-    {
-      "key": "美剧天堂",
-      "name": "🐬[追剧]美剧天堂.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/美剧天堂.py"
-    },
-    {
-      "key": "ww",
-      "name": "🐬[追剧]哇哇APP.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/哇哇APP.py"
-    },
-    {
-      "key": "rb",
-      "name": "🐬[追剧]热播APP.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/热播APP.py"
-    },
-    {
-      "key": "JP",
-      "name": "🐬[追剧]金牌APP.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/金牌APP.py"
-    },
-    {
-      "key": "GZ",
-      "name": "🐬[追剧]瓜子APP.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/瓜子APP.py"
-    },
-    {
-      "key": "nnyy",
-      "name": "🐬[追剧]努努影院.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/努努影院.py"
-    },
-    {
-      "key": "dnyy",
-      "name": "🐬[追剧]多瑙影院.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/多瑙影院.py"
-    },
-    {
-      "key": "nvm",
-      "name": "🐬[追剧]泥视频.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/泥视频.py"
-    },
-    {
-      "key": "QU",
-      "name": "🐬[追剧]奇优影院(关梯).py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/奇优影院.py"
-    },
-    {
-      "key": "mtyy",
-      "name": "🐬[追剧]麦田影院.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/麦田影院.py"
-    },
-    {
-      "key": "58vy",
-      "name": "🐬[追剧]58影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/58影视.py"
-    },
-    {
-      "key": "sdvy",
-      "name": "🐬[追剧]兄弟影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/兄弟影视.py"
-    },
-    {
-      "key": "jgvy",
-      "name": "🐬[追剧]追光影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/追光影视.py"
-    },
-    {
-      "key": "ikbot",
-      "name": "🐬[追剧]爱看机器人.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/爱看机器人.py"
-    },
-    {
-      "key": "jok",
-      "name": "🐬[追剧]剧OK.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/剧OK.py"
-    },
-    {
-      "key": "xhvm",
-      "name": "🐬[追剧]骚火影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/骚火影视.py"
-    },
-    {
-      "key": "ayf",
-      "name": "🐬[追剧]爱壹帆影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/爱壹帆.py"
-    },
-    {
-      "key": "MH",
-      "name": "🐬[追剧]麻花影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/麻花影视.py"
-    },
-    {
-      "key": "XH",
-      "name": "🐬[追剧]星河影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/星河影视.py"
-    },
-    {
-      "key": "guanfeng",
-      "name": "🐬[追剧]观风影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/观风影视.py"
-    },
-    {
-      "key": "qmvm",
-      "name": "🐬[追剧]七猫影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/七猫影视.py"
-    },
-    {
-      "key": "nmvm",
-      "name": "🐬[追剧]农民影视.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/农民影视.py"
-    },
-    {
-      "key": "xc",
-      "name": "🐬[追剧]星辰影院.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/星辰影院.py"
-    },
-    {
-      "key": "hstv",
-      "name": "🐬[追剧]华数TV.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/华数TV.py"
-    },
-    {
-      "key": "dttv",
-      "name": "🐬[追剧]蛋挞TV.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/蛋挞TV.py"
-    },
-    {
-      "key": "wstv",
-      "name": "🐬[追剧]威视TV.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/威视TV.py"
-    },
-    {
-      "key": "dsys",
-      "name": "🐬[追剧]毒舌影视.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/毒舌影视.py"
-    },
-    {
-      "key": "456dy",
-      "name": "🐬[追剧]456电影网.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/456电影网.py"
-    },
-    {
-      "key": "qw",
-      "name": "🐬[追剧]七味.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/七味.py"
-    },
-    {
-      "key": "8tdy",
-      "name": "🐬[追剧]八天电影.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/八天电影.py"
-    },
-    {
-      "key": "ysxq",
-      "name": "🐬[追剧]映像星球.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/映像星球.py"
-    },
-    {
-      "key": "cjjh",
-      "name": "🐬[追剧]采集聚合.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/采集聚合.py"
-    },
-    {
-      "key": "API_如意",
-      "name": "🐬[追剧]如意影视",
-      "type": 1,
-      "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "ext": "",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
+    "spider": "",
+    "logo": "https://img.freepik.com/free-vector/cute-dolphin-swimming-cartoon-vector-icon-illustration-animal-nature-icon-isolated-flat-vector_138676-12582.jpg?semt=ais_hybrid&w=740&q=80",
+    "wallpaper":"http://tool.teyonds.com/api",
+    "warningText": "注意:如果别人倒卖海豚影视接口收费的都是骗子,没有qq群微信群，只有tg官方交流群 TG：@hshsjk9",
+    "sites": [
+        {
+         "key":"AQY",
+        "name":"🐬[追剧]爱奇艺 海豚影视接口完全免费，请勿上当受骗",
+        "type":3,
+        "api":"https://file.icve.com.cn/file_doc/249/899/3E7E0C8A023B624CEC6BDCC200F06F02.js",
+        "ext":"https://cdn.waimaimingtang.com/file/images/bwc/20251023002031-6064033c16.js"
+        },
+		{
+          "key": "爱奇艺",
+          "name": "🐬[追剧]爱奇艺.py",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/爱奇艺.py"
+        },
+        {
+        "key":"YK",
+        "name":"🐬[追剧]优酷视频 海豚影视交流群 TG：@hshsjk9",
+        "type":3,
+        "api":"https://file.icve.com.cn/file_doc/249/899/3E7E0C8A023B624CEC6BDCC200F06F02.js",
+        "ext":"https://cdn.waimaimingtang.com/file/images/bwc/20251023002200-507c3e8aae.js"
+        },
+		{
+          "key": "YK",
+          "name": "🐬[追剧]优酷视频.py",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/优酷视频.py"
+        },
+		{
+          "key": "txvm",
+          "name": "🐬[追剧]腾讯视频",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/腾讯视频.py"
+        },
+		{"key":"MG",
+        "name":"🐬[追剧]芒果TV",
+        "type":3,
+        "api":"https://file.icve.com.cn/file_doc/249/899/3E7E0C8A023B624CEC6BDCC200F06F02.js",
+        "ext":"https://cdn.waimaimingtang.com/file/images/bwc/20251023002108-a4795930ec.js"
+        },
+		{
+		"key": "茫茫",
+        "name": "🐬[追剧]芒果TV备用",
+        "type": 3,
+         "api": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/drpy2.min.js",
+         "ext": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/茫茫.png"
+        },
+		{
+          "key": "MGtv",
+          "name": "🐬[追剧]芒果TV.py",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/芒果TV.py"
+        },
+		{
+           "key": "腾爱优b站",
+          "name": "🐬[追剧]腾爱优b站.js",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/腾爱优b站.js"
+        },
+		{
+            "key": "腾爱优芒B",
+            "name": "🐬[追剧]腾爱优芒B.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/腾爱优芒B.py"
+        },
+		{
+            "name": "弹幕",
+            "key": "弹幕豆瓣",
+            "type": 3,
+            "api": "csp_SecureDanmu",
+            "searchable": 1,
+            "jar": "https://ghfast.top/https://raw.githubusercontent.com/goodcommunication/mydm/main/danmu-spider-native.jar",
+            "ext": {
+            "apiUrls": [
+            "https://danmu.iyo.us.ci/theft-dastardly-prognosis-hula-agenda2-dropkick|公益源",
+            "https://logo.saodu.work:8888/87654321|公益源1",
+            "https://dm.ljiaovm.com/luosen|公益源2"
+            ],
+            "titleMappingsUrl": "https://ghfast.top/https://raw.githubusercontent.com/goodcommunication/mydm/main/yins.json",
+            "filter": "./lib/douban.json"
+         }
+		},
+		{
+            "key":"youtube",
+            "name":"🐬[其他]油管,py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/油管.py"
+		},
+		{
+            "key": "星梦Asmr",
+            "name": "🐬[其他]星梦Asmr.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/星梦Asmr.py"
+        },
+		{
+            "key": "ASMR吧",
+            "name": "🐬[其他]ASMR吧.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/ASMR吧.py"
+        },
+        {
+        	"key": "看看剧",
+            "name": "🐬[追剧]看看剧🔞",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/[伦理]X影视.py"
+		},
+		{
+        	"key": "X影视",
+            "name": "🐬[追剧][伦理]X影视",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/看看剧.py"
+		},
+		{
+        	"key": "两个BT影视",
+            "name": "🐬[追剧]两个BT影视",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/两个BT影视.py"
+		},
+		{
+        	"key": "卧龙影院",
+            "name": "🐬[追剧][伦理]卧龙影院",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/[伦理]卧龙影院.py"
+		},
+		{
+        	"key": "龙江影院",
+            "name": "🐬[追剧][伦理]龙江影院(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/[伦理]龙江影院.py"
+		},
+		{
+        	"key": "吃瓜影院",
+            "name": "🐬[追剧]吃瓜影院",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/吃瓜影院.py"
+		},
+		{
+        	"key": "影视森林",
+            "name": "🐬[追剧]影视森林(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/影视森林.py"
+		},
+		{
+        	"key": "PTT线上看",
+            "name": "🐬[追剧][伦理]PTT线上看",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/PTT线上看.py"
+		},
+        {
+        	"key": "洛雪TV",
+            "name": "🐬[追剧]洛雪TV(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/洛雪TV.py"
+		},
+        {
+        	"key": "人人视频",
+            "name": "🐬[追剧]人人视频(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/人人视频.py"
+		},
+        {
+        	"key": "绿色影视",
+            "name": "🐬[追剧]绿色影视",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/绿色影视.py"
+		},
+        {
+        	"key": "极速追剧",
+            "name": "🐬[追剧]极速追剧",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/极速追剧.py"
+		},
+        {
+        	"key": "小宝影院",
+            "name": "🐬[追剧]小宝影院",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/小宝影院.py"
+		},
+        {
+        	"key": "达达兔影院",
+            "name": "🐬[追剧]达达兔影院(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/达达兔影院(关梯).py"
+		},
+        {
+        	"key": "懂片帝AI",
+            "name": "🐬[追剧]懂片帝AI",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/懂片帝AI.py"
+		},
+        {
+        	"key": "影巢movie",
+            "name": "🐬[追剧]影巢movie(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/影巢movie.py"
+		},
+        {
+        	"key": "小蜜蜂影院",
+            "name": "🐬[追剧]小蜜蜂影院",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/小蜜蜂影院.py"
+		},
+        {
+        	"key": "界影视",
+            "name": "🐬[追剧]界影视",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/界影视.py"
+		},
+        {
+        	"key": "飞牛影视",
+            "name": "🐬[追剧]飞牛影视(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/飞牛影视.py"
+		},
+        {
+        	"key": "追剧达人",
+            "name": "🐬[追剧]追剧达人",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/追剧达人.py"
+		},
+        {
+        	"key": "未来影院",
+            "name": "🐬[追剧]未来影院(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/未来影院(关梯).py"
+		},
+        {
+        	"key": "大白鲨影院",
+            "name": "🐬[追剧]大白鲨影院",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/大白鲨影院.py"
+		},
+        {
+        	"key": "咸鱼影视",
+            "name": "🐬[追剧]咸鱼影视",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/咸鱼影视.py"
+		},
+        {
+        	"key": "1234影视",
+            "name": "🐬[追剧]1234影视",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/1234影视.py"
+		},
+        {
+        	"key": "LIBVIO",
+            "name": "🐬[追剧]LIBVIO",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/LIBVIO.py"
+		},
+        {
+        	"key": "咕噜咕噜",
+            "name": "🐬[追剧]咕噜咕噜",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/咕噜咕噜.py"
+		},
+        {
+        	"key": "魔法影视",
+            "name": "🐬[追剧]魔法影视",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/魔法影视.py"
+		},
+        {
+        	"key": "云朵视频",
+            "name": "🐬[追剧]云朵视频(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/云朵视频(关梯).py"
+		},
+        {
+        	"key": "追影",
+            "name": "🐬[追剧]追影",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/追影.py"
+		},
+        {
+        	"key": "独播库",
+            "name": "🐬[追剧]独播库",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/独播库.py"
+		},
+		{
+        	"key": "网飞猫影视",
+            "name": "🐬[追剧]网飞猫影视(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/网飞猫影视(关梯).py"
+		},
+		{
+        	"key": "ZIP0影视",
+            "name": "🐬[追剧]ZIP0影视",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/ZIP0影视.py"
+		},
+		{
+        	"key": "饭搭子影视",
+            "name": "🐬[追剧]饭搭子影视",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/饭搭子影视.py"
+		},
+		{
+        	"key": "无极电影网",
+            "name": "🐬[追剧]无极电影网(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/无极电影网(关梯).py"
+		},
+		{
+        	"key": "55影院",
+            "name": "🐬[追剧]55影院(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/55影院(关梯).py"
+		},
+		{
+        	"key": "开端影视",
+            "name": "🐬[追剧]开端影视",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/开端影视.py"
+		},
+		{
+        	"key": "手机影院",
+            "name": "🐬[追剧]手机影院(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/手机影院.py"
+		},
+		{
+        	"key": "果果短剧",
+            "name": "🐬[追剧]果果短剧",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/果果短剧.py"
+		},
+		{
+        	"key": "GimyTV剧迷",
+            "name": "🐬[追剧]GimyTV剧迷",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/GimyTV剧迷.py"
+		},
+		{
+        	"key": "白洋影院",
+            "name": "🐬[追剧]白洋影院(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/白洋影院.py"
+		},
+		{
+        	"key": "第七影院",
+            "name": "🐬[追剧]第七影院",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/第七影院.py"
+		},
+		{
+        	"key": "橘汁视频",
+            "name": "🐬[追剧]橘汁视频",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/橘汁视频.py"
+		},
+		{
+        	"key": "华谊影视",
+            "name": "🐬[追剧]华谊影视",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/华谊影视.py"
+		},
+		{
+        	"key": "芭蕉剧场",
+            "name": "🐬[追剧]芭蕉剧场(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/芭蕉剧场.py"
+		},
+		{
+        	"key": "6080新视觉",
+            "name": "🐬[追剧]6080新视觉",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/6080新视觉.py"
+		},
+		{
+            "key": "6080影视",
+            "name": "🐬[追剧]6080影视",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/6080影视.py"
+        },
+		{
+			"key": "99短剧网",
+			"name": "🐬[追剧]99短剧网",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/99短剧网.py"
+		},
+		{
+			"key": "第九短剧网",
+			"name": "🐬[追剧]第九短剧网(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/第九短剧网.py"
+		},
+		{
+            "key": "青鸟影视",
+            "name": "🐬[追剧]青鸟影视",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/青鸟影视.py"
+        },
+		{
+            "key": "迷你影视",
+            "name": "🐬[追剧]迷你影视(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/迷你影视.py"
+        },
+		{
+            "key": "八度影院",
+            "name": "🐬[追剧]八度影院(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/八度影院.py"
+        },
+		{
+            "key": "4K影视仓",
+            "name": "🐬[追剧]4K影视仓",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/4K影视仓.py"
+        },
+		{
+            "key": "CNFLIX",
+            "name": "🐬[追剧]CNFLIX",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/CNFLIX.py"
+        },
+		{
+            "key": "风尚影视",
+            "name": "🐬[追剧]风尚影视",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/风尚影视.py"
+        },
+		{
+            "key": "云途影视",
+            "name": "🐬[追剧]云途影视(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/云途影视.py"
+        },
+		{
+            "key": "永乐视频",
+            "name": "🐬[追剧]永乐视频",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/永乐视频.py"
+        },
+		{
+            "key": "夏日影院",
+            "name": "🐬[追剧]夏日影院.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/夏日影院.py"
+        },
+		{
+            "key": "君念影院",
+            "name": "🐬[追剧]君念影院.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/君念影院.py"
+        },
+		{
+            "key": "首映网",
+            "name": "🐬[追剧]首映网.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/首映网.py"
+        },
+		{
+            "key": "剧下饭4K",
+            "name": "🐬[追剧]剧下饭4K.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/剧下饭4K.py"
+        },
+		{
+            "key": "兔岛影院",
+            "name": "🐬[追剧]兔岛影院.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/兔岛影院.py"
+        },
+		{
+            "key": "青牛影视",
+            "name": "🐬[追剧]青牛影视.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/青牛影视.py"
+        },
+		{
+            "key": "山水影视",
+            "name": "🐬[追剧]山水影视.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/山水影视.py"
+        },
+		{
+            "key": "搜剧AI",
+            "name": "🐬[追剧]搜剧AI.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/搜剧AI.py"
+        },
+		{
+            "key": "厂长资源",
+            "name": "🐬[追剧]厂长资源.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/厂长资源.py"
+        },
+		{
+            "key": "多多影视",
+            "name": "🐬[追剧]多多影视.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/多多影视.py"
+        },
+		{
+            "key": "飞流视频",
+            "name": "🐬[追剧]飞流视频.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/飞流视频.py"
+        },
+		{
+            "key": "好好看",
+            "name": "🐬[追剧]好好看.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/好好看.py"
+        },
+		{
+            "key": "VS影院",
+            "name": "🐬[追剧]VS影院.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/VS影院.py"
+        },
+		{
+            "key": "EcoHub影视",
+            "name": "🐬[追剧]EcoHub影视.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/EcoHub影视.py"
+        },
+		{
+            "key": "电影侠",
+            "name": "🐬[追剧]电影侠.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/电影侠.py"
+        },
+		{
+            "key": "影视大全",
+            "name": "🐬[追剧]影视大全.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/影视大全.py"
+        },
+		{
+            "key": "一起影视",
+            "name": "🐬[追剧]一起影视.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/一起影视.py"
+        },
+		{
+            "key": "仙腾影院",
+            "name": "🐬[追剧]仙腾影院.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/仙腾影院.py"
+        },
+		{
+            "key": "看戏影视",
+            "name": "🐬[追剧]看戏影视.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/看戏影视.py"
+        },
+		{
+            "key": "百花影院",
+            "name": "🐬[追剧]百花影院.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/百花影院.py"
+        },
+		{
+            "key": "VIP兔",
+            "name": "🐬[追剧]VIP兔.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/VIP兔.py"
+        },
+		{
+            "key": "刷不停短剧",
+            "name": "🐬[追剧]刷不停短剧.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/刷不停短剧.py"
+        },
+		{
+            "key": "飞快TV",
+            "name": "🐬[追剧]飞快TV.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/飞快TV.py"
+        },
+		{
+            "key": "Auete影视",
+            "name": "🐬[追剧]Auete影视.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/Auete影视.py"
+        },
+		{
+            "key": "大马猴",
+            "name": "🐬[追剧]大马猴.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/大马猴.py"
+        },
+		{
+            "key": "pomo",
+            "name": "🐬[追剧]pomo.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/pomo.py"
+        },
+		{
+            "key": "FoFo影院",
+            "name": "🐬[追剧]FoFo影院.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/FoFo影院.py"
+        },
+		{
+            "key": "66大片网",
+            "name": "🐬[追剧]66大片网.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/66大片网.py"
+        },
+		{
+            "key": "泡泡影院",
+            "name": "🐬[追剧]泡泡影院.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/泡泡影院.py"
+        },
+		{
+            "key": "楓林網",
+            "name": "🐬[追剧]楓林網.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/楓林網.py"
+        },
+		{
+            "key": "草莓影视",
+            "name": "🐬[追剧]草莓影视.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/草莓影视.py"
+        },
+		{
+            "key": "八戒影视",
+            "name": "🐬[追剧]八戒影视.py",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/八戒影视.py"
+        },
+		{
+            "key": "30剧集网",
+            "name": "🐬[追剧]30剧集网.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/30剧集网.py"
+        },
+        {
+            "key": "宅男影视",
+            "name": "🐬[追剧]宅男影视.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/宅男影视.py"
+        },
+        {
+            "key": "看剧AI",
+            "name": "🐬[追剧]看剧AI.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/看剧AI.py"
+        },
+        {
+            "key": "高清点播",
+            "name": "🐬[追剧]高清点播.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/高清点播.py"
+        },
+        {
+            "key": "vidhub",
+            "name": "🐬[追剧]vidhub.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/vidhub.py"
+        },
+        {
+			"key": "枫叶4K",
+			"name": "🐬[追剧]枫叶4K.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/枫叶4K.py"
+		},
+        {
+			"key": "追影",
+			"name": "🐬[追剧]追影.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/追影.py"
+		},
+        {
+			"key": "网飞TV",
+			"name": "🐬[追剧]网飞TV.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/网飞TV.py"
+		},
+        {
+			"key": "厂长影视",
+			"name": "🐬[追剧]厂长影视.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/厂长影视.py"
+		},
+        {
+			"key": "FreeOK",
+			"name": "🐬[追剧]FreeOK.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/FreeOK.py"
+		},
+        {
+			"key": "真狼影视",
+			"name": "🐬[追剧]真狼影视.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/真狼影视.py"
+		},
+        {
+			"key": "初见影视",
+			"name": "🐬[追剧]初见影视.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/初见影视.py"
+		},
+        {
+			"key": "好剧屋",
+			"name": "🐬[追剧]好剧屋.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/好剧屋.py"
+		},
+		{
+			"key": "奈非工厂",
+			"name": "🐬[追剧]奈非工厂.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/奈非工厂.py"
+		},
+		{
+			"key": "视觉影院",
+			"name": "🐬[追剧]视觉影院.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/视觉影院.py"
+		},
+		{
+			"key": "袋鼠影视",
+			"name": "🐬[追剧]袋鼠影视.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/袋鼠影视.py"
+		},
+		{
+			"key": "4K影视",
+			"name": "🐬[追剧]4K影视.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/4K影视.py"
+		},
+		{
+			"key": "蝶卡影视",
+			"name": "🐬[追剧]蝶卡影视.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/蝶卡影视.py"
+		},
+		{
+			"key": "ddyy",
+			"name": "🐬[追剧]低端影视.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/低端影视.py"
+		},
+		{
+			"key": "cbh",
+			"name": "🐬[追剧]茶杯狐.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/茶杯狐.py"
+		},
+		{
+			"key": "ddvm",
+			"name": "🐬[追剧]嘀嗒影视.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/嘀嗒影视.py"
+		},
+		{
+			"key": "kkvm",
+			"name": "🐬[追剧]可可影视.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/可可影视.py"
+		},
+		{
+			"key": "豆花影视",
+			"name": "🐬[追剧]豆花影视.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/豆花影视.py"
+		},
+		{
+			"key": "拾光影视",
+			"name": "🐬[追剧]拾光影视.js",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/拾光影视.js"
+		},
+		{
+			"key": "开心影院",
+			"name": "🐬[追剧]开心影院.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/开心影院.py"
+		},
+		{
+			"key": "开心影院js",
+			"name": "🐬[追剧]开心影院.js",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/开心影院.js"
+		},
+		{
+			"key": "西瓜影视",
+			"name": "🐬[追剧]西瓜影视.js",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/西瓜影视.js"
+		},
+		{
+			"key": "片库",
+			"name": "🐬[追剧]片库.js(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/片库.js"
+		},
+		{
+			"key": "枫叶影院js",
+			"name": "🐬[追剧]枫叶影院.js(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/枫叶影院.js"
+		},
+		{
+            "key": "枫叶影院",
+            "name": "🐬[追剧]枫叶影院.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/枫叶影院.py"
+        },
+		{
+			"key": "808yr",
+			"name": "🐬[追剧]808影院.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/808影院.py"
+		},
+		{
+			"key": "gqc",
+			"name": "🐬[追剧]共青春影院.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/共青春影院.py"
+		},
+		{
+			"key": "qlys",
+			"name": "🐬[追剧]麒麟影视.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/麒麟影视.py"
+		},
+		{
+			"key": "qdvm",
+			"name": "🐬[追剧]奇点影视.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/奇点影视.py"
+		},
+		{
+			"key": "zzvm",
+			"name": "🐬[追剧]枝枝影视.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/枝枝影视.py"
+		},
+		{
+			"key": "knvm",
+			"name": "🐬[追剧]柯南影视.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/柯南影视.py"
+		},
+		{
+			"key": "teys",
+			"name": "🐬[追剧]太乙影视.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/太乙影视.py"
+		},
+		{
+			"key": "wkvm",
+			"name": "🐬[追剧]悟空影视.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/悟空影视.py"
+		},
+		{
+			"key": "xmvm",
+			"name": "🐬[追剧]神马影视.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/神马影视.py"
+		},
+		{
+			"key": "hxq",
+			"name": "🐬[追剧]韩小圈.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/韩小圈.py"
+		},
+		{
+			"key": "美剧天堂",
+			"name": "🐬[追剧]美剧天堂.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/美剧天堂.py"
+		},
+		{
+			"key": "ww",
+			"name": "🐬[追剧]哇哇APP.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/哇哇APP.py"
+		},
+		{
+			"key": "rb",
+			"name": "🐬[追剧]热播APP.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/热播APP.py"
+		},
+		{
+			"key": "JP",
+			"name": "🐬[追剧]金牌APP.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/金牌APP.py"
+		},
+		{
+			"key": "GZ",
+			"name": "🐬[追剧]瓜子APP.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/瓜子APP.py"
+		},
+		{
+			"key": "nnyy",
+			"name": "🐬[追剧]努努影院.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/努努影院.py"
+		},
+		{
+			"key": "dnyy",
+			"name": "🐬[追剧]多瑙影院.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/多瑙影院.py"
+		},
+		{
+			"key": "nvm",
+			"name": "🐬[追剧]泥视频.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/泥视频.py"
+		},
+		{
+			"key": "QU",
+			"name": "🐬[追剧]奇优影院(关梯).py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/奇优影院.py"
+		},
+		{
+          "key": "mtyy",
+          "name": "🐬[追剧]麦田影院.py",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/麦田影院.py"
+        },
+		{
+          "key": "58vy",
+          "name": "🐬[追剧]58影视.py(关梯)",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/58影视.py"
+        },
+		{
+          "key": "sdvy",
+          "name": "🐬[追剧]兄弟影视.py(关梯)",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/兄弟影视.py"
+        },
+		{
+          "key": "jgvy",
+          "name": "🐬[追剧]追光影视.py",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/追光影视.py"
+        },
+		{
+          "key": "ikbot",
+          "name": "🐬[追剧]爱看机器人.py",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/爱看机器人.py"
+        },
+		{
+          "key": "jok",
+          "name": "🐬[追剧]剧OK.py",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/剧OK.py"
+        },
+		{
+          "key": "xhvm",
+          "name": "🐬[追剧]骚火影视.py",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/骚火影视.py"
+        },
+		{
+          "key": "ayf",
+          "name": "🐬[追剧]爱壹帆影视.py",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/爱壹帆.py"
+        },
+		{
+          "key": "MH",
+          "name": "🐬[追剧]麻花影视.py",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/麻花影视.py"
+        },
+		{
+          "key": "XH",
+          "name": "🐬[追剧]星河影视.py",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/星河影视.py"
+        },
+		{
+			"key": "guanfeng",
+			"name": "🐬[追剧]观风影视.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/观风影视.py"
+		},
+		{
+			"key": "qmvm",
+			"name": "🐬[追剧]七猫影视.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/七猫影视.py"
+		},
+		{
+			"key": "nmvm",
+			"name": "🐬[追剧]农民影视.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/农民影视.py"
+		},
+		{
+			"key": "xc",
+			"name": "🐬[追剧]星辰影院.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/星辰影院.py"
+		},
+		{
+			"key": "hstv",
+			"name": "🐬[追剧]华数TV.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/华数TV.py"
+		},
+		{
+			"key": "dttv",
+			"name": "🐬[追剧]蛋挞TV.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/蛋挞TV.py"
+		},
+		{
+			"key": "wstv",
+			"name": "🐬[追剧]威视TV.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/威视TV.py"
+		},
+		{
+			"key": "dsys",
+			"name": "🐬[追剧]毒舌影视.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/毒舌影视.py"
+		},
+		{
+           "key": "456dy",
+           "name": "🐬[追剧]456电影网.py",
+           "type": 3,
+           "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/456电影网.py"
+        },
+		{
+           "key": "qw",
+           "name": "🐬[追剧]七味.py(关梯)",
+           "type": 3,
+           "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/七味.py"
+        },
+		{
+           "key": "8tdy",
+           "name": "🐬[追剧]八天电影.py",
+           "type": 3,
+           "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/八天电影.py"
+        },
+		{
+           "key": "ysxq",
+           "name": "🐬[追剧]映像星球.py(关梯)",
+           "type": 3,
+           "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/映像星球.py"
+        },
+		{
+			"key": "cjjh",
+			"name": "🐬[追剧]采集聚合.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/采集聚合.py"
+		},
+		{
+            "key": "API_如意",
+            "name": "🐬[追剧]如意影视",
+            "type": 1,
+            "api": "https://cj.rycjapi.com/api.php/provide/vod",
+            "ext": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
         "动作片",
         "灾难片",
         "爱情片",
@@ -1937,111 +1106,117 @@
         "欧美动漫",
         "港台动漫",
         "海外动漫"
-      ]
-    },
-    {
-      "key": "广东荔枝电视台",
-      "name": "🐬[直播]广东荔枝电视台.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/广东荔枝电视台.py"
-    },
-    {
-      "key": "kf",
-      "name": "🐬[直播]咖啡体育直播.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/咖啡直播.py"
-    },
-    {
-      "key": "sm",
-      "name": "🐬[直播]熊猫直播",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/熊猫直播.py"
-    },
-    {
-      "key": "blzb",
-      "name": "🐬[直播]哔哩直播.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/哔哩直播.py"
-    },
-    {
-      "key": "jhzb",
-      "name": "🐬[直播]聚合直播.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/聚合直播.py"
-    },
-    {
-      "key": "央视频",
-      "name": "🐬[直播]央视频(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/央视频.py"
-    },
-    {
-      "key": "youtube2",
-      "name": "🐬[直播]油管直播.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/油管直播.py"
-    },
-    {
-      "key": "动漫啦",
-      "name": "🐬[动漫]动漫啦.py(羊壳观看)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/动漫啦.py"
-    },
-    {
-      "key": "animexin",
-      "name": "🐬[动漫]animexin.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/animexin.py"
-    },
-    {
-      "key": "路漫漫",
-      "name": "🐬[动漫]路漫漫(关梯).py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/路漫漫(关梯).py"
-    },
-    {
-      "key": "樱之空动漫",
-      "name": "🐬[动漫]樱之空动漫.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/樱之空动漫.py"
-    },
-    {
-      "key": "MiFun",
-      "name": "🐬[动漫]MiFun动漫.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/MiFun动漫.py"
-    },
-    {
-      "key": "动漫巴士",
-      "name": "🐬[动漫]动漫巴士.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/动漫巴士.py"
-    },
-    {
-      "key": "青空次元",
-      "name": "🐬[动漫]青空次元.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/青空次元.py"
-    },
-    {
-      "key": "共和国动漫",
-      "name": "🐬[动漫]共和国动漫.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/共和国动漫.py"
-    },
-    {
-      "key": "黑猫动漫",
-      "name": "🐬[动漫]黑猫动漫",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/黑猫动漫.py"
-    },
-    {
-      "key": "短剧巴士",
-      "name": "🐬[短剧]短剧巴士.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/短剧巴士.py"
-    },
-    {
+         ]
+         }, 
+		{
+			"key": "4gtv直播",
+			"name": "🐬[直播]4gtv直播",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/4gtv直播.py"
+		},
+		{
+			"key": "广东荔枝电视台",
+			"name": "🐬[直播]广东荔枝电视台",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/广东荔枝电视台.py"
+		},
+		{
+			"key": "kf",
+			"name": "🐬[直播]咖啡体育直播.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/咖啡直播.py"
+		},
+		{
+			"key": "sm",
+			"name": "🐬[直播]熊猫直播",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/熊猫直播.py"
+		},
+		{
+			"key": "blzb",
+			"name": "🐬[直播]哔哩直播.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/哔哩直播.py"
+		},
+		{
+			"key": "jhzb",
+			"name": "🐬[直播]聚合直播.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/聚合直播.py"
+		},
+		{
+            "key":"央视频",
+            "name":"🐬[直播]央视频(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/央视频.py"
+		},
+		{
+            "key":"youtube2",
+            "name":"🐬[直播]油管直播.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/油管直播.py"
+		},
+		{
+			"key": "动漫啦",
+			"name": "🐬[动漫]动漫啦.py(羊壳观看)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/动漫啦.py"
+		},
+		{
+			"key": "animexin",
+			"name": "🐬[动漫]animexin.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/animexin.py"
+		},
+        {
+			"key": "路漫漫",
+			"name": "🐬[动漫]路漫漫(关梯).py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/路漫漫(关梯).py"
+		},
+        {
+			"key": "樱之空动漫",
+			"name": "🐬[动漫]樱之空动漫.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/樱之空动漫.py"
+		},
+		{
+			"key": "MiFun",
+			"name": "🐬[动漫]MiFun动漫.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/MiFun动漫.py"
+		},
+        {
+			"key": "动漫巴士",
+			"name": "🐬[动漫]动漫巴士.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/动漫巴士.py"
+		},
+        {
+			"key": "青空次元",
+			"name": "🐬[动漫]青空次元.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/青空次元.py"
+		},
+		{
+            "key": "共和国动漫",
+            "name": "🐬[动漫]共和国动漫.py(关梯)",
+            "type": 3,
+            "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/共和国动漫.py"
+        },
+		{
+			"key": "黑猫动漫",
+			"name": "🐬[动漫]黑猫动漫",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/黑猫动漫.py"
+		},
+		{
+			"key": "短剧巴士",
+			"name": "🐬[短剧]短剧巴士.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/短剧巴士.py"
+		},
+        {
       "key": "cj_360资源",
       "name": "🐬[短剧]360",
       "type": 1,
@@ -2060,550 +1235,279 @@
         "成长逆袭"
       ]
     },
-    {
-      "key": "AnyShort短剧",
-      "name": "🐬[短剧]AnyShort短剧",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/AnyShort短剧.py"
-    },
-    {
-      "key": "七星短剧",
-      "name": "🐬[短剧]七星短剧",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/七星短剧.py"
-    },
-    {
-      "key": "红果短剧",
-      "name": "🐬[短剧]红果短剧(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/红果短剧.py"
-    },
-    {
-      "key": "开心短剧",
-      "name": "🐬[短剧]开心短剧",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/开心短剧.py"
-    },
-    {
-      "key": "红豆短剧",
-      "name": "🐬[短剧]红豆短剧.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/红豆短剧.py"
-    },
-    {
-      "key": "映刻短剧",
-      "name": "🐬[短剧]映刻短剧.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/映刻短剧.py"
-    },
-    {
-      "key": "悟圣短剧",
-      "name": "🐬[短剧]悟圣短剧.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/悟圣短剧.py"
-    },
-    {
-      "key": "喜福网",
-      "name": "🐬[短剧]喜福短剧.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/喜福短剧.py"
-    },
-    {
-      "key": "smdj",
-      "name": "🐬[短剧]星芽短剧.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/星芽短剧.py"
-    },
-    {
-      "key": "hmjc",
-      "name": "🐬[短剧]河马剧场.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/河马剧场.py"
-    },
-    {
-      "key": "djjh",
-      "name": "🐬[短剧]短剧聚合.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/短剧聚合.py"
-    },
-    {
-      "key": "毒舌短剧",
-      "name": "🐬[短剧]毒舌短剧.py(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/毒舌短剧.py"
-    },
-    {
-      "key": "百度短剧",
-      "name": "🐬[短剧]百度短剧",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/百度短剧.js"
-    },
-    {
-      "key": "石榴短剧",
-      "name": "🐬[短剧]石榴短剧",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/石榴短剧.py"
-    },
-    {
-      "key": "在线短剧",
-      "name": "🐬[短剧]在线短剧(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/在线短剧.py"
-    },
-    {
-      "key": "短剧大全",
-      "name": "🐬[短剧]短剧大全(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/短剧大全.py"
-    },
-    {
-      "key": "蚕驰短剧网",
-      "name": "🐬[短剧]蚕驰短剧网(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/蚕驰短剧网.py"
-    },
-    {
-      "key": "听友听书",
-      "name": "🐬[听书]听友听书",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/听友听书.py"
-    },
-    {
-      "key": "起点有声",
-      "name": "🐬[听书]起点有声(关梯)",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/起点有声.py"
-    },
-    {
-      "key": "ytb",
-      "name": "🐬[听书]悦听吧",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/悦听吧.py"
-    },
-    {
-      "key": "275ts",
-      "name": "🐬[听书]275听书.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/275听书.py"
-    },
-    {
-      "key": "易听书网",
-      "name": "🐬[听书]易听书网(关梯).py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/易听书网.py"
-    },
-    {
-      "key": "QQ音乐",
-      "name": "🐬[音乐]QQ音乐.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/QQ音乐.py"
-    },
-    {
-      "key": "音乐聚合",
-      "name": "🐬[音乐]音乐聚合.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/音乐聚合.py"
-    },
-    {
-      "key": "影子音乐",
-      "name": "🐬[音乐]影子音乐",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/影子音乐.py"
-    },
-    {
-      "key": "千千音乐",
-      "name": "🐬[音乐]千千音乐.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/千千音乐.py"
-    },
-    {
-      "key": "kwms",
-      "name": "🐬[音乐]酷我音乐.py",
-      "type": 3,
-      "api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/酷我音乐.py"
-    },
-    {
-      "key": "csp_PTT",
-      "name": "🏆｜PTT｜",
-      "type": 3,
-      "api": "https://newrecha.neocities.org/py-sex/ptt.co.py"
-      //"jar": "./jar/lem0106.jar;md5;8A3F412E42E8B36750E238B066AC4D7A",
-      //"searchable": 1,
-      //"quickSearch": 1,
-      //"filterable": 1
-    },
-    {
-      "key": "🏆PTT线上看🏆",
-      "name": "🏆PTT线上看🏆",
-      "type": 3,
-      "api": "./py/PTT线上看.py"
-    },
-    {
-      "key": "优视频",
-      "name": "🏆｜優視頻｜藍光◎秒播(無廣告)",
-      "type": 3,
-      "jar": "./jar/7哥.jar",
-      "api": "csp_YouSPAmns",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "1"
-    },
-    {
-      "name": "📹UB影視",
-      "key": "📹YOU视",
-      "type": 3,
-      //"jar": "https://9763.kstore.space/wnqiwnquidwiunddneudne/custom_spider.jar",
-      "jar": "./jar/custom_spider1.jar",
-      "api": "csp_YouSPAmns",
-      "searchable": 1,
-      "filterable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "1"
-    },
-    {
-      "key": "Uvod.py",
-      "name": "UB影視|py",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "api": "./py/UB.py",
-      "order_num": 5,
-      "ext": "1"
-    },
-    {
-      "key": "UB影視",
-      "name": "UB影視",
-      "api": "./py/UB影視.py",
-      "filterable": 1,
-      "quickSearch": 1,
-      "searchable": 1,
-      "type": 3
-    },
-    {
-      "key": "电视直播1",
-      "name": "电视直播1",
-      "type": 3,
-      "api": "./py/电视直播.py"
-    },
-    {
-      "key": "真果•鑒",
-      "name": "真果•鑒",
-      "type": 3,
-      "api": "./py/真果•鑒.py"
-    },
-    {
-      "key": "csp_PTT1",
-      "name": "🥉｜PTT_1｜",
-      "type": 3,
-      "api": "./py/ptt影院.py"
-    }
-
-
-  ],
-  "lives": [
-    {
-      "name": "四季影視",
-      "epg": "https://epg.yang-1989.eu.org/epg.xml.gz",
-      "url": "https://iptv543.com/bbb.php",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "四季影視_543",
-      "url": "https://iptv543.com/bbb.php",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "4GTV",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "./live/4gtvo.txt"
-    },
-    {
-      "name": "🐬4GTV怡淳酒店(梯子台湾节点)720p",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "http://xtvantsc.xyz/4gtv.txt"
-    },
-    {
-      "name": "綜合",
-      "url": "https://tv123.cc.cd/tv.m3u",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "綜合1",
-      "url": "http://192.129.226.68:19890/trams.m3u?token=885252",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "tv123",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "http://tv123.vvvv.ee/tv.m3u"
-    },
+		{
+			"key": "AnyShort短剧",
+			"name": "🐬[短剧]AnyShort短剧",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/AnyShort短剧.py"
+		},
+		{
+			"key": "七星短剧",
+			"name": "🐬[短剧]七星短剧",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/七星短剧.py"
+		},
+        {
+			"key": "红果短剧",
+			"name": "🐬[短剧]红果短剧(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/红果短剧.py"
+		},
+        {
+			"key": "开心短剧",
+			"name": "🐬[短剧]开心短剧",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/开心短剧.py"
+		},
+        {
+			"key": "红豆短剧",
+			"name": "🐬[短剧]红豆短剧.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/红豆短剧.py"
+		},
+        {
+			"key": "映刻短剧",
+			"name": "🐬[短剧]映刻短剧.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/映刻短剧.py"
+		},
+		{
+			"key": "悟圣短剧",
+			"name": "🐬[短剧]悟圣短剧.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/悟圣短剧.py"
+		},
+		{
+			"key": "喜福网",
+			"name": "🐬[短剧]喜福短剧.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/喜福短剧.py"
+		},
+		{
+			"key": "smdj",
+			"name": "🐬[短剧]星芽短剧.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/星芽短剧.py"
+		},
+		{
+			"key": "hmjc",
+			"name": "🐬[短剧]河马剧场.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/河马剧场.py"
+		},
+		{
+			"key": "djjh",
+			"name": "🐬[短剧]短剧聚合.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/短剧聚合.py"
+		},
+		{
+			"key": "毒舌短剧",
+			"name": "🐬[短剧]毒舌短剧.py(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/毒舌短剧.py"
+		},
+		{
+			"key": "百度短剧",
+			"name": "🐬[短剧]百度短剧",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/百度短剧.js"
+		},
+		{
+			"key": "石榴短剧",
+			"name": "🐬[短剧]石榴短剧",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/石榴短剧.py"
+		},
+		{
+			"key": "在线短剧",
+			"name": "🐬[短剧]在线短剧(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/在线短剧.py"
+		},
+		{
+			"key": "短剧大全",
+			"name": "🐬[短剧]短剧大全(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/短剧大全.py"
+		},
+		{
+			"key": "蚕驰短剧网",
+			"name": "🐬[短剧]蚕驰短剧网(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/蚕驰短剧网.py"
+		},
+		{
+			"key": "听友听书",
+			"name": "🐬[听书]听友听书",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/听友听书.py"
+		},
+		{
+			"key": "起点有声",
+			"name": "🐬[听书]起点有声(关梯)",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/起点有声.py"
+		},
+        {
+			"key": "ytb",
+			"name": "🐬[听书]悦听吧",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/悦听吧.py"
+		},
+		{
+			"key": "275ts",
+			"name": "🐬[听书]275听书.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/275听书.py"
+		},
+		{
+			"key": "易听书网",
+			"name": "🐬[听书]易听书网(关梯).py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/易听书网.py"
+		},
+		{
+			"key": "QQ音乐",
+			"name": "🐬[音乐]QQ音乐.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/QQ音乐.py"
+		},
+        {
+			"key": "音乐聚合",
+			"name": "🐬[音乐]音乐聚合.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/音乐聚合.py"
+		},
+		{
+			"key": "影子音乐",
+			"name": "🐬[音乐]影子音乐",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/影子音乐.py"
+		},
+		{
+			"key": "千千音乐",
+			"name": "🐬[音乐]千千音乐.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/千千音乐.py"
+		},
+		{
+			"key": "kwms",
+			"name": "🐬[音乐]酷我音乐.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/酷我音乐.py"
+		},
+		{
+            "key": "捡的音乐",
+            "name": "🐬[音乐]爱听音乐",
+            "type": 3,
+            "api": "csp_Music1",
+            "searchable": 1,
+            "quickSearch": 1,
+            "ext": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/Music1.json",
+            "jar": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/jar_js/so.jar",
+            "filterable": 1
+        },
+		{
+			"key": "djyy",
+			"name": "🐬[音乐]DJ呦呦.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/DJ呦呦.py"
+		},
+		{
+			"key": "皮狗DJ站",
+			"name": "🐬[音乐]皮狗DJ站.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/phu889/kjh998/refs/heads/main/py/皮狗DJ站.py"
+		}
+    ],
+    "parses": [ 
+		{
+            "name": "盘古",
+            "type": 0,
+            "url": "https://www.playm3u8.cn/jiexi.php?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        },
+		{
+           "name": "789解析1",
+           "type": 0,
+           "url": "https://jiexi.789jiexi.icu:4433/?url="
+        },
+		{
+           "name": "789解析2",
+           "type": 0,
+           "url": "https://jiexi.789jiexi.com/?url="
+        },
+		{
+            "name": "虾米解析",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url="
+        },
+		{
+            "name": "淘片解析",
+            "type": 0,
+            "url": "https://jx.yparse.com/index.php?url="
+        },
      {
-      "name": "備用線路",
-      "url": "https://caonima.898757.xyz/sub/Zz0uFf9Cz0kp/playlist.m3u"
-    }
-    {
-      "name": "Free Man TV",
-      "url": "https://funnylife.neocities.org/iptv@recha.txt",
+      "name": "解析1",
       "type": 0,
-      "timeout": 10,
-      "playerType": 2,
-      "ua": "okhttp/3.8.1 okhttp/3.15 okhttp/4.12.0 Herissmon/2016 judy/5.2.1 RobYang/5.2.1 Lavf/58.12.100 catvod.com Goiptv/8.8.8 Goiptv/0.0.1 xieanqishiwoerzi/0.0.1 okHttp/Mod-1.0.0",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}"
+      "url": "https://huayong.net/999/?v="
     },
     {
-      "name": "Free TV(備用)",
-      "url": "https://freeman.neocities.org/520free-CC@tv.txt",
-      "type": 0,
-      "timeout": 10,
-      "playerType": 2,
-      "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png"
-    },
-    {
-      "name": "小螞蟻直播",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "http://ge.html-5.me//ii/%E5%B0%8F%F0%9F%90%9C%E8%9A%82%E8%9A%81%E7%9B%B4%E6%92%AD%EF%BC%88%E5%BF%85%E9%A1%BB%E7%94%A8%E7%A7%91%E5%AD%A6%E5%B7%A5%E5%85%B7%E5%8F%B0%E6%B9%BE%E8%8A%82%E7%82%B9%E7%BE%8E%E5%9B%BD%E8%8A%82%E7%82%B9%EF%BC%89.txt"
-    },
-    {
-      "name": "风云直播",
-      "type": 0,
-      "url": "http://iptv.4666888.xyz/FYTV.m3u",
-      "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
-      "logo": "https://gongdian.top/tv/taibiao/{name}.png",
-      "playerType": 2,
-      "timeout": 10
-    },
-    {
-      "name": "🐬4GTV(梯子任何节点)1080p",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "https://ha.msbot.dpdns.org/4gtv_api.php"
-    },
-    //{
-    //  "name": "欧华(需32位影视)",
-    //  "url": "./live/ouhua.txt",
-    //  "playerType": 2,
-    //  "epg": "http://epg.52sw.top:668/?ch={name}&date={date}",
-    //  "logo": "https://epg.112114.xyz/logo/{name}.png"
-    //},
-    {
-      "name": "大街直播",
-      "url": "./live/綜合大街.txt"
-    },
-    {
-      "name": "🐬易发源",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
-    },
-    {
-      "name": "🐬安博(梯子)卡顿",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/安博.txt"
-    },
-    {
-      "name": "18++",
-      "url": "http://iptv543.com/18+.m3u"
-    },
-    {
-      "name": "视频资源",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "https://lytvs.top/py/xxxshipinziyuan.txt"
-    },
-    {
-      "name": "🔞秘密基地",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "https://feer-cdn-bp.xpnb.qzz.io/xnkl.txt"
-    },
-    {
-      "name": "🐬港奥台国际",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "http://tv123.vvvv.ee/tv.m3u"
-    },
-    {
-      "name": "風雲源",
-      "type": 0,
-      "ua": "okhttp",
-      "url": "http://iptv.4666888.xyz/FYTV.txt"
-    },
-    {
-      "name": "🔞午夜剧场",
-      "type": 0,
-      "playerType": 2,
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "url": "https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/午夜剧场.txt",
-      "header": {
-        "X-Api-key": "8692bd33270440d4d2941b814b81a25a1eb84a7205532971714c4299c57449e0..0..1738210005..5cf2c4ad-043b-4234-83a2-e84ae917"
-      }
-    }
-
-
-
-
-
-
-  ],
-  "parses": [
-    {
-      "name": "聚合1",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
-      "name": "聚合0",
-      "type": 3,
-      "url": "Web"
-    },
-    {
-      "name": "ikun",
-      "type": 0,
-      "url": "https://jx.hls.one/?url="
-    },
-    {
-      "name": "A6",
-      "type": 0,
-      "url": "https://pl.a6club.com/player/analysis.php?v="
-    },
-    {
-      "name": "虾米",
-      "type": 0,
-      "url": "https://jx.xmflv.com/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "云解",
-      "type": 0,
-      "url": "https://yparse.ik9.cc/index.php?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "咸鱼",
-      "type": 0,
-      "url": "https://jx.xymp4.cc/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "淘片",
-      "type": 0,
-      "url": "https://jx.yparse.com/index.php?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "冰豆",
-      "type": 0,
-      "url": "https://bd.jx.cn/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "七七",
-      "type": 0,
-      "url": "https://jx.77flv.cc/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "盘古",
-      "type": 0,
-      "url": "https://www.playm3u8.cn/jiexi.php?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "夜幕",
-      "type": 0,
-      "url": "https://yemu.xyz/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "8090",
-      "type": 0,
-      "url": "https://www.8090g.cn/?url="
-    },
-    {
-      "name": "M3u8TV",
+      "name": "解析2",
       "type": 0,
       "url": "https://jx.m3u8.tv/jiexi/?url="
     },
     {
-      "name": "CK",
+      "name": "解析3",
+      "type": 0,
+      "url": "https://t2.qlplayer.cyou/player/analysis.php?v="
+    },
+		
+	{
+      "name": "解析4",
       "type": 0,
       "url": "https://www.ckplayer.vip/jiexi/?url="
     },
     {
-      "name": "XY",
+      "name": "解析5",
       "type": 0,
-      "url": "https://jx.xymp4.cc/?url="
+      "url": "https://nm.xxxc137.top/static/player/artplayer.html?url="
     },
-    {
-      "name": "推荐",
-      "type": 1,
-      "url": "https://zy.qiaoji8.com/gouzi.php?url=94b07e0b2c0e8244&url="
-    },
-    {
-      "name": "臻享",
-      "type": 1,
-      "url": "https://150.138.78.37:4399/api?key=94b07e0b2c0e8244&url="
-    },
-    {
-      "name": "优选",
-      "type": 1,
-      "url": "http://1.94.221.189:88/algorithm.php?url="
-    }
-  ],
-  "doh": [
-    {
+      {
+      "name": "解析6",
+      "type": 0,
+      "url": "https://www.yemu.xyz/?url="
+        },
+		{
+            "name": "冰豆",
+            "type": 0,
+            "url": "https://bd.jx.cn/?url="
+        },
+        {
+			"name":"爱酷",
+			"type":0,
+			"url":"https://jx.zhanlangbu.com/?url="
+		},
+        {"name":"云解析","type":0,"url":"https://jx.yparse.com/index.php?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+        {"name":"777","type":0,"url":"https://jx.jsonplayer.com/player/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+        {"name":"-剖云-","type":0,"url":"https://www.kkvip2022.com/vip/jiexi1/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}},
+        {"name":"-全看-","type":0,"url":"https://jx.quankan.app/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}}
+       ],
+		"doh": [
+	{
       "name": "Google",
       "url": "https://dns.google/dns-query",
-      "ips": [ "8.8.4.4", "8.8.8.8" ]
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
     },
-    {
+	{
       "name": "Cloudflare",
       "url": "https://cloudflare-dns.com/dns-query",
       "ips": [
@@ -2616,22 +1520,205 @@
     {
       "name": "AdGuard",
       "url": "https://dns.adguard.com/dns-query",
-      "ips": [ "94.140.14.140", "94.140.14.141" ]
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
     },
     {
       "name": "DNSWatch",
       "url": "https://resolver2.dns.watch/dns-query",
-      "ips": [ "84.200.69.80", "84.200.70.40" ]
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
     },
     {
       "name": "Quad9",
       "url": "https://dns.quad9.net/dns-quer",
-      "ips": [ "9.9.9.9", "149.112.112.112" ]
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
     }
   ],
-  "ads": [ "mozai.4gtv.tv" ],
-  "ijk": [
-    {
+	"ads": [
+		"mozai.4gtv.tv",
+        "static-mozai.4gtv.tv"
+    ],
+    "lives": [
+	     {
+            "name": "🐬综合直播 海豚影视交流群 TG：@hshsjk9",
+            "type": 0,
+            "playerType": 2,
+            "ua": "okhttp",
+			"url": "https://raw.githubusercontent.com/fleung49/star/refs/heads/main/mit"
+         },
+		{
+            "name": "🐬风云源 海豚影视永久免费如有收费的都是骗子",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://iptv.4666888.xyz/FYTV.txt"
+        },
+		{
+            "name": "🐬各大源合集",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/807080747/zv/refs/heads/main/sese.txt"
+        }, 		
+         {
+            "name": "🐬地方直播",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt"
+        }, 
+         {
+            "name": "🐬地方直播2",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u"
+        },    
+		{
+            "name": "🐬薄荷直播",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wujiangliu/live-sources/refs/heads/main/bhmb.m3u"
+        },   
+		{
+            "name": "🐬全球直播",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/wujiangliu/live-sources/refs/heads/main/%E5%85%A8%E7%90%83%E7%9B%B4%E6%92%AD.m3u"
+        },
+		{
+            "name": "🐬咪咕直播",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "http://www.52top.com.cn:678/downloads/migu.txt"
+        },
+		{
+            "name": "🐬iptv直播",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://wget.la/https://raw.githubusercontent.com/vinkerq/iptv-api/refs/heads/master/iptv.txt"
+        },
+		{
+            "name": "🐬juli",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://files.catbox.moe/h3mb5a.txt"
+        },	
+	    {
+            "name": "🐬小新TV",
+            "type": 0,
+            "ua": "okhttp/5.3.2",
+            "url": "https://d.kstore.dev/download/9565/小新TV.txt"
+        },
+	    {
+            "name": "🐬台湾台",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://epg.pw/test_channels_taiwan.m3u"
+        },
+	    {
+            "name": "🐬体育台",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://82.156.243.185:33389/fwc.m3u"
+        },
+	    {
+            "name": "🐬国际TV",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://raw.githubusercontent.com/xJEYDAin/iptv/main/output/all_merged.m3u"
+        },
+	    {
+            "name": "🐬裤佬TV",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u"
+        },
+		{
+            "name": "🐬裤佬TV2",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://tv.tmxk.kdns.fr/ex64181y"
+        },
+		{
+            "name": "🐬live.m3u",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://live.445569.xyz/live.m3u"
+        },
+        {
+            "name": "🐬Gather",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://iptv.yang-1989.eu.org/m3u/Gather.m3u"
+        },
+        {
+            "name": "🐬Mytv",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://cdn.qd.je/live.m3u"
+        },
+        {
+            "name": "🐬新加坡(梯子)",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://xtvantsc.xyz/新加坡.m3u"
+        },
+	    {
+            "name": "🐬黄蚂蚁先锋推流源",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://ge.html-5.me//ii/黄蚂蚁先锋推流源.txt"
+        },
+        {
+            "name": "🐬风云源",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://iptv.4666888.xyz/FYTV.txt"
+        }, 
+       {
+            "name": "🐬飞扬源",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://www.985pan.com/down.php/bf5e9607ff407fcdd71f63928ea5bc79.txt"
+        },
+	    {
+            "name": "🐬港奥台国际",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://tv123.vvvv.ee/tv.m3u"
+        },
+        {
+            "name": "🐬中港台直播源",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://t.freetv.fun/m3u/playlist_all.txt"
+        },
+	    {
+            "name": "🐬4GTV怡淳酒店(梯子台湾节点)720p",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://xtvantsc.xyz/4gtv.txt"
+        },
+		{
+            "name": "🐬4GTV(免梯子)1080p",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "http://4gtv.cnlive.club/4gtv.m3u"
+        },
+        {
+            "name": "🐬jackTV(梯子)",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://php.946985.filegear-sg.me/jackTV.m3u"
+        }
+		],	
+	  "ijk": [
+	  {
       "group": "软解码",
       "options": [
         {
@@ -2791,85 +1878,111 @@
         }
       ]
     }
-  ],
-  "proxy": [
-    "raw.githubusercontent.com",
-    "googlevideo.com",
-    "cdn.v82u1l.com",
-    "cdn.iz8qkg.com",
-    "cdn.kin6c1.com",
-    "c.biggggg.com",
-    "c.olddddd.com",
-    "haiwaikan.com",
-    "www.histar.tv",
-    "youtube.com",
-    "uhibo.com",
-    ".*boku.*",
-    ".*nivod.*",
-    ".*ulivetv.*",
-    "iill.top"
-  ],
-  "rules": [
-    {
-      "name": "cl",
-      "hosts": [ "magnet" ],
-      "regex": [ "最 新", "直 播", "更 新" ]
-    },
-    {
-      "name": "火山嗅探",
-      "hosts": [ "huoshan.com" ],
-      "regex": [ "item_id=" ]
-    },
-    {
-      "name": "抖音嗅探",
-      "hosts": [ "douyin.com" ],
-      "regex": [ "is_play_url=" ]
-    },
-    {
-      "name": "农民嗅探",
-      "hosts": [ "toutiaovod.com" ],
-      "regex": [ "video/tos/cn" ]
-    },
-    {
-      "name": "七新嗅探",
-      "hosts": [ "api.52wyb.com" ],
-      "regex": [ "m3u8?pt=m3u8" ]
-    },
-    {
-      "name": "夜市",
-      "hosts": [ "yeslivetv.com" ],
-      "script": [
-        "document.getElementsByClassName('vjs-big-play-button')[0].click()"
-      ]
-    },
-    {
-      "name": "毛驴",
-      "hosts": [ "www.maolvys.com" ],
-      "script": [
-        "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
-      ]
-    },
-    {
-      "name": "czzy",
-      "hosts": [ "10086.cn" ],
-      "regex": [ "/storageWeb/servlet/downloadServlet" ]
-    },
-    {
-      "name": "bdys",
-      "hosts": [
-        "bytetos.com",
-        "byteimg.com",
-        "bytednsdoc.com",
-        "pstatp.com"
-      ],
-      "regex": [ "/tos-cn" ],
-      "exclude": [ ".m3u8" ]
-    },
-    {
-      "name": "bdys10",
-      "hosts": [ "bdys10.com" ],
-      "regex": [ "/obj/" ],
-      "exclude": [ ".m3u8" ]
-    }
-  ]
+],
+"proxy": [
+        "file://TV/proxy.json"
+    ],
+    "rules": [
+        {
+            "name": "cl",
+            "hosts": [
+                "magnet"
+            ],
+            "regex": [
+                "最 新",
+                "直 播",
+                "更 新"
+            ]
+        },
+        {
+            "name": "火山嗅探",
+            "hosts": [
+                "huoshan.com"
+            ],
+            "regex": [
+                "item_id="
+            ]
+        },
+        {
+            "name": "抖音嗅探",
+            "hosts": [
+                "douyin.com"
+            ],
+            "regex": [
+                "is_play_url="
+            ]
+        },
+        {
+            "name": "农民嗅探",
+            "hosts": [
+                "toutiaovod.com"
+            ],
+            "regex": [
+                "video/tos/cn"
+            ]
+        },
+        {
+            "name": "七新嗅探",
+            "hosts": [
+                "api.52wyb.com"
+            ],
+            "regex": [
+                "m3u8?pt=m3u8"
+            ]
+        },
+        {
+            "name": "夜市",
+            "hosts": [
+                "yeslivetv.com"
+            ],
+            "script": [
+                "document.getElementsByClassName('vjs-big-play-button')[0].click()"
+            ]
+        },
+        {
+            "name": "毛驴",
+            "hosts": [
+                "www.maolvys.com"
+            ],
+            "script": [
+                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+            ]
+        },
+        {
+            "name": "czzy",
+            "hosts": [
+                "10086.cn"
+            ],
+            "regex": [
+                "/storageWeb/servlet/downloadServlet"
+            ]
+        },
+        {
+            "name": "bdys",
+            "hosts": [
+                "bytetos.com",
+                "byteimg.com",
+                "bytednsdoc.com",
+                "pstatp.com"
+            ],
+            "regex": [
+                "/tos-cn"
+            ],
+            "exclude": [
+                ".m3u8"
+            ]
+        },
+        {
+            "name": "bdys10",
+            "hosts": [
+                "bdys10.com"
+            ],
+            "regex": [
+                "/obj/"
+            ],
+            "exclude": [
+                ".m3u8"
+            ]
+        }
+    ]
 }
