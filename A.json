@@ -9,7 +9,67 @@
       "type": 3,
       "api": "csp_Duboku"
     },
-
+    {
+      "key": "瓜子影視",
+      "name": "瓜子影視",
+      "type": 3,
+      "api": "./py/瓜子影视.py"
+    },
+    {
+      "key": "Guazi",
+      "name": "[APP]瓜子(1080P)",
+      "type": 3,
+      "api": "csp_GuaziAmns",
+      "jar": "https://gitlab.com/tenrecha/recha/-/raw/main/jar/auwo-1151029.jar;md5;d93049ba6615eab01b69a52ff03c02c9",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "Guazi"
+    },
+    {
+      "key": "NewGrV2",
+      "name": "[APP]秋天(1080P)",
+      "type": 3,
+      "api": "csp_NewGrV2Amns",
+      "jar": "https://gitlab.com/tenrecha/recha/-/raw/main/jar/auwo-1151029.jar;md5;d93049ba6615eab01b69a52ff03c02c9",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": "NewGrV2"
+    },
+    {
+      "key": "红果短剧1",
+      "name": "红果短剧1",
+      "type": 3,
+      "api": "./py/红果短剧1.py"
+    },
+    {
+      "key": "py_红果修复",
+      "name": "[點播]紅果(修復)",
+      "type": 3,
+      "api": "./py/红果修复.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+    {
+      "key": "py_红果短剧",
+      "name": "[短劇]红果(依我本心版)",
+      "type": 3,
+      "api": "./py/红果短剧-依我版.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
+    {
+      "key": "py_[短劇]紅果-1029",
+      "name": "[短劇]紅果-1029",
+      "type": 3,
+      "api": "./py/红果短剧-1029.py",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1
+    },
     {
       "jar": "./jar/spider.jar",
       "key": "荐片",
@@ -582,7 +642,7 @@
       "quickSearch": 1,
       "filterable": 1
     },
-   
+
     {
       "key": "咕噜1080p.py",
       "name": "咕噜1080",
