@@ -345,843 +345,375 @@
       }
     },
     {
-      "key": "drpy_js_网易公版影像",
-      "name": "网易公版影像[js]",
+      "key": "jueson",
+      "name": "🏠主页┃豆瓣",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./js/网易公版影像.js"
+      "api": "csp_DouDou",
+      "searchable": 0,
+      "quickSearch": 0,
+      "indexs": 1,
+      "filterable": 1
     },
     {
-      "key": "drpy_js_荐片",
-      "name": "荐片[js]",
+      "key": "短剧┃搜索1",
+      "name": "🏠短剧┃搜1",
       "type": 3,
-      "api": "./js/荐片.js"
-    },
-    {
-      "key": "drpy_js_毒舌影视",
-      "name": "毒舌影视[js]",
-      "type": 3,
-      "api": "./js/毒舌影视.js"
-    },
-    {
-      "key": "爬虫影视",
-      "name": "爬虫影视",
-      "type": 1,
-      "api": "https://dy.7772888.xyz/api.php/tvbox",
+      "api": "https://mpimg.cn/down.php/7e246e896fa4cf52866921b8d7e8cb.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "老张影视",
-      "name": "老张影视",
-      "type": 4,
-      "api": "http://zhangqun1818.serv00.net/zh/2242.php"
-    },
-    {
-      "jar": "http://cdn.qiaoji8.com/fix251212.jar;md5;31542aefeb80f62c8c7c9d1d5e0a6036",
-      "key": "天天",
-      "name": "天天",
-      "type": 3,
-      "api": "csp_TTian",
-      "playerType": 2,
-      "ext": "7lj763gg0939791h1l3888jig44gi291li"
-    },
-    {
-      "jar": "http://cdn.qiaoji8.com/fix251212.jar;md5;31542aefeb80f62c8c7c9d1d5e0a6036",
-      "key": "剧评",
-      "name": "剧评",
-      "type": 3,
-      "api": "csp_Jpys",
-      "playerType": 1,
-      "ext": "7lj763gg402i7942463j9j9jh8579590k3hjii5gi4i73l2k5l"
-    },
-    {
-      "key": "圆涂影视",
-      "name": "圆涂影视",
-      "type": 3,
-      "api": "csp_AppYs",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "http://m51.gotto.top/api.php/v1.vod"
-    },
-    {
-      "key": "星马影视",
-      "name": "星马影视",
-      "type": 3,
-      "api": "csp_AppYs",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "http://xingma.apidge.com/icciu_api.php/v1.vod"
-    },
-    {
-      "key": "555影视",
-      "name": "555影视",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "https://555dy3.com/api.php/app/"
-    },
-    {
-      "key": "五大平台搜4K",
-      "name": "五大平台搜4K",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "playerType": 2,
-      "ext": "http://39.105.18.5:5565/api.php/app/"
-    },
-    {
-      "key": "紫金",
-      "name": "紫金",
-      "type": 3,
-      "api": "csp_AppYsV2",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "http://www.zjcvod.com/api.php/app/"
-    },
-    {
-      "key": "电影天堂",
-      "name": "电影天堂",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://dytt.in/"
-      }
-    },
-    {
-      "key": "开心影院",
-      "name": "开心影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.kxyy1.cc/"
-      }
-    },
-    {
-      "key": "奇点影视",
-      "name": "奇点影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://qidianyingshi.net/"
-      }
-    },
-    {
-      "key": "饭嗒子影视",
-      "name": "饭嗒子影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://fdzys.net/"
-      }
-    },
-    {
-      "key": "桃子影视",
-      "name": "桃子影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.taozi007.com/",
-        "搜索url": "https://www.taozi007.com/search/?wd={wd}"
-      }
-    },
-    {
-      "key": "泥视频",
-      "name": "泥视频",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.nivod.vip/"
-      }
-    },
-    {
-      "key": "影巢",
-      "name": "影巢",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://yc.movie1080.online/"
-      }
-    },
-    {
-      "key": "达达兔",
-      "name": "达达兔",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.stonelodgeacademy.com/",
-        "搜索url": "https://www.stonelodgeacademy.com/search?wd={wd}"
-      }
-    },
-    {
-      "key": "永乐视频",
-      "name": "永乐视频",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.ylsp.lv/"
-      }
-    },
-    {
-      "key": "人人影视",
-      "name": "人人影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.renren.pro/"
-      }
-    },
-    {
-      "key": "特狗影视",
-      "name": "特狗影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.tegou.me/",
-        "搜索url": "https://www.tegou.me/vod/search.html?wd={wd}&submit="
-      }
-    },
-    {
-      "key": "厂长资源",
-      "name": "厂长资源",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.4kcz.com/",
-        "搜索url": "https://www.stonelodgeacademy.com/search?wd={wd}"
-      }
-    },
-    {
-      "key": "天龙影院",
-      "name": "天龙影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.82mao.com/;;!H"
-      }
-    },
-    {
-      "key": "爱看影视",
-      "name": "爱看影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.ikanys.com/;;!H"
-      }
-    },
-    {
-      "key": "七味网",
-      "name": "七味网",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.qmp4.com/;;!H"
-      }
-    },
-    {
-      "key": "CN影院",
-      "name": "CN影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://cnystv.com/"
-      }
-    },
-    {
-      "key": "晴天",
-      "name": "晴天",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.qinttv.com/"
-      }
-    },
-    {
-      "key": "C影院",
-      "name": "C影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.c-tv6.cc/"
-      }
-    },
-    {
-      "key": "FREEOK",
-      "name": "FREEOK",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.freeokk.pro/"
-      }
-    },
-    {
-      "key": "骚火电影",
-      "name": "骚火电影",
+      "key": "短剧搜索",
+      "name": "🏠短剧┃搜2",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "https://mpimg.cn/down.php/18b8bebbf7b64d39a1e3a90c83a866.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://saohuody.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "蛋蛋赞",
-      "name": "蛋蛋赞",
+      "key": "fy",
+      "name": "♨️枫叶｜免扫",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "https://0.12yue.de5.net/5/lib/fy.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.dandanzan.club/"
-      }
+      "filterable": 1
     },
     {
-      "key": "映像星球",
-      "name": "映像星球",
+      "key": "华数",
+      "name": "🌀华数┃1920",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "https://0.12yue.de5.net/5/lib/华数.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://yxxq10.cc/"
-      }
+      "filterable": 1
     },
     {
-      "key": "看看屋",
-      "name": "看看屋",
+      "key": "七猫短剧",
+      "name": "🎬七猫┃短剧",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "https://0.12yue.de5.net/5/lib/qmdj.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.siren93.com/",
-        "搜索url": "https://www.siren93.com/search?wd={wd}"
-      }
+      "filterable": 1
     },
     {
-      "key": "奇优影院",
-      "name": "奇优影院",
+      "key": "七星短剧",
+      "name": "🎬七星丨短剧",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "https://0.12yue.de5.net/5/lib/qxdj.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.qiyou06.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "58电影网",
-      "name": "58电影网",
+      "key": "星芽短剧",
+      "name": "🎬星芽┃短剧",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "https://0.12yue.de5.net/5/lib/星芽短剧.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.58hu.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "电影驿站",
-      "name": "电影驿站",
+      "key": "爱听音乐",
+      "name": "📻爱听┃音乐",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "https://0.12yue.de5.net/5/lib/爱听音乐.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.dyyz1.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "Chok吧",
-      "name": "Chok吧",
+      "key": "网络直播",
+      "name": "📺网络┃直播",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "https://0.12yue.de5.net/5/lib/网络直播.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.chok8.vip/"
-      }
+      "filterable": 1
     },
     {
-      "key": "片吧影视",
-      "name": "片吧影视",
+      "key": "哔哩直播",
+      "name": "📺哔哩┃直播",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "https://0.12yue.de5.net/5/lib/哔哩直播.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.pianys.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "雪糕TV",
-      "name": "雪糕TV",
+      "key": "影视聚合五合一V2.py",
+      "name": "影视聚合五合一",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/影视聚合五合一V2.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.xgitv.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "电影人生",
-      "name": "电影人生",
+      "key": "py_央视频.py",
+      "name": "央视频",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/py_央视频.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://dyrs1080.cc/"
-      }
+      "filterable": 1
     },
     {
-      "key": "大米影院",
-      "name": "大米影院",
+      "key": "红果短剧最终版 (1).py",
+      "name": "红果短剧最终版",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/红果短剧最终版 (1).py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.5adm.cc/"
-      }
+      "filterable": 1
     },
     {
-      "key": "大米星球",
-      "name": "大米星球",
+      "key": "影探4K-修复版.py",
+      "name": "影探4K-修复版",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/影探4K-修复版.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://dmxq40.com/index/home.html"
-      }
+      "filterable": 1
     },
     {
-      "key": "sky影视",
-      "name": "sky影视",
+      "key": "芒果TV.爱奇艺.py",
+      "name": "芒果TV.爱奇艺.py",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/芒果TV.爱奇艺.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.skyinnovationgroup.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "看戏网",
-      "name": "看戏网",
+      "key": "蝴蝶影院.py",
+      "name": "蝴蝶影院",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/蝴蝶影院.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.kanxiw.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "枫林网",
-      "name": "枫林网",
+      "key": "合并",
+      "name": "合并",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/合并.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://imaple8.co/"
-      }
+      "filterable": 1
     },
     {
-      "key": "爱壹帆",
-      "name": "爱壹帆",
+      "key": "爱影视 PY",
+      "name": "👌爱影视丨[1080p影视]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv159爱影视.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.yfvod.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "麦田影院",
-      "name": "麦田影院",
+      "key": "猎手PY",
+      "name": "👌猎手丨[1080p影视]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "https://mpimg.cn/down.php/60fab5ff33f0b0fd88f099ae3be708bf.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://mtyy1.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "M1999",
-      "name": "M1999",
+      "key": "pianku_py",
+      "name": "👌片库丨[1080p影视]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv263片库TV.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://m1999.sbs/"
-      }
+      "filterable": 1
     },
     {
-      "key": "netflix中文网",
-      "name": "netflix中文网",
+      "key": "兄弟PY",
+      "name": "👌兄弟丨[1080p影视]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "https://mpimg.cn/down.php/b1cdcf76574a0cb24d5b937d46458cdf.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.netflix123.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "淘淘电影",
-      "name": "淘淘电影",
+      "key": "奇奇影视PY",
+      "name": "👌奇奇影视丨[1080p影视]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv303奇奇影视.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.taotaodianying.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "66大片网",
-      "name": "66大片网",
+      "key": "金牌影视PY",
+      "name": "👌金牌影视丨[1080p影视]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv323金牌影视.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.66dpw.vip/"
-      }
-    },
-    {
-      "key": "片库",
-      "name": "片库",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.pdy0.com/"
-      }
-    },
-    {
-      "key": "速影TV",
-      "name": "速影TV",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://free.sytvtv.com/"
-      }
-    },
-    {
-      "key": "奴娜TV",
-      "name": "奴娜TV",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.nntv.in/"
-      }
-    },
-    {
-      "key": "八一影视",
-      "name": "八一影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.guanyoushui.com/"
-      }
-    },
-    {
-      "key": "蚂蚁影视",
-      "name": "蚂蚁影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://mylhz.com/"
-      }
-    },
-    {
-      "key": "91神马",
-      "name": "91神马",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.91smdy.com/"
-      }
-    },
-    {
-      "key": "123酷播",
-      "name": "123酷播",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://123kubo.tv/"
-      }
-    },
-    {
-      "key": "APP影院",
-      "name": "APP影院",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.appmovie.click/"
-      }
-    },
-    {
-      "key": "小小影视",
-      "name": "小小影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "分类url": "https://www.weihuafrp.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "八戒影院",
-      "name": "八戒影院",
+      "key": "茶杯狐PY",
+      "name": "👌茶杯狐丨[1080p影视]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv343茶杯狐.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.bajie9.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "6080电影",
-      "name": "6080电影",
+      "key": "简云PY",
+      "name": "👌简云丨[1080p影视]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv363简云.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.rissiek.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "努努影院",
-      "name": "努努影院",
+      "key": "影视天堂 PY",
+      "name": "👌影视天堂丨[1080p影视]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv383影视天堂.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.nunuyy5.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "精品影院",
-      "name": "精品影院",
+      "key": "小蜜蜂PY",
+      "name": "👌小蜜蜂丨[1080p影视]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv403小蜜蜂.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.alinedantas.net/"
-      }
+      "filterable": 1
     },
     {
-      "key": "豆花影视网",
-      "name": "豆花影视网",
+      "key": "巴不得看看PY",
+      "name": "👌巴不得看看丨[1080p影视]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv423巴不得看看.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.elzopallet.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "经典馆电影",
-      "name": "经典馆电影",
+      "key": "枫叶影院PY",
+      "name": "👀枫叶影院丨[4k影视]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv529枫叶影院.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.island-pho.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "9X影视",
-      "name": "9X影视",
+      "key": "🔴果PY",
+      "name": "👌🔴果丨PY",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv765hongguo.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.9xsy.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "小蜜蜂影院",
-      "name": "小蜜蜂影院",
+      "key": "央视大全py",
+      "name": "📺央视大全[🍵]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv4169央视大全.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.xmfyy.com/"
-      }
+      "filterable": 1
     },
     {
-      "key": "937影视",
-      "name": "937影视",
+      "key": "wangluozb.py",
+      "name": "🐅wlzbpy[网络直播]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv4191wlzb.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.937tv.vip/"
-      }
+      "filterable": 1
     },
     {
-      "key": "麒麟影视",
-      "name": "麒麟影视",
+      "key": "py_yymp3",
+      "name": "🎶yymp3|[音乐]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv4245YYMP3音乐网.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.qlys.cc/"
-      }
+      "filterable": 1
     },
     {
-      "key": "初见影视",
-      "name": "初见影视",
+      "key": "hige音乐网",
+      "name": "🎶hige|[音乐]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv4267hige.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://cjysw.cc/"
-      }
+      "filterable": 1
     },
     {
-      "key": "袋鼠电影",
-      "name": "袋鼠电影",
+      "key": "DJ音乐网 PY",
+      "name": "👌DJ音乐网丨[音乐]",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/lib/apiv4289DJ音乐网.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://dsystv.com/"
-      }
+      "filterable": 1
     },
+   
     {
-      "key": "红叶影院",
-      "name": "红叶影院",
+      "key": "咕噜1080p.py",
+      "name": "咕噜1080",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/py/咕噜1080p.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.hyyycn.cc/"
-      }
+      "filterable": 1
     },
     {
-      "key": "青禾影视",
-      "name": "青禾影视",
+      "key": "九合一版",
+      "name": "九合一版.py",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/py/九合一版.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://qh3.movie1080.online/"
-      }
+      "filterable": 1
     },
     {
-      "key": "追光影视",
-      "name": "追光影视",
+      "key": "各种豆采集.py",
+      "name": "各种豆采集",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/py/各种豆采集.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://z01.zgtv.online/"
-      }
+      "filterable": 1
     },
     {
-      "key": "看客",
-      "name": "看客",
+      "key": "初见影视.py",
+      "name": "初见影视.py",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "http://150.158.52.248/tgyg/py/初见影视.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://kk121.seesee.sbs/"
-      }
+      "filterable": 1
     },
     {
-      "key": "自由影视",
-      "name": "自由影视",
+      "key": "4k-av",
+      "name": "💓‍4k-av",
       "type": 3,
-      "api": "csp_XBPQ",
+      "api": "https://pan.szfx.top/down.php/21da377c5e328d67e943a2acc1947ff3.py",
       "searchable": 1,
       "quickSearch": 1,
-      "ext": {
-        "分类url": "https://www.freeys.cc/"
-      }
+      "filterable": 1
     },
     {
       "key": "飘零电影",
