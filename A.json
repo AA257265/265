@@ -17,7 +17,7 @@
     },
     {
       "key": "Guazi",
-      "name": "[APP]瓜子(1080P)",
+      "name": "瓜子_1080P",
       "type": 3,
       "api": "csp_GuaziAmns",
       "jar": "https://gitlab.com/tenrecha/recha/-/raw/main/jar/auwo-1151029.jar;md5;d93049ba6615eab01b69a52ff03c02c9",
@@ -28,7 +28,7 @@
     },
     {
       "key": "NewGrV2",
-      "name": "[APP]秋天(1080P)",
+      "name": "秋天_1080P",
       "type": 3,
       "api": "csp_NewGrV2Amns",
       "jar": "https://gitlab.com/tenrecha/recha/-/raw/main/jar/auwo-1151029.jar;md5;d93049ba6615eab01b69a52ff03c02c9",
