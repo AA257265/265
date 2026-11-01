@@ -299,61 +299,19 @@
       "jar": "https://alicliimg.clewm.net/342/790/68790342/1755399436259e4e0f5b7e742b4961f4a35460f10a5341755399434.jpg;md5;6276abe2ed52f1d2c89907eb2ace564b"
     },
     {
-      "key": "AI2",
-      "name": "AI┃仅搜索",
-      "type": 3,
-      "api": "csp_AI",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "playerType": 2,
-      "jar": "https://alicliimg.clewm.net/342/790/68790342/17550582039404a8a3965607b246b57796ed778b096961755058201.jpg;md5;9cf0a6c1f62ad83e9dccc2b7dd683a10",
-      "ext": "7lj763gg0939795i037ki481k20ki2i3g3lk840883843k6k5l4354k0k10k48411g8654l9885g83ih2h0lh295lll81jg8k66l7011l8hji0l432912jhi3hk3140kghkhj3ghl7782871"
-    },
-    {
-      "key": "可可",
-      "name": "可可",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "./js/可可影视.json"
-    },
-    {
-      "key": "文采",
-      "name": "文采秒播",
-      "type": 3,
-      "api": "csp_JpysGuard",
-      "timeout": 15,
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "jar": "https://scrm-community.oss-cn-shenzhen.aliyuncs.com/miniso-vendor/20250910-576013-ea17b2ca8af149f6885ce0a49dd16e2f.jpg;md5;98ca59a872d6d4d89c8c7e2aafb4dae1"
-    },
-    {
       "key": "葫芦影视",
       "name": "葫芦影视",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/get.js",
+      "api": "https://raw.githubusercontent.com/maoystv/6/main/JS/get.js",
       "ext": {
-        "host": "https://gh-proxy.com/https://raw.githubusercontent.com/maoystv/6/main/JS/maccos_config.txt",
+        "host": "https://raw.githubusercontent.com/maoystv/6/main/JS/maccos_config.txt",
         "key": "8R33VQSxzmCaHpEX",
         "init": "V122",
         "api": 2,
         "ua": "okhttp/3.10.0"
       }
     },
-    {
-      "key": "jueson",
-      "name": "🏠主页┃豆瓣",
-      "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "indexs": 1,
-      "filterable": 1
-    },
+
     {
       "key": "短剧┃搜索1",
       "name": "🏠短剧┃搜1",
@@ -458,51 +416,6 @@
       "name": "央视频",
       "type": 3,
       "api": "http://150.158.52.248/tgyg/lib/py_央视频.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "红果短剧最终版 (1).py",
-      "name": "红果短剧最终版",
-      "type": 3,
-      "api": "http://150.158.52.248/tgyg/lib/红果短剧最终版 (1).py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "影探4K-修复版.py",
-      "name": "影探4K-修复版",
-      "type": 3,
-      "api": "http://150.158.52.248/tgyg/lib/影探4K-修复版.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "芒果TV.爱奇艺.py",
-      "name": "芒果TV.爱奇艺.py",
-      "type": 3,
-      "api": "http://150.158.52.248/tgyg/lib/芒果TV.爱奇艺.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "蝴蝶影院.py",
-      "name": "蝴蝶影院",
-      "type": 3,
-      "api": "http://150.158.52.248/tgyg/lib/蝴蝶影院.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "合并",
-      "name": "合并",
-      "type": 3,
-      "api": "http://150.158.52.248/tgyg/lib/合并.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -680,15 +593,6 @@
       "filterable": 1
     },
     {
-      "key": "九合一版",
-      "name": "九合一版.py",
-      "type": 3,
-      "api": "http://150.158.52.248/tgyg/py/九合一版.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
       "key": "各种豆采集.py",
       "name": "各种豆采集",
       "type": 3,
@@ -702,15 +606,6 @@
       "name": "初见影视.py",
       "type": 3,
       "api": "http://150.158.52.248/tgyg/py/初见影视.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "4k-av",
-      "name": "💓‍4k-av",
-      "type": 3,
-      "api": "https://pan.szfx.top/down.php/21da377c5e328d67e943a2acc1947ff3.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
